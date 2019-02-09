@@ -8,6 +8,8 @@
 error_reporting(E_ALL); //E_STRICTレベル以外のエラーを報告する
 ini_set('display_errors', 'On');  //画面にエラーを表示させるか
 
+require_once( "core/functions.php" );
+
 ?>
 
 <!doctype html>
@@ -20,12 +22,24 @@ ini_set('display_errors', 'On');  //画面にエラーを表示させるか
     <title>ヒウィッヒヒー</title>
 </head>
 <body>
-<!--    ヘッダー   ヒウィッヒヒーとは/ [ログイン] / マイページ -->
 
-<!--　ログインしてない場合：　ログイン画面を表示　-->
+<!--  ヘッダー -->
+<?php require_once( "include/header.php" ); ?>
 
-<!--　ログインしている場合：　タイムラインを表示　-->
+<!--  メイン -->
+<?php
+    if(isLogin()){
+        //<!--　ログインしている場合：　タイムラインを表示　-->
+        require_once( "include/timeline.php" );
+    }else{
+        //<!--　ログインしてない場合：　ログイン画面を表示　-->
+        require_once( "include/login.php" );
+    }
+ ?>
 
+
+<!--  フッター -->
+<?php require_once( "include/footer.php" ); ?>
 
 </body>
 </html>
