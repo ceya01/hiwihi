@@ -13,3 +13,7 @@ function isLogin(){
     }
     return $_SESSION['login'];
 }
+
+function echoLink($pageKey,$linkText){
+    echo '<a href="?page='.$pageKey.'">'.$linkText.'</a>';
+}

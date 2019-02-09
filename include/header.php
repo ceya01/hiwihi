@@ -13,10 +13,10 @@
 <header>
     <h1>ヒウィッヒヒー</h1>
     <ul>
-        <li>ヒウィッヒヒーとは</li>
-        <?php if(isLogin()) : ?><li>タイムライン</li>
-        <?php else : ?><li>ログイン</li>
+        <li><?php echoLink(PAGE_ABOUT,'ヒウィッヒヒーとは'); ?></li>
+        <?php if(isLogin()) : ?><li><?php echoLink(PAGE_TIMELINE,'タイムライン'); ?></li>
+        <?php else : ?><li><?php echoLink(PAGE_LOGIN,'ログイン'); ?></li>
         <?php endif; ?>
-        <li>マイページ</li>
+        <li><?php echoLink(PAGE_USER,'マイページ'); ?></li>
     </ul>
 </header>
