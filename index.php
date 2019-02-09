@@ -29,20 +29,17 @@ require_once( "core/functions.php" );
 
 <!--  メイン -->
 <?php
-    if(isPage(PAGE_ABOUT)){
-        require_once( "include/about.php" );
-    }elseif (isPage(PAGE_USER)){
-        require_once( "include/user.php" );
-    }elseif (isPage(PAGE_TWEET)){
-        require_once( "include/tweet.php" );
-    }else{
-        if(isLogin()){
-            //<!--　ログインしている場合：　タイムラインを表示　-->
-            require_once( "include/timeline.php" );
-        }else{
-            //<!--　ログインしてない場合：　ログイン画面を表示　-->
-            require_once( "include/login.php" );
+    $isPageFound = false;
+    foreach (PAGES_LIST as $pageName) {
+        if(isPage($pageName)){
+            $url =  'include/'.$pageName.'.php';
+            require_once($url);
+            $isPageFound = true;
+            break;
         }
+    }
+    if(!$isPageFound){
+        require_once( 'include/404.php');
     }
  ?>
 

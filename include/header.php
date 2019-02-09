@@ -25,6 +25,7 @@ function echoIncludeLink($pageKey, $linkText){
             <li><?php echoIncludeLink(PAGE_TIMELINE,'タイムライン'); ?></li>
         <?php else : ?>
             <li><?php echoIncludeLink(PAGE_LOGIN,'ログイン'); ?></li>
+            <li><?php echoIncludeLink(PAGE_NEW,'新規登録'); ?></li>
         <?php endif; ?>
         <li><?php echoIncludeLink(PAGE_USER,'マイページ'); ?></li>
         <li><?php echoIncludeLink(PAGE_TWEET,'ツイート'); ?></li>

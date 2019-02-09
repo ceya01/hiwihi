@@ -11,5 +11,6 @@ const PAGE_LOGIN = 'login';
 const PAGE_TIMELINE = 'timeline';
 const PAGE_TWEET = 'tweet';
 const PAGE_USER = 'user';
+const PAGE_NEW = 'new';
 
-const PAGES_LIST= array(PAGE_ABOUT,PAGE_LOGIN,PAGE_TIMELINE,PAGE_TWEET,PAGE_USER);
+const PAGES_LIST= array(PAGE_ABOUT,PAGE_LOGIN,PAGE_TIMELINE,PAGE_TWEET,PAGE_USER,PAGE_NEW);
