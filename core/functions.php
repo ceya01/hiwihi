@@ -14,6 +14,16 @@ function isLogin(){
     return $_SESSION['login'];
 }
 
-function echoLink($pageKey,$linkText){
-    echo '<a href="?page='.$pageKey.'">'.$linkText.'</a>';
+function isPage($pageName){
+    if(empty($_GET)){
+        // /about　でも aboutページに行けるように　.htaccessとの合わせ技で
+        $strAry = explode('/',$_SERVER['REQUEST_URI']);
+        if( $strAry[count($strAry)-1] === $pageName){
+            return true;
+        }
+        return false;
+    }
+    //$GETパラメータを使う
+    return $_GET['p'] === $pageName;
+
 }

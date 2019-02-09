@@ -6,17 +6,27 @@
  * Time: 13:58
  */
 
-//<!--    ヘッダー   ヒウィッヒヒーとは/ [ログイン] / マイページ -->
 
+function echoIncludeLink($pageKey, $linkText){
+    echo '<a href="?p='.$pageKey.'">'.$linkText.'</a>';
+    //echo '<a href="?page='.$pageKey.'">'.$linkText.'</a>';
+}
+
+
+
+//<!--    ヘッダー   ヒウィッヒヒーとは/ [ログイン] / マイページ --
 ?>
 
 <header>
     <h1>ヒウィッヒヒー</h1>
     <ul>
-        <li><?php echoLink(PAGE_ABOUT,'ヒウィッヒヒーとは'); ?></li>
-        <?php if(isLogin()) : ?><li><?php echoLink(PAGE_TIMELINE,'タイムライン'); ?></li>
-        <?php else : ?><li><?php echoLink(PAGE_LOGIN,'ログイン'); ?></li>
+        <li><?php echoIncludeLink(PAGE_ABOUT,'ヒウィッヒヒーとは'); ?></li>
+        <?php if(isLogin()) : ?>
+            <li><?php echoIncludeLink(PAGE_TIMELINE,'タイムライン'); ?></li>
+        <?php else : ?>
+            <li><?php echoIncludeLink(PAGE_LOGIN,'ログイン'); ?></li>
         <?php endif; ?>
-        <li><?php echoLink(PAGE_USER,'マイページ'); ?></li>
+        <li><?php echoIncludeLink(PAGE_USER,'マイページ'); ?></li>
+        <li><?php echoIncludeLink(PAGE_TWEET,'ツイート'); ?></li>
     </ul>
 </header>

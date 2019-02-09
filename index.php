@@ -7,7 +7,7 @@
  */
 error_reporting(E_ALL); //E_STRICTレベル以外のエラーを報告する
 ini_set('display_errors', 'On');  //画面にエラーを表示させるか
-
+require_once( "core/pageNames.php" );
 require_once( "core/functions.php" );
 
 ?>
@@ -29,18 +29,33 @@ require_once( "core/functions.php" );
 
 <!--  メイン -->
 <?php
-    if(isLogin()){
-        //<!--　ログインしている場合：　タイムラインを表示　-->
-        require_once( "include/timeline.php" );
+    if(isPage(PAGE_ABOUT)){
+        require_once( "include/about.php" );
+    }elseif (isPage(PAGE_USER)){
+        require_once( "include/user.php" );
+    }elseif (isPage(PAGE_TWEET)){
+        require_once( "include/tweet.php" );
     }else{
-        //<!--　ログインしてない場合：　ログイン画面を表示　-->
-        require_once( "include/login.php" );
+        if(isLogin()){
+            //<!--　ログインしている場合：　タイムラインを表示　-->
+            require_once( "include/timeline.php" );
+        }else{
+            //<!--　ログインしてない場合：　ログイン画面を表示　-->
+            require_once( "include/login.php" );
+        }
     }
  ?>
 
 
 <!--  フッター -->
 <?php require_once( "include/footer.php" ); ?>
+
+<?php
+    $isDebug = true;
+    if($isDebug){
+        echo 'debug mode';
+    }
+?>
 
 </body>
 </html>
