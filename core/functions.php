@@ -27,3 +27,9 @@ function isPage($pageName){
     return $_GET['p'] === $pageName;
 
 }
+
+//header用
+function echoHeaderLink($pageKey, $linkText){
+    echo '<a href="'.$pageKey.'.php">'.$linkText.'</a>';
+    //echo '<a href="?page='.$pageKey.'">'.$linkText.'</a>';
+}

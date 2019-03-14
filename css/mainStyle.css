@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
     max-width:1180px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header,main,footer{
