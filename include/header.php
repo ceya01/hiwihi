@@ -5,8 +5,9 @@
  * Date: 2019/02/08
  * Time: 10:51
  */
-error_reporting(E_ALL); //E_STRICTレベル以外のエラーを報告する
-ini_set('display_errors', 'On');  //画面にエラーを表示させるか
+
+
+require_once( "core/Debug.php" );
 require_once( "core/pageNames.php" );
 require_once( "core/functions.php" );
 

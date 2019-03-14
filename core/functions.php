@@ -14,6 +14,7 @@ function isLogin(){
     return $_SESSION['login'];
 }
 
+//ページが存在するかどうか確かめる
 function isPage($pageName){
     if(empty($_GET)){
         // /about　でも aboutページに行けるように　.htaccessとの合わせ技で
@@ -28,7 +29,7 @@ function isPage($pageName){
 
 }
 
-//header用
+//ヘッダーのリンク出力用関数
 function echoHeaderLink($pageKey, $linkText){
     echo '<a href="'.$pageKey.'.php">'.$linkText.'</a>';
     //echo '<a href="?page='.$pageKey.'">'.$linkText.'</a>';
