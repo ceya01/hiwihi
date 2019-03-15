@@ -1,16 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: eceys
- * Date: 2019/02/08
- * Time: 10:51
- */
 
-require_once( "core/Debug.php" );
-require_once( "core/pageNames.php" );
-require_once( "core/functions.php" );
-
-?>
+<?php require_once( "include/importCore.php" ); ?>
 
 <!doctype html>
 <html lang="ja">

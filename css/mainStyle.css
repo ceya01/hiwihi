@@ -10,13 +10,25 @@ header,main,footer{
 }
 
 header{
-     background-color: #ffe0e0;
+     background-color: #ffefef;
  }
 
 main{
-    background-color: #e0ffe0;
+    background-color: #efffef;
 }
 
 footer{
-    background-color: #e0e0ff;
+    background-color: #efefff;
+}
+
+input{
+    display: block;
+}
+.wrap-inpput{
+    display: block;
+    margin-bottom: 20px;
+}
+.errmsg{
+    color: red;
+    font-size:.75em;
 }

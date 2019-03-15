@@ -1,7 +1,7 @@
 <?php
 
-const IS_DEBUG      = true;      // デバッグモードかどうか
-const IS_LOGGING    = true;    // ログ出力するかどうか
+const IS_DEBUG = true;      // デバッグモードかどうか
+const IS_LOGGING = false;    // ログ出力するかどうか
 
 if (IS_DEBUG) {
     error_reporting(E_ALL); //E_STRICTレベル以外のエラーを報告する
@@ -15,17 +15,28 @@ if (IS_DEBUG) {
     //ログの出力ファイルを指定
     ini_set('error_log', 'php.log');
     //error_log(PHP_EOL);
-    error_log(PHP_EOL.PHP_EOL.PHP_EOL.'◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆'.PHP_EOL.PHP_EOL);
+    error_log(PHP_EOL . PHP_EOL . PHP_EOL . '◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆' . PHP_EOL . PHP_EOL);
     error_log('');
 }
 
 //ログ出力
-function dlog($str=''){
-    if(!IS_DEBUG || !IS_LOGGING){ return; }
-    if(empty($str)){
+function dlog($str = '')
+{
+    if (!IS_DEBUG || !IS_LOGGING) {
+        return;
+    }
+    if (empty($str)) {
         error_log('ログテキストが空です。');
-    }else{
+    } else {
         error_log($str);
+    }
+}
+
+//var_dump
+function dump($arg)
+{
+    if (IS_DEBUG) {
+        var_dump($arg);
     }
 }
 

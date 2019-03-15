@@ -7,19 +7,21 @@
  */
 
 //ログインしていればtrue　そうでなければfalseを返す
-function isLogin(){
-    if(empty($_SESSION)){
+function isLogin()
+{
+    if (empty($_SESSION)) {
         return false;
     }
     return $_SESSION['login'];
 }
 
 //ページが存在するかどうか確かめる
-function isPage($pageName){
-    if(empty($_GET)){
+function isPage($pageName)
+{
+    if (empty($_GET)) {
         // /about　でも aboutページに行けるように　.htaccessとの合わせ技で
-        $strAry = explode('/',$_SERVER['REQUEST_URI']);
-        if( $strAry[count($strAry)-1] === $pageName){
+        $strAry = explode('/', $_SERVER['REQUEST_URI']);
+        if ($strAry[count($strAry) - 1] === $pageName) {
             return true;
         }
         return false;
@@ -30,13 +32,22 @@ function isPage($pageName){
 }
 
 //ヘッダーのリンク出力用関数
-function echoHeaderLink($pageKey, $linkText){
-    echo '<a href="'.$pageKey.'.php">'.$linkText.'</a>';
+function echoHeaderLink($pageKey, $linkText)
+{
+    echo '<a href="' . $pageKey . '.php">' . $linkText . '</a>';
     //echo '<a href="?page='.$pageKey.'">'.$linkText.'</a>';
 }
 
-function echoPost($key='') :void{
-    if(!empty($_POST[$key])){
+function echoPost($key = ''): void
+{
+    if (!empty($_POST[$key])) {
         echo $_POST[$key];
+    }
+}
+
+function echoErrMsg($msg): void
+{
+    if (!empty($msg)) {
+        echo '<span class="errmsg">' . $msg . '</span>';
     }
 }

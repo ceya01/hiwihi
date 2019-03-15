@@ -15,3 +15,7 @@ const PAGE_SIGNUP = 'signup';
 const PAGE_PASS_REMINDER = 'pass_reminder';
 
 //const PAGES_LIST= array(PAGE_ABOUT,PAGE_LOGIN,PAGE_TIMELINE,PAGE_TWEET,PAGE_USER,PAGE_NEW);
+
+const KEY_EMAIL = 'email';
+const KEY_USERID = 'userid';
+const KEY_PASSWORD = 'password';
