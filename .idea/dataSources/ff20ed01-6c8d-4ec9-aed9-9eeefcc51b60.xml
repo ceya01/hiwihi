@@ -22,282 +22,389 @@
     <table id="11" parent="7" name="entryform_users"/>
     <table id="12" parent="7" name="test01"/>
     <table id="13" parent="7" name="test02"/>
-    <table id="14" parent="9" name="users"/>
-    <column id="15" parent="10" name="id">
+    <table id="14" parent="9" name="favorite"/>
+    <table id="15" parent="9" name="follow"/>
+    <table id="16" parent="9" name="retweet"/>
+    <table id="17" parent="9" name="tweet"/>
+    <table id="18" parent="9" name="user"/>
+    <column id="19" parent="10" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="16" parent="10" name="registDate">
+    <column id="20" parent="10" name="registDate">
       <Position>2</Position>
       <DataType>datetime|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="17" parent="10" name="userID">
+    <column id="21" parent="10" name="userID">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="18" parent="10" name="name">
+    <column id="22" parent="10" name="name">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="19" parent="10" name="furigana">
+    <column id="23" parent="10" name="furigana">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="20" parent="10" name="sex">
+    <column id="24" parent="10" name="sex">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="21" parent="10" name="birthdate">
+    <column id="25" parent="10" name="birthdate">
       <Position>7</Position>
       <DataType>date|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="22" parent="10" name="address">
+    <column id="26" parent="10" name="address">
       <Position>8</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="23" parent="10" name="homePhoneNumber">
+    <column id="27" parent="10" name="homePhoneNumber">
       <Position>9</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="24" parent="10" name="cellPhoneNumber">
+    <column id="28" parent="10" name="cellPhoneNumber">
       <Position>10</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="25" parent="10" name="email">
+    <column id="29" parent="10" name="email">
       <Position>11</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="26" parent="10" name="password">
+    <column id="30" parent="10" name="password">
       <Position>12</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="27" parent="10" name="passwordHintQ">
+    <column id="31" parent="10" name="passwordHintQ">
       <Position>13</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="28" parent="10" name="passwordHintA">
+    <column id="32" parent="10" name="passwordHintA">
       <Position>14</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="29" parent="10" name="beginning">
+    <column id="33" parent="10" name="beginning">
       <Position>15</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="30" parent="10" name="reason">
+    <column id="34" parent="10" name="reason">
       <Position>16</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="31" parent="10" name="freeMessage">
+    <column id="35" parent="10" name="freeMessage">
       <Position>17</Position>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="32" parent="10" name="PRIMARY">
+    <key id="36" parent="10" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="33" parent="11" name="id">
+    <column id="37" parent="11" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="34" parent="11" name="registDate">
+    <column id="38" parent="11" name="registDate">
       <Position>2</Position>
       <DataType>date|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="35" parent="11" name="userID">
+    <column id="39" parent="11" name="userID">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="36" parent="11" name="name">
+    <column id="40" parent="11" name="name">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="37" parent="11" name="furigana">
+    <column id="41" parent="11" name="furigana">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="38" parent="11" name="sex">
+    <column id="42" parent="11" name="sex">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="39" parent="11" name="birthdate">
+    <column id="43" parent="11" name="birthdate">
       <Position>7</Position>
       <DataType>date|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="40" parent="11" name="address">
+    <column id="44" parent="11" name="address">
       <Position>8</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="41" parent="11" name="homePhoneNumber">
+    <column id="45" parent="11" name="homePhoneNumber">
       <Position>9</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="42" parent="11" name="cellPhoneNumber">
+    <column id="46" parent="11" name="cellPhoneNumber">
       <Position>10</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="43" parent="11" name="email">
+    <column id="47" parent="11" name="email">
       <Position>11</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="44" parent="11" name="password">
+    <column id="48" parent="11" name="password">
       <Position>12</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="45" parent="11" name="passwordHintQ">
+    <column id="49" parent="11" name="passwordHintQ">
       <Position>13</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="46" parent="11" name="passwordHintA">
+    <column id="50" parent="11" name="passwordHintA">
       <Position>14</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="47" parent="11" name="beginning">
+    <column id="51" parent="11" name="beginning">
       <Position>15</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="48" parent="11" name="reason">
+    <column id="52" parent="11" name="reason">
       <Position>16</Position>
       <DataType>varchar(510)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="49" parent="11" name="freeMessage">
+    <column id="53" parent="11" name="freeMessage">
       <Position>17</Position>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="50" parent="11" name="PRIMARY">
+    <key id="54" parent="11" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="51" parent="12" name="id">
+    <column id="55" parent="12" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="52" parent="12" name="email">
+    <column id="56" parent="12" name="email">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="53" parent="12" name="password">
+    <column id="57" parent="12" name="password">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="54" parent="12" name="message">
+    <column id="58" parent="12" name="message">
       <Position>4</Position>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="55" parent="12" name="login_time">
+    <column id="59" parent="12" name="login_time">
       <Position>5</Position>
       <DataType>datetime|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="56" parent="12" name="PRIMARY">
+    <key id="60" parent="12" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="57" parent="13" name="id">
+    <column id="61" parent="13" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="58" parent="13" name="email">
+    <column id="62" parent="13" name="email">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="59" parent="13" name="password">
+    <column id="63" parent="13" name="password">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="60" parent="13" name="message">
+    <column id="64" parent="13" name="message">
       <Position>4</Position>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="61" parent="13" name="regist_date">
+    <column id="65" parent="13" name="regist_date">
       <Position>5</Position>
       <DataType>datetime|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="62" parent="13" name="PRIMARY">
+    <key id="66" parent="13" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="63" parent="14" name="id">
+    <column id="67" parent="14" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="64" parent="14" name="name">
+    <column id="68" parent="14" name="user_id">
       <Position>2</Position>
-      <DataType>char(1)|0</DataType>
+      <DataType>int(11)|0</DataType>
     </column>
-    <column id="65" parent="14" name="email">
+    <column id="69" parent="14" name="tweet_id">
       <Position>3</Position>
-      <DataType>char(1)|0</DataType>
+      <DataType>int(11)|0</DataType>
     </column>
-    <column id="66" parent="14" name="password">
+    <column id="70" parent="14" name="regist_date">
       <Position>4</Position>
-      <DataType>char(1)|0</DataType>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="67" parent="14" name="regist_time">
+    <key id="71" parent="14" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="72" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="73" parent="15" name="user_id">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="74" parent="15" name="followee_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="75" parent="15" name="follow_date">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="76" parent="15" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="77" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="78" parent="16" name="user_id">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="79" parent="16" name="tweet_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="80" parent="16" name="regist_date">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="81" parent="16" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="82" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="83" parent="17" name="text">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="84" parent="17" name="user_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="85" parent="17" name="replyto_id">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="86" parent="17" name="post_date">
       <Position>5</Position>
       <DataType>datetime|0</DataType>
     </column>
-    <column id="68" parent="14" name="edit_time">
+    <column id="87" parent="17" name="edit_date">
       <Position>6</Position>
       <DataType>datetime|0</DataType>
     </column>
-    <column id="69" parent="14" name="delete_flag">
+    <column id="88" parent="17" name="delete_flag">
       <Position>7</Position>
       <DataType>tinyint(1)|0</DataType>
     </column>
-    <column id="70" parent="14" name="char_id">
+    <key id="89" parent="17" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="90" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="91" parent="18" name="name">
+      <Position>2</Position>
+      <DataType>char(1)|0</DataType>
+    </column>
+    <column id="92" parent="18" name="email">
+      <Position>3</Position>
+      <DataType>char(1)|0</DataType>
+    </column>
+    <column id="93" parent="18" name="password">
+      <Position>4</Position>
+      <DataType>char(1)|0</DataType>
+    </column>
+    <column id="94" parent="18" name="regist_time">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="95" parent="18" name="edit_time">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="96" parent="18" name="delete_flag">
+      <Position>7</Position>
+      <DataType>tinyint(1)|0</DataType>
+    </column>
+    <column id="97" parent="18" name="char_id">
       <Position>8</Position>
       <DataType>char(1)|0</DataType>
     </column>
-    <key id="71" parent="14" name="PRIMARY">
+    <key id="98" parent="18" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>

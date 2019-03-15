@@ -4,13 +4,11 @@
 
 <!--  メイン -->
 <main>
-    <h2>新規登録ページ</h2>
-    <p>ようこそ！</p>
+    <h2>パスワードリマインダー</h2>
+    <p>パスワードをリセットして、入力したメールアドレスに新パスワードを送信します。</p>
     <form action="" method="post">
         <label>メールアドレス<input type="text"></label>
-        <label>ユーザー名<input type="text"></label>
-        <label>パスワード<input type="text"></label>
-        <input type="submit" value="新規登録">
+        <input type="submit" value="メール送信">
     </form>
 </main>
 
