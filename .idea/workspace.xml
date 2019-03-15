@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/include/login.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/footer.php" afterPath="$PROJECT_DIR$/include/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.php" afterPath="$PROJECT_DIR$/include/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/404.php" afterPath="$PROJECT_DIR$/404.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/about.php" afterPath="$PROJECT_DIR$/about.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/new.php" afterPath="$PROJECT_DIR$/new.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/timeline.php" afterPath="$PROJECT_DIR$/timeline.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/tweet.php" afterPath="$PROJECT_DIR$/tweet.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/user.php" afterPath="$PROJECT_DIR$/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -126,11 +115,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/login.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="128">
-                  <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="46" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/about.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -160,7 +159,6 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/globals.php" />
         <option value="$PROJECT_DIR$/core.php" />
@@ -187,6 +185,7 @@
         <option value="$PROJECT_DIR$/tweet.php" />
         <option value="$PROJECT_DIR$/user.php" />
         <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/about.php" />
       </list>
     </option>
   </component>
@@ -370,7 +369,7 @@
       <workItem from="1552541379629" duration="1529000" />
       <workItem from="1552544822846" duration="8000" />
       <workItem from="1552545022528" duration="6544000" />
-      <workItem from="1552621793700" duration="2400000" />
+      <workItem from="1552621793700" duration="2456000" />
     </task>
     <task id="LOCAL-00001" summary="README.mdが消えていたので手動追加">
       <created>1549617610061</created>
@@ -498,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552551803662</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ページ基本構成修正">
+      <created>1552626739881</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1552626739881</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45356000" />
+    <option name="totallyTimeSpent" value="45412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,7 +589,8 @@
     <MESSAGE value="新規登録ページを追加&#10;index.phpのページ割当てをリファクタ" />
     <MESSAGE value="ページ設計を変更&#10;index?p=*** 形式はやめる" />
     <MESSAGE value="デバッグ処理作成" />
-    <option name="LAST_COMMIT_MESSAGE" value="デバッグ処理作成" />
+    <MESSAGE value="ページ基本構成修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="ページ基本構成修正" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -843,14 +850,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClassTest.php" />
-    <entry file="file://$PROJECT_DIR$/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -982,7 +981,15 @@
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
