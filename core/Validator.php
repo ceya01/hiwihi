@@ -14,6 +14,7 @@ class Validator
     }
 
     /**
+     * @param $key
      * @return string
      */
     public function getErrorMessageByKey($key): string

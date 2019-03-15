@@ -16,11 +16,11 @@
     <p>ようこそ！</p>
     <form action="" method="post" enctype="multipart/form-data">
         <label>メールアドレス
-            <input type="text" name="email" value="<?= echoPost('email'); ?>"></label>
+            <input type="text" name="email" value="<? echoPost('email'); ?>"></label>
         <label>ユーザーID
-            <input type="text" name="userid" value="<?= echoPost('userid'); ?>"></label>
+            <input type="text" name="userid" value="<? echoPost('userid'); ?>"></label>
         <label>パスワード
-            <input type="password" name="password" value="<?= echoPost('password'); ?>"></label>
+            <input type="password" name="password" value="<? echoPost('password'); ?>"></label>
         <input type="submit" value="新規登録">
     </form>
 </main>
