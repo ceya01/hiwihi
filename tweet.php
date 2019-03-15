@@ -1,11 +1,9 @@
-
-
 <!--  ヘッダー -->
 <?php require_once( "include/header.php" ); ?>
 
 <!--  メイン -->
 <main>
-    <h2>トップページ</h2>
+    <h2>ツイートページ</h2>
 </main>
 
 

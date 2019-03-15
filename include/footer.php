@@ -10,3 +10,12 @@
 <footer>
     footer
 </footer>
+
+<?php
+    if(IS_DEBUG){
+        echo 'Debug mode!';
+    }
+?>
+
+</body>
+</html>

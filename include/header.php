@@ -6,7 +6,6 @@
  * Time: 10:51
  */
 
-
 require_once( "core/Debug.php" );
 require_once( "core/pageNames.php" );
 require_once( "core/functions.php" );
@@ -29,14 +28,14 @@ require_once( "core/functions.php" );
 <header>
     <h1>ヒウィッヒヒー</h1>
     <ul>
-        <li><?php echoHeaderLink(PAGE_ABOUT,'ヒウィッヒヒーとは'); ?></li>
-        <?php if(isLogin()) : ?>
-            <li><?php echoHeaderLink(PAGE_TIMELINE,'タイムライン'); ?></li>
+        <li><?php echoHeaderLink(PAGE_ABOUT, 'ヒウィッヒヒーとは'); ?></li>
+        <?php if (isLogin()) : ?>
+            <li><?php echoHeaderLink(PAGE_TIMELINE, 'タイムライン'); ?></li>
+            <li><?php echoHeaderLink(PAGE_USER, 'マイページ'); ?></li>
+            <!--        <li>--><?php //echoHeaderLink(PAGE_TWEET,'ツイート'); ?><!--</li>-->
         <?php else : ?>
-            <li><?php echoHeaderLink(PAGE_LOGIN,'ログイン'); ?></li>
-            <li><?php echoHeaderLink(PAGE_NEW,'新規登録'); ?></li>
+            <li><?php echoHeaderLink(PAGE_LOGIN, 'ログイン'); ?></li>
+            <li><?php echoHeaderLink(PAGE_NEW, '新規登録'); ?></li>
         <?php endif; ?>
-        <li><?php echoHeaderLink(PAGE_USER,'マイページ'); ?></li>
-        <li><?php echoHeaderLink(PAGE_TWEET,'ツイート'); ?></li>
     </ul>
 </header>
