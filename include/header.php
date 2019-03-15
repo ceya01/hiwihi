@@ -35,7 +35,7 @@ require_once( "core/functions.php" );
             <!--        <li>--><?php //echoHeaderLink(PAGE_TWEET,'ツイート'); ?><!--</li>-->
         <?php else : ?>
             <li><?php echoHeaderLink(PAGE_LOGIN, 'ログイン'); ?></li>
-            <li><?php echoHeaderLink(PAGE_NEW, '新規登録'); ?></li>
+            <li><?php echoHeaderLink(PAGE_SIGNUP, '新規登録'); ?></li>
         <?php endif; ?>
     </ul>
 </header>

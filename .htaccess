@@ -1,9 +1,9 @@
-RewriteEngine on
+#RewriteEngine on
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteRule ^/(.*)$ /index.php?p=$1 [L]
 #RewriteRule ^/index.php / [L]
 
 #これだけだとcssまでリダイレクトして読み込めなくなるので、上のCondが必要
-RewriteRule ^(.*)$ index.php [L]
+#RewriteRule ^(.*)$ index.php [L]

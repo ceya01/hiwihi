@@ -21,9 +21,13 @@ if (IS_DEBUG) :
         <li><?php echoHeaderLink(PAGE_USER, 'ユーザーページ'); ?></li>
         <li><?php echoHeaderLink(PAGE_TWEET, 'ツイート'); ?></li>
         <li><?php echoHeaderLink(PAGE_LOGIN, 'ログイン'); ?></li>
-        <li><?php echoHeaderLink(PAGE_NEW, '新規登録'); ?></li>
+        <li><?php echoHeaderLink(PAGE_SIGNUP, '新規登録'); ?></li>
         <li><?php echoHeaderLink(PAGE_PASS_REMINDER, 'パスワードリマインダー'); ?></li>
     </ul>
+    <?php
+    var_dump($_POST);
+    var_dump($_SESSION);
+    ?>
 <?php endif; ?>
 
 </body>

@@ -34,3 +34,9 @@ function echoHeaderLink($pageKey, $linkText){
     echo '<a href="'.$pageKey.'.php">'.$linkText.'</a>';
     //echo '<a href="?page='.$pageKey.'">'.$linkText.'</a>';
 }
+
+function echoPost($key=''){
+    if(!empty($_POST[$key])){
+        echo $_POST[$key];
+    }
+}
