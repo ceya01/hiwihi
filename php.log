@@ -2023,3 +2023,509 @@ Stack trace:
 [15-Mar-2019 21:35:58 Asia/Tokyo] PHP Stack trace:
 [15-Mar-2019 21:35:58 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
 [15-Mar-2019 21:35:58 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:19:30 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:19:30 Asia/Tokyo] 
+[22-Mar-2019 17:19:30 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:19:30 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:19:30 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:19:30 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:25:57 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:25:57 Asia/Tokyo] 
+[22-Mar-2019 17:25:57 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:25:57 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:25:57 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:25:57 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:01 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:01 Asia/Tokyo] 
+[22-Mar-2019 17:26:01 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:01 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:01 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:01 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:03 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:03 Asia/Tokyo] 
+[22-Mar-2019 17:26:03 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:03 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:03 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:03 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:11 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:11 Asia/Tokyo] 
+[22-Mar-2019 17:26:11 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:11 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:11 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:11 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:20 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:20 Asia/Tokyo] 
+[22-Mar-2019 17:26:20 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:20 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:20 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:20 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:21 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:21 Asia/Tokyo] 
+[22-Mar-2019 17:26:21 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:21 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:21 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:21 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:33 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:33 Asia/Tokyo] 
+[22-Mar-2019 17:26:33 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:33 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:33 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:33 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:37 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:37 Asia/Tokyo] 
+[22-Mar-2019 17:26:37 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:37 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:37 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:37 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:38 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:38 Asia/Tokyo] 
+[22-Mar-2019 17:26:38 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:38 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:38 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:38 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:38 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:38 Asia/Tokyo] 
+[22-Mar-2019 17:26:38 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:39 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:39 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:39 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:40 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:40 Asia/Tokyo] 
+[22-Mar-2019 17:26:40 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:40 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:40 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:40 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:55 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:55 Asia/Tokyo] 
+[22-Mar-2019 17:26:55 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:55 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:55 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
+[22-Mar-2019 17:26:55 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:13
+[22-Mar-2019 17:26:59 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:26:59 Asia/Tokyo] 
+[22-Mar-2019 17:26:59 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:26:59 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:26:59 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
+[22-Mar-2019 17:26:59 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:19
+[22-Mar-2019 17:27:03 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:27:03 Asia/Tokyo] 
+[22-Mar-2019 17:27:03 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:27:03 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:27:03 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
+[22-Mar-2019 17:27:03 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:19
+[22-Mar-2019 17:27:05 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:27:05 Asia/Tokyo] 
+[22-Mar-2019 17:27:05 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:27:05 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:27:05 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
+[22-Mar-2019 17:27:05 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:19
+[22-Mar-2019 17:27:11 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:27:11 Asia/Tokyo] 
+[22-Mar-2019 17:27:11 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:27:11 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:27:11 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
+[22-Mar-2019 17:27:11 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:19
+[22-Mar-2019 17:27:23 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:27:23 Asia/Tokyo] 
+[22-Mar-2019 17:27:26 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:27:26 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:27:26 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:27:26 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:27:31 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:27:31 Asia/Tokyo] 
+[22-Mar-2019 17:27:36 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:27:36 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:27:36 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:27:36 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:47:08 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:47:08 Asia/Tokyo] 
+[22-Mar-2019 17:47:08 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:47:08 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:47:08 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:47:08 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:47:13 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:47:13 Asia/Tokyo] 
+[22-Mar-2019 17:47:13 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:47:13 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:47:13 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:47:13 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:47:16 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:47:16 Asia/Tokyo] 
+[22-Mar-2019 17:47:16 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:47:16 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:47:16 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:47:16 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:47:22 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:47:22 Asia/Tokyo] 
+[22-Mar-2019 17:47:22 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:47:22 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:47:22 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:47:22 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:47:23 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:47:23 Asia/Tokyo] 
+[22-Mar-2019 17:47:23 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:47:23 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:47:23 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:47:23 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:47:31 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:47:31 Asia/Tokyo] 
+[22-Mar-2019 17:47:31 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:47:31 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:47:31 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:47:31 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:48:00 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:48:00 Asia/Tokyo] 
+[22-Mar-2019 17:48:00 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:48:00 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:48:00 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:48:00 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:48:07 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:48:07 Asia/Tokyo] 
+[22-Mar-2019 17:48:07 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:48:07 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:48:07 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:48:07 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:49:30 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:49:30 Asia/Tokyo] 
+[22-Mar-2019 17:51:33 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:51:33 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:51:33 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:51:33 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:51:40 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:51:40 Asia/Tokyo] 
+[22-Mar-2019 17:52:02 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:02 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:02 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:02 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:52:14 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:52:14 Asia/Tokyo] 
+[22-Mar-2019 17:52:14 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:14 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:14 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:14 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:52:20 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:52:20 Asia/Tokyo] 
+[22-Mar-2019 17:52:20 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:20 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:20 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:20 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:52:25 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:52:25 Asia/Tokyo] 
+[22-Mar-2019 17:52:25 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:25 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:25 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:25 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:52:40 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:52:40 Asia/Tokyo] 
+[22-Mar-2019 17:52:40 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:40 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:40 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:40 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:52:42 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:52:42 Asia/Tokyo] 
+[22-Mar-2019 17:52:42 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:42 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:42 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:42 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:52:44 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:52:44 Asia/Tokyo] 
+[22-Mar-2019 17:52:44 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:44 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:44 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:44 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:52:46 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:52:46 Asia/Tokyo] 
+[22-Mar-2019 17:52:46 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:46 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:46 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:46 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:52:48 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:52:48 Asia/Tokyo] 
+[22-Mar-2019 17:52:48 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:48 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:48 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:48 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:52:52 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:52:52 Asia/Tokyo] 
+[22-Mar-2019 17:52:52 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:52 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:52 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:52 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:52:56 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:52:56 Asia/Tokyo] 
+[22-Mar-2019 17:52:56 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:52:56 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:52:56 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:52:56 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:53:47 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:53:47 Asia/Tokyo] 
+[22-Mar-2019 17:53:47 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:53:47 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:53:47 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:53:47 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:53:51 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:53:51 Asia/Tokyo] 
+[22-Mar-2019 17:53:51 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:53:51 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:53:51 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:53:51 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:53:52 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:53:52 Asia/Tokyo] 
+[22-Mar-2019 17:53:52 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:53:52 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:53:52 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:53:52 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:55:49 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:55:49 Asia/Tokyo] 
+[22-Mar-2019 17:55:49 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:55:49 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:55:49 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:55:49 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:56:12 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:56:12 Asia/Tokyo] 
+[22-Mar-2019 17:56:12 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:56:12 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:56:12 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:56:12 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:58:13 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:58:13 Asia/Tokyo] 
+[22-Mar-2019 17:58:13 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:58:13 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:58:13 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:58:13 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43
+[22-Mar-2019 17:58:16 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[22-Mar-2019 17:58:16 Asia/Tokyo] 
+[22-Mar-2019 17:58:16 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 29
+[22-Mar-2019 17:58:16 Asia/Tokyo] PHP Stack trace:
+[22-Mar-2019 17:58:16 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
+[22-Mar-2019 17:58:16 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:43

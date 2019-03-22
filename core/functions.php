@@ -41,7 +41,7 @@ function echoHeaderLink($pageKey, $linkText)
 function echoPost($key = ''): void
 {
     if (!empty($_POST[$key])) {
-        echo $_POST[$key];
+        echo htmlspecialchars($_POST[$key]);
     }
 }
 

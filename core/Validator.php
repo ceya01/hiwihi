@@ -63,7 +63,7 @@ class Validator
      */
     public function validEmailFormat($str) :string
     {
-        if(preg_match('/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}${,255}/iD', $str)){
+        if(preg_match('/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/iD', $str)){
             return '';
         }else{
             $this->addErrorMessage(Validator::ERRMSG_INVALID_EMAIL,KEY_EMAIL);
