@@ -18,7 +18,8 @@
 <header>
     <div class="inner">
         <h1>ヒウィッヒヒー</h1>
-        <img src="img/logo.png" alt="ﾋｩｲｯﾋﾋｰ" class="hiwihi-logo">
+
+        <a href="index.php"><img src="img/logo.png" alt="ﾋｩｲｯﾋﾋｰ" class="hiwihi-logo"></a>
         <ul>
             <li><?php echoHeaderLink(PAGE_ABOUT, 'ﾋｩｲｯﾋﾋｰとは'); ?></li>
             <?php if (isLogin()) : ?>
