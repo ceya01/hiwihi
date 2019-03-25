@@ -38,11 +38,11 @@ class PDOWrapper
         $stmt = $this->pdo->prepare($sql);
         //プレースホルダに値をセットし、SQL文を実行
         if(!$stmt->execute($data)){
-            dlog('クエリに失敗しました。');
-            dlog('失敗したSQL：'.print_r($stmt,true));
+            //dlog('クエリに失敗しました。');
+            //dlog('失敗したSQL：'.print_r($stmt,true));
             return 0;
         }
-        dlog('クエリ成功。');
+        //dlog('クエリ成功。');
         return $stmt;
     }
 
@@ -54,23 +54,6 @@ class PDOWrapper
         $sql = 'INSERT INTO '.$tableName.'('.$rowName.') VALUES('.$pps.')';
         $data = array_combine(explode(',',$pps),array_values($valueAry));
         $this->queryPost($sql,$data);
-
-
-//        foreach ($valueAry as $key => $item) {
-//            $rowName =.
-//        }
-
-
-//        $sql = 'INSERT INTO '.$tableName.' (char_id,email,password,name,regist_time,edit_time)
-//                VALUES(:char_id,:email,:password,:name,:regist_time,:edit_time)';
-//        $data = array(
-//            ':char_id' => $ary[KEY_CHARID],
-//            ':email' => $ary[KEY_EMAIL],
-//            ':password' => password_hash($ary[KEY_PASSWORD], PASSWORD_DEFAULT),
-//            ':name' => $ary[KEY_CHARID],
-//            ':regist_time' => date('Y-m-d H:i:s'),
-//            ':edit_time' => date('Y-m-d H:i:s'));
-//
     }
 
 

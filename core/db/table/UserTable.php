@@ -25,7 +25,7 @@ class UserTable
     }
 
     public function createUser($ary){
-        $user = new User($ary);
+        //$user = new User($ary);   //ここでは不要
 
         $ary = array(
             'char_id' => $ary[KEY_CHARID],
@@ -38,18 +38,6 @@ class UserTable
 
         $pdow = DBConnector::getPdow();
         $pdow->insert('user',$ary);
-//
-//        $sql = 'INSERT INTO user (char_id,email,password,name,regist_time,edit_time)
-//                VALUES(:char_id,:email,:password,:name,:regist_time,:edit_time)';
-//        $data = array(
-//            ':char_id' => $ary[KEY_CHARID],
-//            ':email' => $ary[KEY_EMAIL],
-//            ':password' => password_hash($ary[KEY_PASSWORD], PASSWORD_DEFAULT),
-//            ':name' => $ary[KEY_CHARID],
-//            ':regist_time' => date('Y-m-d H:i:s'),
-//            ':edit_time' => date('Y-m-d H:i:s'));
-//        $pdow->queryPost($sql,$data);
-//
     }
 
 }

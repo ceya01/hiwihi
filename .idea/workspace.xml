@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/db/DBConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/db/db-config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/db/record/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/db/table/UserTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/PDOWrapper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ff20ed01-6c8d-4ec9-aed9-9eeefcc51b60.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/ff20ed01-6c8d-4ec9-aed9-9eeefcc51b60.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/const.php" afterPath="$PROJECT_DIR$/core/const.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/functions.php" afterPath="$PROJECT_DIR$/core/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/footer.php" afterPath="$PROJECT_DIR$/include/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/importCore.php" afterPath="$PROJECT_DIR$/include/importCore.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/db/table/UserTable.php" afterPath="$PROJECT_DIR$/core/db/table/UserTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup.php" afterPath="$PROJECT_DIR$/signup.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/Validator.php" afterPath="$PROJECT_DIR$/util/Validator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/PDOWrapper.php" afterPath="$PROJECT_DIR$/util/PDOWrapper.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,17 +100,15 @@
           <file leaf-file-name="PDOWrapper.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/util/PDOWrapper.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+                <state relative-caret-position="580">
+                  <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
                   <folding>
                     <element signature="e#7#132#0#PHP" expanded="true" />
-                    <marker date="1553496560348" expanded="true" signature="1362:1389" ph="INSERT INTO ${$tableName}... " />
-                    <marker date="1553496560348" expanded="true" signature="1362:1402" ph="INSERT INTO ${$tableName}... " />
-                    <marker date="1553496560348" expanded="true" signature="1362:1410" ph="INSERT INTO ${$tableName}... " />
-                    <marker date="1553496560348" expanded="true" signature="1362:1419" ph="INSERT INTO ${$tableName}... " />
-                    <marker date="1553496560348" expanded="true" signature="1362:1641" ph="INSERT INTO ${$tableName}... " />
-                    <marker date="1553496560348" expanded="true" signature="1643:1655" ph="INSERT INTO ${$table}... " />
-                    <marker date="1553496560348" expanded="true" signature="1643:1803" ph="INSERT INTO user... " />
+                    <marker date="1553497244130" expanded="true" signature="1368:1395" ph="INSERT INTO ${$tableName}... " />
+                    <marker date="1553497244130" expanded="true" signature="1368:1408" ph="INSERT INTO ${$tableName}... " />
+                    <marker date="1553497244130" expanded="true" signature="1368:1416" ph="INSERT INTO ${$tableName}... " />
+                    <marker date="1553497244130" expanded="true" signature="1368:1425" ph="INSERT INTO ${$tableName}... " />
+                    <marker date="1553497244130" expanded="true" signature="1368:1539" ph="INSERT INTO ${$tableName}... " />
                   </folding>
                 </state>
               </provider>
@@ -154,10 +141,10 @@
           <file leaf-file-name="signup.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/signup.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                <state relative-caret-position="308">
+                  <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
                   <folding>
-                    <marker date="1553493301239" expanded="true" signature="1227:1290" ph="..." />
+                    <marker date="1553497225219" expanded="true" signature="1208:1271" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -166,12 +153,9 @@
           <file leaf-file-name="UserTable.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/core/db/table/UserTable.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
-                  <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-                  <folding>
-                    <marker date="1553496377538" expanded="true" signature="944:1069" ph="INSERT INTO users... " />
-                    <marker date="1553496377538" expanded="true" signature="944:1094" ph="INSERT INTO users... " />
-                  </folding>
+                <state relative-caret-position="432">
+                  <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -264,11 +248,11 @@
         <option value="$PROJECT_DIR$/core/db/UserTable.php" />
         <option value="$PROJECT_DIR$/core/functions.php" />
         <option value="$PROJECT_DIR$/core/db/record/User.php" />
-        <option value="$PROJECT_DIR$/signup.php" />
         <option value="$PROJECT_DIR$/core/db/DBConnector.php" />
         <option value="$PROJECT_DIR$/core/const.php" />
-        <option value="$PROJECT_DIR$/core/db/table/UserTable.php" />
+        <option value="$PROJECT_DIR$/signup.php" />
         <option value="$PROJECT_DIR$/util/PDOWrapper.php" />
+        <option value="$PROJECT_DIR$/core/db/table/UserTable.php" />
       </list>
     </option>
   </component>
@@ -594,7 +578,7 @@
       <workItem from="1552636877803" duration="15646000" />
       <workItem from="1553242305391" duration="11809000" />
       <workItem from="1553293151791" duration="11368000" />
-      <workItem from="1553487451454" duration="7124000" />
+      <workItem from="1553487451454" duration="7249000" />
     </task>
     <task id="LOCAL-00001" summary="README.mdが消えていたので手動追加">
       <created>1549617610061</created>
@@ -771,11 +755,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553245146947</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ユーザー登録機能&#10;DB登録系のコード整理">
+      <created>1553497210840</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1553497210840</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100839000" />
+    <option name="totallyTimeSpent" value="100964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -800,7 +791,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17910448" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16204691" sideWeight="0.5063694" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40234792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40234792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -863,7 +854,8 @@
     <MESSAGE value="Validator class 作成&#10;細かなエラー解消" />
     <MESSAGE value="ユーザー登録のバリデーション機能作成&#10;形式チェック、文字列チェック" />
     <MESSAGE value="ユーザー登録のバリデーション作成" />
-    <option name="LAST_COMMIT_MESSAGE" value="ユーザー登録のバリデーション作成" />
+    <MESSAGE value="ユーザー登録機能&#10;DB登録系のコード整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="ユーザー登録機能&#10;DB登録系のコード整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1188,16 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1553493301239" expanded="true" signature="1227:1290" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/db/DBConnector.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1256,31 +1238,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <marker date="1553497225219" expanded="true" signature="1208:1271" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/PDOWrapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="580">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="e#7#132#0#PHP" expanded="true" />
-            <marker date="1553496560348" expanded="true" signature="1362:1389" ph="INSERT INTO ${$tableName}... " />
-            <marker date="1553496560348" expanded="true" signature="1362:1402" ph="INSERT INTO ${$tableName}... " />
-            <marker date="1553496560348" expanded="true" signature="1362:1410" ph="INSERT INTO ${$tableName}... " />
-            <marker date="1553496560348" expanded="true" signature="1362:1419" ph="INSERT INTO ${$tableName}... " />
-            <marker date="1553496560348" expanded="true" signature="1362:1641" ph="INSERT INTO ${$tableName}... " />
-            <marker date="1553496560348" expanded="true" signature="1643:1655" ph="INSERT INTO ${$table}... " />
-            <marker date="1553496560348" expanded="true" signature="1643:1803" ph="INSERT INTO user... " />
+            <marker date="1553497244130" expanded="true" signature="1368:1395" ph="INSERT INTO ${$tableName}... " />
+            <marker date="1553497244130" expanded="true" signature="1368:1408" ph="INSERT INTO ${$tableName}... " />
+            <marker date="1553497244130" expanded="true" signature="1368:1416" ph="INSERT INTO ${$tableName}... " />
+            <marker date="1553497244130" expanded="true" signature="1368:1425" ph="INSERT INTO ${$tableName}... " />
+            <marker date="1553497244130" expanded="true" signature="1368:1539" ph="INSERT INTO ${$tableName}... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/db/table/UserTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding>
-            <marker date="1553496377538" expanded="true" signature="944:1069" ph="INSERT INTO users... " />
-            <marker date="1553496377538" expanded="true" signature="944:1094" ph="INSERT INTO users... " />
-          </folding>
+        <state relative-caret-position="432">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -21,8 +21,6 @@ if(!empty($_POST)){
                 KEY_CHARID=>getPost(KEY_CHARID),
                 KEY_PASSWORD=>getPost(KEY_PASSWORD))
         );
-
-        //addUser
     }
 }
 ?>
