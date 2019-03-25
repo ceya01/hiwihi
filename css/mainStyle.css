@@ -1,26 +1,179 @@
+/************************************************************/
+/*　基礎　*/
+/************************************************************/
+
+
 body{
     margin: 0 auto;
-    max-width:1180px;
     overflow-x: hidden;
 }
 
 header,main,footer{
     overflow: hidden;
-    padding:1rem 2rem;
+    width:100%;
+}
+.inner{
+    margin:0 auto;
+    max-width:1180px;
+    position: relative;
 }
 
+/************************************************************/
+/*　header　*/
+/************************************************************/
 header{
-     background-color: #ffefef;
- }
+    /*background-color: #ffefef;*/
+    background-color: #14DC98;
+    color:#FFFFFF;
+}
+
+header .inner{
+    padding:6px 0;
+}
+
+header h1{
+    display: none;
+}
+
+header img{
+    vertical-align: middle;
+}
+
+header ul{
+    display: inline-flex;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header li{
+    margin-right: 1em;
+}
+
+header a{
+    color:#FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/************************************************************/
+/*　main　*/
+/************************************************************/
 
 main{
-    background-color: #efffef;
+    background-color: #FDFFFF;
+    /*background-color: #efffef;*/
 }
 
+main .inner{
+    padding: 30px 0;
+}
+
+.bg-hiwihiBird{
+    background:url("../img/hummingbird.jpg") no-repeat;
+    background-position:0 -200px ;
+    background-size:cover;
+
+}
+
+main .bg-overlay{
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.75) 40%, rgba(250,214,255,0.9) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.75) 40%,rgba(250,214,255,0.9) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.75) 40%,rgba(250,214,255,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#e6fad6ff',GradientType=0 );
+}
+
+
+/************************************************************/
+/*　footer　*/
+/************************************************************/
 footer{
-    background-color: #efefff;
+    /*background-color: #efefff;*/
+    background-color: #14DC98;
+    color:#FFFFFF;
+
+    min-height: 100px;
 }
 
+
+/************************************************************/
+/*　共有　*/
+/************************************************************/
+
+
+
+.introCont{
+    max-width: 800px;
+    min-height:500px;
+    text-align: center;
+    margin : 0 auto;
+    padding:3rem 0;
+}
+
+.btn-rr{
+    /* rr: rounded-rectangle */
+    display: block;
+    border-radius:20px;
+    padding:0.5rem 0;
+    margin:1rem auto;
+    width:320px;
+    max-width:80%;
+    text-decoration: none;
+    background: #000;
+    color:#FFF;
+    border:1px #FFF solid;
+    font-size:0.9em;
+}
+
+h2.iconHead::before{
+    content: '';
+    width: 1.35em;
+    height: 1.35em;
+    display: inline-block;
+    background-image: url(../img/icon.png);
+    background-size: contain;
+    vertical-align: text-top;
+
+}
+.subContent{
+    margin-top:4rem;
+    text-align: left;
+}
+.subContent h2{
+    margin-bottom: 0.5em;
+}
+
+.subContent p{
+    font-size:0.9em;
+}
+/************************************************************/
+/*　color　*/
+/************************************************************/
+.color-hiwihi{
+    color:#14DC98;
+}
+.white{
+    color:#FFFFFF;
+}
+.bgColor-hiwihi{
+    background:#14DC98;
+}
+.bgColor-white{
+    background:#FFFFFF;
+}
+.border-hiwihi{
+    border-color:#14DC98;
+}
+.border-white{
+    border-color:#FFFFFF;
+}
+
+
+/************************************************************/
+/*　フォーム　*/
+/************************************************************/
 input{
     display: block;
 }

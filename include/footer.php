@@ -8,12 +8,14 @@
 ?>
 
 <footer>
-    footer
+    <div class="inner">
+        footer
+    </div>
 </footer>
 
 <?php
 if (IS_DEBUG) :
-    echo 'Debug mode!';
+    echo '<div class="inner">Debug mode!';
 ?>
     <ul>
         <li><?php echoHeaderLink(PAGE_ABOUT, 'ヒウィッヒヒーとは'); ?></li>
@@ -27,6 +29,7 @@ if (IS_DEBUG) :
     <?php
     dump($_POST);
     dump($_SESSION);
+    echo '</div>';
     ?>
 <?php endif; ?>
 
