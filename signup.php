@@ -3,15 +3,28 @@
 <?php
 
 require_once( "include/importCore.php" );
-require_once( "core/Validator.php" );
+require_once( "util/Validator.php" );
+
 
 $validator = new Validator();
 if(!empty($_POST)){
-    $validator->validEmailFormat($_POST[KEY_EMAIL]);
-    $validator->validUserIDFormat($_POST[KEY_USERID]);
-    $validator->validPasswordFormat($_POST[KEY_PASSWORD]);
+    $validator->validEmailFormat(getPost(KEY_EMAIL));
+    $validator->validUserIDFormat(getPost(KEY_CHARID));
+    $validator->validPasswordFormat(getPost(KEY_PASSWORD));
+
+    if($validator->hasNoError() ){
+        //エラーが無い場合  入力されたユーザー情報をDBに登録
+        require_once( "core/db/table/UserTable.php" );
+        $userTable = UserTable::getInstance();
+        $userTable->createUser(array(
+                KEY_EMAIL=>getPost(KEY_EMAIL),
+                KEY_CHARID=>getPost(KEY_CHARID),
+                KEY_PASSWORD=>getPost(KEY_PASSWORD))
+        );
+
+        //addUser
+    }
 }
-dump($validator);
 ?>
 
 <!--  ヘッダー -->
@@ -27,8 +40,8 @@ dump($validator);
             <?php echoErrMsg($validator->getErrorMessageByKey(KEY_EMAIL)); ?>
         </label>
         <label class="wrap-inpput"><span class="label-text">ユーザーID</span>
-            <input type="text" name="<?php echo KEY_USERID ?>" value="<?php echoPost(KEY_USERID); ?>">
-            <?php echoErrMsg($validator->getErrorMessageByKey(KEY_USERID)); ?>
+            <input type="text" name="<?php echo KEY_CHARID ?>" value="<?php echoPost(KEY_CHARID); ?>">
+            <?php echoErrMsg($validator->getErrorMessageByKey(KEY_CHARID)); ?>
         </label>
         <label class="wrap-inpput"><span class="label-text">パスワード</span>
             <input type="password" name="<?php echo KEY_PASSWORD ?>" value="<?php echoPost(KEY_PASSWORD); ?>">

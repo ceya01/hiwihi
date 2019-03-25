@@ -25,8 +25,8 @@ if (IS_DEBUG) :
         <li><?php echoHeaderLink(PAGE_PASS_REMINDER, 'パスワードリマインダー'); ?></li>
     </ul>
     <?php
-    var_dump($_POST);
-    var_dump($_SESSION);
+    dump($_POST);
+    dump($_SESSION);
     ?>
 <?php endif; ?>
 

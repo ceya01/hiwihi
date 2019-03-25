@@ -38,6 +38,12 @@ class Validator
         }
     }
 
+    //エラーがなければtrueを返す
+    public function hasNoError():bool
+    {
+        return count($this->errorMessages) ==0;
+    }
+
     //Email形式チェック
     /**
      * @param $str
@@ -50,8 +56,8 @@ class Validator
         if(strlen($str)<=$maxLength){
             return '';
         }else{
-            $this->addErrorMessage($maxLength.Validator::ERRMSG_OVER_LENGTH,$key);
-            return Validator::ERRMSG_OVER_LENGTH;
+            $this->addErrorMessage($maxLength.self::ERRMSG_OVER_LENGTH,$key);
+            return self::ERRMSG_OVER_LENGTH;
         }
     }
 
@@ -66,8 +72,8 @@ class Validator
         if(preg_match('/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/iD', $str)){
             return '';
         }else{
-            $this->addErrorMessage(Validator::ERRMSG_INVALID_EMAIL,KEY_EMAIL);
-            return Validator::ERRMSG_INVALID_EMAIL;
+            $this->addErrorMessage(self::ERRMSG_INVALID_EMAIL,KEY_EMAIL);
+            return self::ERRMSG_INVALID_EMAIL;
         }
     }
 
@@ -78,12 +84,12 @@ class Validator
      */
     public function validUserIDFormat($str) :string
     {
-        $this->validLength($str,Validator::MAXL_USERID,KEY_USERID);
+        $this->validLength($str,self::MAXL_USERID,KEY_CHARID);
         if(preg_match('/^[a-zA-Z0-9_]+$/', $str)){
             return '';
         }else{
-            $this->addErrorMessage(Validator::ERRMSG_INVALID_USERID,KEY_USERID);
-            return Validator::ERRMSG_INVALID_USERID;
+            $this->addErrorMessage(self::ERRMSG_INVALID_USERID,KEY_CHARID);
+            return self::ERRMSG_INVALID_USERID;
         }
     }
 
@@ -94,12 +100,14 @@ class Validator
      */
     public function validPasswordFormat($str) :string
     {
-        $this->validLength($str,Validator::MAXL_PASSWORD,KEY_PASSWORD);
+        $this->validLength($str,self::MAXL_PASSWORD,KEY_PASSWORD);
         if(preg_match('/^[!-~]+$/', $str)){
             return '';
         }else{
-            $this->addErrorMessage(Validator::ERRMSG_INVALID_PASSWORD,KEY_PASSWORD);
-            return Validator::ERRMSG_INVALID_PASSWORD;
+            $this->addErrorMessage(self::ERRMSG_INVALID_PASSWORD,KEY_PASSWORD);
+            return self::ERRMSG_INVALID_PASSWORD;
         }
     }
+
+
 }

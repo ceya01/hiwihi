@@ -38,11 +38,23 @@ function echoHeaderLink($pageKey, $linkText)
     //echo '<a href="?page='.$pageKey.'">'.$linkText.'</a>';
 }
 
+//$_POST の中身を出力
 function echoPost($key = ''): void
 {
     if (!empty($_POST[$key])) {
         echo htmlspecialchars($_POST[$key]);
     }
+}
+
+function getPost($key = '')
+{
+    if (!empty($_POST[$key])) {
+        return $_POST[$key];
+    }
+}
+
+function getArrayKey($ary,$key,$default=null){
+    return array_key_exists($key,$ary) ? $ary[$key] : $default;
 }
 
 function echoErrMsg($msg): void
