@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ress.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/about_text.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainStyle.css" afterPath="$PROJECT_DIR$/css/mainStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/footer.php" afterPath="$PROJECT_DIR$/include/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.php" afterPath="$PROJECT_DIR$/include/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup.php" afterPath="$PROJECT_DIR$/signup.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,8 +87,8 @@
           <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="356">
-                  <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+                <state relative-caret-position="720">
+                  <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -103,8 +97,8 @@
           <file leaf-file-name="about_text.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/include/about_text.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+                <state relative-caret-position="32">
+                  <caret line="0" column="144" lean-forward="true" selection-start-line="0" selection-start-column="144" selection-end-line="0" selection-end-column="144" />
                   <folding />
                 </state>
               </provider>
@@ -117,8 +111,8 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="128">
-                  <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+                <state relative-caret-position="224">
+                  <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="67" />
                   <folding />
                 </state>
               </provider>
@@ -223,8 +217,8 @@
         <option value="$PROJECT_DIR$/css/ress.css" />
         <option value="$PROJECT_DIR$/include/footer.php" />
         <option value="$PROJECT_DIR$/include/header.php" />
-        <option value="$PROJECT_DIR$/include/about_text.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/include/about_text.php" />
         <option value="$PROJECT_DIR$/css/mainStyle.css" />
       </list>
     </option>
@@ -566,7 +560,7 @@
       <workItem from="1552636877803" duration="15646000" />
       <workItem from="1553242305391" duration="11809000" />
       <workItem from="1553293151791" duration="11368000" />
-      <workItem from="1553487451454" duration="17966000" />
+      <workItem from="1553487451454" duration="18330000" />
     </task>
     <task id="LOCAL-00001" summary="README.mdが消えていたので手動追加">
       <created>1549617610061</created>
@@ -757,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553497304761</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="トップページの基礎デザイン作成&#10;">
+      <created>1553510172401</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1553510172401</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111681000" />
+    <option name="totallyTimeSpent" value="112045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,7 +826,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="branch_test01 編集てすと" />
     <MESSAGE value="Merge branches 'branch_test01' and 'local_first'&#10;&#10;# Conflicts:&#10;#&#9;index.php&#10;" />
     <MESSAGE value="リセット実験からの再コミット" />
     <MESSAGE value="リセット実験からの再コミット  rejectされたので　updateしてから　再チャレンジ" />
@@ -850,7 +850,8 @@
     <MESSAGE value="ユーザー登録のバリデーション作成" />
     <MESSAGE value="ユーザー登録機能&#10;DB登録系のコード整理" />
     <MESSAGE value="コメント整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="コメント整理" />
+    <MESSAGE value="トップページの基礎デザイン作成&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="トップページの基礎デザイン作成&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1233,14 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/about_text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -1249,18 +1242,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/include/about_text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="32">
+          <caret line="0" column="144" lean-forward="true" selection-start-line="0" selection-start-column="144" selection-end-line="0" selection-end-column="144" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        <state relative-caret-position="720">
+          <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="67" />
           <folding />
         </state>
       </provider>
