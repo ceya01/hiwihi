@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/ress.css">
     <link rel="stylesheet" href="css/mainStyle.css">
     <link rel="stylesheet" href="css/util.css">
-    <title>ﾋｩｲｯﾋﾋｰ</title>
+    <title>ﾋｳｨｯﾋﾋｰ</title>
 </head>
 <body>
 
@@ -20,9 +20,9 @@
     <div class="inner">
         <h1>ヒウィッヒヒー</h1>
 
-        <a href="index.php"><img src="img/logo.png" alt="ﾋｩｲｯﾋﾋｰ" class="hiwihi-logo"></a>
+        <a href="index.php"><img src="img/logo.png" alt="ﾋｳｨｯﾋﾋｰ" class="hiwihi-logo"></a>
         <ul>
-            <li><?php echoHeaderLink(PAGE_ABOUT, 'ﾋｩｲｯﾋﾋｰとは'); ?></li>
+            <li><?php echoHeaderLink(PAGE_ABOUT, 'ﾋｳｨｯﾋﾋｰとは'); ?></li>
             <?php if (isLogin()) : ?>
                 <li><?php echoHeaderLink(PAGE_TIMELINE, 'タイムライン'); ?></li>
                 <li><?php echoHeaderLink(PAGE_USER, 'マイページ'); ?></li>
