@@ -15,7 +15,7 @@
 
 <?php
 if (IS_DEBUG) :
-    echo '<div class="inner">Debug mode!';
+    echo '<div class="inner mt2rem">Debug mode!';
 ?>
     <ul>
         <li><?php echoHeaderLink(PAGE_ABOUT, 'ヒウィッヒヒーとは'); ?></li>

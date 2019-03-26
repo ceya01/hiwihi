@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/const.php" afterPath="$PROJECT_DIR$/core/const.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainStyle.css" afterPath="$PROJECT_DIR$/css/mainStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/about_text.php" afterPath="$PROJECT_DIR$/include/about_text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/footer.php" afterPath="$PROJECT_DIR$/include/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup.php" afterPath="$PROJECT_DIR$/signup.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,7 +87,7 @@
           <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="464">
+                <state relative-caret-position="1184">
                   <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
                   <folding />
                 </state>
@@ -134,7 +128,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/about.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="112">
@@ -166,11 +160,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/include/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="128">
-                  <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+                <state relative-caret-position="80">
+                  <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -248,7 +242,6 @@
         <option value="$PROJECT_DIR$/core/db/DBConnector.php" />
         <option value="$PROJECT_DIR$/util/PDOWrapper.php" />
         <option value="$PROJECT_DIR$/css/ress.css" />
-        <option value="$PROJECT_DIR$/include/footer.php" />
         <option value="$PROJECT_DIR$/core/db/table/UserTable.php" />
         <option value="$PROJECT_DIR$/include/header.php" />
         <option value="$PROJECT_DIR$/css/util.css" />
@@ -259,6 +252,7 @@
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/mainStyle.css" />
+        <option value="$PROJECT_DIR$/include/footer.php" />
       </list>
     </option>
   </component>
@@ -539,7 +533,7 @@
       <workItem from="1552636877803" duration="15646000" />
       <workItem from="1553242305391" duration="11809000" />
       <workItem from="1553293151791" duration="11368000" />
-      <workItem from="1553487451454" duration="30047000" />
+      <workItem from="1553487451454" duration="30769000" />
     </task>
     <task id="LOCAL-00001" summary="README.mdが消えていたので手動追加">
       <created>1549617610061</created>
@@ -765,11 +759,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553584335866</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="css調整 （index,about,signup. login）">
+      <created>1553588297253</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1553588297253</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123762000" />
+    <option name="totallyTimeSpent" value="124484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -793,7 +794,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16204691" sideWeight="0.4936306" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19509594" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17910448" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16204691" sideWeight="0.5063694" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40234792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -833,7 +834,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pull前に変更テスト  もう少し大幅に変更してみる" />
     <MESSAGE value="cloneからの編集をpullしてmargeできた&#10;READMEのコメントは削除しよ・・・" />
     <MESSAGE value="header.php追加&#10;index.phpのコメント修正" />
     <MESSAGE value="基礎ページ拡充&#10;ディレクトリ整理" />
@@ -858,7 +858,8 @@
     <MESSAGE value="スタイル微調整 ヘッダーなど" />
     <MESSAGE value="aboutページのベース作成&#10;css調整" />
     <MESSAGE value="登録ページのデザイン" />
-    <option name="LAST_COMMIT_MESSAGE" value="登録ページのデザイン" />
+    <MESSAGE value="css調整 （index,about,signup. login）" />
+    <option name="LAST_COMMIT_MESSAGE" value="css調整 （index,about,signup. login）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1183,14 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1267,8 +1260,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
+        <state relative-caret-position="1184">
           <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
