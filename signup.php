@@ -31,8 +31,8 @@ if (!empty($_POST)) {
 <!--  メイン -->
 <main class="bg-hiwihiBird">
     <div class="bg-overlay">
-        <div class="inner introCont">
-            <h2 class="m2rem color-hiwihi">ようこそ！</h2>
+        <div class="inner formWrap">
+            <h2 class="color-hiwihi mb2rem">ようこそ！</h2>
             <form action="" method="post" enctype="multipart/form-data" class="entry-form">
                 <label class="wrap-inpput"><div class="label-text">メールアドレス</div>
                     <input type="text" name="<?php echo KEY_EMAIL ?>" value="<?php echoPost(KEY_EMAIL); ?>">

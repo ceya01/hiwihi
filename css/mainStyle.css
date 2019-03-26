@@ -71,8 +71,11 @@ main{
 }
 
 main .inner{
-    padding-top:30px;
-    padding-bottom: 30px;
+
+    min-height:400px;
+    /*padding-top:30px;*/
+    /*padding-bottom: 30px;*/
+
 }
 
 .bg-hiwihiBird{
@@ -87,7 +90,7 @@ main .bg-overlay{
     background: -webkit-linear-gradient(top, rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.8) 50%,rgba(255,249,252,0.95) 100%);
     background: linear-gradient(to bottom, rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.8) 50%,rgba(255,249,252,0.95) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#e6fff9fc',GradientType=0 );
-    min-height:400px;
+    overflow: hidden;
 }
 
 
@@ -112,12 +115,25 @@ footer{
 /*　共有　*/
 /************************************************************/
 
-.introCont{
+.introWrap{
     max-width: 800px;
-    min-height:500px;
+    margin : 0 auto;
+    text-align:left;
+    padding: 2rem 0 ;
+}
+.introWrap h2{
+    margin-bottom: 0.5em;
+}
+
+.formWrap{
+    width: 320px;
+    max-width: 80%;
     text-align: center;
     margin : 0 auto;
-    padding:4rem 0;
+    padding:6rem 0;
+}
+.subContent h2{
+    margin-bottom: 0.5em;
 }
 
 .btn-rr{    /* rr: rounded-rectangle */
@@ -126,7 +142,6 @@ footer{
     padding:0.5rem 0;
     margin:1rem auto;
     width:320px;
-    max-width:80%;
     text-decoration: none;
     background: #000;
     color:#FFF;
@@ -144,13 +159,7 @@ h2.iconHead::before{
     vertical-align: text-top;
 
 }
-.subContent{
-    margin-top:4rem;
-    text-align: left;
-}
-.subContent h2{
-    margin-bottom: 0.5em;
-}
+
 
 /************************************************************/
 /*　フォーム　*/
@@ -166,7 +175,6 @@ input{
     display: block;
     margin: 20px auto;
     width:320px;
-    max-width: 80%;
     text-align: left;
     /*margin-bottom: 20px;*/
 }
@@ -181,5 +189,9 @@ input{
 .label-text{
     font-size:12px;
 }
-
+.fogot-password{
+    margin-top:1rem;
+    text-align: left;
+    font-size:12px;
+}
 
