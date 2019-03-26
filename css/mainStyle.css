@@ -6,6 +6,7 @@
 body{
     margin: 0 auto;
     overflow-x: hidden;
+    color:#333333;
 }
 
 header,main,footer{
@@ -82,9 +83,9 @@ main .inner{
 }
 
 main .bg-overlay{
-    background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 49%, rgba(255,255,255,0.7) 50%, rgba(255,249,252,0.9) 100%);
-    background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 49%,rgba(255,255,255,0.7) 50%,rgba(255,249,252,0.9) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,0.7) 49%,rgba(255,255,255,0.7) 50%,rgba(255,249,252,0.9) 100%);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0.8) 50%, rgba(255,249,252,0.95) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.8) 50%,rgba(255,249,252,0.95) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.8) 50%,rgba(255,249,252,0.95) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#e6fff9fc',GradientType=0 );
     min-height:400px;
 }
@@ -111,18 +112,15 @@ footer{
 /*　共有　*/
 /************************************************************/
 
-
-
 .introCont{
     max-width: 800px;
     min-height:500px;
     text-align: center;
     margin : 0 auto;
-    padding:3rem 0;
+    padding:4rem 0;
 }
 
-.btn-rr{
-    /* rr: rounded-rectangle */
+.btn-rr{    /* rr: rounded-rectangle */
     display: block;
     border-radius:20px;
     padding:0.5rem 0;
@@ -155,39 +153,33 @@ h2.iconHead::before{
 }
 
 /************************************************************/
-/*　color　*/
-/************************************************************/
-.color-hiwihi{
-    color:#14DC98;
-}
-.white{
-    color:#FFFFFF;
-}
-.bgColor-hiwihi{
-    background:#14DC98;
-}
-.bgColor-white{
-    background:#FFFFFF;
-}
-.border-hiwihi{
-    border-color:#14DC98;
-}
-.border-white{
-    border-color:#FFFFFF;
-}
-
-
-/************************************************************/
 /*　フォーム　*/
 /************************************************************/
 input{
-    display: block;
+    display: inline-block;
+    background-color:#FFF;
+    border: 1px solid #DFDFDF;
 }
+
+
 .wrap-inpput{
     display: block;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    width:320px;
+    max-width: 80%;
+    text-align: left;
+    /*margin-bottom: 20px;*/
+}
+
+.wrap-inpput input{
+    width:100%;
 }
 .errmsg{
     color: red;
     font-size:.75em;
 }
+.label-text{
+    font-size:12px;
+}
+
+

@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/ress.css">
     <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/util.css">
     <title>ﾋｩｲｯﾋﾋｰ</title>
 </head>
 <body>
