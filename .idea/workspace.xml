@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -493,7 +492,7 @@
       <workItem from="1552636877803" duration="15646000" />
       <workItem from="1553242305391" duration="11809000" />
       <workItem from="1553293151791" duration="11368000" />
-      <workItem from="1553487451454" duration="31088000" />
+      <workItem from="1553487451454" duration="31098000" />
     </task>
     <task id="LOCAL-00001" summary="README.mdが消えていたので手動追加">
       <created>1549617610061</created>
@@ -733,11 +732,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553590476481</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="README追記">
+      <created>1553590789616</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1553590789616</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124803000" />
+    <option name="totallyTimeSpent" value="124813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,7 +807,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="header.php追加&#10;index.phpのコメント修正" />
     <MESSAGE value="基礎ページ拡充&#10;ディレクトリ整理" />
     <MESSAGE value="ページ基礎構成&#10;関数と定数" />
     <MESSAGE value="リンク作成&#10;URL書き換え実験（まだ未実装）&#10;&#10;" />
@@ -826,7 +831,8 @@
     <MESSAGE value="登録ページのデザイン" />
     <MESSAGE value="css調整 （index,about,signup. login）" />
     <MESSAGE value="デバッグページ調整" />
-    <option name="LAST_COMMIT_MESSAGE" value="デバッグページ調整" />
+    <MESSAGE value="README追記" />
+    <option name="LAST_COMMIT_MESSAGE" value="README追記" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
