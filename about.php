@@ -1,11 +1,14 @@
-
 <!--  ヘッダー -->
 <?php require_once( "include/header.php" ); ?>
 
 <!--  メイン -->
-<main>
-    <h2>ヒウィッヒヒーとは</h2>
-    <p>ﾋｩｲｯﾋﾋｰ とは、イノベーティブなクリエイターのコミットをビルドアップするための、オープンソースでパブリックドメインなソーシャルネットワーキングサービスです。とか言ってるけど、実態はとある駆け出しエンジニアが練習用に作ったtwitter® のパチモノです。</p>
+<main class="bg-hiwihiBird">
+    <div class="bg-overlay">
+        <div class="inner">
+            <h2 class="iconHead color-hiwihi">「ﾋｩｲｯﾋﾋｰ」 ってなに？</h2>
+            <?php include( "include/about_text.php" ); ?>
+        </div>
+    </div>
 </main>
 
 <!--  フッター -->

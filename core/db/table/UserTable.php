@@ -7,7 +7,7 @@
  * Time: 9:24
  */
 require_once ("core/db/record/User.php");
-require_once  ("core/db/DBConnector.php");
+require_once ("core/db/DBConnector.php");
 
 class UserTable
 {
