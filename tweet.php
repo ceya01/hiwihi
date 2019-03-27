@@ -5,7 +5,7 @@
 <main>
     <div class="inner">
     <h2>ツイートページ</h2>
-
+        <?php include("include/tweet_box.php"); ?>
     </div>
 </main>
 

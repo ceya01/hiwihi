@@ -6,7 +6,7 @@
     <div class="inner">
         <div class="timelineWrap">
             <div class="timelineBlock sideArea">
-                <div class="userBox sideInner">
+                <div class="userBox">
                     <img class="avater" src="img/avater_default_150x.png" alt="アバター画像">
                     <div class="userName">ユーザー名６７８９０１２３４５６７８９０</div>
                     <div class="userId">@user_id8901234567890</div>
