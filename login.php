@@ -36,11 +36,11 @@ if (!empty($_POST)) {
         <div class="inner formWrap">
             <h2 class="color-hiwihi mb2rem">おかえり！</h2>
             <form action="" method="post" enctype="multipart/form-data" class="entry-form">
-                <label class="wrap-inpput"><div class="label-text">ユーザー名 または メールアドレス</div>
+                <label class="inputWrap"><div class="label-text">ユーザー名 または メールアドレス</div>
                     <input type="text" name="<?php echo KEY_LOGINID ?>" value="<?php echoPost(KEY_LOGINID); ?>">
                     <?php echoErrMsg($validator->getErrorMessageByKey(KEY_LOGINID)); ?>
                 </label>
-                <label class="wrap-inpput"><div class="label-text">パスワード</div>
+                <label class="inputWrap"><div class="label-text">パスワード</div>
                     <input type="password" name="<?php echo KEY_PASSWORD ?>" value="<?php echoPost(KEY_PASSWORD); ?>">
                     <?php echoErrMsg($validator->getErrorMessageByKey(KEY_PASSWORD)); ?>
                 </label>

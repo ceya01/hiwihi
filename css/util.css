@@ -4,22 +4,22 @@
 /************************************************************/
 .m10{    margin: 10px; }
 .m20{    margin: 20px; }
-.mb10{    margin-bottom: 10px; }
-.mb20{    margin-bottom: 20px; }
+.mb10{   margin-bottom: 10px; }
+.mb20{   margin-bottom: 20px; }
 
-.mt05rem{    margin-top: 0.5rem; }
+.mt05rem{   margin-top: 0.5rem; }
 .mt1rem{    margin-top: 1rem; }
 .mt2rem{    margin-top: 2rem; }
 .mt3rem{    margin-top: 3rem; }
 .mt4rem{    margin-top: 4rem; }
 
-.mb05rem{    margin-bottom: 0.5rem; }
+.mb05rem{   margin-bottom: 0.5rem; }
 .mb1rem{    margin-bottom: 1rem; }
 .mb2rem{    margin-bottom: 2rem; }
 .mb3rem{    margin-bottom: 3rem; }
 .mb4rem{    margin-bottom: 4rem; }
 
-.m05rem{    margin: 0.5rem; }
+.m05rem{   margin: 0.5rem; }
 .m1rem{    margin: 1rem; }
 .m2rem{    margin: 2rem; }
 
@@ -45,3 +45,12 @@
     border-color:#FFFFFF;
 }
 
+/************************************************************/
+/*　float　*/
+/************************************************************/
+.fll{
+    float: left;
+}
+.flr{
+    float: right;
+}

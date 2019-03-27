@@ -15,9 +15,13 @@ header,main,footer{
 }
 .inner{
     margin:0 auto;
-    padding:0 1rem;
-    max-width:1180px;
+    padding:0 10px;
+    max-width:1220px;
     position: relative;
+}
+
+img{
+    max-width:100%;
 }
 
 /************************************************************/
@@ -30,7 +34,8 @@ header{
 }
 
 header .inner{
-    padding:6px 0;
+    padding-top:6px;
+    padding-bottom:6px;
 }
 
 header h1{
@@ -171,7 +176,7 @@ input{
 }
 
 
-.wrap-inpput{
+.inputWrap{
     display: block;
     margin: 20px auto;
     width:320px;
@@ -179,7 +184,7 @@ input{
     /*margin-bottom: 20px;*/
 }
 
-.wrap-inpput input{
+.inputWrap input{
     width:100%;
 }
 .errmsg{
@@ -194,4 +199,105 @@ input{
     text-align: left;
     font-size:12px;
 }
+
+/************************************************************/
+/*　タイムライン　*/
+/************************************************************/
+
+.timelineWrap{
+    margin:20px auto;
+    display: flex;
+    border-collapse: collapse;
+
+}
+.timelineBlock{
+    border: 1px solid #DFDFDF;
+    border-collapse: collapse;
+    padding:1rem;
+    overflow-wrap: break-word;
+
+}
+.timelineWrap .sideArea{
+    width: 30%;
+}
+.timelineWrap .mainArea{
+    width: 70%;
+}
+.userWrap img.avater{
+    margin:0 auto;
+    display: block;
+}
+.userWrap .userName{
+    margin:0.5rem 0 0;
+    font-size:18px;
+    font-weight: bold;
+}
+.userWrap .userId{
+    margin-bottom:0.5rem;
+    font-size:13px;
+    color:#999999;
+}
+
+
+.userStatsWrap{
+    display: flex;
+    width:100%;
+}
+.statsHead{
+    color:#14DC98;
+    font-weight: bold;
+}
+.statsValue{
+    font-size:13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.statsBlock{
+    max-width:25%;
+}
+
+
+/************************************************************/
+/*　ツイート　*/
+/************************************************************/
+
+.tweetBox{
+    display: flex;
+}
+.iconWrap{
+    min-width: 50px;
+    margin-right: 20px;
+}
+.tweetContent{
+    position: relative;
+    padding:1rem;
+    background-color: #E6FFF0;
+    border-radius: 16px;
+}
+.tweetContent:before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid #E6FFF0;
+}
+
+
+.tweetBody{
+
+}
+.tweetFooter{
+    margin-top: .5rem;
+    font-size:12px;
+    color:#999999;
+}
+
+
+
+
+
 

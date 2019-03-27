@@ -34,15 +34,15 @@ if (!empty($_POST)) {
         <div class="inner formWrap">
             <h2 class="color-hiwihi mb2rem">ようこそ！</h2>
             <form action="" method="post" enctype="multipart/form-data" class="entry-form">
-                <label class="wrap-inpput"><div class="label-text">メールアドレス</div>
+                <label class="inputWrap"><div class="label-text">メールアドレス</div>
                     <input type="text" name="<?php echo KEY_EMAIL ?>" value="<?php echoPost(KEY_EMAIL); ?>">
                     <?php echoErrMsg($validator->getErrorMessageByKey(KEY_EMAIL)); ?>
                 </label>
-                <label class="wrap-inpput"><div class="label-text">ユーザーID</div>
+                <label class="inputWrap"><div class="label-text">ユーザーID</div>
                     <input type="text" name="<?php echo KEY_CHARID ?>" value="<?php echoPost(KEY_CHARID); ?>">
                     <?php echoErrMsg($validator->getErrorMessageByKey(KEY_CHARID)); ?>
                 </label>
-                <label class="wrap-inpput"><div class="label-text">パスワード</div>
+                <label class="inputWrap"><div class="label-text">パスワード</div>
                     <input type="password" name="<?php echo KEY_PASSWORD ?>" value="<?php echoPost(KEY_PASSWORD); ?>">
                     <?php echoErrMsg($validator->getErrorMessageByKey(KEY_PASSWORD)); ?>
                 </label>
