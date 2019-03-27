@@ -296,8 +296,16 @@ input{
     color:#999999;
 }
 
+.tweetFooter .iconWrap .fas{
+    font-size: 14px;
+    margin-right: 1rem;
+    font-weight: normal;
+}
 
-
+.tweetFooter .iconWrap .fas::before{
+    font-weight: bold;
+    margin-right:3px;
+}
 
 
 

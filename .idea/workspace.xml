@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="ロゴ修正">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wf/hiwihi_wf.xd" afterPath="$PROJECT_DIR$/wf/hiwihi_wf.xd" />
+    <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainStyle.css" afterPath="$PROJECT_DIR$/css/mainStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/util.css" afterPath="$PROJECT_DIR$/css/util.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.php" afterPath="$PROJECT_DIR$/include/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup.php" afterPath="$PROJECT_DIR$/signup.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timeline.php" afterPath="$PROJECT_DIR$/timeline.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,21 +86,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="226" column="18" lean-forward="true" selection-start-line="226" selection-start-column="18" selection-end-line="226" selection-end-column="18" />
+                <state relative-caret-position="144">
+                  <caret line="8" column="111" lean-forward="false" selection-start-line="8" selection-start-column="111" selection-end-line="8" selection-end-column="111" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="util.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/util.css">
+          <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+                <state relative-caret-position="644">
+                  <caret line="296" column="1" lean-forward="true" selection-start-line="296" selection-start-column="1" selection-end-line="296" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -116,8 +113,8 @@
           <file leaf-file-name="timeline.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/timeline.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+                <state relative-caret-position="180">
+                  <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
                   <folding />
                 </state>
               </provider>
@@ -126,8 +123,8 @@
           <file leaf-file-name="tweet.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tweet.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+                <state relative-caret-position="224">
+                  <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -205,7 +202,6 @@
         <option value="$PROJECT_DIR$/util/PDOWrapper.php" />
         <option value="$PROJECT_DIR$/css/ress.css" />
         <option value="$PROJECT_DIR$/core/db/table/UserTable.php" />
-        <option value="$PROJECT_DIR$/include/header.php" />
         <option value="$PROJECT_DIR$/core/const.php" />
         <option value="$PROJECT_DIR$/signup.php" />
         <option value="$PROJECT_DIR$/login.php" />
@@ -214,8 +210,9 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/include/about_text.php" />
-        <option value="$PROJECT_DIR$/tweet.php" />
         <option value="$PROJECT_DIR$/css/util.css" />
+        <option value="$PROJECT_DIR$/include/header.php" />
+        <option value="$PROJECT_DIR$/tweet.php" />
         <option value="$PROJECT_DIR$/timeline.php" />
         <option value="$PROJECT_DIR$/css/mainStyle.css" />
       </list>
@@ -339,6 +336,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hiwihi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hiwihi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hiwihi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,7 +496,7 @@
       <workItem from="1553242305391" duration="11809000" />
       <workItem from="1553293151791" duration="11368000" />
       <workItem from="1553487451454" duration="44906000" />
-      <workItem from="1553651287742" duration="909000" />
+      <workItem from="1553651287742" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="README.mdが消えていたので手動追加">
       <created>1549617610061</created>
@@ -753,11 +764,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553591409108</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="タイムラインページ基礎部分作成">
+      <created>1553652222472</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1553652222472</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139530000" />
+    <option name="totallyTimeSpent" value="140151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,7 +839,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="リンク作成&#10;URL書き換え実験（まだ未実装）&#10;&#10;" />
     <MESSAGE value=".htaccessでcssまで読み込めなくなってたので修正&#10;RewriteCondを有効化" />
     <MESSAGE value="新規登録ページを追加&#10;index.phpのページ割当てをリファクタ&#10;require_once を includeに変更" />
     <MESSAGE value="新規登録ページを追加&#10;index.phpのページ割当てをリファクタ" />
@@ -846,7 +863,8 @@
     <MESSAGE value="README追記" />
     <MESSAGE value="名称の表記揺れを「ﾋｳｨｯﾋﾋｰ」に統一" />
     <MESSAGE value="ロゴ修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="ロゴ修正" />
+    <MESSAGE value="タイムラインページ基礎部分作成" />
+    <option name="LAST_COMMIT_MESSAGE" value="タイムラインページ基礎部分作成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -878,6 +896,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -990,6 +1009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,6 +1025,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,6 +1094,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-55166">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,6 +1109,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,6 +1124,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,6 +1139,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="740">
           <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,23 +1155,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          <folding>
-            <marker date="1553594966653" expanded="true" signature="1431:1500" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,6 +1163,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="0" column="94" lean-forward="false" selection-start-line="0" selection-start-column="94" selection-end-line="0" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,14 +1203,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/util.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1209,18 +1211,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timeline.php">
+    <entry file="file://$PROJECT_DIR$/signup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="224">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <marker date="1553594966653" expanded="true" signature="1431:1500" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="111" lean-forward="false" selection-start-line="8" selection-start-column="111" selection-end-line="8" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="226" column="18" lean-forward="true" selection-start-line="226" selection-start-column="18" selection-end-line="226" selection-end-column="18" />
+        <state relative-caret-position="644">
+          <caret line="296" column="1" lean-forward="true" selection-start-line="296" selection-start-column="1" selection-end-line="296" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
           <folding />
         </state>
       </provider>
