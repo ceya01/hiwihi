@@ -314,7 +314,6 @@ input{
 .reverse .tweetContent:before {
     left:initial;
     right: -30px;
-    border-right:none;
     border: 15px solid transparent;
     border-left: 15px solid #FFF4E0;
 }
