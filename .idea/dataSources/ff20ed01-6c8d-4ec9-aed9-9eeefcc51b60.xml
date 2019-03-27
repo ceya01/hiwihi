@@ -302,14 +302,17 @@
     <column id="78" parent="20" name="regist_time">
       <Position>6</Position>
       <DataType>datetime|0</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
     <column id="79" parent="20" name="edit_time">
       <Position>7</Position>
       <DataType>datetime|0</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
     <column id="80" parent="20" name="delete_flag">
       <Position>8</Position>
       <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
     <column id="81" parent="20" name="char_id">
       <Position>2</Position>

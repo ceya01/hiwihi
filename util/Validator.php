@@ -5,7 +5,13 @@ class Validator
     const ERRMSG_INVALID_EMAIL = 'メールアドレスの形式が正しくありません';
     const ERRMSG_INVALID_USERID = 'ユーザーIDは半角英数字とアンダーバーのみ使用可能です';
     const ERRMSG_INVALID_PASSWORD = 'パスワードは半角英数字のみ使用可能です';
+
     const ERRMSG_OVER_LENGTH = '文字以内で入力してください';
+
+    const ERRMSG_DUP_EMAIL = 'このメールアドレスはすでに登録されています。';
+
+    const ERRMSG_DB = 'データーベース接続エラー';
+
 
     const MAXL_USERID = 20;
     const MAXL_PASSWORD = 20;
@@ -61,6 +67,13 @@ class Validator
         }
     }
 
+    public function validEmail($str) :string
+    {
+        $result = $this->validEmailFormat($str);
+        $result .= ','.$this->validEmailDup($str);
+        return $result;
+    }
+
 
     //Email形式チェック
     /**
@@ -76,6 +89,27 @@ class Validator
             return self::ERRMSG_INVALID_EMAIL;
         }
     }
+    //Email重複チェック
+    /**
+     * @param $str
+     * @return string
+     */
+    public function validEmailDup($str) :string
+    {
+        require_once("core/db/table/userTable.php");
+        try {
+            if(UserTable::existEmail($str)){
+                $this->addErrorMessage(self::ERRMSG_DUP_EMAIL,KEY_EMAIL);
+                return self::ERRMSG_DUP_EMAIL;
+            }else{
+                return '';
+            }
+        } catch (Exception $exception) {
+            $this->addErrorMessage(self::ERRMSG_DB,KEY_EMAIL);
+        }
+
+    }
+
 
     //ユーザーIDチェック 半角英数or _ でなければエラー
     /**

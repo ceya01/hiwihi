@@ -46,8 +46,12 @@ class PDOWrapper
         return $stmt;
     }
 
-    //引数にテーブル名、['列名'=>値,...] 形式の連想配列を入れてINSERTする
-    function insert($tableName,$valueAry){
+    /**
+     * 引数にテーブル名、['列名'=>値,...] 形式の連想配列を入れてINSERTする
+     * @param string $tableName
+     * @param array $valueAry
+     */
+    function insert($tableName, $valueAry){
         $rowName = implode(',',array_keys($valueAry));
         $pps = ':'.implode(',:',array_keys($valueAry));; //prepared-statements
 
@@ -56,5 +60,18 @@ class PDOWrapper
         $this->queryPost($sql,$data);
     }
 
+    /**
+     * 引数の　テーブル名、列名、に 文字列が存在するか調べる
+     * @param string $tableName
+     * @param string $rowname
+     * @param string $str
+     * @param string $appendSql
+     */
+//
+//    function exist($tableName, $rowName='*', $str='', $appendSql=''){
+//        $sql = 'SELECT count(*) FROM '.$rowName. ' WHERE '.$tableName .'=:'.$tableName.$appendSql;
+//        $data = array([$tableName => $str]);
+//        queryPost($sql,$data);
+//    }
 
 }
