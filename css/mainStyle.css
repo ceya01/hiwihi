@@ -223,16 +223,16 @@ input{
 .timelineWrap .mainArea{
     width: 70%;
 }
-.userWrap img.avater{
+.userBox img.avater{
     margin:0 auto;
     display: block;
 }
-.userWrap .userName{
+.userBox .userName{
     margin:0.5rem 0 0;
     font-size:18px;
     font-weight: bold;
 }
-.userWrap .userId{
+.userBox .userId{
     margin-bottom:0.5rem;
     font-size:13px;
     color:#999999;
@@ -265,6 +265,7 @@ input{
 
 .tweetBox{
     display: flex;
+    margin-bottom: 2rem;
 }
 .iconWrap{
     min-width: 50px;
@@ -276,16 +277,44 @@ input{
     background-color: #E6FFF0;
     border-radius: 16px;
 }
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.reverse .iconWrap {
+    margin-right: 0;
+    margin-left:20px;
+}
+.reverse .tweetContent{
+    background-color: #FFF4E0;
+}
+/*.tweetContent:before {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*margin-top: -15px;*/
+    /*top: 30px;*/
+    /*!*left: -30px;*!*/
+    /*!*border: 15px solid transparent;*!*/
+    /*!*border-right: 15px solid #E6FFF0;*!*/
+/*}*/
+
 .tweetContent:before {
     content: "";
     position: absolute;
+    margin-top: -15px;
     top: 30px;
     left: -30px;
-    margin-top: -15px;
     border: 15px solid transparent;
     border-right: 15px solid #E6FFF0;
 }
 
+.reverse .tweetContent:before {
+    left:initial;
+    right: -30px;
+    border-right:none;
+    border: 15px solid transparent;
+    border-left: 15px solid #FFF4E0;
+}
 
 .tweetBody{
 
