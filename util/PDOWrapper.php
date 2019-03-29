@@ -58,6 +58,7 @@ class PDOWrapper
         $sql = 'INSERT INTO '.$tableName.'('.$rowName.') VALUES('.$pps.')';
         $data = array_combine(explode(',',$pps),array_values($valueAry));
         $this->queryPost($sql,$data);
+        return $this->pdo->lastInsertId();
     }
 
     /**

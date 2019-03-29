@@ -14,12 +14,13 @@ if (!empty($_POST)) {
         //エラーが無い場合  入力されたユーザー情報をDBに登録
         require_once( "core/db/table/UserTable.php" );
         //$userTable = UserTable::getInstance();
-        UserTable::createUser(array(
+        $id = UserTable::createUser(array(
                 KEY_EMAIL => getPost(KEY_EMAIL),
                 KEY_CHARID => getPost(KEY_CHARID),
                 KEY_PASSWORD => getPost(KEY_PASSWORD))
         );
         //ログインしてタイムラインページ表示
+        Session::addLoginUserID($id);
         header('Location:timeline.php');
     }
 }

@@ -703,3 +703,127 @@ Stack trace:
 
 
 [29-Mar-2019 16:58:13 Asia/Tokyo] 
+[29-Mar-2019 16:58:42 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 16:58:42 Asia/Tokyo] 
+[29-Mar-2019 16:58:45 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 16:58:45 Asia/Tokyo] 
+[29-Mar-2019 16:58:57 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 16:58:57 Asia/Tokyo] 
+[29-Mar-2019 16:59:09 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 16:59:09 Asia/Tokyo] 
+[29-Mar-2019 16:59:14 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 16:59:14 Asia/Tokyo] 
+[29-Mar-2019 16:59:14 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 16:59:14 Asia/Tokyo] 
+[29-Mar-2019 17:19:16 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:19:16 Asia/Tokyo] 
+[29-Mar-2019 17:19:26 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:19:26 Asia/Tokyo] 
+[29-Mar-2019 17:20:03 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:20:03 Asia/Tokyo] 
+[29-Mar-2019 17:25:56 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:25:56 Asia/Tokyo] 
+[29-Mar-2019 17:26:00 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:26:00 Asia/Tokyo] 
+[29-Mar-2019 17:26:00 Asia/Tokyo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Auth::login(), 0 passed in D:\xampp\htdocs\works\hiwihi\signup.php on line 23 and exactly 2 expected in D:\xampp\htdocs\works\hiwihi\core\Auth.php:22
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\signup.php(23): Auth::login()
+#1 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\core\Auth.php on line 22
+[29-Mar-2019 17:26:18 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:26:18 Asia/Tokyo] 
+[29-Mar-2019 17:26:24 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:26:24 Asia/Tokyo] 
+[29-Mar-2019 17:53:39 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:53:39 Asia/Tokyo] 
+[29-Mar-2019 17:53:39 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:53:39 Asia/Tokyo] 
+[29-Mar-2019 17:54:18 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:54:18 Asia/Tokyo] 
+[29-Mar-2019 17:54:20 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[29-Mar-2019 17:54:20 Asia/Tokyo] 

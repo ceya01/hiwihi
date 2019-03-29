@@ -23,7 +23,7 @@ class UserTable
         }
         return self::$instance;
     }
-    public static function createUser($ary)
+    public static function createUser($ary): int
     {
         $ary = array(
             'char_id' => $ary[KEY_CHARID],
@@ -35,7 +35,9 @@ class UserTable
         );
 
         $pdow = DBConnector::getPdow();
-        $pdow->insert('user',$ary);
+        $id = $pdow->insert('user',$ary);
+        return $id;
+        //dlog('$createdUserAry: ',$createdUserAry);
     }
 
     static private function exist($rowName,$val):bool{
