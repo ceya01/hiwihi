@@ -7,7 +7,7 @@ require_once( "util/Validator.php" );
 $validator = new Validator();
 if (!empty($_POST)) {
     $validator->validEmail(getPost(KEY_EMAIL));
-    $validator->validUserIDFormat(getPost(KEY_CHARID));
+    $validator->validUserID(getPost(KEY_CHARID));
     $validator->validPasswordFormat(getPost(KEY_PASSWORD));
 
     if ($validator->hasNoError()) {

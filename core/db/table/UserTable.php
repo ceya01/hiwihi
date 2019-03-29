@@ -38,18 +38,34 @@ class UserTable
         $pdow->insert('user',$ary);
     }
 
-//
-    static public function existEmail($email):bool{
-
-        $sql = 'SELECT count(*) FROM hiwihi.user WHERE email=:email AND delete_flag = 0';
-        $data = ['email' => $email];
+    static private function exist($rowName,$val):bool{
+        $sql = 'SELECT count(*) FROM hiwihi.user WHERE '.$rowName.'=:r AND delete_flag = 0';
+        $data = ['r' => $val];
         $pdow = DBConnector::getPdow();
         $stmt = $pdow->queryPost($sql,$data);
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
         return array_shift($result) != 0;
     }
+    static public function existEmail($email):bool{
+        return self::exist('email',$email);
 //
-//    static public function login($loginID,$password):bool{
 //        $sql = 'SELECT count(*) FROM hiwihi.user WHERE email=:email AND delete_flag = 0';
-//    }
+//        $data = ['email' => $email];
+//        $pdow = DBConnector::getPdow();
+//        $stmt = $pdow->queryPost($sql,$data);
+//        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+//        return array_shift($result) != 0;
+//
+    }
+
+    static public function existCharID($charID):bool{
+        return self::exist('char_id',$charID);
+//
+//        $sql = 'SELECT count(*) FROM hiwihi.user WHERE char_id=:char_id AND delete_flag = 0';
+//        $data = ['char_id' => $charID];
+//        $pdow = DBConnector::getPdow();
+//        $stmt = $pdow->queryPost($sql,$data);
+//        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+//        return array_shift($result) != 0;
+    }
 }

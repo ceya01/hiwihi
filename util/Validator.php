@@ -10,6 +10,7 @@ class Validator
     const ERRMSG_TOOSHORT_LENGTH = '文字以上で入力してください';
 
     const ERRMSG_DUP_EMAIL = 'このメールアドレスはすでに登録されています。';
+    const ERRMSG_DUP_CHARID = 'このユーザーIDはすでに使用されています。';
 
     const ERRMSG_DB = 'データーベース接続エラー';
 
@@ -92,7 +93,7 @@ class Validator
      * @param $str
      * @return string
      */
-    public function validEmailFormat($str) :string
+    private function validEmailFormat($str) :string
     {
         if(preg_match('/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/iD', $str)){
             return '';
@@ -106,7 +107,7 @@ class Validator
      * @param $str
      * @return string
      */
-    public function validEmailDup($str) :string
+    private function validEmailDup($str) :string
     {
         require_once("core/db/table/userTable.php");
         try {
@@ -128,7 +129,14 @@ class Validator
      * @param $str
      * @return string
      */
-    public function validUserIDFormat($str) :string
+    public function validUserID($str) :string
+    {
+        $result = $this->validUserIDFormat($str);
+        $result .= ','.$this->validUserIDDup($str);
+        return $result;
+    }
+
+    private function validUserIDFormat($str) :string
     {
         $this->validLength($str,KEY_CHARID,self::MAXL_USERID);
         if(preg_match('/^[a-zA-Z0-9_]+$/', $str)){
@@ -136,6 +144,21 @@ class Validator
         }else{
             $this->addErrorMessage(self::ERRMSG_INVALID_USERID,KEY_CHARID);
             return self::ERRMSG_INVALID_USERID;
+        }
+    }
+
+    private function validUserIDDup($str) :string
+    {
+        require_once("core/db/table/userTable.php");
+        try {
+            if(UserTable::existCharID($str)){
+                $this->addErrorMessage(self::ERRMSG_DUP_CHARID,KEY_CHARID);
+                return self::ERRMSG_DUP_CHARID;
+            }else{
+                return '';
+            }
+        } catch (Exception $exception) {
+            $this->addErrorMessage(self::ERRMSG_DB,KEY_CHARID);
         }
     }
 
