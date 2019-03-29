@@ -42,10 +42,10 @@ class Auth
         return false;
 
     }
-
-    static public function logout():void{
-
-    }
+//      ログアウト処理は単純なので未実装
+//    static public function logout():void{
+//
+//    }
 
     //ログインしていればtrue　そうでなければfalseを返す
     static public function isLogin():bool{
