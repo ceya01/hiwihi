@@ -6,7 +6,8 @@ class Validator
     const ERRMSG_INVALID_USERID = 'ユーザーIDは半角英数字とアンダーバーのみ使用可能です';
     const ERRMSG_INVALID_PASSWORD = 'パスワードは半角英数字のみ使用可能です';
 
-    const ERRMSG_OVER_LENGTH = '文字以内で入力してください';
+    const ERRMSG_TOOLONG_LENGTH = '文字以内で入力してください';
+    const ERRMSG_TOOSHORT_LENGTH = '文字以上で入力してください';
 
     const ERRMSG_DUP_EMAIL = 'このメールアドレスはすでに登録されています。';
 
@@ -14,6 +15,7 @@ class Validator
 
 
     const MAXL_USERID = 20;
+    const MINL_PASSWORD = 8;
     const MAXL_PASSWORD = 20;
 
     private $errorMessages = [];
@@ -50,23 +52,33 @@ class Validator
         return count($this->errorMessages) ==0;
     }
 
-    //Email形式チェック
     /**
+     * 長さチェック
      * @param $str
      * @param $maxLength
      * @param $key
      * @return string
      */
-    public function validLength($str,$maxLength,$key) :string
+    public function validLength($str,$key,$maxLength,$minLength=1) :string
     {
-        if(strlen($str)<=$maxLength){
+        if($minLength<=strlen($str) && strlen($str)<=$maxLength){
             return '';
+        }else if(strlen($str)>$maxLength){
+            $this->addErrorMessage($maxLength.self::ERRMSG_TOOLONG_LENGTH,$key);
+            return self::ERRMSG_TOOLONG_LENGTH;
         }else{
-            $this->addErrorMessage($maxLength.self::ERRMSG_OVER_LENGTH,$key);
-            return self::ERRMSG_OVER_LENGTH;
+            $this->addErrorMessage($minLength.self::ERRMSG_TOOSHORT_LENGTH,$key);
+            return self::ERRMSG_TOOSHORT_LENGTH;
         }
     }
 
+    /**
+     * Email形式チェック
+     * @param $str
+     * @param $maxLength
+     * @param $key
+     * @return string
+     */
     public function validEmail($str) :string
     {
         $result = $this->validEmailFormat($str);
@@ -118,7 +130,7 @@ class Validator
      */
     public function validUserIDFormat($str) :string
     {
-        $this->validLength($str,self::MAXL_USERID,KEY_CHARID);
+        $this->validLength($str,KEY_CHARID,self::MAXL_USERID);
         if(preg_match('/^[a-zA-Z0-9_]+$/', $str)){
             return '';
         }else{
@@ -134,7 +146,7 @@ class Validator
      */
     public function validPasswordFormat($str) :string
     {
-        $this->validLength($str,self::MAXL_PASSWORD,KEY_PASSWORD);
+        $this->validLength($str,KEY_PASSWORD, self::MAXL_PASSWORD, self::MINL_PASSWORD);
         if(preg_match('/^[!-~]+$/', $str)){
             return '';
         }else{

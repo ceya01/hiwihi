@@ -67,11 +67,15 @@ class PDOWrapper
      * @param string $str
      * @param string $appendSql
      */
-//
+
+    //これ使うくらいならSQL書いた方が良さそうなので使わない
+
 //    function exist($tableName, $rowName='*', $str='', $appendSql=''){
-//        $sql = 'SELECT count(*) FROM '.$rowName. ' WHERE '.$tableName .'=:'.$tableName.$appendSql;
-//        $data = array([$tableName => $str]);
-//        queryPost($sql,$data);
+//        $sql = 'SELECT count(*) FROM '.$tableName. ' WHERE '.$rowName .'=:'.$rowName.$appendSql;
+//        $data = [$tableName => $str];
+//        $stmt = $this->queryPost($sql,$data);
+//        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+//        return array_shift($result) != 0;
 //    }
 
 }

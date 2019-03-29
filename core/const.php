@@ -10,6 +10,7 @@
 //ページ名
 const PAGE_ABOUT = 'about';
 const PAGE_LOGIN = 'login';
+const PAGE_LOGOUT = 'logout';
 const PAGE_TIMELINE = 'timeline';
 const PAGE_TWEET = 'tweet';
 const PAGE_USER = 'user';

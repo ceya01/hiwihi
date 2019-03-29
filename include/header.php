@@ -24,9 +24,10 @@
         <a href="index.php"><img src="img/logo.png" alt="ﾋｳｨｯﾋﾋｰ" class="hiwihi-logo"></a>
         <ul>
             <li><?php echoHeaderLink(PAGE_ABOUT, 'ﾋｳｨｯﾋﾋｰとは'); ?></li>
-            <?php if (isLogin()) : ?>
+            <?php if (Auth::isLogin()) : ?>
                 <li><?php echoHeaderLink(PAGE_TIMELINE, 'タイムライン'); ?></li>
                 <li><?php echoHeaderLink(PAGE_USER, 'マイページ'); ?></li>
+                <li><?php echoHeaderLink(PAGE_LOGOUT, 'ログアウト'); ?></li>
                 <!--        <li>--><?php //echoHeaderLink(PAGE_TWEET,'ツイート'); ?><!--</li>-->
             <?php else : ?>
                 <li><?php echoHeaderLink(PAGE_LOGIN, 'ログイン'); ?></li>

@@ -15,6 +15,7 @@
 
 <?php
 if (IS_DEBUG) :
+    //require_once('core/Session.php');
     echo '<div class="inner mt2rem">Debug mode!';
 ?>
     <ul>

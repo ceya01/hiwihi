@@ -6,6 +6,7 @@ const IS_LOGGING = false;    // ログ出力するかどうか
 if (IS_DEBUG) {
     error_reporting(E_ALL); //E_STRICTレベル以外のエラーを報告する
     ini_set('display_errors', 'On');  //画面にエラーを表示させるか
+    //session_start();
 
     //================================
     // ログ設定
@@ -20,7 +21,7 @@ if (IS_DEBUG) {
 }
 
 //ログ出力
-function dlog($str = '')
+function dlog($str = '',$print=null)
 {
     if (!IS_DEBUG || !IS_LOGGING) {
         return;
@@ -28,7 +29,11 @@ function dlog($str = '')
     if (empty($str)) {
         error_log('ログテキストが空です。');
     } else {
-        error_log($str);
+        if(empty($print)){
+            error_log($str);
+        }else{
+            error_log($str,print_r($print));
+        }
     }
 }
 

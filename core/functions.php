@@ -7,13 +7,14 @@
  */
 
 //ログインしていればtrue　そうでなければfalseを返す
-function isLogin()
-{
-    if (empty($_SESSION)) {
-        return false;
-    }
-    return $_SESSION['login'];
-}
+//
+//function isLogin()
+//{
+//    if (empty($_SESSION)) {
+//        return false;
+//    }
+//    return $_SESSION['login'];
+//}
 
 //ページが存在するかどうか確かめる
 function isPage($pageName)
