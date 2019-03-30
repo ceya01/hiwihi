@@ -18,6 +18,7 @@ const PAGE_SIGNUP = 'signup';
 const PAGE_PASS_REMINDER = 'pass_reminder';
 
 //キー名
+const KEY_NAME = 'name';
 const KEY_EMAIL = 'email';
 const KEY_CHARID = 'char_id';
 const KEY_PASSWORD = 'password';

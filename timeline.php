@@ -1,6 +1,9 @@
 <!--  ヘッダー -->
 <?php require_once( "include/header.php" ); ?>
-
+<?php
+    require_once("core/db/table/UserTable.php");
+    $loginID = Session::getLoginUserID();
+?>
 <!--  メイン -->
 <main>
     <div class="inner">
@@ -8,24 +11,24 @@
             <div class="timelineBlock sideArea">
                 <div class="userBox">
                     <img class="avater" src="img/avater_default_150x.png" alt="アバター画像">
-                    <div class="userName">ユーザー名６７８９０１２３４５６７８９０</div>
-                    <div class="userId">@user_id8901234567890</div>
+                    <div class="userName"><?php echo UserTable::getUserNameByID($loginID); ?></div>
+                    <div class="userId">@<?php echo UserTable::getUserCharIDByID($loginID); ?></div>
                     <div class="userStatsWrap">
                         <div class="statsBlock">
                             <div class="statsHead">ついーと</div>
-                            <div class="statsValue">1234567890</div>
+                            <div class="statsValue">12345</div>
                         </div>
                         <div class="statsBlock">
                             <div class="statsHead">ふぉろう</div>
-                            <div class="statsValue">1234567890</div>
+                            <div class="statsValue">12345</div>
                         </div>
                         <div class="statsBlock">
                             <div class="statsHead">ふぉろわ</div>
-                            <div class="statsValue">1234567890</div>
+                            <div class="statsValue">12345</div>
                         </div>
                         <div class="statsBlock">
                             <div class="statsHead">ふぁぼり</div>
-                            <div class="statsValue">1234567890</div>
+                            <div class="statsValue">12345</div>
                         </div>
                     </div>
                 </div>

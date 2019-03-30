@@ -848,3 +848,143 @@ Stack trace:
 
 
 [30-Mar-2019 14:09:53 Asia/Tokyo] 
+[30-Mar-2019 14:15:30 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:15:30 Asia/Tokyo] 
+[30-Mar-2019 14:15:34 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:15:34 Asia/Tokyo] 
+[30-Mar-2019 14:15:40 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:15:40 Asia/Tokyo] 
+[30-Mar-2019 14:15:40 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:15:40 Asia/Tokyo] 
+[30-Mar-2019 14:31:37 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:31:37 Asia/Tokyo] 
+[30-Mar-2019 14:31:37 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Class 'UserTable' not found in D:\xampp\htdocs\works\hiwihi\timeline.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\timeline.php on line 13
+[30-Mar-2019 14:35:32 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:35:32 Asia/Tokyo] 
+[30-Mar-2019 14:35:32 Asia/Tokyo] PHP Warning:  require_once(db/table/UserTable.php): failed to open stream: No such file or directory in D:\xampp\htdocs\works\hiwihi\timeline.php on line 4
+[30-Mar-2019 14:35:32 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 14:35:32 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 14:35:32 Asia/Tokyo] PHP Fatal error:  require_once(): Failed opening required 'db/table/UserTable.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\works\hiwihi\timeline.php on line 4
+[30-Mar-2019 14:35:32 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 14:35:32 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 14:35:41 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:35:41 Asia/Tokyo] 
+[30-Mar-2019 14:35:41 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Return value of UserTable::getUserByID() must be an instance of mixed, array returned in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php:66
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php(69): UserTable::getUserByID(17, 'name')
+#1 D:\xampp\htdocs\works\hiwihi\timeline.php(14): UserTable::getUserNameByID(17)
+#2 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php on line 66
+[30-Mar-2019 14:35:54 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:35:54 Asia/Tokyo] 
+[30-Mar-2019 14:35:54 Asia/Tokyo] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php on line 70
+[30-Mar-2019 14:35:54 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 14:35:54 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 14:35:54 Asia/Tokyo] PHP   2. UserTable::getUserNameByID() D:\xampp\htdocs\works\hiwihi\timeline.php:14
+[30-Mar-2019 14:35:54 Asia/Tokyo] PHP   3. array_key_exists() D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php:70
+[30-Mar-2019 14:36:41 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:36:41 Asia/Tokyo] 
+[30-Mar-2019 14:37:19 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:37:19 Asia/Tokyo] 
+[30-Mar-2019 14:37:35 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:37:35 Asia/Tokyo] 
+[30-Mar-2019 14:38:25 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:38:25 Asia/Tokyo] 
+[30-Mar-2019 14:38:54 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:38:54 Asia/Tokyo] 
+[30-Mar-2019 14:38:59 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:38:59 Asia/Tokyo] 
+[30-Mar-2019 14:39:09 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:39:09 Asia/Tokyo] 
+[30-Mar-2019 14:39:12 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:39:12 Asia/Tokyo] 
+[30-Mar-2019 14:39:32 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 14:39:32 Asia/Tokyo] 

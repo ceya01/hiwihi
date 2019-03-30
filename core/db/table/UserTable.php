@@ -41,7 +41,7 @@ class UserTable
     }
 
     static private function exist($rowName,$val):bool{
-        $sql = 'SELECT count(*) FROM hiwihi.user WHERE '.$rowName.'=:r AND delete_flag = 0';
+        $sql = 'SELECT count(*) FROM user WHERE '.$rowName.'=:r AND delete_flag = 0';
         $data = ['r' => $val];
         $pdow = DBConnector::getPdow();
         $stmt = $pdow->queryPost($sql,$data);
@@ -51,23 +51,30 @@ class UserTable
     static public function existEmail($email):bool{
         return self::exist('email',$email);
 //
-//        $sql = 'SELECT count(*) FROM hiwihi.user WHERE email=:email AND delete_flag = 0';
-//        $data = ['email' => $email];
-//        $pdow = DBConnector::getPdow();
-//        $stmt = $pdow->queryPost($sql,$data);
-//        $result = $stmt->fetch(PDO::FETCH_ASSOC);
-//        return array_shift($result) != 0;
-//
     }
 
     static public function existCharID($charID):bool{
         return self::exist('char_id',$charID);
-//
-//        $sql = 'SELECT count(*) FROM hiwihi.user WHERE char_id=:char_id AND delete_flag = 0';
-//        $data = ['char_id' => $charID];
-//        $pdow = DBConnector::getPdow();
-//        $stmt = $pdow->queryPost($sql,$data);
-//        $result = $stmt->fetch(PDO::FETCH_ASSOC);
-//        return array_shift($result) != 0;
+    }
+
+    static public function getUserByID($id,$row='*'):array{
+        $sql = 'SELECT '.$row.' FROM user WHERE id=:id AND delete_flag = 0';
+        $data = ['id' => $id];
+        $pdow = DBConnector::getPdow();
+        $stmt = $pdow->queryPost($sql,$data);
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $result;
+    }
+    static public function getUserNameByID($id):string{
+        $result = self::getUserByID($id,KEY_NAME);
+        return array_key_exists(KEY_NAME,$result) ? $result[KEY_NAME] : 'ユーザー名';
+    }
+    static public function getUserCharIDByID($id):string{
+        $result = self::getUserByID($id,KEY_CHARID);
+        return array_key_exists(KEY_CHARID,$result) ? $result[KEY_CHARID] : 'userID';
+    }
+    static public function getUserEmailByID($id):string{
+        $result = self::getUserByID($id,KEY_EMAIL);
+        return array_key_exists(KEY_EMAIL,$result) ? $result[KEY_EMAIL] : 'mail@mail.com';
     }
 }
