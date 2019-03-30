@@ -30,7 +30,7 @@ class Auth
         if(!empty($result) ){
             $recPassword = $result['password'];
             if(password_verify($password,$recPassword)){
-                require_once( "core/Session.php" );
+                require_once( dirname(__FILE__)."Session.php" );
                 $recUserID = $result['id'];
                 Session::addLoginUserID($recUserID);
                 return true;

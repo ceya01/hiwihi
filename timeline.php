@@ -1,9 +1,6 @@
 <!--  ヘッダー -->
 <?php require_once( "include/header.php" ); ?>
-<?php
-    require_once("core/db/table/UserTable.php");
-    $loginID = Session::getLoginUserID();
-?>
+
 <!--  メイン -->
 <main>
     <div class="inner">

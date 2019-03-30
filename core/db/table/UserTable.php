@@ -6,8 +6,8 @@
  * Date: 2019/03/23
  * Time: 9:24
  */
-require_once ("core/db/record/User.php");
-require_once ("core/db/DBConnector.php");
+//require_once ("core/db/record/User.php");
+require_once(dirname(__FILE__)."/../DBConnector.php");
 
 class UserTable
 {
@@ -57,7 +57,7 @@ class UserTable
         return self::exist('char_id',$charID);
     }
 
-    static public function getUserByID($id,$row='*'):array{
+    static public function getUser($id,$row='*'):array{
         $sql = 'SELECT '.$row.' FROM user WHERE id=:id AND delete_flag = 0';
         $data = ['id' => $id];
         $pdow = DBConnector::getPdow();
@@ -65,16 +65,21 @@ class UserTable
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
         return $result;
     }
+    static private function getUserPropety($id, $propety){
+        $result = self::getUser($id,$propety);
+        //dlog('getUserPropety: ',$result);
+        return isset($result[$propety]) ? $result[$propety] : '';
+    }
     static public function getUserNameByID($id):string{
-        $result = self::getUserByID($id,KEY_NAME);
-        return array_key_exists(KEY_NAME,$result) ? $result[KEY_NAME] : 'ユーザー名';
+        return self::getUserPropety($id,KEY_NAME);
     }
     static public function getUserCharIDByID($id):string{
-        $result = self::getUserByID($id,KEY_CHARID);
-        return array_key_exists(KEY_CHARID,$result) ? $result[KEY_CHARID] : 'userID';
+        return self::getUserPropety($id,KEY_CHARID);
     }
     static public function getUserEmailByID($id):string{
-        $result = self::getUserByID($id,KEY_EMAIL);
-        return array_key_exists(KEY_EMAIL,$result) ? $result[KEY_EMAIL] : 'mail@mail.com';
+        return self::getUserPropety($id,KEY_EMAIL);
+    }
+    static public function getUserBioByID($id):string{
+        return self::getUserPropety($id,KEY_BIO);
     }
 }

@@ -159,6 +159,17 @@ footer{
     cursor: pointer;
 }
 
+.btnColor-bghiwihi{
+    background:#14DC98;
+    color:#FFFFFF;
+    border-color: #FFFFFF;
+}
+.btnColor-bgWhite{
+    background:#FFFFFF;
+    color:#14DC98;
+    border-color: #14DC98;
+}
+
 h2.iconHead::before{
     content: '';
     width: 1.35em;
@@ -170,11 +181,14 @@ h2.iconHead::before{
 
 }
 
+.hiddenEditor{
+    display: none;
+}
 
 /************************************************************/
 /*　フォーム　*/
 /************************************************************/
-input{
+input,textarea{
     display: inline-block;
     background-color:#FFF;
     border: 1px solid #DFDFDF;
@@ -228,6 +242,11 @@ input{
 .timelineWrap .mainArea{
     width: 70%;
 }
+
+
+/************************************************************/
+/*　ユーザー　*/
+/************************************************************/
 .userBox img.avater{
     margin:0 auto;
     display: block;
@@ -242,16 +261,18 @@ input{
     font-size:13px;
     color:#999999;
 }
-.userDetail{
+.userBio{
     margin-bottom:5px;
 }
+.userBox input, .userBox textarea{
+    width:100%;
+}
+
 .userStatsWrap{
     display: flex;
     width:100%;
     margin: 5px 0;
 }
-
-
 
 .statsHead{
     color:#14DC98;

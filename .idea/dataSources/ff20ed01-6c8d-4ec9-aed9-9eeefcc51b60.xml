@@ -292,33 +292,41 @@
       <DataType>varchar(255)|0</DataType>
     </column>
     <column id="76" parent="20" name="email">
-      <Position>3</Position>
+      <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
     <column id="77" parent="20" name="password">
-      <Position>4</Position>
+      <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
     <column id="78" parent="20" name="regist_time">
-      <Position>6</Position>
+      <Position>9</Position>
       <DataType>datetime|0</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
     <column id="79" parent="20" name="edit_time">
-      <Position>7</Position>
+      <Position>10</Position>
       <DataType>datetime|0</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
     <column id="80" parent="20" name="delete_flag">
-      <Position>8</Position>
+      <Position>7</Position>
       <DataType>tinyint(1)|0</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
     <column id="81" parent="20" name="char_id">
-      <Position>2</Position>
+      <Position>8</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <key id="82" parent="20" name="PRIMARY">
+    <column id="82" parent="20" name="icon">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="83" parent="20" name="bio">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <key id="84" parent="20" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>

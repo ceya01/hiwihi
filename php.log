@@ -1,1095 +1,626 @@
-[29-Mar-2019 12:35:37 Asia/Tokyo] 
+[30-Mar-2019 17:30:42 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[29-Mar-2019 12:35:37 Asia/Tokyo] 
-[29-Mar-2019 12:35:53 Asia/Tokyo] PHP Notice:  Trying to get property 'password' of non-object in D:\xampp\htdocs\works\hiwihi\core\Auth.php on line 31
-[29-Mar-2019 12:35:53 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 12:35:53 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 12:35:53 Asia/Tokyo] PHP   2. Auth::login($loginID = *uninitialized*, $password = *uninitialized*) D:\xampp\htdocs\works\hiwihi\login.php:13
-[29-Mar-2019 13:11:23 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 13:11:23 Asia/Tokyo] 
-[29-Mar-2019 13:11:23 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 13:11:23 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 13:11:23 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 13:11:23 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:49
-[29-Mar-2019 15:55:19 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:55:19 Asia/Tokyo] 
-[29-Mar-2019 15:55:19 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:55:19 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:55:19 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\index.php:0
-[29-Mar-2019 15:55:19 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\index.php:26
-[29-Mar-2019 15:55:22 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:55:22 Asia/Tokyo] 
-[29-Mar-2019 15:55:22 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:55:22 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:55:22 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
-[29-Mar-2019 15:55:22 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:57
-[29-Mar-2019 15:55:44 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:55:44 Asia/Tokyo] 
-[29-Mar-2019 15:55:44 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:55:44 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:55:44 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
-[29-Mar-2019 15:55:44 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:57
-[29-Mar-2019 15:55:52 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:55:52 Asia/Tokyo] 
-[29-Mar-2019 15:55:53 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:55:53 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:55:53 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\signup.php:0
-[29-Mar-2019 15:55:53 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\signup.php:57
-[29-Mar-2019 15:55:53 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:55:53 Asia/Tokyo] 
-[29-Mar-2019 15:55:53 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:55:53 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:55:53 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[29-Mar-2019 15:55:53 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:78
-[29-Mar-2019 15:55:58 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:55:58 Asia/Tokyo] 
-[29-Mar-2019 15:55:58 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:55:58 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:55:58 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 15:55:58 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:49
-[29-Mar-2019 15:56:01 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:56:01 Asia/Tokyo] 
-[29-Mar-2019 15:56:01 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:56:01 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:56:01 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 15:56:01 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:49
-[29-Mar-2019 15:56:03 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:56:03 Asia/Tokyo] 
-[29-Mar-2019 15:56:03 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:56:03 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:56:03 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 15:56:03 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:49
-[29-Mar-2019 15:56:21 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:56:21 Asia/Tokyo] 
-[29-Mar-2019 15:56:21 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:56:21 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:56:21 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 15:56:21 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:49
-[29-Mar-2019 15:56:23 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:56:23 Asia/Tokyo] 
-[29-Mar-2019 15:56:23 Asia/Tokyo] PHP Notice:  Undefined index: login in D:\xampp\htdocs\works\hiwihi\core\functions.php on line 15
-[29-Mar-2019 15:56:23 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:56:23 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 15:56:23 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:25
-[29-Mar-2019 15:56:23 Asia/Tokyo] PHP   3. isLogin() D:\xampp\htdocs\works\hiwihi\include\header.php:27
-[29-Mar-2019 15:56:23 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:56:23 Asia/Tokyo] 
-[29-Mar-2019 15:56:23 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:56:23 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:56:23 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[29-Mar-2019 15:56:23 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:78
-[29-Mar-2019 15:58:09 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:58:09 Asia/Tokyo] 
-[29-Mar-2019 15:58:09 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 15:58:09 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:58:09 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 15:58:09 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:49
-[29-Mar-2019 15:59:35 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 15:59:35 Asia/Tokyo] 
-[29-Mar-2019 15:59:35 Asia/Tokyo] PHP Notice:  Undefined index: login in D:\xampp\htdocs\works\hiwihi\core\functions.php on line 15
-[29-Mar-2019 15:59:35 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 15:59:35 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 15:59:35 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:25
-[29-Mar-2019 15:59:35 Asia/Tokyo] PHP   3. isLogin() D:\xampp\htdocs\works\hiwihi\include\header.php:27
-[29-Mar-2019 16:00:29 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:00:29 Asia/Tokyo] 
-[29-Mar-2019 16:00:29 Asia/Tokyo] PHP Notice:  Undefined index: login in D:\xampp\htdocs\works\hiwihi\core\functions.php on line 15
-[29-Mar-2019 16:00:29 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:00:29 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 16:00:29 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:25
-[29-Mar-2019 16:00:29 Asia/Tokyo] PHP   3. isLogin() D:\xampp\htdocs\works\hiwihi\include\header.php:27
-[29-Mar-2019 16:00:35 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:00:35 Asia/Tokyo] 
-[29-Mar-2019 16:00:35 Asia/Tokyo] PHP Notice:  Undefined index: login in D:\xampp\htdocs\works\hiwihi\core\functions.php on line 15
-[29-Mar-2019 16:00:35 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:00:35 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 16:00:35 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:25
-[29-Mar-2019 16:00:35 Asia/Tokyo] PHP   3. isLogin() D:\xampp\htdocs\works\hiwihi\include\header.php:27
-[29-Mar-2019 16:01:43 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:01:43 Asia/Tokyo] 
-[29-Mar-2019 16:01:43 Asia/Tokyo] PHP Notice:  Undefined index: login in D:\xampp\htdocs\works\hiwihi\core\functions.php on line 15
-[29-Mar-2019 16:01:43 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:01:43 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 16:01:43 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:25
-[29-Mar-2019 16:01:43 Asia/Tokyo] PHP   3. isLogin() D:\xampp\htdocs\works\hiwihi\include\header.php:27
-[29-Mar-2019 16:01:48 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:01:48 Asia/Tokyo] 
-[29-Mar-2019 16:01:48 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 31
-[29-Mar-2019 16:01:48 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:01:48 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 16:01:48 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:49
-[29-Mar-2019 16:02:22 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:02:22 Asia/Tokyo] 
-[29-Mar-2019 16:02:36 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:02:36 Asia/Tokyo] 
-[29-Mar-2019 16:02:39 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:02:39 Asia/Tokyo] 
-[29-Mar-2019 16:02:39 Asia/Tokyo] PHP Notice:  Undefined index: login in D:\xampp\htdocs\works\hiwihi\core\functions.php on line 15
-[29-Mar-2019 16:02:39 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:02:39 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 16:02:39 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:25
-[29-Mar-2019 16:02:39 Asia/Tokyo] PHP   3. isLogin() D:\xampp\htdocs\works\hiwihi\include\header.php:27
-[29-Mar-2019 16:02:39 Asia/Tokyo] PHP Notice:  session_start(): A session had already been started - ignoring in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 18
-[29-Mar-2019 16:02:39 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:02:39 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\login.php:0
-[29-Mar-2019 16:02:39 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\login.php:49
-[29-Mar-2019 16:02:39 Asia/Tokyo] PHP   3. session_start() D:\xampp\htdocs\works\hiwihi\include\footer.php:18
-[29-Mar-2019 16:02:40 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:02:40 Asia/Tokyo] 
-[29-Mar-2019 16:02:40 Asia/Tokyo] PHP Warning:  session_start(): Cannot start session when headers already sent in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 18
-[29-Mar-2019 16:02:40 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:02:40 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[29-Mar-2019 16:02:40 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:78
-[29-Mar-2019 16:02:40 Asia/Tokyo] PHP   3. session_start() D:\xampp\htdocs\works\hiwihi\include\footer.php:18
-[29-Mar-2019 16:02:40 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 32
-[29-Mar-2019 16:02:40 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:02:40 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[29-Mar-2019 16:02:40 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:78
-[29-Mar-2019 16:03:25 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:03:25 Asia/Tokyo] 
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP Warning:  session_start(): Cannot start session when headers already sent in D:\xampp\htdocs\works\hiwihi\core\Session.php on line 11
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:78
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP   3. require_once() D:\xampp\htdocs\works\hiwihi\include\footer.php:18
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP   4. session_start() D:\xampp\htdocs\works\hiwihi\core\Session.php:11
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - session is not active in D:\xampp\htdocs\works\hiwihi\core\Session.php on line 13
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:78
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP   3. require_once() D:\xampp\htdocs\works\hiwihi\include\footer.php:18
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP   4. session_regenerate_id() D:\xampp\htdocs\works\hiwihi\core\Session.php:13
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP Notice:  Undefined variable: _SESSION in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 32
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[29-Mar-2019 16:03:25 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:78
-[29-Mar-2019 16:04:11 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:04:11 Asia/Tokyo] 
-[29-Mar-2019 16:04:11 Asia/Tokyo] PHP Notice:  Undefined index: login in D:\xampp\htdocs\works\hiwihi\core\functions.php on line 15
-[29-Mar-2019 16:04:11 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:04:11 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[29-Mar-2019 16:04:11 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:2
-[29-Mar-2019 16:04:11 Asia/Tokyo] PHP   3. isLogin() D:\xampp\htdocs\works\hiwihi\include\header.php:27
-[29-Mar-2019 16:04:14 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:04:14 Asia/Tokyo] 
-[29-Mar-2019 16:04:14 Asia/Tokyo] PHP Notice:  Undefined index: login in D:\xampp\htdocs\works\hiwihi\core\functions.php on line 15
-[29-Mar-2019 16:04:14 Asia/Tokyo] PHP Stack trace:
-[29-Mar-2019 16:04:14 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[29-Mar-2019 16:04:14 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:2
-[29-Mar-2019 16:04:14 Asia/Tokyo] PHP   3. isLogin() D:\xampp\htdocs\works\hiwihi\include\header.php:27
-[29-Mar-2019 16:12:00 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:12:00 Asia/Tokyo] 
-[29-Mar-2019 16:12:00 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isLogin() in D:\xampp\htdocs\works\hiwihi\include\header.php:27
+[30-Mar-2019 17:30:42 Asia/Tokyo] 
+[30-Mar-2019 17:30:44 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Return value of UserTable::getUserBioByID() must be of the type string, null returned in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php:83
 Stack trace:
-#0 D:\xampp\htdocs\works\hiwihi\timeline.php(2): require_once()
-#1 {main}
-  thrown in D:\xampp\htdocs\works\hiwihi\include\header.php on line 27
-[29-Mar-2019 16:15:23 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:15:23 Asia/Tokyo] 
-[29-Mar-2019 16:15:23 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isLogin() in D:\xampp\htdocs\works\hiwihi\include\header.php:27
-Stack trace:
-#0 D:\xampp\htdocs\works\hiwihi\timeline.php(2): require_once()
-#1 {main}
-  thrown in D:\xampp\htdocs\works\hiwihi\include\header.php on line 27
-[29-Mar-2019 16:18:30 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:18:30 Asia/Tokyo] 
-[29-Mar-2019 16:18:30 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in D:\xampp\htdocs\works\hiwihi\include\header.php:27
-Stack trace:
-#0 D:\xampp\htdocs\works\hiwihi\timeline.php(2): require_once()
-#1 {main}
-  thrown in D:\xampp\htdocs\works\hiwihi\include\header.php on line 27
-[29-Mar-2019 16:18:31 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:18:31 Asia/Tokyo] 
-[29-Mar-2019 16:18:31 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in D:\xampp\htdocs\works\hiwihi\include\header.php:27
-Stack trace:
-#0 D:\xampp\htdocs\works\hiwihi\timeline.php(2): require_once()
-#1 {main}
-  thrown in D:\xampp\htdocs\works\hiwihi\include\header.php on line 27
-[29-Mar-2019 16:19:53 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:19:53 Asia/Tokyo] 
-[29-Mar-2019 16:19:53 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Return value of Auth::isLogin() must be an instance of boolean, boolean returned in D:\xampp\htdocs\works\hiwihi\core\Auth.php:52
-Stack trace:
-#0 D:\xampp\htdocs\works\hiwihi\include\header.php(27): Auth::isLogin()
-#1 D:\xampp\htdocs\works\hiwihi\timeline.php(2): require_once('D:\\xampp\\htdocs...')
+#0 D:\xampp\htdocs\works\hiwihi\include\user_box.php(6): UserTable::getUserBioByID(17)
+#1 D:\xampp\htdocs\works\hiwihi\timeline.php(9): include('D:\\xampp\\htdocs...')
 #2 {main}
-  thrown in D:\xampp\htdocs\works\hiwihi\core\Auth.php on line 52
-[29-Mar-2019 16:20:41 Asia/Tokyo] 
+  thrown in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php on line 83
+[30-Mar-2019 17:32:09 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[29-Mar-2019 16:20:41 Asia/Tokyo] 
-[29-Mar-2019 16:20:46 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:20:46 Asia/Tokyo] 
-[29-Mar-2019 16:20:47 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:20:47 Asia/Tokyo] 
-[29-Mar-2019 16:20:48 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:20:48 Asia/Tokyo] 
-[29-Mar-2019 16:38:47 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:38:47 Asia/Tokyo] 
-[29-Mar-2019 16:38:51 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:38:51 Asia/Tokyo] 
-[29-Mar-2019 16:40:07 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:40:07 Asia/Tokyo] 
-[29-Mar-2019 16:40:32 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:40:32 Asia/Tokyo] 
-[29-Mar-2019 16:40:36 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:40:36 Asia/Tokyo] 
-[29-Mar-2019 16:40:39 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:40:39 Asia/Tokyo] 
-[29-Mar-2019 16:40:52 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:40:52 Asia/Tokyo] 
-[29-Mar-2019 16:40:59 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:40:59 Asia/Tokyo] 
-[29-Mar-2019 16:41:23 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:41:23 Asia/Tokyo] 
-[29-Mar-2019 16:41:50 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:41:50 Asia/Tokyo] 
-[29-Mar-2019 16:43:22 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:43:22 Asia/Tokyo] 
-[29-Mar-2019 16:43:30 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:43:30 Asia/Tokyo] 
-[29-Mar-2019 16:43:41 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:43:41 Asia/Tokyo] 
-[29-Mar-2019 16:43:53 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:43:53 Asia/Tokyo] 
-[29-Mar-2019 16:52:31 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:52:31 Asia/Tokyo] 
-[29-Mar-2019 16:52:34 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:52:34 Asia/Tokyo] 
-[29-Mar-2019 16:53:00 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:53:00 Asia/Tokyo] 
-[29-Mar-2019 16:53:03 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:53:03 Asia/Tokyo] 
-[29-Mar-2019 16:53:15 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:53:15 Asia/Tokyo] 
-[29-Mar-2019 16:53:20 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:53:20 Asia/Tokyo] 
-[29-Mar-2019 16:53:49 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:53:49 Asia/Tokyo] 
-[29-Mar-2019 16:55:44 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:55:44 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:55:44 Asia/Tokyo] 
-[29-Mar-2019 16:55:44 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:55:44 Asia/Tokyo] 
-[29-Mar-2019 16:55:44 Asia/Tokyo] 
-[29-Mar-2019 16:55:46 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:55:46 Asia/Tokyo] 
-[29-Mar-2019 16:55:51 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:55:51 Asia/Tokyo] 
-[29-Mar-2019 16:55:58 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:55:58 Asia/Tokyo] 
-[29-Mar-2019 16:56:24 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:56:24 Asia/Tokyo] 
-[29-Mar-2019 16:56:57 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:56:57 Asia/Tokyo] 
-[29-Mar-2019 16:56:57 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:56:57 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:56:57 Asia/Tokyo] 
-[29-Mar-2019 16:56:57 Asia/Tokyo] 
-[29-Mar-2019 16:56:58 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:56:58 Asia/Tokyo] 
-[29-Mar-2019 16:57:07 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:57:07 Asia/Tokyo] 
-[29-Mar-2019 16:57:24 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:57:24 Asia/Tokyo] 
-[29-Mar-2019 16:57:28 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:57:28 Asia/Tokyo] 
-[29-Mar-2019 16:57:30 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:57:30 Asia/Tokyo] 
-[29-Mar-2019 16:57:33 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:57:33 Asia/Tokyo] 
-[29-Mar-2019 16:57:36 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:57:36 Asia/Tokyo] 
-[29-Mar-2019 16:57:47 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:57:47 Asia/Tokyo] 
-[29-Mar-2019 16:57:58 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:57:58 Asia/Tokyo] 
-[29-Mar-2019 16:58:00 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:58:00 Asia/Tokyo] 
-[29-Mar-2019 16:58:09 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:58:09 Asia/Tokyo] 
-[29-Mar-2019 16:58:13 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:58:13 Asia/Tokyo] 
-[29-Mar-2019 16:58:13 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:58:13 Asia/Tokyo] 
-[29-Mar-2019 16:58:42 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:58:42 Asia/Tokyo] 
-[29-Mar-2019 16:58:45 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:58:45 Asia/Tokyo] 
-[29-Mar-2019 16:58:57 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:58:57 Asia/Tokyo] 
-[29-Mar-2019 16:59:09 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:59:09 Asia/Tokyo] 
-[29-Mar-2019 16:59:14 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:59:14 Asia/Tokyo] 
-[29-Mar-2019 16:59:14 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 16:59:14 Asia/Tokyo] 
-[29-Mar-2019 17:19:16 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:19:16 Asia/Tokyo] 
-[29-Mar-2019 17:19:26 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:19:26 Asia/Tokyo] 
-[29-Mar-2019 17:20:03 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:20:03 Asia/Tokyo] 
-[29-Mar-2019 17:25:56 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:25:56 Asia/Tokyo] 
-[29-Mar-2019 17:26:00 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:26:00 Asia/Tokyo] 
-[29-Mar-2019 17:26:00 Asia/Tokyo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Auth::login(), 0 passed in D:\xampp\htdocs\works\hiwihi\signup.php on line 23 and exactly 2 expected in D:\xampp\htdocs\works\hiwihi\core\Auth.php:22
+[30-Mar-2019 17:32:09 Asia/Tokyo] 
+[30-Mar-2019 17:32:09 Asia/Tokyo] getUserPropety: 1
+[30-Mar-2019 17:32:09 Asia/Tokyo] getUserPropety: 1
+[30-Mar-2019 17:32:09 Asia/Tokyo] getUserPropety: 1
+[30-Mar-2019 17:32:09 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Return value of UserTable::getUserBioByID() must be of the type string, null returned in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php:83
 Stack trace:
-#0 D:\xampp\htdocs\works\hiwihi\signup.php(23): Auth::login()
-#1 {main}
-  thrown in D:\xampp\htdocs\works\hiwihi\core\Auth.php on line 22
-[29-Mar-2019 17:26:18 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:26:18 Asia/Tokyo] 
-[29-Mar-2019 17:26:24 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:26:24 Asia/Tokyo] 
-[29-Mar-2019 17:53:39 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:53:39 Asia/Tokyo] 
-[29-Mar-2019 17:53:39 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:53:39 Asia/Tokyo] 
-[29-Mar-2019 17:54:18 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:54:18 Asia/Tokyo] 
-[29-Mar-2019 17:54:20 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[29-Mar-2019 17:54:20 Asia/Tokyo] 
-[30-Mar-2019 14:06:57 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[30-Mar-2019 14:06:58 Asia/Tokyo] 
-[30-Mar-2019 14:09:51 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[30-Mar-2019 14:09:51 Asia/Tokyo] 
-[30-Mar-2019 14:09:53 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[30-Mar-2019 14:09:53 Asia/Tokyo] 
-[30-Mar-2019 14:15:30 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[30-Mar-2019 14:15:30 Asia/Tokyo] 
-[30-Mar-2019 14:15:34 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[30-Mar-2019 14:15:34 Asia/Tokyo] 
-[30-Mar-2019 14:15:40 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[30-Mar-2019 14:15:40 Asia/Tokyo] 
-[30-Mar-2019 14:15:40 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[30-Mar-2019 14:15:40 Asia/Tokyo] 
-[30-Mar-2019 14:31:37 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[30-Mar-2019 14:31:37 Asia/Tokyo] 
-[30-Mar-2019 14:31:37 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Class 'UserTable' not found in D:\xampp\htdocs\works\hiwihi\timeline.php:13
-Stack trace:
-#0 {main}
-  thrown in D:\xampp\htdocs\works\hiwihi\timeline.php on line 13
-[30-Mar-2019 14:35:32 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[30-Mar-2019 14:35:32 Asia/Tokyo] 
-[30-Mar-2019 14:35:32 Asia/Tokyo] PHP Warning:  require_once(db/table/UserTable.php): failed to open stream: No such file or directory in D:\xampp\htdocs\works\hiwihi\timeline.php on line 4
-[30-Mar-2019 14:35:32 Asia/Tokyo] PHP Stack trace:
-[30-Mar-2019 14:35:32 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[30-Mar-2019 14:35:32 Asia/Tokyo] PHP Fatal error:  require_once(): Failed opening required 'db/table/UserTable.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\works\hiwihi\timeline.php on line 4
-[30-Mar-2019 14:35:32 Asia/Tokyo] PHP Stack trace:
-[30-Mar-2019 14:35:32 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[30-Mar-2019 14:35:41 Asia/Tokyo] 
-
-
-◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
-
-
-[30-Mar-2019 14:35:41 Asia/Tokyo] 
-[30-Mar-2019 14:35:41 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Return value of UserTable::getUserByID() must be an instance of mixed, array returned in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php:66
-Stack trace:
-#0 D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php(69): UserTable::getUserByID(17, 'name')
-#1 D:\xampp\htdocs\works\hiwihi\timeline.php(14): UserTable::getUserNameByID(17)
+#0 D:\xampp\htdocs\works\hiwihi\include\user_box.php(6): UserTable::getUserBioByID(17)
+#1 D:\xampp\htdocs\works\hiwihi\timeline.php(9): include('D:\\xampp\\htdocs...')
 #2 {main}
-  thrown in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php on line 66
-[30-Mar-2019 14:35:54 Asia/Tokyo] 
+  thrown in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php on line 83
+[30-Mar-2019 17:32:11 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:35:54 Asia/Tokyo] 
-[30-Mar-2019 14:35:54 Asia/Tokyo] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php on line 70
-[30-Mar-2019 14:35:54 Asia/Tokyo] PHP Stack trace:
-[30-Mar-2019 14:35:54 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
-[30-Mar-2019 14:35:54 Asia/Tokyo] PHP   2. UserTable::getUserNameByID() D:\xampp\htdocs\works\hiwihi\timeline.php:14
-[30-Mar-2019 14:35:54 Asia/Tokyo] PHP   3. array_key_exists() D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php:70
-[30-Mar-2019 14:36:41 Asia/Tokyo] 
+[30-Mar-2019 17:32:11 Asia/Tokyo] 
+[30-Mar-2019 17:32:11 Asia/Tokyo] getUserPropety: 1
+[30-Mar-2019 17:32:11 Asia/Tokyo] getUserPropety: 1
+[30-Mar-2019 17:32:11 Asia/Tokyo] getUserPropety: 1
+[30-Mar-2019 17:32:11 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Return value of UserTable::getUserBioByID() must be of the type string, null returned in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php:83
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\include\user_box.php(6): UserTable::getUserBioByID(17)
+#1 D:\xampp\htdocs\works\hiwihi\timeline.php(9): include('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php on line 83
+[30-Mar-2019 17:32:27 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:36:41 Asia/Tokyo] 
-[30-Mar-2019 14:37:19 Asia/Tokyo] 
+[30-Mar-2019 17:32:27 Asia/Tokyo] 
+[30-Mar-2019 17:32:27 Asia/Tokyo] getUserPropety: 1
+[30-Mar-2019 17:32:27 Asia/Tokyo] getUserPropety: 1
+[30-Mar-2019 17:32:27 Asia/Tokyo] getUserPropety: 1
+[30-Mar-2019 17:32:27 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Return value of UserTable::getUserBioByID() must be of the type string, null returned in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php:83
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\include\user_box.php(6): UserTable::getUserBioByID(17)
+#1 D:\xampp\htdocs\works\hiwihi\timeline.php(9): include('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\core\db\table\UserTable.php on line 83
+[30-Mar-2019 17:34:37 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:37:19 Asia/Tokyo] 
-[30-Mar-2019 14:37:35 Asia/Tokyo] 
+[30-Mar-2019 17:34:37 Asia/Tokyo] 
+[30-Mar-2019 17:36:21 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:37:35 Asia/Tokyo] 
-[30-Mar-2019 14:38:25 Asia/Tokyo] 
+[30-Mar-2019 17:36:21 Asia/Tokyo] 
+[30-Mar-2019 17:36:58 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:38:25 Asia/Tokyo] 
-[30-Mar-2019 14:38:54 Asia/Tokyo] 
+[30-Mar-2019 17:36:58 Asia/Tokyo] 
+[30-Mar-2019 17:38:08 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:38:54 Asia/Tokyo] 
-[30-Mar-2019 14:38:59 Asia/Tokyo] 
+[30-Mar-2019 17:38:08 Asia/Tokyo] 
+[30-Mar-2019 17:38:42 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:38:59 Asia/Tokyo] 
-[30-Mar-2019 14:39:09 Asia/Tokyo] 
+[30-Mar-2019 17:38:42 Asia/Tokyo] 
+[30-Mar-2019 17:41:10 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:39:09 Asia/Tokyo] 
-[30-Mar-2019 14:39:12 Asia/Tokyo] 
+[30-Mar-2019 17:41:10 Asia/Tokyo] 
+[30-Mar-2019 17:43:15 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:39:12 Asia/Tokyo] 
-[30-Mar-2019 14:39:32 Asia/Tokyo] 
+[30-Mar-2019 17:43:15 Asia/Tokyo] 
+[30-Mar-2019 17:43:25 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:39:32 Asia/Tokyo] 
-[30-Mar-2019 14:41:01 Asia/Tokyo] 
+[30-Mar-2019 17:43:25 Asia/Tokyo] 
+[30-Mar-2019 17:44:40 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:41:01 Asia/Tokyo] 
-[30-Mar-2019 14:41:05 Asia/Tokyo] 
+[30-Mar-2019 17:44:40 Asia/Tokyo] 
+[30-Mar-2019 17:45:54 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:41:05 Asia/Tokyo] 
-[30-Mar-2019 14:46:02 Asia/Tokyo] 
+[30-Mar-2019 17:45:54 Asia/Tokyo] 
+[30-Mar-2019 17:45:55 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:46:02 Asia/Tokyo] 
-[30-Mar-2019 14:53:25 Asia/Tokyo] 
+[30-Mar-2019 17:45:55 Asia/Tokyo] 
+[30-Mar-2019 17:47:13 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:53:25 Asia/Tokyo] 
-[30-Mar-2019 14:53:45 Asia/Tokyo] 
+[30-Mar-2019 17:47:13 Asia/Tokyo] 
+[30-Mar-2019 17:51:46 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:53:45 Asia/Tokyo] 
-[30-Mar-2019 14:53:48 Asia/Tokyo] 
+[30-Mar-2019 17:51:46 Asia/Tokyo] 
+[30-Mar-2019 17:51:52 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:53:48 Asia/Tokyo] 
-[30-Mar-2019 14:53:56 Asia/Tokyo] 
+[30-Mar-2019 17:51:52 Asia/Tokyo] 
+[30-Mar-2019 17:51:56 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:53:56 Asia/Tokyo] 
-[30-Mar-2019 14:53:58 Asia/Tokyo] 
+[30-Mar-2019 17:51:56 Asia/Tokyo] 
+[30-Mar-2019 17:52:05 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:53:58 Asia/Tokyo] 
-[30-Mar-2019 14:55:12 Asia/Tokyo] 
+[30-Mar-2019 17:52:05 Asia/Tokyo] 
+[30-Mar-2019 18:13:56 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:55:12 Asia/Tokyo] 
-[30-Mar-2019 14:56:02 Asia/Tokyo] 
+[30-Mar-2019 18:13:56 Asia/Tokyo] 
+[30-Mar-2019 18:17:23 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:56:02 Asia/Tokyo] 
-[30-Mar-2019 14:56:03 Asia/Tokyo] 
+[30-Mar-2019 18:17:23 Asia/Tokyo] 
+[30-Mar-2019 18:21:10 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 14:56:03 Asia/Tokyo] 
-[30-Mar-2019 15:27:18 Asia/Tokyo] 
+[30-Mar-2019 18:21:10 Asia/Tokyo] 
+[30-Mar-2019 18:27:53 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 15:27:18 Asia/Tokyo] 
-[30-Mar-2019 15:28:24 Asia/Tokyo] 
+[30-Mar-2019 18:27:53 Asia/Tokyo] 
+[30-Mar-2019 18:37:41 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 15:28:24 Asia/Tokyo] 
-[30-Mar-2019 15:28:32 Asia/Tokyo] 
+[30-Mar-2019 18:37:41 Asia/Tokyo] 
+[30-Mar-2019 18:37:57 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 15:28:32 Asia/Tokyo] 
-[30-Mar-2019 15:28:36 Asia/Tokyo] 
+[30-Mar-2019 18:37:57 Asia/Tokyo] 
+[30-Mar-2019 18:49:37 Asia/Tokyo] 
 
 
 ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 
 
-[30-Mar-2019 15:28:36 Asia/Tokyo] 
+[30-Mar-2019 18:49:37 Asia/Tokyo] 
+[30-Mar-2019 18:53:51 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 18:53:51 Asia/Tokyo] 
+[30-Mar-2019 18:54:01 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 18:54:01 Asia/Tokyo] 
+[30-Mar-2019 18:54:19 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 18:54:19 Asia/Tokyo] 
+[30-Mar-2019 18:55:05 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 18:55:05 Asia/Tokyo] 
+[30-Mar-2019 18:55:42 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 18:55:42 Asia/Tokyo] 
+[30-Mar-2019 18:59:30 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 18:59:30 Asia/Tokyo] 
+[30-Mar-2019 19:10:13 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:10:13 Asia/Tokyo] 
+[30-Mar-2019 19:10:24 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:10:24 Asia/Tokyo] 
+[30-Mar-2019 19:11:24 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:11:24 Asia/Tokyo] 
+[30-Mar-2019 19:12:02 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:12:02 Asia/Tokyo] 
+[30-Mar-2019 19:31:18 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:31:18 Asia/Tokyo] 
+[30-Mar-2019 19:31:47 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:31:47 Asia/Tokyo] 
+[30-Mar-2019 19:32:56 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:32:56 Asia/Tokyo] 
+[30-Mar-2019 19:33:29 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:33:29 Asia/Tokyo] 
+[30-Mar-2019 19:34:05 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:34:05 Asia/Tokyo] 
+[30-Mar-2019 19:34:16 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:34:16 Asia/Tokyo] 
+[30-Mar-2019 19:34:57 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:34:57 Asia/Tokyo] 
+[30-Mar-2019 19:36:09 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:36:09 Asia/Tokyo] 
+[30-Mar-2019 19:36:28 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:36:28 Asia/Tokyo] 
+[30-Mar-2019 19:37:01 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:37:01 Asia/Tokyo] 
+[30-Mar-2019 19:37:46 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:37:46 Asia/Tokyo] 
+[30-Mar-2019 19:38:07 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:38:07 Asia/Tokyo] 
+[30-Mar-2019 19:39:09 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:39:09 Asia/Tokyo] 
+[30-Mar-2019 19:40:00 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:40:00 Asia/Tokyo] 
+[30-Mar-2019 19:40:42 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:40:42 Asia/Tokyo] 
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+[30-Mar-2019 19:44:12 Asia/Tokyo] 
+[30-Mar-2019 19:44:15 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:44:15 Asia/Tokyo] 
+[30-Mar-2019 19:45:33 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:45:33 Asia/Tokyo] 
+[30-Mar-2019 19:46:47 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:46:47 Asia/Tokyo] 
+[30-Mar-2019 19:47:23 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:47:23 Asia/Tokyo] 
+[30-Mar-2019 19:48:15 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:48:15 Asia/Tokyo] 
+[30-Mar-2019 19:50:27 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:50:27 Asia/Tokyo] 
+[30-Mar-2019 19:50:48 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 19:50:48 Asia/Tokyo] 
+[30-Mar-2019 21:08:07 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:08:07 Asia/Tokyo] 
+[30-Mar-2019 21:09:47 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:09:47 Asia/Tokyo] 
+[30-Mar-2019 21:09:58 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:09:58 Asia/Tokyo] 
+[30-Mar-2019 21:11:12 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:11:12 Asia/Tokyo] 
+[30-Mar-2019 21:15:28 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:15:28 Asia/Tokyo] 
+[30-Mar-2019 21:16:31 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:16:31 Asia/Tokyo] 
+[30-Mar-2019 21:17:10 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:17:10 Asia/Tokyo] 
+[30-Mar-2019 21:25:20 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:25:20 Asia/Tokyo] 
+[30-Mar-2019 21:25:20 Asia/Tokyo] PHP Warning:  require_once(D:\xampp\htdocs\works\hiwihi\include./core/const.php): failed to open stream: No such file or directory in D:\xampp\htdocs\works\hiwihi\include\importCore.php on line 7
+[30-Mar-2019 21:25:20 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 21:25:20 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 21:25:20 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:2
+[30-Mar-2019 21:25:20 Asia/Tokyo] PHP   3. require_once() D:\xampp\htdocs\works\hiwihi\include\header.php:2
+[30-Mar-2019 21:25:20 Asia/Tokyo] PHP Fatal error:  require_once(): Failed opening required 'D:\xampp\htdocs\works\hiwihi\include./core/const.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\works\hiwihi\include\importCore.php on line 7
+[30-Mar-2019 21:25:20 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 21:25:20 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 21:25:20 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:2
+[30-Mar-2019 21:25:20 Asia/Tokyo] PHP   3. require_once() D:\xampp\htdocs\works\hiwihi\include\header.php:2
+[30-Mar-2019 21:26:21 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:26:21 Asia/Tokyo] 
+[30-Mar-2019 21:26:21 Asia/Tokyo] PHP Warning:  require_once(D:\xampp\htdocs\works\hiwihi\include./core/const.php): failed to open stream: No such file or directory in D:\xampp\htdocs\works\hiwihi\include\importCore.php on line 7
+[30-Mar-2019 21:26:21 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 21:26:21 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 21:26:21 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:2
+[30-Mar-2019 21:26:21 Asia/Tokyo] PHP   3. require_once() D:\xampp\htdocs\works\hiwihi\include\header.php:2
+[30-Mar-2019 21:26:21 Asia/Tokyo] PHP Fatal error:  require_once(): Failed opening required 'D:\xampp\htdocs\works\hiwihi\include./core/const.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\works\hiwihi\include\importCore.php on line 7
+[30-Mar-2019 21:26:21 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 21:26:21 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 21:26:21 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:2
+[30-Mar-2019 21:26:21 Asia/Tokyo] PHP   3. require_once() D:\xampp\htdocs\works\hiwihi\include\header.php:2
+[30-Mar-2019 21:27:16 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:27:16 Asia/Tokyo] 
+[30-Mar-2019 21:27:16 Asia/Tokyo] PHP Warning:  require_once(D:\xampp\htdocs\works\hiwihi\include./core/const.php): failed to open stream: No such file or directory in D:\xampp\htdocs\works\hiwihi\include\importCore.php on line 7
+[30-Mar-2019 21:27:16 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 21:27:16 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 21:27:16 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:2
+[30-Mar-2019 21:27:16 Asia/Tokyo] PHP   3. require_once() D:\xampp\htdocs\works\hiwihi\include\header.php:2
+[30-Mar-2019 21:27:16 Asia/Tokyo] PHP Fatal error:  require_once(): Failed opening required 'D:\xampp\htdocs\works\hiwihi\include./core/const.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\works\hiwihi\include\importCore.php on line 7
+[30-Mar-2019 21:27:16 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 21:27:16 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 21:27:16 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:2
+[30-Mar-2019 21:27:16 Asia/Tokyo] PHP   3. require_once() D:\xampp\htdocs\works\hiwihi\include\header.php:2
+[30-Mar-2019 21:27:24 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:27:24 Asia/Tokyo] 
+[30-Mar-2019 21:27:24 Asia/Tokyo] PHP Warning:  require_once(D:\xampp\htdocs\works\hiwihi\include./core/const.php): failed to open stream: No such file or directory in D:\xampp\htdocs\works\hiwihi\include\importCore.php on line 7
+[30-Mar-2019 21:27:24 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 21:27:24 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 21:27:24 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:2
+[30-Mar-2019 21:27:24 Asia/Tokyo] PHP   3. require_once() D:\xampp\htdocs\works\hiwihi\include\header.php:2
+[30-Mar-2019 21:27:24 Asia/Tokyo] PHP Fatal error:  require_once(): Failed opening required 'D:\xampp\htdocs\works\hiwihi\include./core/const.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\works\hiwihi\include\importCore.php on line 7
+[30-Mar-2019 21:27:24 Asia/Tokyo] PHP Stack trace:
+[30-Mar-2019 21:27:24 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[30-Mar-2019 21:27:24 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:2
+[30-Mar-2019 21:27:24 Asia/Tokyo] PHP   3. require_once() D:\xampp\htdocs\works\hiwihi\include\header.php:2
+[30-Mar-2019 21:28:12 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:28:12 Asia/Tokyo] 
+[30-Mar-2019 21:28:26 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:28:26 Asia/Tokyo] 
+[30-Mar-2019 21:29:04 Asia/Tokyo] 
+
+
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+
+
+[30-Mar-2019 21:29:04 Asia/Tokyo] 

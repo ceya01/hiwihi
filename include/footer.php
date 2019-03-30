@@ -16,8 +16,8 @@
 <?php
 if (IS_DEBUG) :
     //require_once('core/Session.php');
-    echo '<div class="inner mt2rem">Debug mode!';
 ?>
+<div class="debugArea inner mt2rem">Debug mode!
     <ul>
         <li><?php echoHeaderLink(PAGE_ABOUT, 'ヒウィッヒヒーとは'); ?></li>
         <li><?php echoHeaderLink(PAGE_TIMELINE, 'タイムライン'); ?></li>
@@ -30,8 +30,8 @@ if (IS_DEBUG) :
     <?php
     dump($_POST);
     dump($_SESSION);
-    echo '</div>';
     ?>
+</div>
 <?php endif; ?>
 
 </body>

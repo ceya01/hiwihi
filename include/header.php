@@ -1,5 +1,5 @@
 
-<?php require_once( "include/importCore.php" ); ?>
+<?php require_once( dirname(__FILE__)."importCore.php" ); ?>
 
 <!doctype html>
 <html lang="ja">
@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="css/mainStyle.css">
     <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
     <title>ﾋｳｨｯﾋﾋｰ</title>
 </head>
 <body>

@@ -1,9 +1,9 @@
 <?php
 
 const IS_DEBUG = true;      // デバッグモードかどうか
-const IS_LOGGING = false;    // ログ出力するかどうか
+const IS_LOGGING = true;    // ログ出力するかどうか
 
-if (IS_DEBUG) {
+if (IS_DEBUG && IS_LOGGING) {
     error_reporting(E_ALL); //E_STRICTレベル以外のエラーを報告する
     ini_set('display_errors', 'On');  //画面にエラーを表示させるか
     //session_start();
@@ -32,7 +32,7 @@ function dlog($str = '',$print=null)
         if(empty($print)){
             error_log($str);
         }else{
-            error_log($str,print_r($print));
+            error_log($str.print_r($print));
         }
     }
 }
