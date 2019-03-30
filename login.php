@@ -39,7 +39,7 @@ if (!empty($_POST)) {
                 </label>
                 <input type="submit" value="ログイン" class="btn-rr bgColor-hiwihi mt3rem">
             </form>
-            <p class="fogot-password"><a href="<?php echo PAGE_PASS_REMINDER ?>.php">パスワードを忘れた</a></p>
+<!--            <p class="fogot-password"><a href="--><?php //echo PAGE_PASS_REMINDER ?><!--.php">パスワードを忘れた</a></p>-->
         </div>
     </div>
 </main>
