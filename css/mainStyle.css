@@ -152,6 +152,11 @@ footer{
     color:#FFF;
     border:1px #FFF solid;
     font-size:0.9em;
+    text-align: center;
+}
+
+.btn-rr:hover{
+    cursor: pointer;
 }
 
 h2.iconHead::before{
@@ -258,7 +263,7 @@ input{
     text-overflow: ellipsis;
 }
 .statsBlock{
-    max-width:25%;
+    width:25%;
 }
 
 
