@@ -30,10 +30,10 @@ if (!empty($_POST)) {
         <div class="inner formWrap">
             <h2 class="color-hiwihi mb2rem">おかえり！</h2>
             <form action="" method="post" enctype="multipart/form-data" class="entry-form">
-                <label class="inputWrap"><div class="label-text">ユーザー名 または メールアドレス</div>
+                <label class="inputWrap"><span class="label-text">ユーザー名 または メールアドレス</span>
                     <input type="text" name="<?php echo KEY_LOGINID ?>" value="<?php echoPost(KEY_LOGINID); ?>">
                 </label>
-                <label class="inputWrap"><div class="label-text">パスワード</div>
+                <label class="inputWrap"><span class="label-text">パスワード</span>
                     <input type="password" name="<?php echo KEY_PASSWORD ?>" value="<?php echoPost(KEY_PASSWORD); ?>">
                     <?php echoErrMsg($errorMsg); ?>
                 </label>

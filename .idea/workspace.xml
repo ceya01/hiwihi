@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="ユーザー登録時にログイン">
+    <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
@@ -101,8 +101,8 @@
           <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/login.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+                <state relative-caret-position="336">
+                  <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -482,14 +482,7 @@
       <workItem from="1553487451454" duration="44906000" />
       <workItem from="1553651287742" duration="2994000" />
       <workItem from="1553654345713" duration="37306000" />
-      <workItem from="1553920226432" duration="1972000" />
-    </task>
-    <task id="LOCAL-00001" summary="README.mdが消えていたので手動追加">
-      <created>1549617610061</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1549617610061</updated>
+      <workItem from="1553920226432" duration="2031000" />
     </task>
     <task id="LOCAL-00002" summary="README.mdが消えていたので手動追加">
       <created>1549617965122</created>
@@ -827,11 +820,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553850120022</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="パスワードリマインダーへのリンクを一時無効化">
+      <created>1553922559351</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1553922559351</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180893000" />
+    <option name="totallyTimeSpent" value="180952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,7 +895,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ユーザー登録のバリデーション作成" />
     <MESSAGE value="ユーザー登録機能&#10;DB登録系のコード整理" />
     <MESSAGE value="コメント整理" />
     <MESSAGE value="トップページの基礎デザイン作成&#10;" />
@@ -920,7 +919,8 @@
     <MESSAGE value="ログアウト処理追加" />
     <MESSAGE value="ユーザー登録重複チェック" />
     <MESSAGE value="ユーザー登録時にログイン" />
-    <option name="LAST_COMMIT_MESSAGE" value="ユーザー登録時にログイン" />
+    <MESSAGE value="パスワードリマインダーへのリンクを一時無効化" />
+    <option name="LAST_COMMIT_MESSAGE" value="パスワードリマインダーへのリンクを一時無効化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1313,8 +1313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="336">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
           <folding />
         </state>
       </provider>
