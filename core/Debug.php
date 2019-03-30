@@ -14,9 +14,10 @@ if (IS_DEBUG && IS_LOGGING) {
     //ログを取るか
     ini_set('log_errors', 'on');
     //ログの出力ファイルを指定
-    ini_set('error_log', 'php.log');
+    ini_set('error_log', dirname(__FILE__).'/../php.log');
     //error_log(PHP_EOL);
-    error_log(PHP_EOL . PHP_EOL . PHP_EOL . '◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆' . PHP_EOL . PHP_EOL);
+    error_log(PHP_EOL .'◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆' . PHP_EOL .
+        $_SERVER['REQUEST_URI']. PHP_EOL);
     error_log('');
 }
 

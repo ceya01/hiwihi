@@ -51,5 +51,7 @@ class Auth
     static public function isLogin():bool{
        return  Session::getLoginUserID() != -1;
     }
-
+    static public function getLoginUserID():int{
+        return  Session::getLoginUserID();
+    }
 }

@@ -23,13 +23,13 @@ class UserTable
         }
         return self::$instance;
     }
-    public static function createUser($ary): int
+    public static function createUser($argary): int
     {
         $ary = array(
-            'char_id' => $ary[KEY_CHARID],
-            'email' => $ary[KEY_EMAIL],
-            'password' => password_hash($ary[KEY_PASSWORD], PASSWORD_DEFAULT),
-            'name' => $ary[KEY_CHARID],
+            'char_id' => $argary[KEY_CHARID],
+            'email' => $argary[KEY_EMAIL],
+            'password' => password_hash($argary[KEY_PASSWORD], PASSWORD_DEFAULT),
+            'name' => $argary[KEY_CHARID],
             'regist_time' => date('Y-m-d H:i:s'),
             'edit_time' => date('Y-m-d H:i:s')
         );
@@ -38,6 +38,11 @@ class UserTable
         $id = $pdow->insert('user',$ary);
         return $id;
         //dlog('$createdUserAry: ',$createdUserAry);
+    }
+    static public function updateUser($argary,$id){
+        $ary = $argary+['edit_time' => date('Y-m-d H:i:s') ];
+        $pdow = DBConnector::getPdow();
+        $pdow->update('user',$ary,$id);
     }
 
     static private function exist($rowName,$val):bool{
@@ -57,7 +62,7 @@ class UserTable
         return self::exist('char_id',$charID);
     }
 
-    static public function getUser($id,$row='*'):array{
+    static private function getUser($id,$row='*'):array{
         $sql = 'SELECT '.$row.' FROM user WHERE id=:id AND delete_flag = 0';
         $data = ['id' => $id];
         $pdow = DBConnector::getPdow();
@@ -82,4 +87,7 @@ class UserTable
     static public function getUserBioByID($id):string{
         return self::getUserPropety($id,KEY_BIO);
     }
+
+
+
 }

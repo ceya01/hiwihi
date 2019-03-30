@@ -61,6 +61,21 @@ class PDOWrapper
         return $this->pdo->lastInsertId();
     }
 
+    function update($tableName, $valueAry,$id){
+        $rowName = implode(',',array_keys($valueAry));
+        $pps = ':'.implode(',:',array_keys($valueAry));; //prepared-statements
+        $setStr = '';
+        foreach ($valueAry as $key => $item) {
+            $setStr .= $key.' = :'.$key.',';
+        }
+        $setStr = substr($setStr,0,-1);
+
+        $sql = 'UPDATE '.$tableName.' SET '.$setStr.' WHERE id =:id';
+        $data = array_combine(explode(',',$pps),array_values($valueAry))+[':id'=>$id];
+        $this->queryPost($sql,$data);
+        return $this->pdo->lastInsertId();
+    }
+
     /**
      * 引数の　テーブル名、列名、に 文字列が存在するか調べる
      * @param string $tableName
