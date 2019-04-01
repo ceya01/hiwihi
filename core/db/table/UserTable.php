@@ -16,13 +16,15 @@ class UserTable
     /**
      * @return UserTable
      */
-    public static function getInstance()
-    {
-        if(empty(self::$instance)){
-            self::$instance = new UserTable();
-        }
-        return self::$instance;
-    }
+//
+//    public static function getInstance()
+//    {
+//        if(empty(self::$instance)){
+//            self::$instance = new UserTable();
+//        }
+//        return self::$instance;
+//    }
+//
     public static function createUser($argary): int
     {
         $ary = array(
