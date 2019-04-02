@@ -6,6 +6,6 @@ require_once(dirname(__FILE__).'/../core/db/table/UserTable.php');
 //dlog('ajax!',$_POST);
 //var_dump($_POST);
 
-UserTable::updateUser(['name'=>$_POST['userName'],'bio'=>$_POST['userBio']],Auth::getLoginUserID());
+UserTable::updateUser(['name'=>$_POST['userName'],'bio'=>$_POST['userBio']],Session::getLoginUserID());
 
 ?>

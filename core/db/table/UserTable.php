@@ -64,7 +64,7 @@ class UserTable
         return self::exist('char_id',$charID);
     }
 
-    static private function getUser($id,$row='*'):array{
+    static private function getUser($id,$row='*'){
         $sql = 'SELECT '.$row.' FROM user WHERE id=:id AND delete_flag = 0';
         $data = ['id' => $id];
         $pdow = DBConnector::getPdow();

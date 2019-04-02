@@ -1,4 +1,4 @@
-
+<?php require_once(dirname(__FILE__).'/include/redirect2login.php'); ?>
 <!--  ヘッダー -->
 <?php require_once( "include/header.php" ); ?>
 

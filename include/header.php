@@ -28,7 +28,7 @@
         <a href="index.php"><img src="img/logo.png" alt="ﾋｳｨｯﾋﾋｰ" class="hiwihi-logo"></a>
         <ul>
             <li><?php echoHeaderLink(PAGE_ABOUT, 'ﾋｳｨｯﾋﾋｰとは'); ?></li>
-            <?php if (Auth::isLogin()) : ?>
+            <?php if (Session::isLogin()) : ?>
                 <li><?php echoHeaderLink(PAGE_TIMELINE, 'タイムライン'); ?></li>
                 <li><?php echoHeaderLink(PAGE_USER, 'マイページ'); ?></li>
                 <li><?php echoHeaderLink(PAGE_LOGOUT, 'ログアウト'); ?></li>

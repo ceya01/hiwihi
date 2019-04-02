@@ -1,6 +1,9 @@
 
 <!--  ヘッダー -->
-<?php require_once( "include/header.php" ); ?>
+<?php
+require_once(dirname(__FILE__).'/include/redirect2timeline.php');
+require_once( "include/header.php" );
+?>
 
 <!--  メイン -->
 <main class="bg-hiwihiBird">

@@ -1,5 +1,6 @@
 <?php
 
+require_once(dirname(__FILE__).'/include/redirect2timeline.php');
 require_once( "include/importCore.php" );
 require_once( "util/Validator.php" );
 require_once( "core/db/table/UserTable.php" );
