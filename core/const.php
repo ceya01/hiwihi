@@ -24,4 +24,4 @@ const KEY_CHARID = 'char_id';
 const KEY_PASSWORD = 'password';
 const KEY_LOGINID = 'login_id';
 const KEY_BIO = 'bio';
-
+const KEY_ICON = 'icon';

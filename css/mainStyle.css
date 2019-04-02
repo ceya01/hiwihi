@@ -147,6 +147,7 @@ footer{
     padding:0.5rem 0;
     margin:1rem auto;
     width:320px;
+    max-width: 100%;
     text-decoration: none;
     background: #000;
     color:#FFF;
@@ -247,10 +248,62 @@ input,textarea{
 /************************************************************/
 /*　ユーザー　*/
 /************************************************************/
-.userBox img.avater{
+.userBox .userIcon{
     margin:0 auto;
     display: block;
+    width:100%;
+
+    text-align: center;
+    position: relative;
 }
+.userIcon .avater{
+    height: 100%;
+    max-height: 200px;
+}
+.userIcon .avaterEditor{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+}
+.avaterEditor .guide{
+    position: absolute;
+    left:50%;
+    top:0;
+    transform: translate(-50%,0);
+    bottom: 0;
+
+    margin:0 auto;
+    width:100%;
+
+    font-weight: bold;
+    border:2px dashed #999999;
+    background-color: rgba(245,245,245,0.50);
+    vertical-align: middle;
+}
+.avaterEditor .guide .guide-text {
+    color:#666666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-size:16px;
+    background-color: rgba(255,255,255,0.80);
+    padding:6px 10px;
+    border:1px solid #DFDFDF;
+    white-space: nowrap;
+}
+
+.avaterEditor input{
+    height: 100%;
+    opacity: 0;
+}
+
+.avaterInput{
+
+}
+
 .userBox .userName{
     margin:0.5rem 0 0;
     font-size:18px;

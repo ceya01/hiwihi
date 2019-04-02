@@ -89,7 +89,9 @@ class UserTable
     static public function getUserBioByID($id):string{
         return self::getUserPropety($id,KEY_BIO);
     }
-
+    static public function getUserIconByID($id):string{
+        return self::getUserPropety($id,KEY_ICON);
+    }
 
 
 }

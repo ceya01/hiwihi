@@ -1,11 +1,11 @@
 
 $(function () {
-    //console.log('editProfile.js');
-    let $bt = $('.js-editProfile');
+    //プロフィール編集ボタン処理
+    let $editBtn = $('.js-editProfile');
     let isEditing = false;
-    let btInitText = $bt.text();
-    if($bt){
-        $bt.click(function () {
+    let btInitText = $editBtn.text();
+    if($editBtn){
+        $editBtn.click(function () {
             let $hiddenEditor = $('.hiddenEditor');
             if(isEditing){
                 //編集中の場合　ボタン押したら編集完了して終了
@@ -55,6 +55,20 @@ $(function () {
 
         });
     }
+
+    //画像変更
+    let $avaterImg = $('.userIcon .avater');
+    let $avaterInput = $('.avaterInput');
+    $avaterInput.on('change',function(evt1){
+        let file = this.files[0];
+        let fileRender = new FileReader();
+        fileRender.onload = function (evt2) {
+            $avaterImg.attr('src',evt2.target.result).show();
+        }
+        fileRender.readAsDataURL(file);
+
+
+    });
 
 
 });
