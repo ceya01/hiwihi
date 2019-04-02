@@ -1,6 +1,6 @@
 
 <div class="tweetBox">
-    <div class="iconWrap"><img src="img/avater_default_50x.png" alt="アイコン"></div>
+    <div class="iconWrap"><img src="../img/avatar_default_50x.png" alt="アイコン"></div>
     <div class="tweetContent">
         <div class="tweetBody">ツイート本文７８９０１２３４５６７８９０ツイート本文３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９
         </div>

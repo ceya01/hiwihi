@@ -1,9 +1,9 @@
 <?php
 require_once( dirname(__FILE__) . '/include/redirect2login.php' );
 //<!--  ヘッダー -->
+// TODO aaa
 require_once( "include/header.php" );
 ?>
-
     <!--  メイン -->
     <main>
         <div class="inner">
@@ -19,7 +19,7 @@ require_once( "include/header.php" );
                 <div class="timelineBlock mainArea">
                     <h2>タイムライン</h2>
                     <div class="tweetBox">
-                        <div class="iconWrap"><img src="img/avater_default_50x.png" alt="アイコン"></div>
+                        <div class="iconWrap"><img src="img/avatar_default_50x.png" alt="アイコン"></div>
                         <div class="tweetContent">
                             <div class="tweetBody">
                                 ツイート本文７８９０１２３４５６７８９０ツイート本文３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９
@@ -36,7 +36,7 @@ require_once( "include/header.php" );
                     </div>
 
                     <div class="tweetBox reverse">
-                        <div class="iconWrap"><img src="img/avater_default_50x.png" alt="アイコン"></div>
+                        <div class="iconWrap"><img src="img/avatar_default_50x.png" alt="アイコン"></div>
                         <div class="tweetContent">
                             <div class="tweetBody">
                                 ツイート本文７８９０１２３４５６７８９０ツイート本文３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９０１２３４５６７８９０ツイート本文７８９

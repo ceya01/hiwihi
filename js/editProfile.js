@@ -13,13 +13,19 @@ $(function () {
                 let $userBio = $('.userBio');
                 let newUserName = $userName.children('.hiddenEditor').val();
                 let newUserBio = $userBio.children('.hiddenEditor').val();
+                let newImgData = new FormData($('.imgForm').get(0));
 
                 $.ajax({
                     url:'include/profileEdit.php',
                     type:'POST',
+                    //processData: false,
+                    //cache       : false,
+                    //contentType : false,
+                    //dataType    : "html",
                     data:{
                         userName:newUserName,
                         userBio:newUserBio
+                   //     ,imgData:newImgData
                     }
                 }).done(function(data){
                     console.log('ajax success');
@@ -28,7 +34,6 @@ $(function () {
                 }).fail(function (msg){
                     console.log('Ajax Error:' ,msg);
                 });
-
 
                 //表示を反映
                 $userName.children('.editableText').text(newUserName);
@@ -57,17 +62,15 @@ $(function () {
     }
 
     //画像変更
-    let $avaterImg = $('.userIcon .avater');
-    let $avaterInput = $('.avaterInput');
-    $avaterInput.on('change',function(evt1){
+    let $avatarImg = $('.userIcon .avatar');
+    let $avatarInput = $('.avatarInput');
+    $avatarInput.on('change',function(evt1){
         let file = this.files[0];
         let fileRender = new FileReader();
         fileRender.onload = function (evt2) {
-            $avaterImg.attr('src',evt2.target.result).show();
-        }
+            $avatarImg.attr('src',evt2.target.result).show();
+        };
         fileRender.readAsDataURL(file);
-
-
     });
 
 

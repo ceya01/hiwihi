@@ -72,13 +72,12 @@ class UserTable
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
         return $result;
     }
-    static private function getUserPropety($id, $propety){
+    static private function getUserPropety($id, $propety,$defaultReturn =''){
         $result = self::getUser($id,$propety);
-        //dlog('getUserPropety: ',$result);
-        return isset($result[$propety]) ? $result[$propety] : '';
+        return isset($result[$propety]) ? $result[$propety] : $defaultReturn;
     }
     static public function getUserNameByID($id):string{
-        return self::getUserPropety($id,KEY_NAME);
+        return self::getUserPropety($id,KEY_NAME,'(名無し)');
     }
     static public function getUserCharIDByID($id):string{
         return self::getUserPropety($id,KEY_CHARID);
@@ -90,7 +89,7 @@ class UserTable
         return self::getUserPropety($id,KEY_BIO);
     }
     static public function getUserIconByID($id):string{
-        return self::getUserPropety($id,KEY_ICON);
+        return self::getUserPropety($id,KEY_ICON,'img/avatar_default_150x.png');
     }
 
 

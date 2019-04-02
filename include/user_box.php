@@ -5,13 +5,14 @@
     $charID = UserTable::getUserCharIDByID($loginID);
     $bio = UserTable::getUserBioByID($loginID);
     $iconUrl = UserTable::getUserBioByID($loginID);
+    //
 ?>
 <div class="userBox">
     <div class="userIcon">
-        <img class="avater" src="img/avater_default_150x.png" alt="アバター画像">
-        <div class="avaterEditor hiddenEditor">
+        <img class="avatar" src="img/avatar_default_150x.png" alt="アバター画像">
+        <div class="avatarEditor hiddenEditor">
             <div class="guide"><div class="guide-text">プロフィール画像を変更<br>（クリックorドラッグ&ドロップ）</div></div>
-            <input class="avaterInput" type="file" accept=".jpg,.gif,.png,image/gif,image/jpeg,image/png">
+            <form class="avatarForm" action=""><input class="avatarInput" type="file" accept="image/*"></form>
         </div>
     </div>
     <div class="userName"><span class="editableText"><?php echo $name; ?></span><input class="hiddenEditor" type="text" placeholder="ユーザー名を入力" value="<?php echo $name; ?>"></div>
