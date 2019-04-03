@@ -2093,3 +2093,610 @@ Stack trace:
 /works/hiwihi/timeline.php
 
 [02-Apr-2019 19:35:54 Asia/Tokyo] 
+[02-Apr-2019 19:43:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:43:31 Asia/Tokyo] 
+[02-Apr-2019 19:44:07 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:44:07 Asia/Tokyo] 
+[02-Apr-2019 19:44:25 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:44:25 Asia/Tokyo] 
+[02-Apr-2019 19:44:29 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:44:29 Asia/Tokyo] 
+[02-Apr-2019 19:44:29 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:44:29 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:44:29 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[02-Apr-2019 19:44:29 Asia/Tokyo] 
+[02-Apr-2019 19:44:29 Asia/Tokyo] ajax  $_POST:1
+[02-Apr-2019 19:44:39 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:44:39 Asia/Tokyo] 
+[02-Apr-2019 19:44:42 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:44:42 Asia/Tokyo] 
+[02-Apr-2019 19:44:42 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:44:42 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:46:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:46:36 Asia/Tokyo] 
+[02-Apr-2019 19:46:40 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:46:40 Asia/Tokyo] 
+[02-Apr-2019 19:46:40 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:46:40 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:47:43 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:47:43 Asia/Tokyo] 
+[02-Apr-2019 19:47:43 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:47:43 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:48:27 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:48:27 Asia/Tokyo] 
+[02-Apr-2019 19:48:30 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:48:30 Asia/Tokyo] 
+[02-Apr-2019 19:48:30 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:48:30 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:49:56 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:49:56 Asia/Tokyo] 
+[02-Apr-2019 19:50:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:50:00 Asia/Tokyo] 
+[02-Apr-2019 19:50:00 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:50:00 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:51:30 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:51:30 Asia/Tokyo] 
+[02-Apr-2019 19:51:34 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:51:34 Asia/Tokyo] 
+[02-Apr-2019 19:51:34 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:51:34 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:55:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:55:31 Asia/Tokyo] 
+[02-Apr-2019 19:55:40 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:55:40 Asia/Tokyo] 
+[02-Apr-2019 19:55:40 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:55:40 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:56:11 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:56:11 Asia/Tokyo] 
+[02-Apr-2019 19:56:18 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:56:18 Asia/Tokyo] 
+[02-Apr-2019 19:56:18 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:56:18 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:56:59 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:56:59 Asia/Tokyo] 
+[02-Apr-2019 19:57:04 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:57:04 Asia/Tokyo] 
+[02-Apr-2019 19:57:04 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:57:04 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:58:02 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 19:58:02 Asia/Tokyo] 
+[02-Apr-2019 19:58:07 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 19:58:07 Asia/Tokyo] 
+[02-Apr-2019 19:58:07 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 19:58:07 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 19:58:07 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[02-Apr-2019 19:58:07 Asia/Tokyo] PHP Stack trace:
+[02-Apr-2019 19:58:07 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[02-Apr-2019 20:00:21 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[02-Apr-2019 20:00:21 Asia/Tokyo] 
+[02-Apr-2019 20:00:21 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 20:00:21 Asia/Tokyo] 
+[02-Apr-2019 20:00:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 20:00:24 Asia/Tokyo] 
+[02-Apr-2019 20:00:33 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 20:00:33 Asia/Tokyo] 
+[02-Apr-2019 20:00:34 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 20:00:34 Asia/Tokyo] 
+[02-Apr-2019 20:00:46 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 20:00:46 Asia/Tokyo] 
+[02-Apr-2019 20:00:46 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 20:00:46 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 20:00:46 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[02-Apr-2019 20:00:46 Asia/Tokyo] PHP Stack trace:
+[02-Apr-2019 20:00:46 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[02-Apr-2019 20:01:06 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 20:01:06 Asia/Tokyo] 
+[02-Apr-2019 20:01:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[02-Apr-2019 20:01:24 Asia/Tokyo] 
+[02-Apr-2019 20:01:34 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[02-Apr-2019 20:01:34 Asia/Tokyo] 
+[02-Apr-2019 20:01:34 Asia/Tokyo] uploadImg: ajax  $_POST:
+[02-Apr-2019 20:01:34 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[02-Apr-2019 20:01:34 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[02-Apr-2019 20:01:34 Asia/Tokyo] PHP Stack trace:
+[02-Apr-2019 20:01:34 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[02-Apr-2019 20:01:40 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[02-Apr-2019 20:01:40 Asia/Tokyo] 
+[02-Apr-2019 20:01:40 Asia/Tokyo] ajax  $_POST:1
+[03-Apr-2019 13:38:28 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[03-Apr-2019 13:38:28 Asia/Tokyo] 
+[03-Apr-2019 13:38:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[03-Apr-2019 13:38:36 Asia/Tokyo] 
+[03-Apr-2019 13:38:41 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[03-Apr-2019 13:38:41 Asia/Tokyo] 
+[03-Apr-2019 13:38:41 Asia/Tokyo] $result: 1
+[03-Apr-2019 13:38:42 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 13:38:42 Asia/Tokyo] 
+[03-Apr-2019 13:39:43 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 13:39:43 Asia/Tokyo] 
+[03-Apr-2019 13:39:43 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 13:39:43 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 13:39:43 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 13:39:43 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 13:39:43 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 13:49:28 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 13:49:28 Asia/Tokyo] 
+[03-Apr-2019 13:52:58 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 13:52:58 Asia/Tokyo] 
+[03-Apr-2019 13:52:58 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 13:52:58 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 13:52:58 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 13:52:58 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 13:52:58 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 13:55:59 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 13:55:59 Asia/Tokyo] 
+[03-Apr-2019 13:56:05 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 13:56:05 Asia/Tokyo] 
+[03-Apr-2019 13:56:05 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 13:56:05 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 13:56:05 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 13:56:05 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 13:56:05 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 13:56:51 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 13:56:51 Asia/Tokyo] 
+[03-Apr-2019 13:57:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 13:57:00 Asia/Tokyo] 
+[03-Apr-2019 13:57:00 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 13:57:00 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 13:57:00 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 13:57:00 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 13:57:00 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 13:59:45 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 13:59:45 Asia/Tokyo] 
+[03-Apr-2019 13:59:51 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 13:59:51 Asia/Tokyo] 
+[03-Apr-2019 13:59:51 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 13:59:51 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 13:59:51 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 13:59:51 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 13:59:51 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:00:50 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:00:50 Asia/Tokyo] 
+[03-Apr-2019 14:00:54 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:00:54 Asia/Tokyo] 
+[03-Apr-2019 14:00:54 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:00:54 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:00:54 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:00:54 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:00:54 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:01:47 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:01:47 Asia/Tokyo] 
+[03-Apr-2019 14:01:53 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:01:53 Asia/Tokyo] 
+[03-Apr-2019 14:01:53 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:01:53 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:01:53 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:01:53 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:01:53 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:06:04 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:06:04 Asia/Tokyo] 
+[03-Apr-2019 14:06:09 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:06:09 Asia/Tokyo] 
+[03-Apr-2019 14:06:09 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:06:09 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:06:09 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:06:09 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:06:09 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:06:30 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:06:30 Asia/Tokyo] 
+[03-Apr-2019 14:06:40 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:06:40 Asia/Tokyo] 
+[03-Apr-2019 14:06:50 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:06:50 Asia/Tokyo] 
+[03-Apr-2019 14:06:50 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:06:50 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:06:50 Asia/Tokyo] PHP Notice:  Undefined variable: file_tmp in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 13
+[03-Apr-2019 14:06:50 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:06:50 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:07:17 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:07:17 Asia/Tokyo] 
+[03-Apr-2019 14:07:21 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:07:21 Asia/Tokyo] 
+[03-Apr-2019 14:07:21 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:07:21 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:07:21 Asia/Tokyo] PHP Notice:  Undefined variable: file_tmp in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 13
+[03-Apr-2019 14:07:21 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:07:21 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:07:46 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:07:46 Asia/Tokyo] 
+[03-Apr-2019 14:07:52 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:07:52 Asia/Tokyo] 
+[03-Apr-2019 14:07:52 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:07:52 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:07:52 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:07:52 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:07:52 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:09:07 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:09:07 Asia/Tokyo] 
+[03-Apr-2019 14:09:11 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:09:11 Asia/Tokyo] 
+[03-Apr-2019 14:09:11 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:09:11 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:09:11 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:09:11 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:09:11 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:09:20 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:09:20 Asia/Tokyo] 
+[03-Apr-2019 14:09:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:09:24 Asia/Tokyo] 
+[03-Apr-2019 14:09:24 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:09:24 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:09:24 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:09:24 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:09:24 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:10:16 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:10:16 Asia/Tokyo] 
+[03-Apr-2019 14:10:22 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:10:22 Asia/Tokyo] 
+[03-Apr-2019 14:10:22 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:10:22 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 14:10:22 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:10:22 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:10:22 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:10:43 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:10:43 Asia/Tokyo] 
+[03-Apr-2019 14:10:48 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:10:48 Asia/Tokyo] 
+[03-Apr-2019 14:10:48 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:10:48 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:10:48 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:10:48 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:10:48 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:13:33 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:13:33 Asia/Tokyo] 
+[03-Apr-2019 14:13:38 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:13:38 Asia/Tokyo] 
+[03-Apr-2019 14:13:38 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:13:38 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:13:38 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:13:38 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:13:38 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:13:38 Asia/Tokyo] 
+[03-Apr-2019 14:13:38 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:14:26 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:14:26 Asia/Tokyo] 
+[03-Apr-2019 14:14:29 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:14:29 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:14:29 Asia/Tokyo] 
+[03-Apr-2019 14:14:29 Asia/Tokyo] 
+[03-Apr-2019 14:14:29 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:14:29 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:14:29 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:14:29 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:14:29 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:14:41 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:14:41 Asia/Tokyo] 
+[03-Apr-2019 14:14:44 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:14:44 Asia/Tokyo] 
+[03-Apr-2019 14:14:44 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:14:44 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:14:44 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:14:44 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:14:44 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:16:41 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:16:41 Asia/Tokyo] 
+[03-Apr-2019 14:16:44 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:16:44 Asia/Tokyo] 
+[03-Apr-2019 14:16:44 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:16:44 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 14:16:44 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:16:44 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:16:44 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:17:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:17:36 Asia/Tokyo] 
+[03-Apr-2019 14:17:46 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:17:46 Asia/Tokyo] 
+[03-Apr-2019 14:17:50 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:17:50 Asia/Tokyo] 
+[03-Apr-2019 14:17:50 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:17:50 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:17:50 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:17:50 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:17:50 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:18:16 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:18:16 Asia/Tokyo] 
+[03-Apr-2019 14:18:16 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:18:16 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:18:16 Asia/Tokyo] PHP Notice:  Undefined index: file_1 in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 12
+[03-Apr-2019 14:18:16 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 14:18:16 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 14:19:18 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:19:18 Asia/Tokyo] 
+[03-Apr-2019 14:19:22 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:19:22 Asia/Tokyo] 
+[03-Apr-2019 14:19:22 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:19:22 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:20:25 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:20:25 Asia/Tokyo] 
+[03-Apr-2019 14:20:28 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:20:28 Asia/Tokyo] 
+[03-Apr-2019 14:20:28 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:20:28 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:40:11 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:40:11 Asia/Tokyo] 
+[03-Apr-2019 14:40:14 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:40:14 Asia/Tokyo] 
+[03-Apr-2019 14:40:14 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:40:14 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:41:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:41:15 Asia/Tokyo] 
+[03-Apr-2019 14:41:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 14:41:24 Asia/Tokyo] 
+[03-Apr-2019 14:41:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:41:24 Asia/Tokyo] 
+[03-Apr-2019 14:41:24 Asia/Tokyo] ajax  $_POST:1
+[03-Apr-2019 14:41:24 Asia/Tokyo] uploadImg: ajax  $_POST:
+[03-Apr-2019 14:41:24 Asia/Tokyo] uploadImg: ajax  $_FILES:1

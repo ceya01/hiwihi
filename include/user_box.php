@@ -12,7 +12,11 @@
         <img class="avatar" src="img/avatar_default_150x.png" alt="アバター画像">
         <div class="avatarEditor hiddenEditor">
             <div class="guide"><div class="guide-text">プロフィール画像を変更<br>（クリックorドラッグ&ドロップ）</div></div>
-            <form class="avatarForm" action=""><input class="avatarInput" type="file" accept="image/*"></form>
+
+            <form class="avatarForm">
+                <input class="avatarInput" name="img" type="file" accept="image/*"><br>
+            </form>
+
         </div>
     </div>
     <div class="userName"><span class="editableText"><?php echo $name; ?></span><input class="hiddenEditor" type="text" placeholder="ユーザー名を入力" value="<?php echo $name; ?>"></div>

@@ -13,27 +13,6 @@ $(function () {
                 let $userBio = $('.userBio');
                 let newUserName = $userName.children('.hiddenEditor').val();
                 let newUserBio = $userBio.children('.hiddenEditor').val();
-                let newImgData = new FormData($('.imgForm').get(0));
-
-                $.ajax({
-                    url:'include/profileEdit.php',
-                    type:'POST',
-                    //processData: false,
-                    //cache       : false,
-                    //contentType : false,
-                    //dataType    : "html",
-                    data:{
-                        userName:newUserName,
-                        userBio:newUserBio
-                   //     ,imgData:newImgData
-                    }
-                }).done(function(data){
-                    console.log('ajax success');
-                    console.log('data:\n',data);
-                    $('.debugArea').prepend(data);
-                }).fail(function (msg){
-                    console.log('Ajax Error:' ,msg);
-                });
 
                 //表示を反映
                 $userName.children('.editableText').text(newUserName);
@@ -45,6 +24,25 @@ $(function () {
                 $(this).text(btInitText);
                 $(this).addClass('btnColor-bgWhite');
                 $(this).removeClass('btnColor-bghiwihi');
+
+                //ajax db反映
+                $.ajax({
+                    url:'include/profileEdit.php',
+                    type:'POST',
+                    data:{
+                        userName:newUserName,
+                        userBio:newUserBio
+                    }
+                }).done(function(data){
+                    console.log('ajax success');
+                    console.log('data:\n',data);
+                    $('.debugArea').prepend(data);
+                }).fail(function (msg){
+                    console.log('Ajax Error:' ,msg);
+                });
+
+                ajaxUploadImg();
+
                 isEditing = false;
             }else{
                 //編集中でない場合　編集モードに移行
@@ -55,7 +53,6 @@ $(function () {
                 $(this).addClass('btnColor-bghiwihi');
                 isEditing =true;
                 //TODO: キャンセルボタンも表示したい
-
             }
 
         });
@@ -68,10 +65,36 @@ $(function () {
         let file = this.files[0];
         let fileRender = new FileReader();
         fileRender.onload = function (evt2) {
+            //画像表示
             $avatarImg.attr('src',evt2.target.result).show();
+ //           ajaxUploadImg(evt2);
         };
+
         fileRender.readAsDataURL(file);
     });
 
-
 });
+
+function ajaxUploadImg(evt=null){
+    if(evt){evt.preventDefault();}
+
+    let imgData = new FormData($('.avatarForm').get(0));
+
+    // Ajaxで送信
+    $.ajax({
+        url:'include/uploadImg.php',
+        method: 'post',
+        dataType: 'html',   // dataに FormDataを指定
+        data: imgData,      // Ajaxがdataを整形しない指定
+        processData: false, // contentTypeもfalseに指定
+        contentType: false
+    }).done(function( data ) {
+        // 送信せいこう！
+        console.log('imgUpload ajax success');
+        console.log('data:\n',data);
+        $('.debugArea').prepend(data);
+    }).fail(function( jqXHR, textStatus, errorThrown ) {
+        // しっぱい！
+        console.log( 'ERROR', jqXHR, textStatus, errorThrown );
+    });
+}
