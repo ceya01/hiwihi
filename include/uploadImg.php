@@ -7,12 +7,15 @@ dlog('uploadImg: ajax  $_FILES:', $_FILES);
 if(!isset($_FILES)){
     exit();
 }
-if($_FILES['img']['error'] !==0){
-    exit($_FILES['img']['error']);
+$imgFile = $_FILES['img'];
+if($imgFile['error'] !==0){
+    exit($imgFile['error']);
 }
+//$originaName = $_FILES['img']['name'];
+$type = @exif_imagetype($imgFile['tmp_name']);
+$hashedName = sha1_file($imgFile['tmp_name']).image_type_to_extension($type);
 
-$originaName = $_FILES['img']['name'];
-$destPath = dirname(__FILE__).'/../uploads/'.$originaName;
+$destPath = dirname(__FILE__).'/../uploads/'.$hashedName;
 
-move_uploaded_file($_FILES['img']['tmp_name'],$destPath);
-UserTable::updateUser(['icon'=>$originaName],Session::getLoginUserID());
+move_uploaded_file($imgFile['tmp_name'],$destPath);
+UserTable::updateUser(['icon'=>$hashedName],Session::getLoginUserID());
