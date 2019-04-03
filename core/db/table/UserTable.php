@@ -89,7 +89,12 @@ class UserTable
         return self::getUserPropety($id,KEY_BIO);
     }
     static public function getUserIconByID($id):string{
-        return self::getUserPropety($id,KEY_ICON,'img/avatar_default_150x.png');
+        $defaultPath = 'img/avatar_default_150x.png';
+        $path = self::getUserPropety($id,KEY_ICON,$defaultPath);
+        if($path != $defaultPath){
+            $path = 'uploads/'.$path;
+        }
+        return $path;
     }
 
 

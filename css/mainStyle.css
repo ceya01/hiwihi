@@ -257,8 +257,9 @@ input,textarea{
     position: relative;
 }
 .userIcon .avatar{
-    height: 100%;
     max-height: 200px;
+    border-radius: 50%;
+    object-fit:cover;
 }
 .userIcon .avatarEditor{
     position: absolute;
@@ -266,6 +267,13 @@ input,textarea{
     left: 0;
     height: 100%;
 }
+
+
+img.sq200px{
+    width:200px;
+    height:200px;
+}
+
 .avatarEditor .guide{
     position: absolute;
     left:50%;

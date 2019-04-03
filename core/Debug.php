@@ -30,10 +30,9 @@ function dlog($str = '',$print=null)
     if (empty($str)) {
         error_log('ログテキストが空です。');
     } else {
-        if(empty($print)){
-            error_log($str);
-        }else{
-            error_log($str.print_r($print));
+        error_log($str);
+        if(!empty($print)){
+            error_log(print_r($print,true));
         }
     }
 }

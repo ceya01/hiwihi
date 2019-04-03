@@ -2700,3 +2700,445 @@ Stack trace:
 [03-Apr-2019 14:41:24 Asia/Tokyo] ajax  $_POST:1
 [03-Apr-2019 14:41:24 Asia/Tokyo] uploadImg: ajax  $_POST:
 [03-Apr-2019 14:41:24 Asia/Tokyo] uploadImg: ajax  $_FILES:1
+[03-Apr-2019 14:49:19 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:49:19 Asia/Tokyo] 
+[03-Apr-2019 14:56:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:56:31 Asia/Tokyo] 
+[03-Apr-2019 14:56:35 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 14:56:35 Asia/Tokyo] 
+[03-Apr-2019 14:56:35 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:56:35 Asia/Tokyo] 
+[03-Apr-2019 14:56:35 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 14:56:35 Asia/Tokyo] Array
+(
+    [userName] => (名無し)ｑ
+    [userBio] => あ
+)
+
+[03-Apr-2019 14:56:35 Asia/Tokyo] ajax  $_FILES:
+[03-Apr-2019 14:56:35 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 14:56:35 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => face_smile_woman2.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php1150.tmp
+            [error] => 0
+            [size] => 47567
+        )
+
+)
+
+[03-Apr-2019 14:57:26 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:57:26 Asia/Tokyo] 
+[03-Apr-2019 14:57:32 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 14:57:32 Asia/Tokyo] 
+[03-Apr-2019 14:57:32 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:57:32 Asia/Tokyo] 
+[03-Apr-2019 14:57:32 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 14:57:32 Asia/Tokyo] ajax  $_FILES: Array
+(
+)
+
+[03-Apr-2019 14:57:32 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 14:58:10 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 14:58:10 Asia/Tokyo] 
+[03-Apr-2019 14:58:14 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 14:58:14 Asia/Tokyo] 
+[03-Apr-2019 14:58:14 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 14:58:14 Asia/Tokyo] 
+[03-Apr-2019 14:58:14 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 14:58:14 Asia/Tokyo] Array
+(
+    [userName] => (名無し)ｑ
+    [userBio] => あq
+)
+
+[03-Apr-2019 14:58:14 Asia/Tokyo] ajax  $_FILES:
+[03-Apr-2019 14:58:14 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 14:58:14 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => money_kasoutsuuka_b.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php92D2.tmp
+            [error] => 0
+            [size] => 44762
+        )
+
+)
+
+[03-Apr-2019 16:44:42 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[03-Apr-2019 16:44:42 Asia/Tokyo] 
+[03-Apr-2019 16:44:47 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[03-Apr-2019 16:44:47 Asia/Tokyo] 
+[03-Apr-2019 16:44:52 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[03-Apr-2019 16:44:53 Asia/Tokyo] 
+[03-Apr-2019 16:44:53 Asia/Tokyo] $result: 
+[03-Apr-2019 16:44:53 Asia/Tokyo] Array
+(
+    [password] => $2y$10$e9Bg7kTscE2KyOr6eAZkV.snIIOGUOnlIwinnKcmNOzDzSgOZr8TK
+    [id] => 17
+)
+
+[03-Apr-2019 16:44:53 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 16:44:53 Asia/Tokyo] 
+[03-Apr-2019 16:55:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 16:55:24 Asia/Tokyo] 
+[03-Apr-2019 16:55:33 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 16:55:33 Asia/Tokyo] 
+[03-Apr-2019 16:55:33 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 16:55:33 Asia/Tokyo] Array
+(
+    [userName] => (名無し)ｑ
+    [userBio] => あqｑ１
+)
+
+[03-Apr-2019 16:55:33 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 16:55:33 Asia/Tokyo] 
+[03-Apr-2019 16:55:33 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 16:55:33 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => face_smile_man2.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\phpB9EC.tmp
+            [error] => 0
+            [size] => 45878
+        )
+
+)
+
+[03-Apr-2019 16:55:33 Asia/Tokyo] PHP Notice:  Array to string conversion in D:\xampp\htdocs\works\hiwihi\include\uploadImg.php on line 13
+[03-Apr-2019 16:55:33 Asia/Tokyo] PHP Stack trace:
+[03-Apr-2019 16:55:33 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\uploadImg.php:0
+[03-Apr-2019 16:59:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 16:59:15 Asia/Tokyo] 
+[03-Apr-2019 16:59:25 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 16:59:25 Asia/Tokyo] 
+[03-Apr-2019 16:59:25 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 16:59:25 Asia/Tokyo] Array
+(
+    [userName] => (名無し)あああ
+    [userBio] => あqｑ１あああ
+)
+
+[03-Apr-2019 16:59:25 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 16:59:25 Asia/Tokyo] 
+[03-Apr-2019 16:59:25 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 16:59:25 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => kaisya_komaru_man.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php4660.tmp
+            [error] => 0
+            [size] => 339976
+        )
+
+)
+
+[03-Apr-2019 17:02:20 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:02:20 Asia/Tokyo] 
+[03-Apr-2019 17:02:44 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:02:44 Asia/Tokyo] 
+[03-Apr-2019 17:03:06 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:03:06 Asia/Tokyo] 
+[03-Apr-2019 17:05:43 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:05:43 Asia/Tokyo] 
+[03-Apr-2019 17:05:56 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 17:05:56 Asia/Tokyo] 
+[03-Apr-2019 17:05:56 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 17:05:56 Asia/Tokyo] Array
+(
+    [userName] => (名無し)あああ
+    [userBio] => あqｑ１あああ
+)
+
+[03-Apr-2019 17:05:56 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 17:05:56 Asia/Tokyo] 
+[03-Apr-2019 17:05:56 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 17:05:56 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => money_fueru.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php3D5B.tmp
+            [error] => 0
+            [size] => 133612
+        )
+
+)
+
+[03-Apr-2019 17:06:03 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:06:03 Asia/Tokyo] 
+[03-Apr-2019 17:06:20 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 17:06:20 Asia/Tokyo] 
+[03-Apr-2019 17:06:20 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 17:06:20 Asia/Tokyo] Array
+(
+    [userName] => (名無し)あああ
+    [userBio] => あqｑ１あああ
+)
+
+[03-Apr-2019 17:06:20 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 17:06:20 Asia/Tokyo] 
+[03-Apr-2019 17:06:20 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 17:06:20 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => man_question.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php9986.tmp
+            [error] => 0
+            [size] => 56473
+        )
+
+)
+
+[03-Apr-2019 17:06:22 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:06:22 Asia/Tokyo] 
+[03-Apr-2019 17:07:53 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 17:07:53 Asia/Tokyo] 
+[03-Apr-2019 17:07:53 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 17:07:53 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[03-Apr-2019 17:07:53 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 17:07:53 Asia/Tokyo] 
+[03-Apr-2019 17:07:53 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 17:07:53 Asia/Tokyo] Array
+(
+    [userName] => あああ
+    [userBio] => あqｑ１あああ
+)
+
+[03-Apr-2019 17:07:54 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:07:54 Asia/Tokyo] 
+[03-Apr-2019 17:08:08 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:08:08 Asia/Tokyo] 
+[03-Apr-2019 17:08:12 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:08:12 Asia/Tokyo] 
+[03-Apr-2019 17:08:17 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 17:08:17 Asia/Tokyo] 
+[03-Apr-2019 17:08:17 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 17:08:17 Asia/Tokyo] Array
+(
+    [userName] => あああ
+    [userBio] => あqｑ１あああ
+)
+
+[03-Apr-2019 17:08:17 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 17:08:17 Asia/Tokyo] 
+[03-Apr-2019 17:08:17 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 17:08:17 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => computer_data_tobu.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php652F.tmp
+            [error] => 0
+            [size] => 302551
+        )
+
+)
+
+[03-Apr-2019 17:08:19 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:08:19 Asia/Tokyo] 
+[03-Apr-2019 17:08:25 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:08:25 Asia/Tokyo] 
+[03-Apr-2019 17:10:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:10:00 Asia/Tokyo] 
+[03-Apr-2019 17:10:33 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:10:33 Asia/Tokyo] 
+[03-Apr-2019 17:17:48 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:17:48 Asia/Tokyo] 
+[03-Apr-2019 17:18:01 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:18:01 Asia/Tokyo] 
+[03-Apr-2019 17:18:45 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:18:45 Asia/Tokyo] 
+[03-Apr-2019 17:19:18 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 17:19:18 Asia/Tokyo] 
+[03-Apr-2019 17:19:18 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 17:19:18 Asia/Tokyo] Array
+(
+    [userName] => あああ
+    [userBio] => あqｑ１あああ
+)
+
+[03-Apr-2019 17:19:18 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[03-Apr-2019 17:19:18 Asia/Tokyo] 
+[03-Apr-2019 17:19:18 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[03-Apr-2019 17:19:18 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => money_kasoutsuuka_kasou.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php7AF9.tmp
+            [error] => 0
+            [size] => 46349
+        )
+
+)
+
+[03-Apr-2019 17:19:22 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 17:19:22 Asia/Tokyo] 

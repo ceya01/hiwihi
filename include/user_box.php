@@ -4,12 +4,12 @@
     $name = UserTable::getUserNameByID($loginID);
     $charID = UserTable::getUserCharIDByID($loginID);
     $bio = UserTable::getUserBioByID($loginID);
-    $iconUrl = UserTable::getUserBioByID($loginID);
+    $iconUrl = UserTable::getUserIconByID($loginID);
     //
 ?>
 <div class="userBox">
     <div class="userIcon">
-        <img class="avatar" src="img/avatar_default_150x.png" alt="アバター画像">
+        <img class="avatar sq200px" src="<?php echo $iconUrl; ?>" alt="アバター画像">
         <div class="avatarEditor hiddenEditor">
             <div class="guide"><div class="guide-text">プロフィール画像を変更<br>（クリックorドラッグ&ドロップ）</div></div>
 
