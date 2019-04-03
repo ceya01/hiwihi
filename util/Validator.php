@@ -1,5 +1,8 @@
 <?php
 
+// TODO :DBアクセス必要な部分は子クラスに移行すべき
+// エラーメッセージ表示はValidatorの仕事ではない
+
 class Validator
 {
     const ERRMSG_INVALID_EMAIL = 'メールアドレスの形式が正しくありません';
@@ -13,7 +16,6 @@ class Validator
     const ERRMSG_DUP_CHARID = 'このユーザーIDはすでに使用されています。';
 
     const ERRMSG_DB = 'データーベース接続エラー';
-
 
     const MAXL_USERID = 20;
     const MINL_PASSWORD = 8;

@@ -19,8 +19,11 @@
 
         </div>
     </div>
-    <div class="userName"><span class="editableText"><?php echo $name; ?></span><input class="hiddenEditor" type="text" placeholder="ユーザー名を入力" value="<?php echo $name; ?>"></div>
-    <div class="userId">@<?php echo $charID ?></div>
+    <div class="userName"><span class="editableText"><?php echo $name; ?></span>
+        <input class="hiddenEditor" type="text" placeholder="ユーザー名を入力" value="<?php echo $name; ?>"></div>
+    <div class="userId"><span class="editableText preAtSign"><?php echo $charID ?></span>
+<!--        <input class="hiddenEditor preAtSign" type="text" placeholder="IDを入力" value="--><?php //echo $charID; ?><!--">-->
+    </div>
     <div class="userBio"><span class="editableText"><?php echo $bio ?></span><textarea class="hiddenEditor" placeholder="bioを入力（最大140文字まで）" rows="8" maxlength="140"><?php echo $bio; ?></textarea></div>
 <!--    <div class="userResidence"><i class="fas fa-map-marker-alt"></i>(居住地未設定)</div>-->
 <!--    <div class="userSite"><i class="fas fa-link"></i>(notset.site)</div>-->

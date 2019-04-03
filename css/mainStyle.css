@@ -327,6 +327,9 @@ img.sq200px{
 .userBox input, .userBox textarea{
     width:100%;
 }
+.preAtSign::before{
+    content :'@';
+}
 
 .userStatsWrap{
     display: flex;
