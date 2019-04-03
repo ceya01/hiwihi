@@ -17,7 +17,11 @@ require_once( "include/header.php" );
                     <!--                -->
                 </div>
                 <div class="timelineBlock mainArea">
-                    <h2>タイムライン</h2>
+                    <h2 class="mb1rem" >タイムライン</h2>
+                    <div class="tweetInputWrap">
+                        <textarea class="tweetInput" rows="4" maxlength="140" placeholder="いまなにしてる？"></textarea>
+                        <button class="btnColor-bghiwihi btnTweet">ついーと！</button>
+                    </div>
                     <div class="tweetBox">
                         <div class="iconWrap"><img src="img/avatar_default_50x.png" alt="アイコン"></div>
                         <div class="tweetContent">

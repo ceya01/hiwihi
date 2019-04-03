@@ -350,7 +350,28 @@ img.sq200px{
     width:25%;
 }
 
-
+/************************************************************/
+/*　ツイート入力欄　*/
+/************************************************************/
+.tweetInputWrap{
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+.tweetInput{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.btnTweet{
+    display: inline-block;
+    margin:10px 0 10px;
+    padding:.5rem 1rem;
+    width:auto;
+    font-weight: bold;
+    border-radius: 16px;
+    float: right;
+}
 /************************************************************/
 /*　ツイート　*/
 /************************************************************/

@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/uploadImg.php" afterPath="$PROJECT_DIR$/include/uploadImg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainStyle.css" afterPath="$PROJECT_DIR$/css/mainStyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timeline.php" afterPath="$PROJECT_DIR$/timeline.php" />
     </list>
     <ignored path="uploads/Array" />
     <ignored path="uploads/computer_data_tobu.png" />
@@ -81,11 +82,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.42455712">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1065">
-                  <caret line="317" column="1" lean-forward="true" selection-start-line="317" selection-start-column="1" selection-end-line="317" selection-end-column="1" />
+                <state relative-caret-position="1076">
+                  <caret line="347" column="1" lean-forward="true" selection-start-line="347" selection-start-column="1" selection-end-line="347" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -101,11 +102,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="uploadImg.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="uploadImg.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/include/uploadImg.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+                <state relative-caret-position="128">
+                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -115,21 +116,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="timeline.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="timeline.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/timeline.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="user_box.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/include/user_box.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="36">
-                  <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+                <state relative-caret-position="464">
+                  <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -219,16 +210,16 @@
         <option value="$PROJECT_DIR$/pass_reminder.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/core/const.php" />
-        <option value="$PROJECT_DIR$/timeline.php" />
         <option value="$PROJECT_DIR$/core/Debug.php" />
         <option value="$PROJECT_DIR$/core/db/table/UserTable.php" />
-        <option value="$PROJECT_DIR$/css/mainStyle.css" />
         <option value="$PROJECT_DIR$/util/Validator.php" />
         <option value="$PROJECT_DIR$/php.log" />
         <option value="$PROJECT_DIR$/include/profileEdit.php" />
         <option value="$PROJECT_DIR$/include/user_box.php" />
         <option value="$PROJECT_DIR$/js/editProfile.js" />
         <option value="$PROJECT_DIR$/include/uploadImg.php" />
+        <option value="$PROJECT_DIR$/timeline.php" />
+        <option value="$PROJECT_DIR$/css/mainStyle.css" />
       </list>
     </option>
   </component>
@@ -573,14 +564,7 @@
       <workItem from="1554120796840" duration="812000" />
       <workItem from="1554171294881" duration="21930000" />
       <workItem from="1554265538594" duration="6862000" />
-      <workItem from="1554273282415" duration="13248000" />
-    </task>
-    <task id="LOCAL-00018" summary="デバッグ処理作成">
-      <created>1552551803662</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1552551803662</updated>
+      <workItem from="1554273282415" duration="15468000" />
     </task>
     <task id="LOCAL-00019" summary="ページ基本構成修正">
       <created>1552626739881</created>
@@ -918,11 +902,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554287546655</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="アップロード画像のファイル名をハッシュ化">
+      <created>1554288527049</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1554288527049</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251079000" />
+    <option name="totallyTimeSpent" value="253299000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,7 +977,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ツイートページ、ツイートボックスのモックアップ" />
     <MESSAGE value="ユーザーページモックアップ　スタイル調整" />
     <MESSAGE value="スタイルの重複修正" />
     <MESSAGE value="email重複チェック処理&#10;UserTableをStatic化" />
@@ -1011,7 +1001,8 @@
     <MESSAGE value="merge to master" />
     <MESSAGE value="変更が無い場合にajax処理を実行しないように修正" />
     <MESSAGE value="プロフィール編集キャンセル処理の追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="プロフィール編集キャンセル処理の追加" />
+    <MESSAGE value="アップロード画像のファイル名をハッシュ化" />
+    <option name="LAST_COMMIT_MESSAGE" value="アップロード画像のファイル名をハッシュ化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1380,22 +1371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timeline.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1065">
-          <caret line="317" column="1" lean-forward="true" selection-start-line="317" selection-start-column="1" selection-end-line="317" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/editProfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1416,16 +1391,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/user_box.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state relative-caret-position="100">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/uploadImg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="128">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1076">
+          <caret line="347" column="1" lean-forward="true" selection-start-line="347" selection-start-column="1" selection-end-line="347" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding />
         </state>
       </provider>
