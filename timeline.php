@@ -21,6 +21,7 @@ require_once( "include/header.php" );
                     <div class="tweetInputWrap">
                         <textarea class="tweetInput" rows="4" maxlength="140" placeholder="いまなにしてる？"></textarea>
                         <button class="btnColor-bghiwihi btnTweet">ついーと！</button>
+                        <script src="js/postTweet.js"></script>
                     </div>
                     <div class="tweetBox">
                         <div class="iconWrap"><img src="img/avatar_default_50x.png" alt="アイコン"></div>

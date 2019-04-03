@@ -4171,3 +4171,82 @@ Stack trace:
 /works/hiwihi/timeline.php
 
 [03-Apr-2019 21:46:41 Asia/Tokyo] 
+[03-Apr-2019 21:48:52 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 21:48:52 Asia/Tokyo] 
+[03-Apr-2019 21:54:09 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 21:54:09 Asia/Tokyo] 
+[03-Apr-2019 21:54:38 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 21:54:38 Asia/Tokyo] 
+[03-Apr-2019 21:54:38 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 21:54:38 Asia/Tokyo] Array
+(
+    [userName] => おなまえ
+    [userBio] => ヒウィッヒヒーがすきです
+)
+
+[03-Apr-2019 21:55:23 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 21:55:23 Asia/Tokyo] 
+[03-Apr-2019 21:55:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 21:55:36 Asia/Tokyo] 
+[03-Apr-2019 21:56:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[03-Apr-2019 21:56:00 Asia/Tokyo] 
+[03-Apr-2019 21:56:00 Asia/Tokyo] ajax  $_POST:
+[03-Apr-2019 21:56:00 Asia/Tokyo] Array
+(
+    [userName] => なまえ
+    [userBio] => ヒウィッヒヒーー始めた！
+)
+
+[03-Apr-2019 21:56:03 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 21:56:03 Asia/Tokyo] 
+[03-Apr-2019 21:56:04 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/index.php
+
+[03-Apr-2019 21:56:04 Asia/Tokyo] 
+[03-Apr-2019 21:56:04 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 21:56:04 Asia/Tokyo] 
+[03-Apr-2019 21:56:06 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 21:56:06 Asia/Tokyo] 
+[03-Apr-2019 21:56:07 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/about.php
+
+[03-Apr-2019 21:56:07 Asia/Tokyo] 
+[03-Apr-2019 21:56:08 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 21:56:08 Asia/Tokyo] 
+[03-Apr-2019 21:56:39 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[03-Apr-2019 21:56:39 Asia/Tokyo] 
