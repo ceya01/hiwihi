@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="merge to master">
+    <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainStyle.css" afterPath="$PROJECT_DIR$/css/mainStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/profileEdit.php" afterPath="$PROJECT_DIR$/include/profileEdit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/uploadImg.php" afterPath="$PROJECT_DIR$/include/uploadImg.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/user_box.php" afterPath="$PROJECT_DIR$/include/user_box.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/editProfile.js" afterPath="$PROJECT_DIR$/js/editProfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/Validator.php" afterPath="$PROJECT_DIR$/util/Validator.php" />
     </list>
     <ignored path="uploads/Array" />
     <ignored path="uploads/computer_data_tobu.png" />
@@ -89,8 +85,8 @@
           <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="311" column="1" lean-forward="true" selection-start-line="311" selection-start-column="1" selection-end-line="311" selection-end-column="1" />
+                <state relative-caret-position="-1065">
+                  <caret line="317" column="1" lean-forward="true" selection-start-line="317" selection-start-column="1" selection-end-line="317" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -99,8 +95,8 @@
           <file leaf-file-name="profileEdit.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/include/profileEdit.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="16">
-                  <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+                <state relative-caret-position="48">
+                  <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -109,9 +105,11 @@
           <file leaf-file-name="editProfile.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/editProfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="128">
-                  <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-                  <folding />
+                <state relative-caret-position="304">
+                  <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#3039#3064#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -123,8 +121,8 @@
           <file leaf-file-name="timeline.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/timeline.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
-                  <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+                <state relative-caret-position="256">
+                  <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -133,18 +131,8 @@
           <file leaf-file-name="user_box.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/include/user_box.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="24" column="118" lean-forward="true" selection-start-line="24" selection-start-column="118" selection-end-line="24" selection-end-column="118" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Debug.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/Debug.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="269">
-                  <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+                <state relative-caret-position="532">
+                  <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -172,6 +160,7 @@
       <find>&lt;/div&gt;</find>
       <find>avat</find>
       <find>avater</find>
+      <find>userEdit</find>
     </findStrings>
     <replaceStrings>
       <replace>'];</replace>
@@ -573,14 +562,7 @@
       <workItem from="1554120796840" duration="812000" />
       <workItem from="1554171294881" duration="21930000" />
       <workItem from="1554265538594" duration="6862000" />
-      <workItem from="1554273282415" duration="9132000" />
-    </task>
-    <task id="LOCAL-00016" summary="新規登録ページを追加&#10;index.phpのページ割当てをリファクタ">
-      <created>1549707537244</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1549707537244</updated>
+      <workItem from="1554273282415" duration="12267000" />
     </task>
     <task id="LOCAL-00017" summary="ページ設計を変更&#10;index?p=*** 形式はやめる">
       <created>1552548955143</created>
@@ -918,11 +900,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554280320308</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="変更が無い場合にajax処理を実行しないように修正">
+      <created>1554284333242</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1554284333242</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246963000" />
+    <option name="totallyTimeSpent" value="250098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -937,7 +926,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13751318" sideWeight="0.4936306" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13751318" sideWeight="0.48986125" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30309498" sideWeight="0.5170576" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19494204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -946,7 +935,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17910448" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16204691" sideWeight="0.5063694" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13751318" sideWeight="0.51013875" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40234792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -986,7 +975,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="タイムラインページ基礎デザイン　＞　向き反転吹き出し" />
     <MESSAGE value=" パスワードリマインダーページ基礎デザイン" />
     <MESSAGE value="ツイートページ、ツイートボックスのモックアップ" />
     <MESSAGE value="ユーザーページモックアップ　スタイル調整" />
@@ -1011,7 +999,8 @@
     <MESSAGE value="画像アップロード機能実装&#10;画像表示領域の表示調整" />
     <MESSAGE value="merge 後test commit" />
     <MESSAGE value="merge to master" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge to master" />
+    <MESSAGE value="変更が無い場合にajax処理を実行しないように修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="変更が無い場合にajax処理を実行しないように修正" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1344,14 +1333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="311" column="1" lean-forward="true" selection-start-line="311" selection-start-column="1" selection-end-line="311" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/Validator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-256">
@@ -1398,33 +1379,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/timeline.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="256">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/profileEdit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="48">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1065">
+          <caret line="317" column="1" lean-forward="true" selection-start-line="317" selection-start-column="1" selection-end-line="317" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/user_box.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="24" column="118" lean-forward="true" selection-start-line="24" selection-start-column="118" selection-end-line="24" selection-end-column="118" />
+        <state relative-caret-position="532">
+          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/editProfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#3039#3064#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

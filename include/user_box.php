@@ -45,6 +45,7 @@
             <div class="statsValue">12345</div>
         </div>
     </div>
-    <div class="userEdit btn-rr btnColor-bgWhite js-editProfile">プロフィールを編集</div>
+    <div class="btn-rr btnColor-bgWhite js-editProfile">プロフィールを編集</div>
+    <div class="btn-rr btnColor-bgWhite js-cancelEditProfile">キャンセル</div>
     <script src="js/editProfile.js"></script>
 </div>
