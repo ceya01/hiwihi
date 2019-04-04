@@ -38,9 +38,15 @@ class PDOWrapper
         $stmt = $this->pdo->prepare($sql);
         //プレースホルダに値をセットし、SQL文を実行
         if(!$stmt->execute($data)){
-            //dlog('クエリに失敗しました。');
-            //dlog('失敗したSQL：'.print_r($stmt,true));
-            return null;
+            throw new Exception(
+                ' クエリに失敗しました：<br>'.$stmt->errorCode().print_r($stmt->errorInfo(),true).
+                ' 失敗したSQL：'.print_r($stmt,true).
+                ' data：'.print_r($data,true)
+            );
+//            dlog('クエリに失敗しました。'.$stmt->errorCode().print_r($stmt->erroinfo(),true));
+//            dlog('失敗したSQL：'.print_r($stmt,true));
+//            dlog('data：'.print_r($data,true));
+//            return null;
         }
         //dlog('クエリ成功。');
         return $stmt;
