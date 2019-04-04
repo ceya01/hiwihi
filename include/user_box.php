@@ -47,5 +47,6 @@
     </div>
     <div class="btn-rr btnColor-bgWhite js-editProfile">プロフィールを編集</div>
     <div class="btn-rr btnColor-bgWhite js-cancelEditProfile">キャンセル</div>
-    <script src="js/editProfile.js"></script>
 </div>
+
+<script src="js/editProfile.js"></script>

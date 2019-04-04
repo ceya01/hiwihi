@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: eceys
- * Date: 2019/03/23
- * Time: 9:24
- */
 //require_once ("core/db/record/User.php");
 require_once(dirname(__FILE__)."/../DBConnector.php");
 
@@ -56,12 +50,11 @@ class UserTable
         return array_shift($result) != 0;
     }
     static public function existEmail($email):bool{
-        return self::exist('email',$email);
-//
+        return self::exist(KEY_EMAIL,$email);
     }
 
     static public function existCharID($charID):bool{
-        return self::exist('char_id',$charID);
+        return self::exist(KEY_CHARID,$charID);
     }
 
     static private function getUser($id,$row='*'){

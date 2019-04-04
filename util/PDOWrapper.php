@@ -33,14 +33,14 @@ class PDOWrapper
 
     }
 
-    function queryPost($sql, $data){
+    function queryPost($sql, $data=[]){
         //クエリー作成
         $stmt = $this->pdo->prepare($sql);
         //プレースホルダに値をセットし、SQL文を実行
         if(!$stmt->execute($data)){
             //dlog('クエリに失敗しました。');
             //dlog('失敗したSQL：'.print_r($stmt,true));
-            return 0;
+            return null;
         }
         //dlog('クエリ成功。');
         return $stmt;

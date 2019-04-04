@@ -238,7 +238,7 @@
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="64" parent="18" name="regist_date">
+    <column id="64" parent="18" name="regist_time">
       <Position>4</Position>
       <DataType>datetime|0</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
@@ -265,17 +265,17 @@
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="70" parent="19" name="post_date">
+    <column id="70" parent="19" name="delete_flag">
+      <Position>7</Position>
+      <DataType>tinyint(1)|0</DataType>
+    </column>
+    <column id="71" parent="19" name="post_time">
       <Position>5</Position>
       <DataType>datetime|0</DataType>
     </column>
-    <column id="71" parent="19" name="edit_date">
+    <column id="72" parent="19" name="edit_time">
       <Position>6</Position>
       <DataType>datetime|0</DataType>
-    </column>
-    <column id="72" parent="19" name="delete_flag">
-      <Position>7</Position>
-      <DataType>tinyint(1)|0</DataType>
     </column>
     <key id="73" parent="19" name="PRIMARY">
       <ColNames>id</ColNames>

@@ -90,7 +90,7 @@ $(function () {
             }
 
             //初期化
-            revertEditDisplay();
+//            revertEditDisplay();
             init();
             // isTextChanged = false;
             // isImgChanged = false;
@@ -113,26 +113,32 @@ $(function () {
     });
 
     $cancelEditBtn.click(function () {
-        revertEditDisplay();
+//        revertEditDisplay();
         $avatarImg.attr('src',prevImgSrc).show();
         init();
     });
 
-
-    function revertEditDisplay(){
-        $hiddenEditor.hide();
-        $hiddenEditor.prev('.editableText').show();
-        $editBtn.text(btInitText);
-        $editBtn.addClass('btnColor-bgWhite');
-        $editBtn.removeClass('btnColor-bghiwihi');
-    }
+    //
+    // function revertEditDisplay(){
+    //     $hiddenEditor.hide();
+    //     $hiddenEditor.prev('.editableText').show();
+    //     $editBtn.text(btInitText);
+    //     $editBtn.addClass('btnColor-bgWhite');
+    //     $editBtn.removeClass('btnColor-bghiwihi');
+    // }
 
     function init() {
         //初期化
         isTextChanged = false;
         isImgChanged = false;
         isEditing = false;
+
         $cancelEditBtn.hide();
+        $hiddenEditor.hide();
+        $hiddenEditor.prev('.editableText').show();
+        $editBtn.text(btInitText);
+        $editBtn.addClass('btnColor-bgWhite');
+        $editBtn.removeClass('btnColor-bghiwihi');
     }
 });
 
