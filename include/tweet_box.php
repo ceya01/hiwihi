@@ -2,6 +2,10 @@
 <?php
     //var_dump($tweetRecord);
     global $tweetRecord;
+    //ajax呼び出し用
+    if(isset($_POST['newTweet'])){
+        $tweetRecord = $_POST['newTweet'];
+    }
     $text = $tweetRecord['text'];
     $name = $tweetRecord['name'];
     $charID = $tweetRecord['char_id'];

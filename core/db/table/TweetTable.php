@@ -41,9 +41,9 @@ class TweetTable
 
     //TODO: UserTableとほぼ重複してるので解消したい
     //
-    private static function getTweet($id,$row='*')
+    public static function getTweet($id,$cols='*')
     {
-        $sql = 'SELECT '.$row.' FROM tweet WHERE id=:id AND delete_flag = 0';
+        $sql = 'SELECT '.$cols.' FROM tweet WHERE id=:id AND delete_flag = 0';
         $data = ['id' => $id];
         $pdow = DBConnector::getPdow();
         $stmt = $pdow->queryPost($sql,$data);
@@ -51,7 +51,7 @@ class TweetTable
         return $result;
     }
 
-    private static function getTweetPropety($id, $propety,$defaultReturn ='')
+    public static function getTweetPropety($id, $propety,$defaultReturn ='')
     {
         $result = self::getTweet($id,$propety);
         return isset($result[$propety]) ? $result[$propety] : $defaultReturn;
@@ -63,6 +63,17 @@ class TweetTable
     public static function getTweetUserID($id):string
     {
         return self::getTweetPropety($id,'user_id');
+    }
+
+    public static function getTweetWithUser($id)
+    {
+        $cols = 'tweet.id, tweet.text, tweet.replyto_id, tweet.post_time, tweet.edit_time, user.name, user.char_id, user.icon';
+        $sql = 'SELECT '.$cols.' FROM tweet JOIN user ON user.id = tweet.user_id WHERE tweet.id=:id AND tweet.delete_flag = 0';
+        $data = ['id' => $id];
+        $pdow = DBConnector::getPdow();
+        $stmt = $pdow->queryPost($sql,$data);
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $result;
     }
 
     public static function getAllTweetList($limit=100)

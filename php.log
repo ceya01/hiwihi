@@ -5066,3 +5066,745 @@ Stack trace:
 /works/hiwihi/timeline.php
 
 [04-Apr-2019 18:44:47 Asia/Tokyo] 
+[04-Apr-2019 20:35:50 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[04-Apr-2019 20:35:50 Asia/Tokyo] 
+[04-Apr-2019 20:35:50 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:35:50 Asia/Tokyo] 
+[04-Apr-2019 20:36:08 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 20:36:08 Asia/Tokyo] 
+[04-Apr-2019 20:36:08 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 20:36:08 Asia/Tokyo] Array
+(
+    [tweet] => ぽいぽん５買いました
+)
+
+[04-Apr-2019 20:36:08 Asia/Tokyo] PHP Warning:  include(include/tweet_box.php): failed to open stream: No such file or directory in D:\xampp\htdocs\works\hiwihi\include\postTweet.php on line 8
+[04-Apr-2019 20:36:08 Asia/Tokyo] PHP Stack trace:
+[04-Apr-2019 20:36:08 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\postTweet.php:0
+[04-Apr-2019 20:36:08 Asia/Tokyo] PHP Warning:  include(): Failed opening 'include/tweet_box.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\works\hiwihi\include\postTweet.php on line 8
+[04-Apr-2019 20:36:08 Asia/Tokyo] PHP Stack trace:
+[04-Apr-2019 20:36:08 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\postTweet.php:0
+[04-Apr-2019 20:36:46 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:36:46 Asia/Tokyo] 
+[04-Apr-2019 20:36:52 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 20:36:52 Asia/Tokyo] 
+[04-Apr-2019 20:36:52 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 20:36:52 Asia/Tokyo] Array
+(
+    [tweet] => うぇーいい
+)
+
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP Notice:  Undefined index: name in D:\xampp\htdocs\works\hiwihi\include\tweet_box.php on line 10
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP Stack trace:
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\postTweet.php:0
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP   2. include() D:\xampp\htdocs\works\hiwihi\include\postTweet.php:8
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP Notice:  Undefined index: char_id in D:\xampp\htdocs\works\hiwihi\include\tweet_box.php on line 11
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP Stack trace:
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\postTweet.php:0
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP   2. include() D:\xampp\htdocs\works\hiwihi\include\postTweet.php:8
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP Notice:  Undefined index: icon in D:\xampp\htdocs\works\hiwihi\include\tweet_box.php on line 13
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP Stack trace:
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\include\postTweet.php:0
+[04-Apr-2019 20:36:52 Asia/Tokyo] PHP   2. include() D:\xampp\htdocs\works\hiwihi\include\postTweet.php:8
+[04-Apr-2019 20:40:13 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:40:13 Asia/Tokyo] 
+[04-Apr-2019 20:40:20 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 20:40:20 Asia/Tokyo] 
+[04-Apr-2019 20:40:20 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 20:40:20 Asia/Tokyo] Array
+(
+    [tweet] => あ！
+)
+
+[04-Apr-2019 20:40:20 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php:75
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\include\postTweet.php(7): TweetTable::getTweetWithUser(10)
+#1 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php on line 75
+[04-Apr-2019 20:40:52 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:40:52 Asia/Tokyo] 
+[04-Apr-2019 20:40:57 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 20:40:57 Asia/Tokyo] 
+[04-Apr-2019 20:40:57 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 20:40:57 Asia/Tokyo] Array
+(
+    [tweet] => あああ
+)
+
+[04-Apr-2019 20:42:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:42:24 Asia/Tokyo] 
+[04-Apr-2019 20:42:26 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:42:26 Asia/Tokyo] 
+[04-Apr-2019 20:42:30 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 20:42:30 Asia/Tokyo] 
+[04-Apr-2019 20:42:30 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 20:42:30 Asia/Tokyo] Array
+(
+    [tweet] => いお
+)
+
+[04-Apr-2019 20:42:30 Asia/Tokyo] クエリに失敗しました。
+[04-Apr-2019 20:42:30 Asia/Tokyo] 失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT tweet.id, tweet.text, tweet.replyto_id, tweet.post_time, tweet.edit_time, user.name, user.char_id, user.icon FROM tweet JOIN user ON user.id = tweet.user_id WHERE tweet.id=:id AND delete_flag = 0
+)
+
+[04-Apr-2019 20:42:30 Asia/Tokyo] data：Array
+(
+    [id] => 12
+)
+
+[04-Apr-2019 20:42:36 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php:75
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\include\postTweet.php(7): TweetTable::getTweetWithUser(12)
+#1 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php on line 75
+[04-Apr-2019 20:49:04 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:49:04 Asia/Tokyo] 
+[04-Apr-2019 20:49:06 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 20:49:06 Asia/Tokyo] 
+[04-Apr-2019 20:49:06 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 20:49:06 Asia/Tokyo] Array
+(
+    [tweet] => aa
+)
+
+[04-Apr-2019 20:49:33 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:49:33 Asia/Tokyo] 
+[04-Apr-2019 20:49:44 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 20:49:44 Asia/Tokyo] 
+[04-Apr-2019 20:49:44 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 20:49:44 Asia/Tokyo] Array
+(
+    [tweet] => ﾋﾟｼﾞｬ
+)
+
+[04-Apr-2019 20:49:48 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:49:48 Asia/Tokyo] 
+[04-Apr-2019 20:50:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 20:50:00 Asia/Tokyo] 
+[04-Apr-2019 20:50:00 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 20:50:00 Asia/Tokyo] Array
+(
+    [tweet] => 000011111111111010010101010100001010001011101010000100011110001010100100100100101010101011
+)
+
+[04-Apr-2019 20:50:02 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:50:02 Asia/Tokyo] 
+[04-Apr-2019 20:51:49 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 20:51:49 Asia/Tokyo] 
+[04-Apr-2019 21:06:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:06:31 Asia/Tokyo] 
+[04-Apr-2019 21:07:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:07:31 Asia/Tokyo] 
+[04-Apr-2019 21:07:33 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:07:33 Asia/Tokyo] 
+[04-Apr-2019 21:07:33 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:07:33 Asia/Tokyo] Array
+(
+    [tweet] => q
+)
+
+[04-Apr-2019 21:07:33 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::erroinfo() in D:\xampp\htdocs\works\hiwihi\util\PDOWrapper.php:42
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php(74): PDOWrapper->queryPost('eSELECT tweet.i...', Array)
+#1 D:\xampp\htdocs\works\hiwihi\include\postTweet.php(7): TweetTable::getTweetWithUser(16)
+#2 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\util\PDOWrapper.php on line 42
+[04-Apr-2019 21:08:44 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:08:44 Asia/Tokyo] 
+[04-Apr-2019 21:08:46 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:08:46 Asia/Tokyo] 
+[04-Apr-2019 21:08:46 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:08:46 Asia/Tokyo] Array
+(
+    [tweet] => q
+)
+
+[04-Apr-2019 21:08:47 Asia/Tokyo] PHP Fatal error:  Uncaught Exception:  クエリに失敗しました：42000Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'eSELECT tweet.id, tweet.text, tweet.replyto_id, tweet.post_time, tweet.edit_time' at line 1
+)
+\n 失敗したSQL：PDOStatement Object
+(
+    [queryString] => eSELECT tweet.id, tweet.text, tweet.replyto_id, tweet.post_time, tweet.edit_time, user.name, user.char_id, user.icon FROM tweet JOIN user ON user.id = tweet.user_id WHERE tweet.id=:id AND tweet.delete_flag = 0
+)
+\n data：Array
+(
+    [id] => 17
+)
+ in D:\xampp\htdocs\works\hiwihi\util\PDOWrapper.php:41
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php(74): PDOWrapper->queryPost('eSELECT tweet.i...', Array)
+#1 D:\xampp\htdocs\works\hiwihi\include\postTweet.php(7): TweetTable::getTweetWithUser(17)
+#2 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\util\PDOWrapper.php on line 41
+[04-Apr-2019 21:09:34 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:09:34 Asia/Tokyo] 
+[04-Apr-2019 21:09:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:09:36 Asia/Tokyo] 
+[04-Apr-2019 21:09:36 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:09:36 Asia/Tokyo] Array
+(
+    [tweet] => 222
+)
+
+[04-Apr-2019 21:09:37 Asia/Tokyo] PHP Fatal error:  Uncaught Exception:  クエリに失敗しました：<br>42000Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'eSELECT tweet.id, tweet.text, tweet.replyto_id, tweet.post_time, tweet.edit_time' at line 1
+)
+<br> 失敗したSQL：PDOStatement Object
+(
+    [queryString] => eSELECT tweet.id, tweet.text, tweet.replyto_id, tweet.post_time, tweet.edit_time, user.name, user.char_id, user.icon FROM tweet JOIN user ON user.id = tweet.user_id WHERE tweet.id=:id AND tweet.delete_flag = 0
+)
+<br> data：Array
+(
+    [id] => 18
+)
+ in D:\xampp\htdocs\works\hiwihi\util\PDOWrapper.php:41
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php(74): PDOWrapper->queryPost('eSELECT tweet.i...', Array)
+#1 D:\xampp\htdocs\works\hiwihi\include\postTweet.php(7): TweetTable::getTweetWithUser(18)
+#2 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\util\PDOWrapper.php on line 41
+[04-Apr-2019 21:14:12 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:14:12 Asia/Tokyo] 
+[04-Apr-2019 21:14:16 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:14:16 Asia/Tokyo] 
+[04-Apr-2019 21:14:16 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:14:16 Asia/Tokyo] Array
+(
+    [tweet] => 12ssdef323
+)
+
+[04-Apr-2019 21:14:16 Asia/Tokyo] PHP Fatal error:  Uncaught Exception:  クエリに失敗しました：<br>42000Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'eSELECT tweet.id, tweet.text, tweet.replyto_id, tweet.post_time, tweet.edit_time' at line 1
+)
+ 失敗したSQL：PDOStatement Object
+(
+    [queryString] => eSELECT tweet.id, tweet.text, tweet.replyto_id, tweet.post_time, tweet.edit_time, user.name, user.char_id, user.icon FROM tweet JOIN user ON user.id = tweet.user_id WHERE tweet.id=:id AND tweet.delete_flag = 0
+)
+ data：Array
+(
+    [id] => 19
+)
+ in D:\xampp\htdocs\works\hiwihi\util\PDOWrapper.php:41
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php(74): PDOWrapper->queryPost('eSELECT tweet.i...', Array)
+#1 D:\xampp\htdocs\works\hiwihi\include\postTweet.php(7): TweetTable::getTweetWithUser(19)
+#2 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\util\PDOWrapper.php on line 41
+[04-Apr-2019 21:14:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:14:24 Asia/Tokyo] 
+[04-Apr-2019 21:14:28 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:14:28 Asia/Tokyo] 
+[04-Apr-2019 21:14:28 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:14:28 Asia/Tokyo] Array
+(
+    [tweet] => qz
+)
+
+[04-Apr-2019 21:16:08 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:16:08 Asia/Tokyo] 
+[04-Apr-2019 21:16:14 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:16:14 Asia/Tokyo] 
+[04-Apr-2019 21:16:14 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:16:14 Asia/Tokyo] Array
+(
+    [tweet] => やっほ＾＾
+)
+
+[04-Apr-2019 21:16:28 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:16:28 Asia/Tokyo] 
+[04-Apr-2019 21:16:34 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:16:34 Asia/Tokyo] 
+[04-Apr-2019 21:16:34 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:16:34 Asia/Tokyo] Array
+(
+    [tweet] => お？
+)
+
+[04-Apr-2019 21:16:42 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:16:42 Asia/Tokyo] 
+[04-Apr-2019 21:16:42 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:16:42 Asia/Tokyo] Array
+(
+    [tweet] => うおおおお！？
+)
+
+[04-Apr-2019 21:16:47 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:16:47 Asia/Tokyo] 
+[04-Apr-2019 21:16:47 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:16:47 Asia/Tokyo] Array
+(
+    [tweet] => やったぜ
+)
+
+[04-Apr-2019 21:16:51 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:16:51 Asia/Tokyo] 
+[04-Apr-2019 21:17:29 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:17:29 Asia/Tokyo] 
+[04-Apr-2019 21:17:29 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:17:29 Asia/Tokyo] Array
+(
+    [tweet] => 処理速度とか処理効率とか無駄なことしてないかとか、たいして実力もないくせに気にしすぎている
+
+jQueryはあとからphpとかHTML書いてあとから追加できるのがいい
+)
+
+[04-Apr-2019 21:17:45 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:17:45 Asia/Tokyo] 
+[04-Apr-2019 21:17:45 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:17:45 Asia/Tokyo] Array
+(
+    [tweet] => 改行　できないの？
+
+ツイッターでも改行できるのに
+)
+
+[04-Apr-2019 21:18:01 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:18:01 Asia/Tokyo] 
+[04-Apr-2019 21:18:01 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:18:01 Asia/Tokyo] Array
+(
+    [tweet] => ツイッターのパクリやめろ
+)
+
+[04-Apr-2019 21:18:14 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[04-Apr-2019 21:18:14 Asia/Tokyo] 
+[04-Apr-2019 21:18:19 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[04-Apr-2019 21:18:19 Asia/Tokyo] 
+[04-Apr-2019 21:18:19 Asia/Tokyo] $result: 
+[04-Apr-2019 21:18:19 Asia/Tokyo] Array
+(
+    [password] => $2y$10$e9Bg7kTscE2KyOr6eAZkV.snIIOGUOnlIwinnKcmNOzDzSgOZr8TK
+    [id] => 17
+)
+
+[04-Apr-2019 21:18:20 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:18:20 Asia/Tokyo] 
+[04-Apr-2019 21:18:32 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:18:32 Asia/Tokyo] 
+[04-Apr-2019 21:18:32 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:18:32 Asia/Tokyo] Array
+(
+    [tweet] => タイムライン知らん人ので埋まってるんだけど
+)
+
+[04-Apr-2019 21:18:34 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:18:34 Asia/Tokyo] 
+[04-Apr-2019 21:19:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[04-Apr-2019 21:19:00 Asia/Tokyo] 
+[04-Apr-2019 21:19:00 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[04-Apr-2019 21:19:00 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => face_smile_man2.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php490A.tmp
+            [error] => 0
+            [size] => 45878
+        )
+
+)
+
+[04-Apr-2019 21:19:41 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:19:41 Asia/Tokyo] 
+[04-Apr-2019 21:22:48 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:22:48 Asia/Tokyo] 
+[04-Apr-2019 21:22:52 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:22:52 Asia/Tokyo] 
+[04-Apr-2019 21:22:52 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:22:52 Asia/Tokyo] Array
+(
+    [tweet] => う
+)
+
+[04-Apr-2019 21:22:56 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:22:56 Asia/Tokyo] 
+[04-Apr-2019 21:22:56 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:22:56 Asia/Tokyo] Array
+(
+    [tweet] => あああ
+)
+
+[04-Apr-2019 21:23:01 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:23:01 Asia/Tokyo] 
+[04-Apr-2019 21:23:01 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:23:01 Asia/Tokyo] Array
+(
+    [tweet] => あああ
+)
+
+[04-Apr-2019 21:23:02 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:23:02 Asia/Tokyo] 
+[04-Apr-2019 21:23:02 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:23:02 Asia/Tokyo] Array
+(
+    [tweet] => 
+)
+
+[04-Apr-2019 21:23:05 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:23:05 Asia/Tokyo] 
+[04-Apr-2019 21:23:05 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:23:05 Asia/Tokyo] Array
+(
+    [tweet] => ｓ
+)
+
+[04-Apr-2019 21:23:05 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:23:05 Asia/Tokyo] 
+[04-Apr-2019 21:23:05 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:23:05 Asia/Tokyo] Array
+(
+    [tweet] => 
+)
+
+[04-Apr-2019 21:23:07 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:23:07 Asia/Tokyo] 
+[04-Apr-2019 21:23:07 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:23:07 Asia/Tokyo] Array
+(
+    [tweet] => 
+)
+
+[04-Apr-2019 21:23:20 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:23:20 Asia/Tokyo] 
+[04-Apr-2019 21:23:20 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:23:20 Asia/Tokyo] Array
+(
+    [tweet] => 無言ツイートやめろ
+)
+
+[04-Apr-2019 21:23:56 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:23:56 Asia/Tokyo] 
+[04-Apr-2019 21:24:03 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:24:03 Asia/Tokyo] 
+[04-Apr-2019 21:24:03 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:24:03 Asia/Tokyo] Array
+(
+    [tweet] => じわる
+
+)
+
+[04-Apr-2019 21:25:37 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:25:37 Asia/Tokyo] 
+[04-Apr-2019 21:25:40 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:25:40 Asia/Tokyo] 
+[04-Apr-2019 21:25:41 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:25:41 Asia/Tokyo] Array
+(
+    [tweet] => あ
+)
+
+[04-Apr-2019 21:25:46 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:25:46 Asia/Tokyo] 
+[04-Apr-2019 21:25:46 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:25:46 Asia/Tokyo] Array
+(
+    [tweet] => あ
+)
+
+[04-Apr-2019 21:27:10 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:27:10 Asia/Tokyo] 
+[04-Apr-2019 21:27:13 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:27:13 Asia/Tokyo] 
+[04-Apr-2019 21:27:13 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:27:13 Asia/Tokyo] Array
+(
+    [tweet] => くぁ
+)
+
+[04-Apr-2019 21:27:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:27:31 Asia/Tokyo] 
+[04-Apr-2019 21:27:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:27:36 Asia/Tokyo] 
+[04-Apr-2019 21:27:36 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:27:36 Asia/Tokyo] Array
+(
+    [tweet] => ｳｯ
+)
+
+[04-Apr-2019 21:28:39 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:28:39 Asia/Tokyo] 
+[04-Apr-2019 21:28:42 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:28:42 Asia/Tokyo] 
+[04-Apr-2019 21:28:42 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:28:42 Asia/Tokyo] Array
+(
+    [tweet] => なる
+)
+
+[04-Apr-2019 21:28:49 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:28:49 Asia/Tokyo] 
+[04-Apr-2019 21:28:49 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:28:49 Asia/Tokyo] Array
+(
+    [tweet] => すご
+)
+
+[04-Apr-2019 21:29:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:29:00 Asia/Tokyo] 
+[04-Apr-2019 21:29:00 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:29:00 Asia/Tokyo] Array
+(
+    [tweet] => ajaxいいぞ。
+)
+
+[04-Apr-2019 21:29:16 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[04-Apr-2019 21:29:16 Asia/Tokyo] 
+[04-Apr-2019 21:29:16 Asia/Tokyo] ajax profileEdit  $_POST:
+[04-Apr-2019 21:29:16 Asia/Tokyo] Array
+(
+    [userName] => ヤマダ　じろう
+    [userBio] => ヒウィッヒヒーー始めた！よん
+)
+
+[04-Apr-2019 21:29:23 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:29:23 Asia/Tokyo] 
+[04-Apr-2019 21:29:23 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:29:23 Asia/Tokyo] Array
+(
+    [tweet] => なまえかえた
+)
+
+[04-Apr-2019 21:29:26 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[04-Apr-2019 21:29:26 Asia/Tokyo] 
+[04-Apr-2019 21:29:50 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[04-Apr-2019 21:29:50 Asia/Tokyo] 
+[04-Apr-2019 21:29:50 Asia/Tokyo] ajax postTweet  $_POST:
+[04-Apr-2019 21:29:50 Asia/Tokyo] Array
+(
+    [tweet] => ewgru23nyvryy32ry83n2rhrhhr32uihuwer3u1uhreuhroqhj3unr0e3cu1m0eru3v0r3muvm30rh308qj iroh３えｒｖｈ２４ｒｈ４うんｒｈｆうぇｑんｈふぃｑ」
+)
+
