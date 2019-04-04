@@ -1,11 +1,11 @@
 
 <?php
     //var_dump($tweetRecord);
+    global $tweetRecord;
     $text = $tweetRecord['text'];
     $name = $tweetRecord['name'];
     $charID = $tweetRecord['char_id'];
     $time = $tweetRecord['post_time'];
-
     $icon = $tweetRecord['icon'];
     if(isset($icon)){
         $icon = 'uploads/'.$icon;

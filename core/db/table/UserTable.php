@@ -5,20 +5,7 @@ require_once(dirname(__FILE__)."/../DBConnector.php");
 
 class UserTable
 {
-    static private $instance;
 
-    /**
-     * @return UserTable
-     */
-//
-//    public static function getInstance()
-//    {
-//        if(empty(self::$instance)){
-//            self::$instance = new UserTable();
-//        }
-//        return self::$instance;
-//    }
-//
     public static function createUser($argary): int
     {
         $ary = array(

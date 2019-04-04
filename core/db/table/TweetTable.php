@@ -58,11 +58,11 @@ class TweetTable
     }
     public static function getTweetText($id):string
     {
-        self::getTweetPropety($id,'text');
+        return self::getTweetPropety($id,'text');
     }
     public static function getTweetUserID($id):string
     {
-        self::getTweetPropety($id,'user_id');
+        return self::getTweetPropety($id,'user_id');
     }
 
     public static function getAllTweetList($limit=100)
@@ -79,8 +79,9 @@ class TweetTable
             return $result;
         } catch (Error $exception) {
             echo 'エラーが発生しました<br>'.$exception;
-        }
 
+        }
+        return null;
     }
 
 }

@@ -101,13 +101,13 @@ $(function () {
     });
 
     //画像変更
-    $avatarInput.on('change',function(evt1){
+    $avatarInput.on('change', function () {
         isImgChanged = true;
         let file = this.files[0];
         let fileRender = new FileReader();
-        fileRender.onload = function (evt2) {
+        fileRender.onload = function (evt) {
             //画像表示
-            $avatarImg.attr('src',evt2.target.result).show();
+            $avatarImg.attr('src',evt.target.result).show();
         };
         fileRender.readAsDataURL(file);
     });
