@@ -51,7 +51,12 @@ class PDOWrapper
         //dlog('クエリ成功。');
         return $stmt;
     }
-
+    function fetchAll($sql, $data=[]){
+        $stmt = $this->queryPost($sql,$data);
+        if(!$stmt){ return null;}
+        $result = $stmt->fetchAll();
+        return $result;
+    }
     /**
      * 引数にテーブル名、['列名'=>値,...] 形式の連想配列を入れてINSERTする
      * @param string $tableName

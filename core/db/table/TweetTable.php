@@ -84,9 +84,7 @@ class TweetTable
 
         $pdow = DBConnector::getPdow();
         try {
-            $stmt = $pdow->queryPost($sql);
-            if(!$stmt){ return null;}
-            $result = $stmt->fetchAll();
+            $result = $pdow->fetchAll($sql);
             return $result;
         } catch (Error $exception) {
             echo 'エラーが発生しました<br>'.$exception;
@@ -103,14 +101,31 @@ class TweetTable
         $data = ['userID' => $userID];
         $pdow = DBConnector::getPdow();
         try {
-            $stmt = $pdow->queryPost($sql,$data);
-            if(!$stmt){ return null;}
-            $result = $stmt->fetchAll();
+            $result = $pdow->fetchAll($sql,$data);
             return $result;
         } catch (Error $exception) {
             echo 'エラーが発生しました<br>'.$exception;
 
         }
         return null;
+    }
+
+
+    public static function getNumTweetOfUser($userID):int
+    {
+        $sql = 'SELECT COUNT(*) FROM tweet JOIN user ON user.id = tweet.user_id '.
+            'WHERE tweet.delete_flag = 0 AND user.id =:userID ORDER BY tweet.post_time DESC';
+        $data = ['userID' => $userID];
+        $pdow = DBConnector::getPdow();
+        try {
+            $stmt = $pdow->queryPost($sql,$data);
+            $result = $stmt->fetch(PDO::FETCH_ASSOC);
+            //$result = $pdow->fetchAll($sql,$data);
+            return (int)$result['COUNT(*)'];
+        } catch (Error $exception) {
+            echo 'エラーが発生しました<br>'.$exception;
+
+        }
+        return 0;
     }
 }

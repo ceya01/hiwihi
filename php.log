@@ -7317,3 +7317,153 @@ jQueryはあとからphpとかHTML書いてあとから追加できるのがい�
 /works/hiwihi/timeline.php
 
 [07-Apr-2019 17:56:14 Asia/Tokyo] 
+[07-Apr-2019 18:07:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:07:24 Asia/Tokyo] 
+[07-Apr-2019 18:07:26 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:07:26 Asia/Tokyo] 
+[07-Apr-2019 18:07:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:07:31 Asia/Tokyo] 
+[07-Apr-2019 18:08:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:08:00 Asia/Tokyo] 
+[07-Apr-2019 18:08:12 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:08:12 Asia/Tokyo] 
+[07-Apr-2019 18:08:21 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:08:21 Asia/Tokyo] 
+[07-Apr-2019 18:08:35 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:08:35 Asia/Tokyo] 
+[07-Apr-2019 18:08:35 Asia/Tokyo] PHP Notice:  Undefined index: count in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php on line 122
+[07-Apr-2019 18:08:35 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 18:08:35 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 18:08:35 Asia/Tokyo] PHP   2. include() D:\xampp\htdocs\works\hiwihi\timeline.php:12
+[07-Apr-2019 18:08:35 Asia/Tokyo] PHP   3. TweetTable::getNumTweetOfUser($userID = *uninitialized*) D:\xampp\htdocs\works\hiwihi\include\user_box.php:13
+[07-Apr-2019 18:08:35 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Return value of TweetTable::getNumTweetOfUser() must be of the type integer, null returned in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php:127
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\include\user_box.php(13): TweetTable::getNumTweetOfUser(17)
+#1 D:\xampp\htdocs\works\hiwihi\timeline.php(12): include('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php on line 127
+[07-Apr-2019 18:08:41 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:08:41 Asia/Tokyo] 
+[07-Apr-2019 18:08:41 Asia/Tokyo] PHP Notice:  Undefined index: count in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php on line 122
+[07-Apr-2019 18:08:41 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 18:08:41 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 18:08:41 Asia/Tokyo] PHP   2. include() D:\xampp\htdocs\works\hiwihi\timeline.php:12
+[07-Apr-2019 18:08:41 Asia/Tokyo] PHP   3. TweetTable::getNumTweetOfUser($userID = *uninitialized*) D:\xampp\htdocs\works\hiwihi\include\user_box.php:13
+[07-Apr-2019 18:08:41 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Return value of TweetTable::getNumTweetOfUser() must be of the type integer, null returned in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php:127
+Stack trace:
+#0 D:\xampp\htdocs\works\hiwihi\include\user_box.php(13): TweetTable::getNumTweetOfUser(17)
+#1 D:\xampp\htdocs\works\hiwihi\timeline.php(12): include('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php on line 127
+[07-Apr-2019 18:08:55 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:08:55 Asia/Tokyo] 
+[07-Apr-2019 18:08:55 Asia/Tokyo] PHP Notice:  Undefined index: count in D:\xampp\htdocs\works\hiwihi\core\db\table\TweetTable.php on line 122
+[07-Apr-2019 18:08:55 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 18:08:55 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 18:08:55 Asia/Tokyo] PHP   2. include() D:\xampp\htdocs\works\hiwihi\timeline.php:12
+[07-Apr-2019 18:08:55 Asia/Tokyo] PHP   3. TweetTable::getNumTweetOfUser($userID = *uninitialized*) D:\xampp\htdocs\works\hiwihi\include\user_box.php:13
+[07-Apr-2019 18:09:09 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:09:09 Asia/Tokyo] 
+[07-Apr-2019 18:10:23 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:10:23 Asia/Tokyo] 
+[07-Apr-2019 18:10:44 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:10:44 Asia/Tokyo] 
+[07-Apr-2019 18:11:44 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:11:44 Asia/Tokyo] 
+[07-Apr-2019 18:11:48 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/index.php
+
+[07-Apr-2019 18:11:48 Asia/Tokyo] 
+[07-Apr-2019 18:11:48 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:11:48 Asia/Tokyo] 
+[07-Apr-2019 18:11:54 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:11:54 Asia/Tokyo] 
+[07-Apr-2019 18:12:06 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 18:12:06 Asia/Tokyo] 
+[07-Apr-2019 18:12:06 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 18:12:06 Asia/Tokyo] Array
+(
+    [tweet] => ツイート数表示機能を追加しました。
+)
+
+[07-Apr-2019 18:12:10 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:12:10 Asia/Tokyo] 
+[07-Apr-2019 18:12:27 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 18:12:27 Asia/Tokyo] 
+[07-Apr-2019 18:12:49 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[07-Apr-2019 18:12:49 Asia/Tokyo] 
+[07-Apr-2019 18:12:49 Asia/Tokyo] ajax profileEdit  $_POST:
+[07-Apr-2019 18:12:49 Asia/Tokyo] Array
+(
+    [userName] => たなか　さぶろう
+    [userBio] => このアカウントは乗っ取った！！
+)
+
+[07-Apr-2019 18:12:51 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 18:12:51 Asia/Tokyo] 
+[07-Apr-2019 18:12:56 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:12:56 Asia/Tokyo] 

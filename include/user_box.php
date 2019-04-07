@@ -1,5 +1,6 @@
 <?php
     require_once("core/db/table/UserTable.php");
+    require_once("core/db/table/TweetTable.php");
     //TODO: 何度も似たようなSQL叩いててよくないので要改善
     global $userID;
     if(!isset($userID)){
@@ -9,7 +10,7 @@
     $charID = UserTable::getUserCharIDByID($userID);
     $bio = UserTable::getUserBioByID($userID);
     $iconUrl = UserTable::getUserIconByID($userID);
-
+    $numTweet = TweetTable::getNumTweetOfUser($userID);
 
     //
 ?>
@@ -36,7 +37,7 @@
     <div class="userStatsWrap">
         <div class="statsBlock">
             <div class="statsHead">ついーと</div>
-            <div class="statsValue">12345</div>
+            <div class="statsValue"><?php echo $numTweet; ?></div>
         </div>
 <!--    未実装のため非表示　-->
 <!--        <div class="statsBlock">-->
