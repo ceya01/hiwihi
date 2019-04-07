@@ -1,11 +1,16 @@
 <?php
     require_once("core/db/table/UserTable.php");
     //TODO: 何度も似たようなSQL叩いててよくないので要改善
-    $loginID = Session::getLoginUserID();
-    $name = UserTable::getUserNameByID($loginID);
-    $charID = UserTable::getUserCharIDByID($loginID);
-    $bio = UserTable::getUserBioByID($loginID);
-    $iconUrl = UserTable::getUserIconByID($loginID);
+    global $userID;
+    if(!isset($userID)){
+        $userID = Session::getLoginUserID();
+    }
+    $name = UserTable::getUserNameByID($userID);
+    $charID = UserTable::getUserCharIDByID($userID);
+    $bio = UserTable::getUserBioByID($userID);
+    $iconUrl = UserTable::getUserIconByID($userID);
+
+
     //
 ?>
 <div class="userBox">

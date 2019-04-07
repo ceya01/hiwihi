@@ -27,11 +27,14 @@
 ?>
 
 <div class="tweetBox <?php echo $reverseClass ?>">
-    <div class="iconWrap"><img class="sq50px" src="<?php echo $icon ?>" alt="<?php echo $name ?>のアイコン"></div>
+    <div class="iconWrap">
+        <a href="user.php?u=<?php echo $charID ?>">
+        <img class="sq50px" src="<?php echo $icon ?>" alt="<?php echo $name ?>のアイコン"></a>
+    </div>
     <div class="tweetContent">
         <div class="tweetBody"><?php echo $text ?></div>
         <div class="tweetFooter">
-            <span class="fll"><?php echo $name.' @'.$charID.' '.$time ?></span>
+            <span class="fll"><a href="user.php?u=<?php echo $charID ?>"><?php echo $name.' @'.$charID.'</a> '.$time ?></span>
 <!--            リプライ、リツイート、ふぁぼ等は未実装のため現在非表示-->
 <!--            <span class="flr"">-->
 <!--                <i class="fas fa-at">1234</i>-->

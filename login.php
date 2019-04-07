@@ -11,7 +11,7 @@ $errorMsg = '';
 if (!empty($_POST)) {
     //require_once( "core/Auth.php" );
     //require_once( "core/Session.php" );
-    if (Auth::login(getPost(KEY_LOGINID),getPost(KEY_PASSWORD))) {
+    if (Auth::login(getPOST(KEY_LOGINID),getPOST(KEY_PASSWORD))) {
         //ログインしてタイムラインページ表示
         header('Location:timeline.php');
     }else{

@@ -44,15 +44,15 @@ class UserTable
         return self::exist(KEY_CHARID,$charID);
     }
 
-    static private function getUser($id,$row='*'){
-        $sql = 'SELECT '.$row.' FROM user WHERE id=:id AND delete_flag = 0';
+    static public function getUser($id, $col='*'){
+        $sql = 'SELECT '.$col.' FROM user WHERE id=:id AND delete_flag = 0';
         $data = ['id' => $id];
         $pdow = DBConnector::getPdow();
         $stmt = $pdow->queryPost($sql,$data);
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
         return $result;
     }
-    static private function getUserPropety($id, $propety,$defaultReturn =''){
+    static public function getUserPropety($id, $propety,$defaultReturn =''){
         $result = self::getUser($id,$propety);
         return isset($result[$propety]) ? $result[$propety] : $defaultReturn;
     }
@@ -75,6 +75,15 @@ class UserTable
             $path = 'uploads/'.$path;
         }
         return $path;
+    }
+
+    static public function getUserByCharID($char_id,$col='*'){
+        $sql = 'SELECT '.$col.' FROM user WHERE char_id=:char_id AND delete_flag = 0';
+        $data = ['char_id' => $char_id];
+        $pdow = DBConnector::getPdow();
+        $stmt = $pdow->queryPost($sql,$data);
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $result;
     }
 
     public static function getAllUserList($limit=100,$cols='*')

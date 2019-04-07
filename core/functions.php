@@ -48,10 +48,20 @@ function echoPost($key = ''): void
     }
 }
 
-function getPost($key = '')
+function getPOST($key = '')
 {
     if (!empty($_POST[$key])) {
         return $_POST[$key];
+    }else{
+        return null;
+    }
+}
+function getGET($key = '')
+{
+    if (!empty($_GET[$key])) {
+        return $_GET[$key];
+    }else{
+        return null;
     }
 }
 

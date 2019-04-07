@@ -393,6 +393,9 @@ input,textarea{
     border-radius: 16px;
     min-width: 0;
 }
+.tweetFooter span a , .tweetFooter span a:visited{
+    color: inherit;
+}
 .reverse{
     flex-direction: row-reverse;
 }
