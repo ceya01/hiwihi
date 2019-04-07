@@ -7561,3 +7561,993 @@ Stack trace:
 /works/hiwihi/user.php?u=A4
 
 [07-Apr-2019 18:21:36 Asia/Tokyo] 
+[07-Apr-2019 18:26:20 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 18:26:20 Asia/Tokyo] 
+[07-Apr-2019 18:32:09 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:32:09 Asia/Tokyo] 
+[07-Apr-2019 18:32:09 Asia/Tokyo] PHP Parse error:  syntax error, unexpected ')' in D:\xampp\htdocs\works\hiwihi\include\tweet_box.php on line 23
+[07-Apr-2019 18:33:55 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:33:55 Asia/Tokyo] 
+[07-Apr-2019 18:34:13 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:34:13 Asia/Tokyo] 
+[07-Apr-2019 18:37:49 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:37:49 Asia/Tokyo] 
+[07-Apr-2019 18:37:53 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php
+
+[07-Apr-2019 18:37:53 Asia/Tokyo] 
+[07-Apr-2019 18:37:55 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:37:55 Asia/Tokyo] 
+[07-Apr-2019 18:37:56 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 18:37:56 Asia/Tokyo] 
+[07-Apr-2019 18:38:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:38:00 Asia/Tokyo] 
+[07-Apr-2019 18:38:01 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=asd
+
+[07-Apr-2019 18:38:01 Asia/Tokyo] 
+[07-Apr-2019 18:39:54 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=asd
+
+[07-Apr-2019 18:39:54 Asia/Tokyo] 
+[07-Apr-2019 18:39:59 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/index.php
+
+[07-Apr-2019 18:39:59 Asia/Tokyo] 
+[07-Apr-2019 18:39:59 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:39:59 Asia/Tokyo] 
+[07-Apr-2019 18:40:01 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[07-Apr-2019 18:40:01 Asia/Tokyo] 
+[07-Apr-2019 18:40:03 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=17
+
+[07-Apr-2019 18:40:03 Asia/Tokyo] 
+[07-Apr-2019 18:40:03 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:40:03 Asia/Tokyo] 
+[07-Apr-2019 18:40:06 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[07-Apr-2019 18:40:06 Asia/Tokyo] 
+[07-Apr-2019 18:40:19 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/signup.php
+
+[07-Apr-2019 18:40:19 Asia/Tokyo] 
+[07-Apr-2019 18:40:26 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/about.php
+
+[07-Apr-2019 18:40:26 Asia/Tokyo] 
+[07-Apr-2019 18:40:28 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[07-Apr-2019 18:40:28 Asia/Tokyo] 
+[07-Apr-2019 18:40:40 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/index.php
+
+[07-Apr-2019 18:40:40 Asia/Tokyo] 
+[07-Apr-2019 18:41:19 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/signup.php
+
+[07-Apr-2019 18:41:19 Asia/Tokyo] 
+[07-Apr-2019 20:19:35 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[07-Apr-2019 20:19:35 Asia/Tokyo] 
+[07-Apr-2019 20:20:47 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=17
+
+[07-Apr-2019 20:20:47 Asia/Tokyo] 
+[07-Apr-2019 20:20:47 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:20:47 Asia/Tokyo] 
+[07-Apr-2019 20:21:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:21:36 Asia/Tokyo] 
+[07-Apr-2019 20:21:44 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 20:21:44 Asia/Tokyo] 
+[07-Apr-2019 20:21:46 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:21:46 Asia/Tokyo] 
+[07-Apr-2019 20:22:34 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 20:22:34 Asia/Tokyo] 
+[07-Apr-2019 20:22:37 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:22:37 Asia/Tokyo] 
+[07-Apr-2019 20:22:39 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:22:39 Asia/Tokyo] 
+[07-Apr-2019 20:22:39 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:22:39 Asia/Tokyo] Array
+(
+    [tweet] => z
+)
+
+[07-Apr-2019 20:22:42 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:22:42 Asia/Tokyo] 
+[07-Apr-2019 20:22:46 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:22:46 Asia/Tokyo] 
+[07-Apr-2019 20:22:46 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:22:46 Asia/Tokyo] Array
+(
+    [tweet] => aaa
+)
+
+[07-Apr-2019 20:24:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 20:24:15 Asia/Tokyo] 
+[07-Apr-2019 20:24:27 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:24:27 Asia/Tokyo] 
+[07-Apr-2019 20:24:30 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[07-Apr-2019 20:24:30 Asia/Tokyo] 
+[07-Apr-2019 20:24:32 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=18
+
+[07-Apr-2019 20:24:32 Asia/Tokyo] 
+[07-Apr-2019 20:24:32 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:24:32 Asia/Tokyo] 
+[07-Apr-2019 20:25:01 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 20:25:01 Asia/Tokyo] 
+[07-Apr-2019 20:25:41 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 20:25:41 Asia/Tokyo] 
+[07-Apr-2019 20:25:57 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/index.php
+
+[07-Apr-2019 20:25:57 Asia/Tokyo] 
+[07-Apr-2019 20:25:57 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:25:57 Asia/Tokyo] 
+[07-Apr-2019 20:26:02 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:26:02 Asia/Tokyo] 
+[07-Apr-2019 20:26:02 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:26:02 Asia/Tokyo] Array
+(
+    [tweet] => あ
+)
+
+[07-Apr-2019 20:26:05 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 20:26:05 Asia/Tokyo] 
+[07-Apr-2019 20:26:06 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php
+
+[07-Apr-2019 20:26:06 Asia/Tokyo] 
+[07-Apr-2019 20:27:11 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=19
+
+[07-Apr-2019 20:27:11 Asia/Tokyo] 
+[07-Apr-2019 20:27:11 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:27:11 Asia/Tokyo] 
+[07-Apr-2019 20:27:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=18
+
+[07-Apr-2019 20:27:15 Asia/Tokyo] 
+[07-Apr-2019 20:27:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:27:15 Asia/Tokyo] 
+[07-Apr-2019 20:27:19 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=27
+
+[07-Apr-2019 20:27:19 Asia/Tokyo] 
+[07-Apr-2019 20:27:19 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:27:19 Asia/Tokyo] 
+[07-Apr-2019 20:27:26 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=asd
+
+[07-Apr-2019 20:27:26 Asia/Tokyo] 
+[07-Apr-2019 20:27:27 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:27:27 Asia/Tokyo] 
+[07-Apr-2019 20:27:30 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 20:27:30 Asia/Tokyo] 
+[07-Apr-2019 20:27:45 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/index.php
+
+[07-Apr-2019 20:27:45 Asia/Tokyo] 
+[07-Apr-2019 20:27:45 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:27:45 Asia/Tokyo] 
+[07-Apr-2019 20:27:46 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=asd
+
+[07-Apr-2019 20:27:46 Asia/Tokyo] 
+[07-Apr-2019 20:27:48 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:27:48 Asia/Tokyo] 
+[07-Apr-2019 20:27:51 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=asd
+
+[07-Apr-2019 20:27:51 Asia/Tokyo] 
+[07-Apr-2019 20:28:09 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=26
+
+[07-Apr-2019 20:28:09 Asia/Tokyo] 
+[07-Apr-2019 20:28:09 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:28:09 Asia/Tokyo] 
+[07-Apr-2019 20:28:12 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=27
+
+[07-Apr-2019 20:28:12 Asia/Tokyo] 
+[07-Apr-2019 20:28:12 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:28:12 Asia/Tokyo] 
+[07-Apr-2019 20:28:22 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=18
+
+[07-Apr-2019 20:28:22 Asia/Tokyo] 
+[07-Apr-2019 20:28:22 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:28:22 Asia/Tokyo] 
+[07-Apr-2019 20:29:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[07-Apr-2019 20:29:00 Asia/Tokyo] 
+[07-Apr-2019 20:29:00 Asia/Tokyo] ajax profileEdit  $_POST:
+[07-Apr-2019 20:29:00 Asia/Tokyo] Array
+(
+    [userName] => ジャスミン
+    [userBio] => イングランド出身です。プログラミングはじめました。
+)
+
+[07-Apr-2019 20:29:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[07-Apr-2019 20:29:00 Asia/Tokyo] 
+[07-Apr-2019 20:29:00 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[07-Apr-2019 20:29:00 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => face_smile_woman2.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php6C9D.tmp
+            [error] => 0
+            [size] => 47567
+        )
+
+)
+
+[07-Apr-2019 20:29:07 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:29:07 Asia/Tokyo] 
+[07-Apr-2019 20:29:07 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:29:07 Asia/Tokyo] Array
+(
+    [tweet] => アイコンかえたー
+)
+
+[07-Apr-2019 20:29:14 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:29:14 Asia/Tokyo] 
+[07-Apr-2019 20:29:22 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=27
+
+[07-Apr-2019 20:29:22 Asia/Tokyo] 
+[07-Apr-2019 20:29:22 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:29:22 Asia/Tokyo] 
+[07-Apr-2019 20:29:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:29:36 Asia/Tokyo] 
+[07-Apr-2019 20:29:36 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:29:36 Asia/Tokyo] Array
+(
+    [tweet] => ついーと！
+)
+
+[07-Apr-2019 20:29:49 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:29:49 Asia/Tokyo] 
+[07-Apr-2019 20:29:49 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:29:49 Asia/Tokyo] Array
+(
+    [tweet] => <!--ツイート投稿欄-->
+                    <?php if($loginUserID === $userID): ?>
+                        <div class="tweetInputWrap">
+             
+)
+
+[07-Apr-2019 20:29:57 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:29:57 Asia/Tokyo] 
+[07-Apr-2019 20:29:57 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:29:57 Asia/Tokyo] Array
+(
+    [tweet] => <!--ツイート投稿欄-->
+)
+
+[07-Apr-2019 20:30:10 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:30:10 Asia/Tokyo] 
+[07-Apr-2019 20:30:10 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:30:10 Asia/Tokyo] Array
+(
+    [tweet] => <div>
+)
+
+[07-Apr-2019 20:30:39 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:30:39 Asia/Tokyo] 
+[07-Apr-2019 20:30:39 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:30:39 Asia/Tokyo] Array
+(
+    [tweet] => いんじぇくしょん<div><script><.a!"#$
+)
+
+[07-Apr-2019 20:33:20 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:33:20 Asia/Tokyo] 
+[07-Apr-2019 20:33:20 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:33:20 Asia/Tokyo] Array
+(
+    [tweet] => !!!"##$%&'()
+)
+
+[07-Apr-2019 20:33:25 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:33:25 Asia/Tokyo] 
+[07-Apr-2019 20:33:25 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:33:25 Asia/Tokyo] Array
+(
+    [tweet] => ><!"
+)
+
+[07-Apr-2019 20:33:38 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:33:38 Asia/Tokyo] 
+[07-Apr-2019 20:33:38 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:33:38 Asia/Tokyo] Array
+(
+    [tweet] => <?php
+)
+
+[07-Apr-2019 20:34:14 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:34:14 Asia/Tokyo] 
+[07-Apr-2019 20:34:14 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:34:14 Asia/Tokyo] Array
+(
+    [tweet] => </div>
+)
+
+[07-Apr-2019 20:38:18 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:38:18 Asia/Tokyo] 
+[07-Apr-2019 20:38:18 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:38:18 Asia/Tokyo] Array
+(
+    [tweet] => <script>for(;;){ alert("何回閉じても無駄ですよ～ エスケープ忘れ ﾌﾟｷﾞｬｰｗｗ m9(^Д^)"); }</script>
+)
+
+[07-Apr-2019 20:38:29 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:38:29 Asia/Tokyo] 
+[07-Apr-2019 20:38:55 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[07-Apr-2019 20:38:55 Asia/Tokyo] 
+[07-Apr-2019 20:38:55 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:38:55 Asia/Tokyo] 
+[07-Apr-2019 20:38:55 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[07-Apr-2019 20:38:55 Asia/Tokyo] 
+[07-Apr-2019 20:38:55 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:38:55 Asia/Tokyo] 
+[07-Apr-2019 20:39:23 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[07-Apr-2019 20:39:23 Asia/Tokyo] 
+[07-Apr-2019 20:39:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:39:24 Asia/Tokyo] 
+[07-Apr-2019 20:41:10 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:41:10 Asia/Tokyo] 
+[07-Apr-2019 20:41:11 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:41:11 Asia/Tokyo] 
+[07-Apr-2019 20:41:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[07-Apr-2019 20:41:15 Asia/Tokyo] 
+[07-Apr-2019 20:41:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:41:15 Asia/Tokyo] 
+[07-Apr-2019 20:41:18 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/index.php
+
+[07-Apr-2019 20:41:18 Asia/Tokyo] 
+[07-Apr-2019 20:41:18 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:41:18 Asia/Tokyo] 
+[07-Apr-2019 20:41:19 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/about.php
+
+[07-Apr-2019 20:41:19 Asia/Tokyo] 
+[07-Apr-2019 20:41:22 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=18
+
+[07-Apr-2019 20:41:22 Asia/Tokyo] 
+[07-Apr-2019 20:41:22 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:41:22 Asia/Tokyo] 
+[07-Apr-2019 20:41:40 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:41:40 Asia/Tokyo] 
+[07-Apr-2019 20:41:41 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:41:41 Asia/Tokyo] 
+[07-Apr-2019 20:41:53 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:41:53 Asia/Tokyo] 
+[07-Apr-2019 20:41:58 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=20
+
+[07-Apr-2019 20:41:58 Asia/Tokyo] 
+[07-Apr-2019 20:41:59 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:41:59 Asia/Tokyo] 
+[07-Apr-2019 20:42:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/signup.php
+
+[07-Apr-2019 20:42:15 Asia/Tokyo] 
+[07-Apr-2019 20:42:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:42:15 Asia/Tokyo] 
+[07-Apr-2019 20:42:19 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[07-Apr-2019 20:42:19 Asia/Tokyo] 
+[07-Apr-2019 20:42:21 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/signup.php
+
+[07-Apr-2019 20:42:21 Asia/Tokyo] 
+[07-Apr-2019 20:42:41 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/signup.php
+
+[07-Apr-2019 20:42:41 Asia/Tokyo] 
+[07-Apr-2019 20:42:41 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:42:41 Asia/Tokyo] 
+[07-Apr-2019 20:44:16 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[07-Apr-2019 20:44:16 Asia/Tokyo] 
+[07-Apr-2019 20:44:16 Asia/Tokyo] ajax profileEdit  $_POST:
+[07-Apr-2019 20:44:16 Asia/Tokyo] Array
+(
+    [userName] => 暗黒非合法ハッカー
+    [userBio] => いたずらしちゃうぞ
+)
+
+[07-Apr-2019 20:44:17 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[07-Apr-2019 20:44:17 Asia/Tokyo] 
+[07-Apr-2019 20:44:17 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[07-Apr-2019 20:44:17 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => computer_hacker_black1.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php68F1.tmp
+            [error] => 0
+            [size] => 210942
+        )
+
+)
+
+[07-Apr-2019 20:44:29 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:44:29 Asia/Tokyo] 
+[07-Apr-2019 20:44:29 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:44:29 Asia/Tokyo] Array
+(
+    [tweet] => ツイッター・・・？はじめました・・・
+)
+
+[07-Apr-2019 20:55:06 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[07-Apr-2019 20:55:06 Asia/Tokyo] 
+[07-Apr-2019 20:55:12 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/signup.php
+
+[07-Apr-2019 20:55:12 Asia/Tokyo] 
+[07-Apr-2019 20:56:05 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/signup.php
+
+[07-Apr-2019 20:56:05 Asia/Tokyo] 
+[07-Apr-2019 20:56:05 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:56:05 Asia/Tokyo] 
+[07-Apr-2019 20:56:38 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[07-Apr-2019 20:56:38 Asia/Tokyo] 
+[07-Apr-2019 20:56:38 Asia/Tokyo] ajax profileEdit  $_POST:
+[07-Apr-2019 20:56:38 Asia/Tokyo] Array
+(
+    [userName] => programming_jc
+    [userBio] => 14歳女子中学生です。プログラミング勉強はじめました
+)
+
+[07-Apr-2019 20:56:38 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[07-Apr-2019 20:56:38 Asia/Tokyo] 
+[07-Apr-2019 20:56:38 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[07-Apr-2019 20:56:38 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => scrn_20190407-20514400.png
+            [type] => image/png
+            [tmp_name] => D:\xampp\tmp\php2D04.tmp
+            [error] => 0
+            [size] => 156000
+        )
+
+)
+
+[07-Apr-2019 20:56:51 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:56:51 Asia/Tokyo] 
+[07-Apr-2019 20:56:51 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:56:51 Asia/Tokyo] Array
+(
+    [tweet] => ヒウィッヒヒーはじめました～★
+)
+
+[07-Apr-2019 20:57:02 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[07-Apr-2019 20:57:02 Asia/Tokyo] 
+[07-Apr-2019 20:57:02 Asia/Tokyo] ajax profileEdit  $_POST:
+[07-Apr-2019 20:57:02 Asia/Tokyo] Array
+(
+    [userName] => JCプログラマ
+    [userBio] => 14歳女子中学生です。プログラミング勉強はじめました
+)
+
+[07-Apr-2019 20:57:26 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:57:26 Asia/Tokyo] 
+[07-Apr-2019 20:58:25 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:58:25 Asia/Tokyo] 
+[07-Apr-2019 20:58:25 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:58:25 Asia/Tokyo] Array
+(
+    [tweet] => てすと
+)
+
+[07-Apr-2019 20:58:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 20:58:31 Asia/Tokyo] 
+[07-Apr-2019 20:58:31 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 20:58:31 Asia/Tokyo] Array
+(
+    [tweet] => </div>
+)
+
+[07-Apr-2019 20:59:20 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 20:59:20 Asia/Tokyo] 
+[07-Apr-2019 21:00:14 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 21:00:14 Asia/Tokyo] 
+[07-Apr-2019 21:00:14 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 21:00:14 Asia/Tokyo] Array
+(
+    [tweet] => 今からプログラミングします！
+)
+
+[07-Apr-2019 21:00:21 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 21:00:21 Asia/Tokyo] 
+[07-Apr-2019 21:00:21 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 21:00:21 Asia/Tokyo] Array
+(
+    [tweet] => </div></div>
+)
+
+[07-Apr-2019 21:00:26 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 21:00:26 Asia/Tokyo] 
+[07-Apr-2019 21:00:26 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 21:00:26 Asia/Tokyo] Array
+(
+    [tweet] => <script>for(;;){ alert("何回閉じても無駄ですよ～ エスケープ忘れ ﾌﾟｷﾞｬｰｗｗ m9(^Д^)"); }</script>
+)
+
+[07-Apr-2019 21:00:33 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[07-Apr-2019 21:00:33 Asia/Tokyo] 
+[07-Apr-2019 21:00:34 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 21:00:34 Asia/Tokyo] 
+[07-Apr-2019 21:00:37 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[07-Apr-2019 21:00:37 Asia/Tokyo] 
+[07-Apr-2019 21:00:37 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 21:00:37 Asia/Tokyo] 
+[07-Apr-2019 21:00:42 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 21:00:42 Asia/Tokyo] 
+[07-Apr-2019 21:01:34 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/about.php
+
+[07-Apr-2019 21:01:34 Asia/Tokyo] 
+[07-Apr-2019 21:01:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 21:01:36 Asia/Tokyo] 
+[07-Apr-2019 21:01:39 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/about.php
+
+[07-Apr-2019 21:01:39 Asia/Tokyo] 
+[07-Apr-2019 21:01:51 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/about.php
+
+[07-Apr-2019 21:01:51 Asia/Tokyo] 
+[07-Apr-2019 21:01:53 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[07-Apr-2019 21:01:53 Asia/Tokyo] 
+[07-Apr-2019 21:01:55 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/about.php
+
+[07-Apr-2019 21:01:55 Asia/Tokyo] 
+[07-Apr-2019 21:01:56 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=18
+
+[07-Apr-2019 21:01:56 Asia/Tokyo] 
+[07-Apr-2019 21:01:57 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 21:01:57 Asia/Tokyo] 
+[07-Apr-2019 21:02:14 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 21:02:14 Asia/Tokyo] 
+[07-Apr-2019 21:02:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/
+
+[07-Apr-2019 21:02:31 Asia/Tokyo] 
+[07-Apr-2019 21:02:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 21:02:31 Asia/Tokyo] 
+[07-Apr-2019 21:02:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/login.php
+
+[07-Apr-2019 21:02:36 Asia/Tokyo] 
+[07-Apr-2019 21:02:39 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=29
+
+[07-Apr-2019 21:02:39 Asia/Tokyo] 
+[07-Apr-2019 21:02:39 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 21:02:39 Asia/Tokyo] 
+[07-Apr-2019 21:03:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 21:03:36 Asia/Tokyo] 
+[07-Apr-2019 21:03:36 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 21:03:36 Asia/Tokyo] Array
+(
+    [tweet] => <div></div>
+)
+
+[07-Apr-2019 21:03:39 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 21:03:39 Asia/Tokyo] 
+[07-Apr-2019 21:03:39 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 21:03:39 Asia/Tokyo] Array
+(
+    [tweet] => <script>for(;;){ alert("何回閉じても無駄ですよ～ エスケープ忘れ ﾌﾟｷﾞｬｰｗｗ m9(^Д^)"); }</script>
+)
+
+[07-Apr-2019 21:04:13 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 21:04:13 Asia/Tokyo] 
+[07-Apr-2019 21:04:37 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 21:04:37 Asia/Tokyo] 
+[07-Apr-2019 21:04:38 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 21:04:38 Asia/Tokyo] Array
+(
+    [tweet] => #プログラミング実況開始
+)
+
+[07-Apr-2019 21:04:41 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 21:04:41 Asia/Tokyo] 
+[07-Apr-2019 21:04:41 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 21:04:41 Asia/Tokyo] Array
+(
+    [tweet] => <script>for(;;){ alert("何回閉じても無駄ですよ～ エスケープ忘れ ﾌﾟｷﾞｬｰｗｗ m9(^Д^)"); }</script>
+)
+
+[07-Apr-2019 21:04:47 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[07-Apr-2019 21:04:47 Asia/Tokyo] 
+[07-Apr-2019 21:04:47 Asia/Tokyo] ajax postTweet  $_POST:
+[07-Apr-2019 21:04:47 Asia/Tokyo] Array
+(
+    [tweet] => 対策完了！
+)
+
+[07-Apr-2019 21:05:06 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 21:05:06 Asia/Tokyo] 

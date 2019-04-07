@@ -6,9 +6,9 @@
     if(isset($_POST['newTweet'])){
         $tweetRecord = $_POST['newTweet'];
     }
-    $text = $tweetRecord['text'];
-    $name = $tweetRecord['name'];
-    $charID = $tweetRecord['char_id'];
+    $text = htmlspecialchars($tweetRecord['text']);
+    $name =  htmlspecialchars($tweetRecord['name']);
+    $charID = htmlspecialchars($tweetRecord['char_id']);
     $time = $tweetRecord['post_time'];
     $icon = $tweetRecord['icon'];
     if(isset($icon)){
@@ -20,7 +20,7 @@
     $reverseClass = '';
     $uID = (int)$tweetRecord['uid'];
     $lID = (int)Session::getLoginUserID();
-    if( $uID !== $lID){
+    if( $uID !== $lID && strpos($_SERVER['REQUEST_URI'],'timeline.php')){
         $reverseClass ='reverse';
     }
     //$user = UserTable::getUser($tweetRecord['id']);

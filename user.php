@@ -21,7 +21,7 @@ require_once("core/db/table/UserTable.php");
     <main>
         <div class="inner">
             <div class="timelineWrap">
-                <div class="timelineWrap">
+                <div class="timelineBlock sideArea">
                     <?php include( "include/user_box.php" ); ?>
                 </div>
                 <div class="timelineBlock mainArea">

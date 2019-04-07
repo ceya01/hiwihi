@@ -19,7 +19,7 @@ if (IS_DEBUG) :
 ?>
 <div class="debugArea inner mt2rem">Debug Tool!
     <div style="display: flex; margin-bottom: 30px;">
-        <div style="padding-left: 30px;">
+        <div style="padding-left: 30px;     max-width: 40%;">
             <ul>
                 <li><?php echoHeaderLink(PAGE_ABOUT, 'ヒウィッヒヒーとは'); ?></li>
                 <li><?php echoHeaderLink(PAGE_TIMELINE, 'タイムライン'); ?></li>
@@ -30,10 +30,12 @@ if (IS_DEBUG) :
                 <li><?php echoHeaderLink(PAGE_PASS_REMINDER, 'パスワードリマインダー'); ?></li>
             </ul>
             <?php
-            echo('$_POST<br>');
+            echo('<br>$_POST<br>');
             dump($_POST);
-            echo('$_SESSION<br>');
+            echo('<br>$_SESSION<br>');
             dump($_SESSION);
+            echo('<br>$_SERVER<br>');
+            dump($_SERVER);
             ?>
         </div>
         <div style="padding-left: 30px;">

@@ -23,15 +23,14 @@ require_once( "include/header.php" );
 
                     <div class="tweetList">
                         <?php
-                        require_once( 'core/db/table/TweetTable.php' );
-                        //require_once('core/db/table/UserTable.php');
-                        $tweetList = TweetTable::getAllTweetList(10);
-                        if ($tweetList) {
-                            foreach ($tweetList as $tweetRecord) {
-                                include( 'include/tweet_box.php' );
+                            require_once( 'core/db/table/TweetTable.php' );
+                            //require_once('core/db/table/UserTable.php');
+                            $tweetList = TweetTable::getAllTweetList(10);
+                            if ($tweetList) {
+                                foreach ($tweetList as $tweetRecord) {
+                                    include( 'include/tweet_box.php' );
+                                }
                             }
-                        }
-
                         ?>
                     </div>
                 </div>
