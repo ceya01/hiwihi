@@ -6607,3 +6607,137 @@ jQueryはあとからphpとかHTML書いてあとから追加できるのがい�
 /works/hiwihi/timeline.php
 
 [07-Apr-2019 13:15:02 Asia/Tokyo] 
+[07-Apr-2019 13:15:51 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:15:51 Asia/Tokyo] 
+[07-Apr-2019 13:19:17 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:19:17 Asia/Tokyo] 
+[07-Apr-2019 13:19:25 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:19:25 Asia/Tokyo] 
+[07-Apr-2019 13:20:14 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:20:14 Asia/Tokyo] 
+[07-Apr-2019 13:20:28 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:20:28 Asia/Tokyo] 
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Notice:  Undefined variable: id in D:\xampp\htdocs\works\hiwihi\include\footer.php on line 51
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP Stack trace:
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   1. {main}() D:\xampp\htdocs\works\hiwihi\timeline.php:0
+[07-Apr-2019 13:20:28 Asia/Tokyo] PHP   2. require_once() D:\xampp\htdocs\works\hiwihi\timeline.php:85
+[07-Apr-2019 13:20:35 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:20:35 Asia/Tokyo] 
+[07-Apr-2019 13:55:05 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:55:05 Asia/Tokyo] 
+[07-Apr-2019 13:55:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:55:15 Asia/Tokyo] 
+[07-Apr-2019 13:55:28 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:55:28 Asia/Tokyo] 
+[07-Apr-2019 13:56:05 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=18
+
+[07-Apr-2019 13:56:05 Asia/Tokyo] 
+[07-Apr-2019 13:56:05 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:56:05 Asia/Tokyo] 
+[07-Apr-2019 13:56:08 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=21
+
+[07-Apr-2019 13:56:08 Asia/Tokyo] 
+[07-Apr-2019 13:56:08 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:56:08 Asia/Tokyo] 
+[07-Apr-2019 13:56:49 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:56:49 Asia/Tokyo] 
+[07-Apr-2019 13:56:57 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:56:57 Asia/Tokyo] 
+[07-Apr-2019 13:57:21 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:57:21 Asia/Tokyo] 
+[07-Apr-2019 13:58:45 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/debugLogin.php?uid=17
+
+[07-Apr-2019 13:58:45 Asia/Tokyo] 
+[07-Apr-2019 13:58:45 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 13:58:45 Asia/Tokyo] 

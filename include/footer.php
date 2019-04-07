@@ -18,8 +18,8 @@ if (IS_DEBUG) :
     //footerの下にデバッグ用リンクを表示する
 ?>
 <div class="debugArea inner mt2rem">Debug Tool!
-    <div style="display: flex">
-        <div>
+    <div style="display: flex; margin-bottom: 30px;">
+        <div style="padding-left: 30px;">
             <ul>
                 <li><?php echoHeaderLink(PAGE_ABOUT, 'ヒウィッヒヒーとは'); ?></li>
                 <li><?php echoHeaderLink(PAGE_TIMELINE, 'タイムライン'); ?></li>
@@ -36,16 +36,23 @@ if (IS_DEBUG) :
             dump($_SESSION);
             ?>
         </div>
-        <div>
+        <div style="padding-left: 30px;">
+            <p>ユーザー切り替え</p>
             <ul>
             <?php require_once(dirname(__FILE__).'/../core/db/table/UserTable.php');
-                $userIDs = UserTable::getAllUserList(100,'id');
+                $userIDs = UserTable::getAllUserList(100,'id,name,char_id,email');
                 foreach ($userIDs as $item)
                 {
-                    $uid = $item['id'];
+                    $uID = $item['id'];
+                    $uName = $item['name'];
+                    $uCID = $item['char_id'];
+                    $uEmail = $item['email'];
+                    $linkText = "ID: $uID $uName @$uCID $uEmail";
                     ?>
                     <li>
-                        <a href="debugLogin.php?uid=<?php echo $uid ?>">ID:<?php echo $uid; ?></a> </li>
+                        <a href="debugLogin.php?uid=<?php echo $uID ?>">
+                            <?php echo $linkText; ?></a>
+                    </li>
                     <?php
                 }
                 //dump($userIDs);
