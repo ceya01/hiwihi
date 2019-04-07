@@ -77,5 +77,20 @@ class UserTable
         return $path;
     }
 
+    public static function getAllUserList($limit=100,$cols='*')
+    {
+        $sql = 'SELECT '.$cols.' FROM user WHERE delete_flag = 0 LIMIT '.$limit;
+        $pdow = DBConnector::getPdow();
+        try {
+            $stmt = $pdow->queryPost($sql);
+            if(!$stmt){ return null;}
+            $result = $stmt->fetchAll();
+            return $result;
+        } catch (Error $exception) {
+            echo 'エラーが発生しました<br>'.$exception;
+
+        }
+        return null;
+    }
 
 }

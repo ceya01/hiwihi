@@ -21,7 +21,7 @@ if (!empty($_POST)) {
                 KEY_PASSWORD => getPost(KEY_PASSWORD))
         );
         //ログインしてタイムラインページ表示
-        Session::addLoginUserID($id);
+        Session::setLoginUserID($id);
         header('Location:timeline.php');
     }
 }

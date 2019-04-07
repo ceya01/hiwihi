@@ -21,24 +21,21 @@ class Auth
     //ログイン
     static public function login($loginID,$password):bool{
         $pdow = DBConnector::getPdow();
- //       $pdow->exist('hiwihi.user','email OR char_id',$loginID,'AND delete_flag = 0');
+ //     $pdow->exist('hiwihi.user','email OR char_id',$loginID,'AND delete_flag = 0');
         $sql = 'SELECT password,id FROM hiwihi.user WHERE (email=:loginID OR char_id=:loginID) AND delete_flag = 0';
         $data = ['loginID'=>$loginID,'password'=>$password];
         $stmt = $pdow->queryPost($sql,$data);
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
         dlog('$result: ',$result);  //$resultにはSELECTがで取得した配列が入る
-        if(!empty($result) ){
+        if( !empty($result) ){
             $recPassword = $result['password'];
             if(password_verify($password,$recPassword)){
                 //require_once( dirname(__FILE__)."Session.php" );
                 $recUserID = $result['id'];
-                Session::addLoginUserID($recUserID);
+                Session::setLoginUserID($recUserID);
                 return true;
             }
         }
-//        return !empty($result) && password_verify($password,array_shift($result));
-
-
         return false;
 
     }

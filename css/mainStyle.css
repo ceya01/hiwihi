@@ -391,6 +391,7 @@ input,textarea{
     padding:1rem;
     background-color: #E6FFF0;
     border-radius: 16px;
+    min-width: 0;
 }
 .reverse{
     flex-direction: row-reverse;

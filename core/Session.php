@@ -11,7 +11,7 @@ class Session
 {
     const LOGIN_USER_ID ='LOGIN_USER_ID';
 
-    static public function addLoginUserID($userID){
+    static public function setLoginUserID($userID){
         $_SESSION[self::LOGIN_USER_ID] = (int)$userID;
     }
     static public function getLoginUserID():int{
