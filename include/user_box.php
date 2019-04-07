@@ -38,18 +38,20 @@
             <div class="statsHead">ついーと</div>
             <div class="statsValue">12345</div>
         </div>
-        <div class="statsBlock">
-            <div class="statsHead">ふぉろう</div>
-            <div class="statsValue">12345</div>
-        </div>
-        <div class="statsBlock">
-            <div class="statsHead">ふぉろわ</div>
-            <div class="statsValue">12345</div>
-        </div>
-        <div class="statsBlock">
-            <div class="statsHead">ふぁぼり</div>
-            <div class="statsValue">12345</div>
-        </div>
+<!--    未実装のため非表示　-->
+<!--        <div class="statsBlock">-->
+<!--            <div class="statsHead">ふぉろう</div>-->
+<!--            <div class="statsValue">12345</div>-->
+<!--        </div>-->
+<!--        <div class="statsBlock">-->
+<!--            <div class="statsHead">ふぉろわ</div>-->
+<!--            <div class="statsValue">12345</div>-->
+<!--        </div>-->
+<!--        <div class="statsBlock">-->
+<!--            <div class="statsHead">ふぁぼり</div>-->
+<!--            <div class="statsValue">12345</div>-->
+<!--        </div>-->
+
     </div>
     <div class="btn-rr btnColor-bgWhite js-editProfile">プロフィールを編集</div>
     <div class="btn-rr btnColor-bgWhite js-cancelEditProfile">キャンセル</div>
