@@ -12,7 +12,7 @@ require_once( "include/header.php" );
                     <?php include( 'include/user_box.php' ); ?>
                 </div>
                 <div class="timelineBlock mainArea">
-                    <h2 class="mb1rem">総合タイムライン</h2>
+                    <h2 class="mb1rem">全体タイムライン</h2>
 
                     <!--ツイート投稿欄-->
                     <div class="tweetInputWrap">

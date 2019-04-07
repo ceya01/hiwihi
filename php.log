@@ -7467,3 +7467,97 @@ Stack trace:
 /works/hiwihi/timeline.php
 
 [07-Apr-2019 18:12:56 Asia/Tokyo] 
+[07-Apr-2019 18:13:52 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:13:52 Asia/Tokyo] 
+[07-Apr-2019 18:20:10 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:20:10 Asia/Tokyo] 
+[07-Apr-2019 18:20:12 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 18:20:12 Asia/Tokyo] 
+[07-Apr-2019 18:20:13 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:20:13 Asia/Tokyo] 
+[07-Apr-2019 18:20:16 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 18:20:16 Asia/Tokyo] 
+[07-Apr-2019 18:20:18 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:20:18 Asia/Tokyo] 
+[07-Apr-2019 18:20:29 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[07-Apr-2019 18:20:29 Asia/Tokyo] 
+[07-Apr-2019 18:20:29 Asia/Tokyo] ajax profileEdit  $_POST:
+[07-Apr-2019 18:20:29 Asia/Tokyo] Array
+(
+    [userName] => 山田タロウ
+    [userBio] => このアカウントは乗っ取った！！
+)
+
+[07-Apr-2019 18:20:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[07-Apr-2019 18:20:36 Asia/Tokyo] 
+[07-Apr-2019 18:20:36 Asia/Tokyo] ajax profileEdit  $_POST:
+[07-Apr-2019 18:20:36 Asia/Tokyo] Array
+(
+    [userName] => 山田タロウ
+    [userBio] => タロウです・・・・・・・・・
+)
+
+[07-Apr-2019 18:20:37 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 18:20:37 Asia/Tokyo] 
+[07-Apr-2019 18:20:43 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/about.php
+
+[07-Apr-2019 18:20:43 Asia/Tokyo] 
+[07-Apr-2019 18:20:45 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:20:45 Asia/Tokyo] 
+[07-Apr-2019 18:20:48 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 18:20:48 Asia/Tokyo] 
+[07-Apr-2019 18:21:15 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:21:15 Asia/Tokyo] 
+[07-Apr-2019 18:21:33 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 18:21:33 Asia/Tokyo] 
+[07-Apr-2019 18:21:35 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[07-Apr-2019 18:21:35 Asia/Tokyo] 
+[07-Apr-2019 18:21:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=A4
+
+[07-Apr-2019 18:21:36 Asia/Tokyo] 

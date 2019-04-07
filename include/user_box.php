@@ -54,8 +54,10 @@
 <!--        </div>-->
 
     </div>
-    <div class="btn-rr btnColor-bgWhite js-editProfile">プロフィールを編集</div>
-    <div class="btn-rr btnColor-bgWhite js-cancelEditProfile">キャンセル</div>
+    <?php if($userID === Session::getLoginUserID()): ?>
+        <div class="btn-rr btnColor-bgWhite js-editProfile">プロフィールを編集</div>
+        <div class="btn-rr btnColor-bgWhite js-cancelEditProfile">キャンセル</div>
+    <?php endif; ?>
 </div>
 
 <script src="js/editProfile.js"></script>

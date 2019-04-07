@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/db/table/TweetTable.php" afterPath="$PROJECT_DIR$/core/db/table/TweetTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/user_box.php" afterPath="$PROJECT_DIR$/include/user_box.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/PDOWrapper.php" afterPath="$PROJECT_DIR$/util/PDOWrapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timeline.php" afterPath="$PROJECT_DIR$/timeline.php" />
     </list>
     <ignored path="uploads/Array" />
     <ignored path="uploads/computer_data_tobu.png" />
@@ -132,8 +131,8 @@
           <file leaf-file-name="user_box.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/include/user_box.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+                <state relative-caret-position="276">
+                  <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -153,6 +152,16 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="timeline.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/timeline.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="64" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../../../phpMyAdmin/index.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -163,11 +172,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TweetTable.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TweetTable.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/core/db/table/TweetTable.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="106">
-                  <caret line="105" column="36" lean-forward="true" selection-start-line="104" selection-start-column="27" selection-end-line="105" selection-end-column="36" />
+                <state relative-caret-position="282">
+                  <caret line="104" column="27" lean-forward="true" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
                   <folding>
                     <marker date="1554628271198" expanded="true" signature="2559:2586" ph="SELECT * FRO... tweet" />
                     <marker date="1554628271198" expanded="true" signature="2559:2624" ph="SELECT * FRO... tweetJOIN" />
@@ -175,34 +184,6 @@
                     <marker date="1554628271198" expanded="true" signature="2559:2671" ph="SELECT * FRO... tweetJOIN" />
                     <marker date="1554628271198" expanded="true" signature="2559:2708" ph="SELECT * FRO... tweetJOIN" />
                     <marker date="1554628271198" expanded="true" signature="3758:3916" ph="SELECT COUNT... tweet" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DBConnector.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/db/DBConnector.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PDOWrapper.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/util/PDOWrapper.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="628">
-                  <caret line="56" column="15" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="15" />
-                  <folding>
-                    <marker date="1554627918675" expanded="true" signature="1971:2028" ph="INSERT INTO ${$tableName}... " />
-                    <marker date="1554627918675" expanded="true" signature="2562:2577" ph="INSERT INTO ${$tableName}... " />
-                    <marker date="1554627918675" expanded="true" signature="3083:3126" ph="SELECT count... ${$tableName}" />
-                    <marker date="1554627918675" expanded="true" signature="3083:3139" ph="SELECT count... ${$tableName}" />
-                    <marker date="1554627918675" expanded="true" signature="3083:3141" ph="SELECT count... ${$tableName}" />
-                    <marker date="1554627918675" expanded="true" signature="3083:3143" ph="SELECT count... ${$tableName}" />
-                    <marker date="1554627918675" expanded="true" signature="3083:3151" ph="SELECT count... ${$tableName}" />
                   </folding>
                 </state>
               </provider>
@@ -295,7 +276,6 @@
         <option value="$PROJECT_DIR$/core/Auth.php" />
         <option value="$PROJECT_DIR$/debugLogin.php" />
         <option value="$PROJECT_DIR$/include/footer.php" />
-        <option value="$PROJECT_DIR$/timeline.php" />
         <option value="$PROJECT_DIR$/core/functions.php" />
         <option value="$PROJECT_DIR$/core/db/table/UserTable.php" />
         <option value="$PROJECT_DIR$/css/mainStyle.css" />
@@ -303,6 +283,7 @@
         <option value="$PROJECT_DIR$/user.php" />
         <option value="$PROJECT_DIR$/util/PDOWrapper.php" />
         <option value="$PROJECT_DIR$/core/db/table/TweetTable.php" />
+        <option value="$PROJECT_DIR$/timeline.php" />
         <option value="$PROJECT_DIR$/include/user_box.php" />
       </list>
     </option>
@@ -452,28 +433,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hiwihi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hiwihi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="table" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,14 +604,7 @@
       <workItem from="1554273282415" duration="15807000" />
       <workItem from="1554296280862" duration="298000" />
       <workItem from="1554350394474" duration="27566000" />
-      <workItem from="1554605839606" duration="16245000" />
-    </task>
-    <task id="LOCAL-00030" summary="スタイル微調整 ヘッダーなど">
-      <created>1553515789091</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1553515789091</updated>
+      <workItem from="1554605839606" duration="16746000" />
     </task>
     <task id="LOCAL-00031" summary="aboutページのベース作成&#10;css調整">
       <created>1553580324259</created>
@@ -990,11 +942,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554627439966</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="ツイート数表示機能">
+      <created>1554628397375</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1554628397375</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297747000" />
+    <option name="totallyTimeSpent" value="298248000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1019,7 +978,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17910448" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1849315" sideWeight="0.5144077" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33511207" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33511207" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1058,7 +1017,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="requireを相対パスに変更&#10;ajax処理準備" />
     <MESSAGE value="ajaxでのユーザー名とbio編集機能追加" />
     <MESSAGE value="UserTableのgetInstanceをコメントアウト&#10;" />
     <MESSAGE value="リファクタリング" />
@@ -1083,7 +1041,8 @@
     <MESSAGE value="自分意外のツイートを右向き吹き出し表示" />
     <MESSAGE value="ユーザーページ表示機能" />
     <MESSAGE value="未実装機能を非表示　（フォロー / ふぁぼ）" />
-    <option name="LAST_COMMIT_MESSAGE" value="未実装機能を非表示　（フォロー / ふぁぼ）" />
+    <MESSAGE value="ツイート数表示機能" />
+    <option name="LAST_COMMIT_MESSAGE" value="ツイート数表示機能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1452,14 +1411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timeline.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/tweet_box.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -1508,18 +1459,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/user_box.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/db/table/TweetTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="105" column="36" lean-forward="true" selection-start-line="104" selection-start-column="27" selection-end-line="105" selection-end-column="36" />
+        <state relative-caret-position="282">
+          <caret line="104" column="27" lean-forward="true" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
           <folding>
             <marker date="1554628271198" expanded="true" signature="2559:2586" ph="SELECT * FRO... tweet" />
             <marker date="1554628271198" expanded="true" signature="2559:2624" ph="SELECT * FRO... tweetJOIN" />
@@ -1528,6 +1471,22 @@
             <marker date="1554628271198" expanded="true" signature="2559:2708" ph="SELECT * FRO... tweetJOIN" />
             <marker date="1554628271198" expanded="true" signature="3758:3916" ph="SELECT COUNT... tweet" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/user_box.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
