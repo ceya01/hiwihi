@@ -41,11 +41,11 @@ if (!empty($_POST)) {
                     <?php echoErrMsg($validator->getErrorMessageByKey(KEY_EMAIL)); ?>
                 </label>
                 <label class="inputWrap"><span class="label-text">ユーザーID</span>
-                    <input type="text" name="<?php echo KEY_CHARID ?>" value="<?php echoPost(KEY_CHARID); ?>">
+                    <input type="text" name="<?php echo KEY_CHARID ?>" placeholder="半角英数字またはアンダーバー" value="<?php echoPost(KEY_CHARID); ?>">
                     <?php echoErrMsg($validator->getErrorMessageByKey(KEY_CHARID)); ?>
                 </label>
                 <label class="inputWrap"><span class="label-text">パスワード</span>
-                    <input type="password" name="<?php echo KEY_PASSWORD ?>" value="<?php echoPost(KEY_PASSWORD); ?>">
+                    <input type="password" name="<?php echo KEY_PASSWORD ?>" placeholder="半角英数記号で8文字以上" value="<?php echoPost(KEY_PASSWORD); ?>">
                     <?php echoErrMsg($validator->getErrorMessageByKey(KEY_PASSWORD)); ?>
                 </label>
                 <input type="submit" value="新規登録" class="btn-rr bgColor-hiwihi mt3rem">

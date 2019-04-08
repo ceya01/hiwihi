@@ -6,11 +6,11 @@
     if(isset($_POST['newTweet'])){
         $tweetRecord = $_POST['newTweet'];
     }
-    $text = htmlspecialchars($tweetRecord['text']);
-    $name =  htmlspecialchars($tweetRecord['name']);
-    $charID = htmlspecialchars($tweetRecord['char_id']);
-    $time = $tweetRecord['post_time'];
-    $icon = $tweetRecord['icon'];
+    $text = sanitize($tweetRecord['text']);
+    $name =  sanitize($tweetRecord['name']);
+    $charID = sanitize($tweetRecord['char_id']);
+    $time = sanitize($tweetRecord['post_time']);
+    $icon = sanitize($tweetRecord['icon']);
     if(isset($icon)){
         $icon = 'uploads/'.$icon;
     }else{

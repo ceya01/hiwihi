@@ -4,13 +4,13 @@
     //TODO: 何度も似たようなSQL叩いててよくないので要改善
     global $userID;
     if(!isset($userID)){
-        $userID = Session::getLoginUserID();
+        $userID = (int)Session::getLoginUserID();
     }
-    $name = UserTable::getUserNameByID($userID);
-    $charID = UserTable::getUserCharIDByID($userID);
-    $bio = UserTable::getUserBioByID($userID);
-    $iconUrl = UserTable::getUserIconByID($userID);
-    $numTweet = TweetTable::getNumTweetOfUser($userID);
+    $name = sanitize(UserTable::getUserNameByID($userID));
+    $charID = sanitize(UserTable::getUserCharIDByID($userID));
+    $bio = sanitize(UserTable::getUserBioByID($userID));
+    $iconUrl = sanitize(UserTable::getUserIconByID($userID));
+    $numTweet = (int)TweetTable::getNumTweetOfUser($userID);
 
     //
 ?>

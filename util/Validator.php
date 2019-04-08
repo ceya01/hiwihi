@@ -7,7 +7,7 @@ class Validator
 {
     const ERRMSG_INVALID_EMAIL = 'メールアドレスの形式が正しくありません';
     const ERRMSG_INVALID_USERID = 'ユーザーIDは半角英数字とアンダーバーのみ使用可能です';
-    const ERRMSG_INVALID_PASSWORD = 'パスワードは半角英数字のみ使用可能です';
+    const ERRMSG_INVALID_PASSWORD = 'パスワードは半角英数記号のみ使用可能です';
 
     const ERRMSG_TOOLONG_LENGTH = '文字以内で入力してください';
     const ERRMSG_TOOSHORT_LENGTH = '文字以上で入力してください';

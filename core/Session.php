@@ -15,10 +15,11 @@ class Session
         $_SESSION[self::LOGIN_USER_ID] = (int)$userID;
     }
     static public function getLoginUserID():int{
-        return array_key_exists(self::LOGIN_USER_ID, $_SESSION) ? $_SESSION[self::LOGIN_USER_ID] : -1;
+        return array_key_exists(self::LOGIN_USER_ID, $_SESSION) ?
+            (int)$_SESSION[self::LOGIN_USER_ID] : -1;
     }
     static public function isLogin():bool{
-        return  self::getLoginUserID() != -1;
+        return  self::getLoginUserID() !== -1;
     }
 
 }

@@ -36,7 +36,7 @@ function isPage($pageName)
 //ヘッダーのリンク出力用関数
 function echoHeaderLink($pageKey, $linkText)
 {
-    echo '<a href="' . $pageKey . '.php">' . $linkText . '</a>';
+    echo '<a href="' . sanitize($pageKey) . '.php">' . sanitize($linkText). '</a>';
     //echo '<a href="?page='.$pageKey.'">'.$linkText.'</a>';
 }
 
@@ -44,7 +44,7 @@ function echoHeaderLink($pageKey, $linkText)
 function echoPost($key = ''): void
 {
     if (!empty($_POST[$key])) {
-        echo htmlspecialchars($_POST[$key]);
+        echo sanitize($_POST[$key]);
     }
 }
 
@@ -72,6 +72,9 @@ function getArrayKey($ary,$key,$default=null){
 function echoErrMsg($msg): void
 {
     if (!empty($msg)) {
-        echo '<span class="errmsg">' . $msg . '</span>';
+        echo '<span class="errmsg">' . sanitize($msg) . '</span>';
     }
+}
+function sanitize($str){
+    return htmlspecialchars($str,ENT_QUOTES,'UTF-8');
 }
