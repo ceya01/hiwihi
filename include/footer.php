@@ -8,8 +8,28 @@
 ?>
 
 <footer>
-    <div class="inner">
-        footer
+    <div class="inner flexCont">
+        <div class="InfooterBox footerLeft">
+            <img src="img/logo.png" alt="ﾋｳｨｯﾋﾋｰ">
+        </div>
+        <div class="InfooterBox footerMiddle">
+            <ul>
+                <li><a href="index.php">トップページ</a></li>
+                <li><a href="timeline.php">タイムライン</a></li>
+                <li><a href="user.php">マイページ</a></li>
+                <li>　</li>
+                <li>　</li>
+            </ul>
+        </div>
+        <div class="InfooterBox footerRight">
+            <ul>
+                <li><a href="about.php">ﾋｳｨｯﾋﾋｰとは？</a></li>
+                <li><a href="404.php">お問い合わせ</a></li>
+                <li><a href="404.php">github</a></li>
+                <li><a href="404.php">利用規約</a></li>
+                <li><a href="404.php">なんか</a></li>
+            </ul>
+        </div>
     </div>
 </footer>
 

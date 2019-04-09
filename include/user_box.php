@@ -1,7 +1,7 @@
 <?php
     require_once("core/db/table/UserTable.php");
     require_once("core/db/table/TweetTable.php");
-    //TODO: 何度も似たようなSQL叩いててよくないので要改善
+    //todo: 何度も似たようなSQL叩いててよくないので要改善
     global $userID;
     if(!isset($userID)){
         $userID = (int)Session::getLoginUserID();

@@ -1,11 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: eceys
- * Date: 2019/02/09
- * Time: 15:03
- */
-?>
+<?php require_once( "include/header.php" ); ?>
 <main>
-<h2>404 page not found! お探しのページは見つかりませんでした！</h2>
+    <div class="inner mt2rem">
+<h2>404 page not found! <br>お探しのページは見つかりませんでした！</h2>
+    <p><a href="index.php">トップページに戻る</a></p>
+    </div>
 </main>
+<?php require_once( "include/footer.php" ); ?>

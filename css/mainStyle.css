@@ -455,4 +455,18 @@ input,textarea{
 }
 
 
+/************************************************************/
+/*　フッター　*/
+/************************************************************/
+footer .inner{
+    display: flex;
+    padding: 1rem 0;
+}
 
+.InfooterBox{
+    margin-right: 80px;
+}
+
+.InfooterBox a{
+    color:#fff;
+}
