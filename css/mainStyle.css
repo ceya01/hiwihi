@@ -2,51 +2,51 @@
 /*　基礎　*/
 /************************************************************/
 
-
-body{
+body {
     margin: 0 auto;
     overflow-x: hidden;
-    color:#333333;
+    color: #333333;
 }
 
-header,main,footer{
+header, main, footer {
     overflow: hidden;
-    width:100%;
+    width: 100%;
 }
-.inner{
-    margin:0 auto;
-    padding:0 10px;
-    max-width:1220px;
+
+.inner {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1220px;
     position: relative;
 }
 
-img{
-    max-width:100%;
+img {
+    max-width: 100%;
 }
 
 /************************************************************/
 /*　header　*/
 /************************************************************/
-header{
+header {
     /*background-color: #ffefef;*/
     background-color: #14DC98;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
-header .inner{
-    padding-top:6px;
-    padding-bottom:6px;
+header .inner {
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
-header h1{
+header h1 {
     display: none;
 }
 
-header img{
+header img {
     vertical-align: middle;
 }
 
-header ul{
+header ul {
     display: inline-flex;
     list-style: none;
     position: absolute;
@@ -55,12 +55,12 @@ header ul{
     transform: translateY(-50%);
 }
 
-header li{
+header li {
     margin-right: 1em;
 }
 
-header a{
-    color:#FFFFFF;
+header a {
+    color: #FFFFFF;
     font-weight: bold;
     text-decoration: none;
 }
@@ -69,109 +69,109 @@ header a{
 /*　main　*/
 /************************************************************/
 
-main{
+main {
     background-color: #FDFFFF;
     /*background-color: #efffef;*/
 
 }
 
-main .inner{
+main .inner {
 
-    min-height:400px;
+    min-height: 400px;
     /*padding-top:30px;*/
     /*padding-bottom: 30px;*/
 
 }
 
-.bg-hiwihiBird{
-    background:url("../img/hummingbird.jpg") no-repeat;
+.bg-hiwihiBird {
+    background: url("../img/hummingbird.jpg") no-repeat;
     /*background-position:0 -200px ;*/
-    background-size:cover;
+    background-size: cover;
 
 }
 
-main .bg-overlay{
-    background: -moz-linear-gradient(top, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0.8) 50%, rgba(255,249,252,0.95) 100%);
-    background: -webkit-linear-gradient(top, rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.8) 50%,rgba(255,249,252,0.95) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.8) 50%,rgba(255,249,252,0.95) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#e6fff9fc',GradientType=0 );
+main .bg-overlay {
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 249, 252, 0.95) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 249, 252, 0.95) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 249, 252, 0.95) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3ffffff', endColorstr='#e6fff9fc', GradientType=0);
     overflow: hidden;
 }
 
-
 /*main p{*/
-    /*font-size:14px;*/
+/*font-size:14px;*/
 /*}*/
-
 
 /************************************************************/
 /*　footer　*/
 /************************************************************/
-footer{
+footer {
     /*background-color: #efefff;*/
     background-color: #14DC98;
-    color:#FFFFFF;
+    color: #FFFFFF;
 
     min-height: 100px;
 }
-
 
 /************************************************************/
 /*　共有　*/
 /************************************************************/
 
-.introWrap{
+.introWrap {
     max-width: 800px;
-    margin : 0 auto;
-    text-align:left;
-    padding: 2rem 0 ;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2rem 0;
 }
-.introWrap h2{
+
+.introWrap h2 {
     margin-bottom: 0.5em;
 }
 
-.formWrap{
+.formWrap {
     width: 320px;
     max-width: 80%;
     text-align: center;
-    margin : 0 auto;
-    padding:6rem 0;
+    margin: 0 auto;
+    padding: 6rem 0;
 }
-.subContent h2{
+
+.subContent h2 {
     margin-bottom: 0.5em;
 }
 
-.btn-rr{    /* rr: rounded-rectangle */
+.btn-rr { /* rr: rounded-rectangle */
     display: block;
-    border-radius:20px;
-    padding:0.5rem 0;
-    margin:1rem auto;
-    width:320px;
+    border-radius: 20px;
+    padding: 0.5rem 0;
+    margin: 1rem auto;
+    width: 320px;
     max-width: 100%;
     text-decoration: none;
     background: #000;
-    color:#FFF;
-    border:1px #FFF solid;
-    font-size:0.9em;
+    color: #FFF;
+    border: 1px #FFF solid;
+    font-size: 0.9em;
     text-align: center;
 }
 
-.btn-rr:hover{
+.btn-rr:hover {
     cursor: pointer;
 }
 
-.btnColor-bghiwihi{
-    background:#14DC98;
-    color:#FFFFFF;
+.btnColor-bghiwihi {
+    background: #14DC98;
+    color: #FFFFFF;
     border-color: #FFFFFF;
 }
-.btnColor-bgWhite{
-    background:#FFFFFF;
-    color:#14DC98;
+
+.btnColor-bgWhite {
+    background: #FFFFFF;
+    color: #14DC98;
     border-color: #14DC98;
 }
 
-h2.iconHead::before{
+h2.iconHead::before {
     content: '';
     width: 1.35em;
     height: 1.35em;
@@ -182,239 +182,263 @@ h2.iconHead::before{
 
 }
 
-.hiddenEditor{
+.hiddenEditor {
     display: none;
 }
 
 /************************************************************/
 /*　フォーム　*/
 /************************************************************/
-input,textarea{
+input, textarea {
     display: inline-block;
-    background-color:#FFF;
+    background-color: #FFF;
     border: 1px solid #DFDFDF;
 }
 
-
-.inputWrap{
+.inputWrap {
     display: block;
     margin: 20px auto;
-    width:320px;
+    width: 320px;
     text-align: left;
     /*margin-bottom: 20px;*/
 }
 
-.inputWrap input{
-    width:100%;
+.inputWrap input {
+    width: 100%;
 }
-.errmsg{
+
+.errmsg {
     color: red;
-    font-size:.75em;
+    font-size: .75em;
 }
-.label-text{
-    font-size:12px;
+
+.label-text {
+    font-size: 12px;
 }
-.fogot-password{
-    margin-top:1rem;
+
+.fogot-password {
+    margin-top: 1rem;
     text-align: left;
-    font-size:12px;
+    font-size: 12px;
 }
 
 /************************************************************/
 /*　タイムライン　*/
 /************************************************************/
 
-.timelineWrap{
-    margin:20px auto;
+.timelineWrap {
+    margin: 20px auto;
     display: flex;
     border-collapse: collapse;
 
 }
-.timelineBlock{
+
+.timelineBlock {
     border: 1px solid #DFDFDF;
     border-collapse: collapse;
-    padding:1rem;
+    padding: 1rem;
     overflow-wrap: break-word;
 
 }
-.timelineWrap .sideArea{
+
+.timelineWrap .sideArea {
     width: 30%;
 }
-.timelineWrap .mainArea{
+
+.timelineWrap .mainArea {
     width: 70%;
 }
-
 
 /************************************************************/
 /*　ユーザー　*/
 /************************************************************/
-.userBox .userIcon{
-    margin:0 auto;
+.userBox .userIcon {
+    margin: 0 auto;
     display: block;
-    width:100%;
+    width: 100%;
 
     text-align: center;
     position: relative;
 }
-.userIcon .avatar{
+
+.userIcon .avatar {
     max-height: 200px;
     border-radius: 50%;
-    object-fit:cover;
+    object-fit: cover;
 }
-.userIcon .avatarEditor{
+
+.userIcon .avatarEditor {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     height: 100%;
 }
 
-.avatarEditor .guide{
+.avatarEditor .guide {
     position: absolute;
-    left:50%;
-    top:0;
-    transform: translate(-50%,0);
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
     bottom: 0;
 
-    margin:0 auto;
-    width:100%;
+    margin: 0 auto;
+    width: 100%;
 
     font-weight: bold;
-    border:2px dashed #999999;
-    background-color: rgba(245,245,245,0.50);
+    border: 2px dashed #999999;
+    background-color: rgba(245, 245, 245, 0.50);
     vertical-align: middle;
 }
+
 .avatarEditor .guide .guide-text {
-    color:#666666;
+    color: #666666;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 
-    font-size:16px;
-    background-color: rgba(255,255,255,0.80);
-    padding:6px 10px;
-    border:1px solid #DFDFDF;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 6px 10px;
+    border: 1px solid #DFDFDF;
     white-space: nowrap;
 }
 
-.avatarForm{
+.avatarForm {
     height: 100%;
 }
-.avatarInput{
+
+.avatarInput {
     height: 100%;
     opacity: 0;
 }
 
-.userBox .userName{
-    margin:0.5rem 0 0;
-    font-size:18px;
+.userBox .userName {
+    margin: 0.5rem 0 0;
+    font-size: 18px;
     font-weight: bold;
 }
-.userBox .userId{
-    margin-bottom:0.5rem;
-    font-size:13px;
-    color:#999999;
-}
-.userBio{
-    margin-bottom:5px;
-}
-.userBox input, .userBox textarea{
-    width:100%;
-}
-.preAtSign::before{
-    content :'@';
+
+.userBox .userId {
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+    color: #999999;
 }
 
-.userStatsWrap{
+.userBio {
+    margin-bottom: 5px;
+}
+
+.userBox input, .userBox textarea {
+    width: 100%;
+}
+
+.preAtSign::before {
+    content: '@';
+}
+
+.userStatsWrap {
     display: flex;
-    width:100%;
+    width: 100%;
     margin: 5px 0;
 }
 
-.statsHead{
-    color:#14DC98;
+.statsHead {
+    color: #14DC98;
     font-weight: bold;
 }
-.statsValue{
-    font-size:13px;
+
+.statsValue {
+    font-size: 13px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.statsBlock{
-    width:25%;
+
+.statsBlock {
+    width: 25%;
 }
 
 /************************************************************/
 /*　ツイート入力欄　*/
 /************************************************************/
-.tweetInputWrap{
+.tweetInputWrap {
     margin-bottom: 1rem;
     overflow: hidden;
 }
-.tweetInput{
+
+.tweetInput {
     display: block;
     width: 100%;
     border-radius: 10px;
     padding: 5px 10px;
 }
-.btnPostTweet{
+
+.btnPostTweet {
     display: inline-block;
-    margin:10px 0 10px;
-    padding:.5rem 1rem;
-    width:auto;
+    margin: 10px 0 10px;
+    padding: .5rem 1rem;
+    width: auto;
     font-weight: bold;
     border-radius: 16px;
     float: right;
 }
+
 /************************************************************/
 /*　ツイート　*/
 /************************************************************/
 
-.tweetBox{
+.tweetBox {
     display: flex;
     margin-bottom: 2rem;
 }
-.iconWrap{
-    width:50px;
+
+.iconWrap {
+    width: 50px;
     height: 50px;
-    min-width:50px;
+    min-width: 50px;
     margin-right: 20px;
 }
-.iconWrap img{
-    width:100%;
+
+.iconWrap img {
+    width: 100%;
     height: 100%;
     border-radius: 50%;
-    object-fit:cover;
+    object-fit: cover;
 }
-.tweetContent{
+
+.tweetContent {
     position: relative;
-    padding:1rem;
+    padding: 1rem 1.5rem;
     background-color: #E6FFF0;
     border-radius: 16px;
     min-width: 0;
 }
-.tweetFooter span a , .tweetFooter span a:visited{
+
+.tweetFooter span a, .tweetFooter span a:visited {
     color: inherit;
 }
-.reverse{
+
+.reverse {
     flex-direction: row-reverse;
 }
 
 .reverse .iconWrap {
     margin-right: 0;
-    margin-left:20px;
+    margin-left: 20px;
 }
-.reverse .tweetContent{
+
+.reverse .tweetContent {
     background-color: #FFF4E0;
 }
+
 /*.tweetContent:before {*/
-    /*content: "";*/
-    /*position: absolute;*/
-    /*margin-top: -15px;*/
-    /*top: 30px;*/
-    /*!*left: -30px;*!*/
-    /*!*border: 15px solid transparent;*!*/
-    /*!*border-right: 15px solid #E6FFF0;*!*/
+/*content: "";*/
+/*position: absolute;*/
+/*margin-top: -15px;*/
+/*top: 30px;*/
+/*!*left: -30px;*!*/
+/*!*border: 15px solid transparent;*!*/
+/*!*border-right: 15px solid #E6FFF0;*!*/
 /*}*/
 
 .tweetContent:before {
@@ -428,45 +452,69 @@ input,textarea{
 }
 
 .reverse .tweetContent:before {
-    left:initial;
+    left: initial;
     right: -30px;
     border: 15px solid transparent;
     border-left: 15px solid #FFF4E0;
 }
 
-.tweetBody{
-
+.tweetBody {
+    padding:0.5rem 0;
 }
-.tweetFooter{
+
+.tweetFooter {
+    float: right;
+    text-align: right;
     margin-top: .5rem;
-    font-size:12px;
-    color:#999999;
+    color: #999999;
 }
 
-.tweetFooter .iconWrap .fas{
+.tweetFooter .iconWrap .fas {
     font-size: 14px;
     margin-right: 1rem;
     font-weight: normal;
 }
 
-.tweetFooter .iconWrap .fas::before{
+.tweetFooter .iconWrap .fas::before {
     font-weight: bold;
-    margin-right:3px;
+    margin-right: 3px;
 }
 
+.tweetMeta{
+    font-size: 12px;
+}
+.tweetMeta a{
+    color: #669999;
+}
+.tweetMeta > span{
+    margin-right:0.25px;
+}
 
+.tweetMeta .name{
+    font-size:14px;
+    font-weight:bold;
+    color: #666666;
+}
+
+.tweetActionWrap{
+    padding-right: 0.5rem;
+}
+
+.tweetAction{
+    margin-left: 1rem;
+}
 /************************************************************/
 /*　フッター　*/
 /************************************************************/
-footer .inner{
+footer .inner {
     display: flex;
     padding: 1rem 0;
 }
 
-.InfooterBox{
+.InfooterBox {
     margin-right: 80px;
 }
 
-.InfooterBox a{
-    color:#fff;
+.InfooterBox a {
+    color: #fff;
 }

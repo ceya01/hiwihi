@@ -2,7 +2,7 @@
 <?php
     //var_dump($tweetRecord);
     global $tweetRecord;
-    //ajax呼び出し用
+    //新規ツイート投稿ajaxで呼び出した場合
     if(isset($_POST['newTweet'])){
         $tweetRecord = $_POST['newTweet'];
     }
@@ -34,15 +34,19 @@
     <div class="tweetContent">
         <div class="tweetBody"><?php echo $text ?></div>
         <div class="tweetFooter">
-            <span class="fll"><a href="user.php?u=<?php echo $charID ?>"><?php echo $name.' @'.$charID.'</a> '.$time ?></span>
+            <div class="tweetMeta">
+                    <span class="name"><?php echo $name ?></span>
+                <a href="user.php?u=<?php echo $charID ?>"><span class="charID">@<?php echo $charID ?></span></a>
+                    <span class="time"><?php echo $time ?></span>
+            </div>
 <!--            リプライ、リツイート、ふぁぼ等は未実装のため現在非表示-->
-<!--            <span class="flr"">-->
-<!--                <i class="fas fa-at">1234</i>-->
-<!--                <i class="fas fa-retweet">5678</i>-->
-<!--                <i class="fas fa-star">9012</i>-->
-<!--                <i class="fas fa-ellipsis-h"></i>-->
-<!--            </span>-->
-<!--            -->
+            <div class="tweetActionWrap">
+                <span class="tweetAction"><i class="fas fa-at"></i><span class="numReply">1234</span></span>
+                <span class="tweetAction"><i class="fas fa-retweet"></i><span class="numRetweet">1234</span></span>
+                <span class="tweetAction"><i class="fas fa-star"></i><span class="numFavorite">1234</span></span>
+                <span class="tweetAction"><i class="fas fa-ellipsis-h"></i></span>
+            </div>
+
         </div>
     </div>
 </div>
