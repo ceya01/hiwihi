@@ -461,12 +461,27 @@ input, textarea {
 .tweetBody {
     padding:0.5rem 0;
 }
-
+.tweetEditor{
+    display: none;
+}
+.tweetEditorTextarea{
+    width:100%;
+    padding:0.5em;
+    border-radius: 10px;
+}
+.tweetEditBtn{
+    margin:0.25em 0 0 2%;
+    display: inline-block;
+    width:20%;
+    font-size:13px;
+    float: right;
+}
 .tweetFooter {
     float: right;
     text-align: right;
     margin-top: .5rem;
     color: #999999;
+    clear: both;
 }
 
 .tweetFooter .iconWrap .fas {

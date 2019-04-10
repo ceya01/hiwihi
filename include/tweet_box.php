@@ -6,7 +6,7 @@
     if(isset($_POST['newTweet'])){
         $tweetRecord = $_POST['newTweet'];
     }
-    $tID = $tweetRecord['tid'];
+    $tID = $tweetRecord['id'];
     $text = sanitize($tweetRecord['text']);
     $name =  sanitize($tweetRecord['name']);
     $charID = sanitize($tweetRecord['char_id']);
@@ -36,7 +36,14 @@
         <img class="sq50px" src="<?php echo $icon ?>" alt="<?php echo $name ?>のアイコン"></a>
     </div>
     <div class="tweetContent">
-        <div class="tweetBody"><?php echo $text ?></div>
+        <div class="tweetBody">
+            <div class="tweetText"><?php echo nl2br($text) ?></div>
+            <div class="tweetEditor">
+                <textarea class="tweetEditorTextarea" title="ついーと編集" rows="4" maxlength="140"><?php echo $text; ?></textarea>
+                <div class="btn-rr btnColor-bghiwihi tweetEditBtn js-tweetEditComplete">完了</div>
+                <div class="btn-rr btnColor-bgWhite tweetEditBtn js-tweetEditCancel">キャンセル</div>
+            </div>
+        </div>
         <div class="tweetFooter">
             <div class="tweetMeta">
                     <span class="name"><?php echo $name ?></span>
