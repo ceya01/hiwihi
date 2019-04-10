@@ -9772,3 +9772,60 @@ Stack trace:
 /works/hiwihi/timeline.php
 
 [10-Apr-2019 19:02:11 Asia/Tokyo] 
+[10-Apr-2019 19:03:57 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[10-Apr-2019 19:03:57 Asia/Tokyo] 
+[10-Apr-2019 19:04:00 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[10-Apr-2019 19:04:00 Asia/Tokyo] 
+[10-Apr-2019 19:05:58 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[10-Apr-2019 19:05:58 Asia/Tokyo] 
+[10-Apr-2019 19:12:01 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[10-Apr-2019 19:12:01 Asia/Tokyo] 
+[10-Apr-2019 19:12:04 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/deleteTweet.php
+
+[10-Apr-2019 19:12:04 Asia/Tokyo] 
+[10-Apr-2019 19:12:04 Asia/Tokyo] ajax postTweet  $_POST:
+[10-Apr-2019 19:12:04 Asia/Tokyo] Array
+(
+    [id] => 89
+)
+
+[10-Apr-2019 19:12:06 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[10-Apr-2019 19:12:06 Asia/Tokyo] 
+[10-Apr-2019 19:12:10 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/deleteTweet.php
+
+[10-Apr-2019 19:12:10 Asia/Tokyo] 
+[10-Apr-2019 19:12:10 Asia/Tokyo] ajax postTweet  $_POST:
+[10-Apr-2019 19:12:10 Asia/Tokyo] Array
+(
+    [id] => 88
+)
+
+[10-Apr-2019 19:12:11 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[10-Apr-2019 19:12:11 Asia/Tokyo] 
+[10-Apr-2019 19:13:16 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[10-Apr-2019 19:13:16 Asia/Tokyo] 

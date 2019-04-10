@@ -6,6 +6,7 @@
     if(isset($_POST['newTweet'])){
         $tweetRecord = $_POST['newTweet'];
     }
+    $tID = $tweetRecord['tid'];
     $text = sanitize($tweetRecord['text']);
     $name =  sanitize($tweetRecord['name']);
     $charID = sanitize($tweetRecord['char_id']);
@@ -29,7 +30,7 @@
     //$user = UserTable::getUser($tweetRecord['id']);
 ?>
 
-<div class="tweetBox <?php echo $reverseClass.' '.$ownTweet ?>">
+<div class="tweetBox <?php echo $reverseClass.' '.$ownTweet ?>" data-id="<?php echo $tID ?>">
     <div class="iconWrap">
         <a href="user.php?u=<?php echo $charID ?>">
         <img class="sq50px" src="<?php echo $icon ?>" alt="<?php echo $name ?>のアイコン"></a>
