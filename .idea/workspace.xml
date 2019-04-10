@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/db/table/TweetTable.php" afterPath="$PROJECT_DIR$/core/db/table/TweetTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainStyle.css" afterPath="$PROJECT_DIR$/css/mainStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/util.css" afterPath="$PROJECT_DIR$/css/util.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/deleteTweet.php" afterPath="$PROJECT_DIR$/include/deleteTweet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/editTweet.php" afterPath="$PROJECT_DIR$/include/editTweet.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/tweet_box.php" afterPath="$PROJECT_DIR$/include/tweet_box.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tweetActions.js" afterPath="$PROJECT_DIR$/js/tweetActions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
@@ -87,11 +83,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.42451042">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="471" column="14" lean-forward="false" selection-start-line="471" selection-start-column="14" selection-end-line="471" selection-end-column="14" />
+                <state relative-caret-position="519">
+                  <caret line="546" column="27" lean-forward="false" selection-start-line="546" selection-start-column="27" selection-end-line="546" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -107,11 +103,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="tweetActions.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="tweetActions.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/tweetActions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+                <state relative-caret-position="720">
+                  <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -144,8 +140,8 @@
           <file leaf-file-name="tweet_box.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/include/tweet_box.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="41" column="125" lean-forward="true" selection-start-line="41" selection-start-column="125" selection-end-line="41" selection-end-column="125" />
+                <state relative-caret-position="324">
+                  <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
@@ -191,16 +187,6 @@
                   <folding>
                     <marker date="1554627918675" expanded="true" signature="1971:2028" ph="INSERT INTO ${$tableName}... " />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="deleteTweet.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/include/deleteTweet.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="80">
-                  <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -296,12 +282,12 @@
         <option value="$PROJECT_DIR$/timeline.php" />
         <option value="$PROJECT_DIR$/js/postTweet.js" />
         <option value="$PROJECT_DIR$/core/db/table/TweetTable.php" />
-        <option value="$PROJECT_DIR$/css/mainStyle.css" />
         <option value="$PROJECT_DIR$/css/util.css" />
-        <option value="$PROJECT_DIR$/include/tweet_box.php" />
         <option value="$PROJECT_DIR$/include/deleteTweet.php" />
         <option value="$PROJECT_DIR$/include/editTweet.php" />
+        <option value="$PROJECT_DIR$/include/tweet_box.php" />
         <option value="$PROJECT_DIR$/js/tweetActions.js" />
+        <option value="$PROJECT_DIR$/css/mainStyle.css" />
       </list>
     </option>
   </component>
@@ -580,14 +566,7 @@
       <workItem from="1554700311425" duration="3070000" />
       <workItem from="1554777712958" duration="582000" />
       <workItem from="1554778318049" duration="13831000" />
-      <workItem from="1554883073190" duration="13343000" />
-    </task>
-    <task id="LOCAL-00038" summary="ロゴ修正">
-      <created>1553591409108</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1553591409108</updated>
+      <workItem from="1554883073190" duration="14909000" />
     </task>
     <task id="LOCAL-00039" summary="タイムラインページ基礎部分作成">
       <created>1553652222472</created>
@@ -925,11 +904,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554891213533</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="ツイート編集機能">
+      <created>1554899455919</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1554899455919</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333599000" />
+    <option name="totallyTimeSpent" value="335165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -993,7 +979,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="画像アップロード機能実装&#10;画像表示領域の表示調整" />
     <MESSAGE value="merge 後test commit" />
     <MESSAGE value="merge to master" />
     <MESSAGE value="変更が無い場合にajax処理を実行しないように修正" />
@@ -1018,7 +1003,8 @@
     <MESSAGE value="ツイート周りのcss調整" />
     <MESSAGE value="ツイート削除、編集機能　表示部分" />
     <MESSAGE value="ツイート削除機能" />
-    <option name="LAST_COMMIT_MESSAGE" value="ツイート削除機能" />
+    <MESSAGE value="ツイート編集機能" />
+    <option name="LAST_COMMIT_MESSAGE" value="ツイート編集機能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1354,14 +1340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="471" column="14" lean-forward="false" selection-start-line="471" selection-start-column="14" selection-end-line="471" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/user_box.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1422,18 +1400,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/tweet_box.php">
+    <entry file="file://$PROJECT_DIR$/js/tweetActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="125" lean-forward="true" selection-start-line="41" selection-start-column="125" selection-end-line="41" selection-end-column="125" />
+        <state relative-caret-position="720">
+          <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tweetActions.js">
+    <entry file="file://$PROJECT_DIR$/css/mainStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="519">
+          <caret line="546" column="27" lean-forward="false" selection-start-line="546" selection-start-column="27" selection-end-line="546" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/tweet_box.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
           <folding />
         </state>
       </provider>

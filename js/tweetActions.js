@@ -2,6 +2,13 @@
 $(function () {
     console.log('tweetAction');
 
+    let $tweetBox;
+    let $editor;
+    let $tweetText;
+    let $tweetContent;
+    let $tweetEditorTextArea;
+    let initText ='';
+
     //サブアクションメニューを開く
     $('.js-openSub').click(function(){
         //console.log('openSub');
@@ -32,20 +39,14 @@ $(function () {
             type: 'POST',
             data: { id: id }
         }).done(function (data) {
-            console.log('ajax success');
-            console.log('data:\n', data);
+            // console.log('ajax success');
+            // console.log('data:\n', data);
         }).fail(function (msg) {
-            console.log('Ajax Error:', msg);
+            // console.log('Ajax Error:', msg);
         });
     });
 
     //編集
-    let $tweetBox;
-    let $editor;
-    let $tweetText;
-    let $tweetContent;
-    let $tweetEditorTextArea;
-    let initText ='';
     $('.js-edit').click(function(){
         $tweetBox = $(this).closest('.tweetBox');
         $editor =$tweetBox.find('.tweetEditor');
@@ -70,10 +71,10 @@ $(function () {
             type: 'POST',
             data: { id: id, text: editedText }
         }).done(function (data) {
-            console.log('ajax success');
-            console.log('data:\n', data);
+            // console.log('ajax success');
+            // console.log('data:\n', data);
         }).fail(function (msg) {
-            console.log('Ajax Error:', msg);
+            // console.log('Ajax Error:', msg);
         });
 
         initEditorState();

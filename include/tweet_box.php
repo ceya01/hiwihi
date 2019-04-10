@@ -51,9 +51,11 @@
                     <span class="time"><?php echo $time ?></span>
             </div>
             <div class="tweetActionWrap">
-                <span class="tweetAction js-reply"><i class="fas fa-at"></i><span class="numReply">0</span></span>
-                <span class="tweetAction js-retweet"><i class="fas fa-retweet"></i><span class="numRetweet">0</span></span>
-                <span class="tweetAction js-favorite"><i class="fas fa-star"></i><span class="numFavorite">0</span></span>
+                    <!--    未実装のため非表示            -->
+<!--                <span class="tweetAction js-reply"><i class="fas fa-at"></i><span class="numReply">0</span></span>-->
+<!--                <span class="tweetAction js-retweet"><i class="fas fa-retweet"></i><span class="numRetweet">0</span></span>-->
+<!--                <span class="tweetAction js-favorite"><i class="fas fa-star"></i><span class="numFavorite">0</span></span>-->
+<!--                -->
                 <?php if($ownTweet !==''): ?>
                 <span class="tweetAction js-openSub"><i class="fas fa-ellipsis-h"></i></span>
                 <div class="subTweetAction">

@@ -544,6 +544,7 @@ input, textarea {
 
 .subTweetAction-bt:hover{
     cursor: pointer;
+    background-color: #EFF7EF;
 }
 /************************************************************/
 /*　フッター　*/
