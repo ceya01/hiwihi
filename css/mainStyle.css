@@ -487,7 +487,7 @@ input, textarea {
     color: #669999;
 }
 .tweetMeta > span{
-    margin-right:0.25px;
+    margin-right:0.25em;
 }
 
 .tweetMeta .name{
@@ -497,16 +497,43 @@ input, textarea {
 }
 
 .tweetActionWrap{
-    padding-right: 0.5rem;
+    position: relative;
+    overflow: visible;
+    user-select: none;
 }
 
 .tweetAction{
     margin-left: 1rem;
 }
+.tweetAction .fas{
+    margin-right: .25em;
+    cursor: pointer;
+}
+.tweetAction .fas:last-child{
+    margin-right: 0;
+}
+
+.subTweetAction{
+    display: none;
+    position: absolute;
+    left:calc(100% + 0.5em);
+    top:0;
+    overflow-wrap: normal;
+    border:1px #14DC98 solid;
+    background-color: #ffffff;
+    color:#14DC98;
+    padding:0.5em;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.subTweetAction-bt:hover{
+    cursor: pointer;
+}
 /************************************************************/
 /*　フッター　*/
 /************************************************************/
-footer .inner {
+.footer-inner {
     display: flex;
     padding: 1rem 0;
 }

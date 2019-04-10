@@ -8,7 +8,7 @@
 ?>
 
 <footer>
-    <div class="inner flexCont">
+    <div class="inner footer-inner">
         <div class="InfooterBox footerLeft">
             <img src="img/logo.png" alt="ﾋｳｨｯﾋﾋｰ">
         </div>

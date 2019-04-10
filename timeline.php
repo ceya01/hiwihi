@@ -39,5 +39,6 @@ require_once( "include/header.php" );
     </main>
 
 
+    <script src="js/tweetActions.js"></script>
     <!--  フッター -->
 <?php require_once( "include/footer.php" ); ?>
