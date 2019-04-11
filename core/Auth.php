@@ -20,10 +20,12 @@ class Auth
 
     //ログイン
     static public function login($loginID,$password):bool{
-        $pdow = DBConnector::getPdow();
+
  //     $pdow->exist('hiwihi.user','email OR char_id',$loginID,'AND delete_flag = 0');
         $sql = 'SELECT password,id FROM hiwihi.user WHERE (email=:loginID OR char_id=:loginID) AND delete_flag = 0';
         $data = ['loginID'=>$loginID,'password'=>$password];
+
+        $pdow = DBConnector::getPdow();
         $stmt = $pdow->queryPost($sql,$data);
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
         dlog('$result: ',$result);  //$resultにはSELECTがで取得した配列が入る
@@ -39,7 +41,8 @@ class Auth
         return false;
 
     }
-//      ログアウト処理は単純なので未実装
+
+//      ログアウト処理はセッションデストロイするだけで単純なので未実装
 //    static public function logout():void{
 //
 //    }

@@ -50,10 +50,15 @@ if (IS_DEBUG) :
                 <li><?php echoHeaderLink(PAGE_PASS_REMINDER, 'パスワードリマインダー'); ?></li>
             </ul>
             <?php
+            echo('<br>time:'.time().'<br>');
             echo('<br>$_POST<br>');
             dump($_POST);
             echo('<br>$_SESSION<br>');
+            echo('session_id(): '.session_id());
+            echo '<br>';
             dump($_SESSION);
+            echo('<br>$_COOKIE<br>');
+            dump($_COOKIE);
             echo('<br>$_SERVER<br>');
             dump($_SERVER);
             ?>
@@ -77,9 +82,6 @@ if (IS_DEBUG) :
                     </li>
                     <?php
                 }
-                //dump($userIDs);
-
-
 
              ?>
             </ul>

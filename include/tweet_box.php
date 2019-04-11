@@ -11,9 +11,9 @@
     $name =  sanitize($tweetRecord['name']);
     $charID = sanitize($tweetRecord['char_id']);
     $time = sanitize($tweetRecord['post_time']);
-    $icon = sanitize($tweetRecord['icon']);
+    $icon = $tweetRecord['icon'];
     if(isset($icon)){
-        $icon = 'uploads/'.$icon;
+        $icon = sanitize('uploads/'.$icon);
     }else{
         $icon = 'img/avatar_default_50x.png';
     }
