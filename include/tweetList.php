@@ -1,13 +1,12 @@
 <!--<div class="tweetList">-->
     <?php
-    require_once( dirname(__FILE__).'/../include/importCore.php' );
-    require_once( dirname(__FILE__).'/../core/db/table/TweetTable.php' );
-    global $limit;
-    global $offset;
-    global $numTweet;
-    $limit = getPOST('limit',10);
-    $offset = getPOST('offset',0);
-    $tweetList = TweetTable::getTweetList($limit,$offset);
+//    global $limit;
+//    global $offset;
+//    global $numTweet;
+    global $tweetList;
+    //$limit = getPOST('limit',10);
+    //$offset = getPOST('offset',0);
+    //$tweetList = TweetTable::getTweetList($limit,$offset);
     dlog('$tweetList',$tweetList);
     if ($tweetList) {
         $numTweet = count($tweetList);

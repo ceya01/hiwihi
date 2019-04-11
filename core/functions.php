@@ -86,3 +86,8 @@ function echoErrMsg($msg): void
 function sanitize($str){
     return htmlspecialchars($str,ENT_QUOTES,'UTF-8');
 }
+
+
+function isUserPage(){
+    return strpos(getSERVER('PHP_SELF','').getSERVER('HTTP_REFERER',''),'user.php');
+}

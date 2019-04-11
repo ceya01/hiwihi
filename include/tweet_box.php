@@ -22,7 +22,7 @@
     $ownTweet = '';
     $uID = (int)$tweetRecord['uid'];
     $lID = (int)Session::getLoginUserID();
-    if( $uID !== $lID && !strpos(getSERVER('PHP_SELF','').getSERVER('HTTP_REFERER',''),'user.php')){
+    if( $uID !== $lID && !isUserPage() ){
         $reverseClass ='reverse';
     }else if($uID === $lID){
         $ownTweet = 'ownTweet';

@@ -4,12 +4,13 @@ $(function () {
  //       $showMoreTweet = $('.showMoreTweet');
         let limit = $showMoreTweet.data('limit');
         let offset = $showMoreTweet.data('offset');
+        let userID = $('.userBox').data('userid');
         //console.log('limit: ',limit,'  offset: ',offset)
         $.ajax({
-            url: 'include/tweetList.php',
+            url: 'ajax/showMoreTweet.php',
             type: 'POST',
             data: {
-                limit: limit , offset: offset
+                limit: limit , offset: offset, userID:userID
             }
         }).done(function (data) {
             console.log('ajax success');

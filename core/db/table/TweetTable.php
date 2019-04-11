@@ -76,7 +76,7 @@ class TweetTable
         return $result;
     }
 
-    public static function getTweetList($limit=100, $offset=1)
+    public static function getTweetList($limit=100, $offset=0)
     {
         $cols = 'tweet.id, tweet.text, tweet.replyto_id, tweet.post_time, tweet.edit_time, user.name, user_id AS uid, user.char_id, user.icon';
         $sql = 'SELECT '.$cols.' FROM tweet JOIN user ON user.id = tweet.user_id '.
@@ -94,11 +94,11 @@ class TweetTable
     }
 
 
-    public static function getTweetListOfUser($userID,$limit=100)
+    public static function getTweetListOfUser($userID,$limit=100,$offset=0)
     {
         $cols = 'tweet.id, tweet.text, tweet.replyto_id, tweet.post_time, tweet.edit_time, user.name, user_id AS uid, user.char_id, user.icon';
         $sql = 'SELECT '.$cols.' FROM tweet JOIN user ON user.id = tweet.user_id '.
-            'WHERE tweet.delete_flag = 0 AND user.id =:userID ORDER BY tweet.post_time DESC LIMIT '.$limit;
+            'WHERE tweet.delete_flag = 0 AND user.id =:userID ORDER BY tweet.post_time DESC LIMIT '.$limit.' OFFSET '.$offset;
         $data = ['userID' => $userID];
         $pdow = DBConnector::getPdow();
         try {

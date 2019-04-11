@@ -14,7 +14,7 @@
 
     //
 ?>
-<div class="userBox">
+<div class="userBox" data-userid="<?php echo $userID ?>">
     <div class="userIcon">
         <img class="avatar sq200px" src="<?php echo $iconUrl; ?>" alt="アバター画像">
         <div class="avatarEditor hiddenEditor">

@@ -5,6 +5,7 @@
 <?php
 require_once( "include/header.php" );
 require_once("core/db/table/UserTable.php");
+require_once( dirname(__FILE__).'/core/db/table/TweetTable.php' );
     $userCharID = getGET('u');
     $loginUserID = Session::getLoginUserID();
     if($userCharID === null){
@@ -28,34 +29,29 @@ require_once("core/db/table/UserTable.php");
                     <h2 class="mb1rem"><?php echo $userName ?>のツイート一覧</h2>
 
                     <!--ツイート投稿欄-->
-                    <?php if($loginUserID === $userID): ?>
-                        <div class="tweetInputWrap">
-                            <textarea class="tweetInput" rows="4" maxlength="140" placeholder="いまなにしてる？"></textarea>
-                            <button class="btnColor-bghiwihi btnPostTweet">ついーと！</button>
-                            <script src="js/postTweet.js"></script>
-                        </div>
-                    <?php endif; ?>
+                    <?php if($loginUserID === $userID) {
+                        include( dirname(__FILE__) . '/include/tweetInput.php' );
+                    }?>
                     <div class="tweetList">
                         <?php
-                        require_once( 'core/db/table/TweetTable.php' );
-                        //require_once('core/db/table/UserTable.php');
-                        $tweetList = TweetTable::getTweetListOfUser($userID);
-                        if ($tweetList) {
-                            foreach ($tweetList as $tweetRecord) {
-                                include( 'include/tweet_box.php' );
-                            }
-                        }else{
-                            echo '<p>まだツイートがありません！</p>';
-                        }
-
+                            $limit = 10; $offset= 0; $numTweet= 0;
+                            $tweetList = TweetTable::getTweetListOfUser($userID,$limit,$offset);
+                            include(dirname(__FILE__) . '/include/tweetList.php');
                         ?>
                     </div>
+                    <?php if ($numTweet === $limit) { ?>
+                        <div class="showMoreTweet btn-rr btnColor-bgWhite"
+                             data-limit="<?php echo $limit ?>" data-offset="<?php echo $numTweet ?>" >
+                            ツイートをさらに表示　∨
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>
     </main>
 <?php if($loginUserID === $userID): ?>
     <script src="js/tweetActions.js"></script>
+    <script src="js/showMoreTweet.js"></script>
 <?php endif; ?>
     <!--  フッター -->
 <?php require_once( "include/footer.php" ); ?>

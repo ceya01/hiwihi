@@ -1,8 +1,7 @@
 <?php
 require_once( dirname(__FILE__) . '/include/redirect2login.php' );
-//<!--  ヘッダー -->
-// TODO aaa
-require_once( "include/header.php" );
+require_once( dirname(__FILE__) . '/include/header.php' );
+require_once( dirname(__FILE__).'/core/db/table/TweetTable.php' );
 ?>
     <!--  メイン -->
     <main>
@@ -13,19 +12,13 @@ require_once( "include/header.php" );
                 </div>
                 <div class="timelineBlock mainArea">
                     <h2 class="mb1rem">全体タイムライン</h2>
-                    <!-- //todo: user.phpと被ってるので統合させたい　-->
                     <!--ツイート投稿欄-->
-                    <div class="tweetInputWrap">
-                        <textarea class="tweetInput" rows="4" maxlength="140" placeholder="いまなにしてる？"></textarea>
-                        <button class="btnColor-bghiwihi btnPostTweet">ついーと！</button>
-                        <script src="js/postTweet.js"></script>
-                    </div>
+                    <?php include(dirname(__FILE__) . '/include/tweetInput.php'); ?>
                     <div class="tweetList">
                     <?php
-                        $limit = 10;
-                        $offset= 0;
-                        $numTweet= 0;
-                        include('include/tweetList.php');
+                        $limit = 10; $offset= 0; $numTweet= 0;
+                        $tweetList = TweetTable::getTweetList($limit,$offset);
+                        include(dirname(__FILE__) . '/include/tweetList.php');
                     ?>
                     </div>
                     <?php if ($numTweet === $limit) { ?>
