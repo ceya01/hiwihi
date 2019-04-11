@@ -11356,3 +11356,211 @@ ajaxで追加表示したツイートにイベントリスナーがついてな�
 [11-Apr-2019 16:18:37 Asia/Tokyo] 
 [11-Apr-2019 16:18:37 Asia/Tokyo] ログインしています。 ID:19
 [11-Apr-2019 16:18:37 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:37:13 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php
+
+[11-Apr-2019 16:37:13 Asia/Tokyo] 
+[11-Apr-2019 16:37:13 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:37:13 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:37:27 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php
+
+[11-Apr-2019 16:37:27 Asia/Tokyo] 
+[11-Apr-2019 16:37:27 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:37:27 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:39:52 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php
+
+[11-Apr-2019 16:39:52 Asia/Tokyo] 
+[11-Apr-2019 16:39:52 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:39:52 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:42:53 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php
+
+[11-Apr-2019 16:42:53 Asia/Tokyo] 
+[11-Apr-2019 16:42:53 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:42:53 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:43:05 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[11-Apr-2019 16:43:05 Asia/Tokyo] 
+[11-Apr-2019 16:43:05 Asia/Tokyo] ajax postTweet  $_POST:
+[11-Apr-2019 16:43:05 Asia/Tokyo] Array
+(
+    [tweet] => あああ
+)
+
+[11-Apr-2019 16:44:01 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php
+
+[11-Apr-2019 16:44:01 Asia/Tokyo] 
+[11-Apr-2019 16:44:01 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:44:01 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:44:24 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[11-Apr-2019 16:44:24 Asia/Tokyo] 
+[11-Apr-2019 16:44:24 Asia/Tokyo] ajax postTweet  $_POST:
+[11-Apr-2019 16:44:24 Asia/Tokyo] Array
+(
+    [tweet] => 後から追加した要素にもイベントを設定させる　https://qiita.com/horikeso/items/5f6863a49e8348f63c4b
+)
+
+[11-Apr-2019 16:47:31 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/uploadImg.php
+
+[11-Apr-2019 16:47:31 Asia/Tokyo] 
+[11-Apr-2019 16:47:31 Asia/Tokyo] uploadImg: ajax  $_FILES:
+[11-Apr-2019 16:47:31 Asia/Tokyo] Array
+(
+    [img] => Array
+        (
+            [name] => 4652b0eb60be2e3b26bda7e9c5533e6c_400.jpg
+            [type] => image/jpeg
+            [tmp_name] => D:\xampp\tmp\php1A38.tmp
+            [error] => 0
+            [size] => 24730
+        )
+
+)
+
+[11-Apr-2019 16:47:38 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php
+
+[11-Apr-2019 16:47:38 Asia/Tokyo] 
+[11-Apr-2019 16:47:38 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:47:38 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:47:47 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/profileEdit.php
+
+[11-Apr-2019 16:47:47 Asia/Tokyo] 
+[11-Apr-2019 16:47:47 Asia/Tokyo] ajax profileEdit  $_POST:
+[11-Apr-2019 16:47:47 Asia/Tokyo] Array
+(
+    [userName] => pandaman
+    [userBio] => 
+)
+
+[11-Apr-2019 16:47:58 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=asd2
+
+[11-Apr-2019 16:47:58 Asia/Tokyo] 
+[11-Apr-2019 16:47:58 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:47:58 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:48:23 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[11-Apr-2019 16:48:23 Asia/Tokyo] 
+[11-Apr-2019 16:48:23 Asia/Tokyo] ajax postTweet  $_POST:
+[11-Apr-2019 16:48:23 Asia/Tokyo] Array
+(
+    [tweet] => aaaaa
+)
+
+[11-Apr-2019 16:48:25 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/deleteTweet.php
+
+[11-Apr-2019 16:48:25 Asia/Tokyo] 
+[11-Apr-2019 16:48:25 Asia/Tokyo] ajax deleteTweet  $_POST:
+[11-Apr-2019 16:48:25 Asia/Tokyo] Array
+(
+    [id] => 106
+)
+
+[11-Apr-2019 16:48:28 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=asd2
+
+[11-Apr-2019 16:48:28 Asia/Tokyo] 
+[11-Apr-2019 16:48:28 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:48:28 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:48:30 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/postTweet.php
+
+[11-Apr-2019 16:48:30 Asia/Tokyo] 
+[11-Apr-2019 16:48:30 Asia/Tokyo] ajax postTweet  $_POST:
+[11-Apr-2019 16:48:30 Asia/Tokyo] Array
+(
+    [tweet] => aaaaaaaaa
+)
+
+[11-Apr-2019 16:48:34 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/editTweet.php
+
+[11-Apr-2019 16:48:34 Asia/Tokyo] 
+[11-Apr-2019 16:48:34 Asia/Tokyo] ajax editTweet  $_POST:
+[11-Apr-2019 16:48:34 Asia/Tokyo] Array
+(
+    [id] => 107
+    [text] => aaaaaaaaa!!!!!
+)
+
+[11-Apr-2019 16:48:36 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=asd2
+
+[11-Apr-2019 16:48:36 Asia/Tokyo] 
+[11-Apr-2019 16:48:36 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:48:36 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:48:42 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/deleteTweet.php
+
+[11-Apr-2019 16:48:42 Asia/Tokyo] 
+[11-Apr-2019 16:48:42 Asia/Tokyo] ajax deleteTweet  $_POST:
+[11-Apr-2019 16:48:42 Asia/Tokyo] Array
+(
+    [id] => 107
+)
+
+[11-Apr-2019 16:48:44 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/deleteTweet.php
+
+[11-Apr-2019 16:48:44 Asia/Tokyo] 
+[11-Apr-2019 16:48:44 Asia/Tokyo] ajax deleteTweet  $_POST:
+[11-Apr-2019 16:48:44 Asia/Tokyo] Array
+(
+    [id] => 105
+)
+
+[11-Apr-2019 16:48:46 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/include/deleteTweet.php
+
+[11-Apr-2019 16:48:46 Asia/Tokyo] 
+[11-Apr-2019 16:48:46 Asia/Tokyo] ajax deleteTweet  $_POST:
+[11-Apr-2019 16:48:46 Asia/Tokyo] Array
+(
+    [id] => 104
+)
+
+[11-Apr-2019 16:48:50 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/user.php?u=asd2
+
+[11-Apr-2019 16:48:50 Asia/Tokyo] 
+[11-Apr-2019 16:48:50 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:48:50 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:49:25 Asia/Tokyo] 
+◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+/works/hiwihi/timeline.php
+
+[11-Apr-2019 16:49:25 Asia/Tokyo] 
+[11-Apr-2019 16:49:25 Asia/Tokyo] ログインしています。 ID:19
+[11-Apr-2019 16:49:25 Asia/Tokyo] ログインしています。 ID:19

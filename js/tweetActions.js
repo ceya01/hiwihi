@@ -13,7 +13,8 @@ $(function () {
 
     function addEvents(){
         //サブアクションメニューを開く
-        $('.js-openSub').click(function(){
+        $(document).on('click','.js-openSub',function(){
+ //       $('.js-openSub').click(function(){
             console.log('openSub');
             if($tweetBox){
                 return;
@@ -32,7 +33,8 @@ $(function () {
         });
 
         //削除
-        $('.js-delete').click(function(){
+        $(document).on('click','.js-delete',function(){
+ //       $('.js-delete').click(function(){
             //console.log('delete');
             let $tweetBox = $(this).closest('.tweetBox');
             $tweetBox.fadeOut();
@@ -50,7 +52,8 @@ $(function () {
         });
 
         //編集
-        $('.js-edit').click(function(){
+        $(document).on('click','.js-edit',function(){
+ //       $('.js-edit').click(function(){
             $tweetBox = $(this).closest('.tweetBox');
             $editor =$tweetBox.find('.tweetEditor');
             $tweetText =$tweetBox.find('.tweetText');
@@ -65,7 +68,8 @@ $(function () {
         });
 
         //編集完了
-        $('.js-tweetEditComplete').click(function(){
+        $(document).on('click','.js-tweetEditComplete',function(){
+ //       $('.js-tweetEditComplete').click(function(){
             let id = $tweetBox.data('id');
             let editedText = $tweetEditorTextArea.val();
             initText = editedText;
@@ -85,7 +89,8 @@ $(function () {
         });
 
         //編集キャンセル
-        $('.js-tweetEditCancel').click(function(){
+        $(document).on('click','.js-tweetEditCancel',function(){
+ //       $('.js-tweetEditCancel').click(function(){
             $tweetBox.find('.tweetEditorText').val(initText);
             initEditorState();
         });
