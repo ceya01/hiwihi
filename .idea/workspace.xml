@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f43d4b38-7af1-427f-be74-0077bd8dc561" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/tweet_box.php" afterPath="$PROJECT_DIR$/include/tweet_box.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tweetActions.js" afterPath="$PROJECT_DIR$/js/tweetActions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php.log" afterPath="$PROJECT_DIR$/php.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.php" afterPath="$PROJECT_DIR$/user.php" />
     </list>
     <ignored path="uploads/Array" />
     <ignored path="uploads/computer_data_tobu.png" />
@@ -121,8 +117,8 @@
           <file leaf-file-name="tweetActions.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/tweetActions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+                <state relative-caret-position="64">
+                  <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -363,20 +359,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hiwihi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hiwihi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -549,14 +531,7 @@
       <workItem from="1554777712958" duration="582000" />
       <workItem from="1554778318049" duration="13831000" />
       <workItem from="1554883073190" duration="16078000" />
-      <workItem from="1554955329556" duration="11466000" />
-    </task>
-    <task id="LOCAL-00041" summary="タイムラインページ基礎デザイン　＞　向き反転吹き出し">
-      <created>1553656189491</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1553656189491</updated>
+      <workItem from="1554955329556" duration="11586000" />
     </task>
     <task id="LOCAL-00042" summary=" パスワードリマインダーページ基礎デザイン">
       <created>1553658063237</created>
@@ -894,11 +869,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554963872666</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="usersページにサブアクションメニューを追加&#10;">
+      <created>1554967353891</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1554967353891</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347800000" />
+    <option name="totallyTimeSpent" value="347920000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -962,7 +944,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="変更が無い場合にajax処理を実行しないように修正" />
     <MESSAGE value="プロフィール編集キャンセル処理の追加" />
     <MESSAGE value="アップロード画像のファイル名をハッシュ化" />
     <MESSAGE value="ツイート入力欄作成" />
@@ -987,7 +968,8 @@
     <MESSAGE value="ツイート編集機能" />
     <MESSAGE value="ツイート編集機能 css調整 jsリファクタ" />
     <MESSAGE value="ログイン周りの処理&#10;セッション保持期間をデフォルトで30日に" />
-    <option name="LAST_COMMIT_MESSAGE" value="ログイン周りの処理&#10;セッション保持期間をデフォルトで30日に" />
+    <MESSAGE value="usersページにサブアクションメニューを追加&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="usersページにサブアクションメニューを追加&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1417,8 +1399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tweetActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="64">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
