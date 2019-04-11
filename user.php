@@ -44,6 +44,8 @@ require_once("core/db/table/UserTable.php");
                             foreach ($tweetList as $tweetRecord) {
                                 include( 'include/tweet_box.php' );
                             }
+                        }else{
+                            echo '<p>まだツイートがありません！</p>';
                         }
 
                         ?>

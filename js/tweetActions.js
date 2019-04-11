@@ -40,7 +40,7 @@ $(function () {
             $tweetBox.fadeOut();
             let id = $tweetBox.data('id');
             $.ajax({
-                url: 'include/deleteTweet.php',
+                url: 'ajax/deleteTweet.php',
                 type: 'POST',
                 data: { id: id }
             }).done(function (data) {
@@ -75,7 +75,7 @@ $(function () {
             initText = editedText;
             $tweetText.html(editedText.replace(/\r?\n/g, '<br>'));;
             $.ajax({
-                url: 'include/editTweet.php',
+                url: 'ajax/editTweet.php',
                 type: 'POST',
                 data: { id: id, text: editedText }
             }).done(function (data) {

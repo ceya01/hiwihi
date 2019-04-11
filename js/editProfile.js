@@ -69,7 +69,7 @@ $(function () {
 
                 //ajax db反映
                 $.ajax({
-                    url: 'include/profileEdit.php',
+                    url: 'ajax/profileEdit.php',
                     type: 'POST',
                     data: {
                         userName: newUserName,
@@ -151,7 +151,7 @@ function ajaxUploadImg(evt=null){
     console.log(imgData);
     // Ajaxで送信
     $.ajax({
-        url:'include/uploadImg.php',
+        url:'ajax/uploadImg.php',
         method: 'post',
         dataType: 'html',   // dataに FormDataを指定
         data: imgData,      // Ajaxがdataを整形しない指定

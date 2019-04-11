@@ -13,7 +13,7 @@ $(function () {
         }else{
             //ajax db反映
             $.ajax({
-                url: 'include/postTweet.php',
+                url: 'ajax/postTweet.php',
                 type: 'POST',
                 data: {
                     tweet: tweet

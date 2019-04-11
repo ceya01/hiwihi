@@ -1,7 +1,7 @@
 <?php
 
-require_once(dirname(__FILE__).'/importCore.php');
-require_once(dirname(__FILE__).'/../core/db/table/UserTable.php');
+require_once( dirname(__FILE__) . '/importCore.php' );
+require_once( dirname(__FILE__) . '/../core/db/table/UserTable.php' );
 dlog('uploadImg: ajax  $_FILES:', $_FILES);
 
 if(!isset($_FILES)){
