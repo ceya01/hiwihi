@@ -52,7 +52,8 @@ require_once("core/db/table/UserTable.php");
             </div>
         </div>
     </main>
-
-
+<?php if($loginUserID === $userID): ?>
+    <script src="js/tweetActions.js"></script>
+<?php endif; ?>
     <!--  フッター -->
 <?php require_once( "include/footer.php" ); ?>

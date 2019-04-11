@@ -24,7 +24,7 @@
     $lID = (int)Session::getLoginUserID();
     if( $uID !== $lID && strpos($_SERVER['REQUEST_URI'],'timeline.php')){
         $reverseClass ='reverse';
-    }else{
+    }else if($uID === $lID){
         $ownTweet = 'ownTweet';
     }
     //$user = UserTable::getUser($tweetRecord['id']);
