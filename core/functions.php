@@ -48,20 +48,28 @@ function echoPost($key = ''): void
     }
 }
 
-function getPOST($key = '')
+function getPOST($key = '',$default=null)
 {
     if (!empty($_POST[$key])) {
         return $_POST[$key];
     }else{
-        return null;
+        return $default;
     }
 }
-function getGET($key = '')
+function getGET($key = '',$default=null)
 {
     if (!empty($_GET[$key])) {
         return $_GET[$key];
     }else{
-        return null;
+        return $default;
+    }
+}
+function getSERVER($key = '',$default=null)
+{
+    if (!empty($_SERVER[$key])) {
+        return $_SERVER[$key];
+    }else{
+        return $default;
     }
 }
 

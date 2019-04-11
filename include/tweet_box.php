@@ -22,7 +22,7 @@
     $ownTweet = '';
     $uID = (int)$tweetRecord['uid'];
     $lID = (int)Session::getLoginUserID();
-    if( $uID !== $lID && strpos($_SERVER['REQUEST_URI'],'timeline.php')){
+    if( $uID !== $lID && !strpos(getSERVER('PHP_SELF','').getSERVER('HTTP_REFERER',''),'user.php')){
         $reverseClass ='reverse';
     }else if($uID === $lID){
         $ownTweet = 'ownTweet';
@@ -49,6 +49,7 @@
                     <span class="name"><?php echo $name ?></span>
                 <a href="user.php?u=<?php echo $charID ?>"><span class="charID">@<?php echo $charID ?></span></a>
                     <span class="time"><?php echo $time ?></span>
+                <?php if(IS_DEBUG){ echo 'tID:'.$tID; } ?>
             </div>
             <div class="tweetActionWrap">
                     <!--    未実装のため非表示            -->

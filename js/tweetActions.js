@@ -10,7 +10,6 @@ $(function () {
     let initText ='';
     addEvents();
 
-
     function addEvents(){
         //サブアクションメニューを開く
         $(document).on('click','.js-openSub',function(){
@@ -44,6 +43,7 @@ $(function () {
                 type: 'POST',
                 data: { id: id }
             }).done(function (data) {
+
                 // console.log('ajax success');
                 // console.log('data:\n', data);
             }).fail(function (msg) {

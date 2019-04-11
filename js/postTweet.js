@@ -33,7 +33,4 @@ $(function () {
         }
     });
 
-    function prependNewTweet(newTweet) {
-
-    }
 });
