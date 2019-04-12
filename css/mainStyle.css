@@ -118,12 +118,18 @@ footer {
     flex-wrap: wrap;
     padding: 1em 10px;
 }
+.footerleft{
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
 .footerRight{
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 3;
 }
 .InfooterBox {
     margin-right: 2em;
+    flex-grow: 1;
 }
 .InfooterBox ul {
     padding-left: 1em;

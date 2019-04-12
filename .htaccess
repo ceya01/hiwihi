@@ -1,10 +1,7 @@
 
-
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteRule ^/(.*)$ /index.php?p=$1 [L]
-#RewriteRule ^/index.php / [L]
-
-#RewriteRule ^(.*)$ index.php [L]
+# 見られたくないファイルの拡張子
+<Files ~ ".(log|csv|ini|dat|tpl|yml)$">
+deny from all
+</Files>
 
 ### URLの.phpとか消したいと思っていじってみたけど、俺にはまだ早すぎたようだ・・・
