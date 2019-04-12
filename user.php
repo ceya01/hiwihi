@@ -35,11 +35,11 @@ require_once( dirname(__FILE__).'/core/db/table/TweetTable.php' );
                     <div class="tweetList">
                         <?php
                             $limit = 10; $offset= 0; $numTweet= 0;
-                            $tweetList = TweetTable::getTweetListOfUser($userID,$limit,$offset);
+                            $tweetList = TweetTable::getTweetListOfUser($userID,$limit+1,$offset);
                             include(dirname(__FILE__) . '/include/tweetList.php');
                         ?>
                     </div>
-                    <?php if ($numTweet === $limit) { ?>
+                    <?php if ($isRemainTweets) { ?>
                         <div class="showMoreTweet btn-rr btnColor-bgWhite"
                              data-limit="<?php echo $limit ?>" data-offset="<?php echo $numTweet ?>" >
                             ツイートをさらに表示　∨
@@ -49,9 +49,9 @@ require_once( dirname(__FILE__).'/core/db/table/TweetTable.php' );
             </div>
         </div>
     </main>
+<script src="js/showMoreTweet.js"></script>
 <?php if($loginUserID === $userID): ?>
     <script src="js/tweetActions.js"></script>
-    <script src="js/showMoreTweet.js"></script>
 <?php endif; ?>
     <!--  フッター -->
 <?php require_once( "include/footer.php" ); ?>

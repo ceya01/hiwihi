@@ -16,16 +16,20 @@ $(function () {
             console.log('ajax success');
             //console.log('data:\n', data);
             //console.log('data:\n', $(data).find('.tweetContent').html());
+            let $hiddenInput = $(data).filter('#isRemainTweets');
+   //         console.log(hi,hi.val());
+  //          console.log('isRemainTweets1',$('#isRemainTweets').html());
+  //          console.log('isRemainTweets2',$(data).find('#isRemainTweets').val());
 
-            //投稿後の処理
-            let numAddedTweet =$(data).find('.tweetContent').length;
-            if(numAddedTweet < limit){
-                $showMoreTweet.hide();
-            }else{
+            let isRemainTweets = $hiddenInput.val() === "1";
+ //           let numAddedTweet =$(data).find('.tweetContent').length;
+            if(isRemainTweets){
                 $showMoreTweet.data('offset',offset+limit);
+            }else{
+                $showMoreTweet.hide();
             }
             $(data).appendTo('.tweetList').hide().fadeIn(1000);
-            console.log(numAddedTweet);
+//            console.log(numAddedTweet);
   //          $showMoreTweet.attr('data-offset',offset+limit);
         }).fail(function (msg) {
             console.log('Ajax Error:', msg);
