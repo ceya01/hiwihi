@@ -1,0 +1,112 @@
+
+/************************************************************/
+/*　ユーザー　*/
+/************************************************************/
+.userBox .userIcon {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+
+    text-align: center;
+    position: relative;
+}
+
+.userIcon .avatar {
+    max-height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userIcon .avatarEditor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.avatarEditor .guide {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    bottom: 0;
+
+    margin: 0 auto;
+    width: 100%;
+
+    font-weight: bold;
+    border: 2px dashed #999999;
+    background-color: rgba(245, 245, 245, 0.50);
+    vertical-align: middle;
+}
+
+.avatarEditor .guide .guide-text {
+    color: #666666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 6px 10px;
+    border: 1px solid #DFDFDF;
+    white-space: nowrap;
+}
+
+.avatarForm {
+    height: 100%;
+}
+
+.avatarInput {
+    height: 100%;
+    opacity: 0;
+}
+
+.userBox .userName {
+    margin: 0.5rem 0 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.userBox .userId {
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+    color: #999999;
+}
+
+.userBio {
+    margin-bottom: 5px;
+}
+
+.userBox input, .userBox textarea {
+    width: 100%;
+}
+
+.preAtSign::before {
+    content: '@';
+}
+
+.userStatsWrap {
+    display: flex;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.statsHead {
+    color: #14DC98;
+    font-weight: bold;
+}
+
+.statsValue {
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.statsBlock {
+    width: 25%;
+}
+.hiddenEditor {
+    display: none;
+}

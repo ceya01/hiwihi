@@ -10,6 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/ress.css">
     <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/loginForm.css">
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/tweet.css">
     <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script

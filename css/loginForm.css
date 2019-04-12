@@ -1,0 +1,36 @@
+
+/************************************************************/
+/*　フォーム　*/
+/************************************************************/
+input, textarea {
+    display: inline-block;
+    background-color: #FFF;
+    border: 1px solid #DFDFDF;
+}
+
+.inputWrap {
+    display: block;
+    margin: 20px auto;
+    width: 320px;
+    text-align: left;
+    /*margin-bottom: 20px;*/
+}
+
+.inputWrap input {
+    width: 100%;
+}
+
+.errmsg {
+    color: red;
+    font-size: .75em;
+}
+
+.label-text {
+    font-size: 12px;
+}
+
+.fogot-password {
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 12px;
+}

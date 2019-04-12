@@ -1,0 +1,192 @@
+/************************************************************/
+/*　ツイート　*/
+/************************************************************/
+
+.tweetBox {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.iconWrap {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    margin-right: 20px;
+}
+
+.iconWrap img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tweetContent {
+    position: relative;
+    padding: 1rem 1.5rem;
+    background-color: #E6FFF0;
+    border-radius: 16px;
+    min-width: 0;
+}
+
+.tweetFooter span a, .tweetFooter span a:visited {
+    color: inherit;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse .iconWrap {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.reverse .tweetContent {
+    background-color: #FFF4E0;
+}
+
+/*.tweetContent:before {*/
+/*content: "";*/
+/*position: absolute;*/
+/*margin-top: -15px;*/
+/*top: 30px;*/
+/*!*left: -30px;*!*/
+/*!*border: 15px solid transparent;*!*/
+/*!*border-right: 15px solid #E6FFF0;*!*/
+/*}*/
+
+.tweetContent:before {
+    content: "";
+    position: absolute;
+    margin-top: -15px;
+    top: 30px;
+    left: -30px;
+    border: 15px solid transparent;
+    border-right: 15px solid #E6FFF0;
+}
+
+.reverse .tweetContent:before {
+    left: initial;
+    right: -30px;
+    border: 15px solid transparent;
+    border-left: 15px solid #FFF4E0;
+}
+
+.tweetBody {
+    padding:0.5rem 0;
+}
+.tweetEditor{
+    display: none;
+}
+.tweetEditorTextarea{
+    width:100%;
+    padding:0.5em;
+    border-radius: 10px;
+}
+.tweetEditBtn{
+    margin:0.25em 0 0 2%;
+    display: inline-block;
+    width:20%;
+    font-size:13px;
+    float: right;
+}
+.tweetFooter {
+    float: right;
+    text-align: right;
+    margin-top: .5rem;
+    color: #999999;
+    clear: both;
+}
+
+.tweetFooter .iconWrap .fas {
+    font-size: 14px;
+    margin-right: 1rem;
+    font-weight: normal;
+}
+
+.tweetFooter .iconWrap .fas::before {
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.tweetMeta{
+    font-size: 12px;
+}
+.tweetMeta a{
+    color: #669999;
+}
+.tweetMeta > span{
+    margin-right:0.25em;
+}
+
+.tweetMeta .name{
+    font-size:14px;
+    font-weight:bold;
+    color: #666666;
+}
+
+.tweetActionWrap{
+    position: relative;
+    overflow: visible;
+    user-select: none;
+}
+
+.tweetAction{
+    margin-left: 1rem;
+}
+.tweetAction .fas{
+    margin-right: .25em;
+    cursor: pointer;
+}
+.tweetAction .fas:last-child{
+    margin-right: 0;
+}
+
+/************************************************************/
+/*　ツイート入力欄　*/
+/************************************************************/
+.tweetInputWrap {
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.tweetInput {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.btnPostTweet {
+    display: inline-block;
+    margin: 10px 0 10px;
+    padding: .5rem 1rem;
+    width: auto;
+    font-weight: bold;
+    border-radius: 16px;
+    float: right;
+}
+.subTweetAction{
+    display: none;
+    position: absolute;
+    left:calc(100% + 0.5em);
+    top:0;
+    overflow-wrap: normal;
+    border:1px #14DC98 solid;
+    background-color: #ffffff;
+    color:#14DC98;
+    padding:0.5em;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.subTweetAction-bt:hover{
+    cursor: pointer;
+    background-color: #EFF7EF;
+}
+
+.showMoreTweet{
+    width:100%;
+    padding:0.75em 0;
+}

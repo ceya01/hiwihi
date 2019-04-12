@@ -71,15 +71,12 @@ header a {
 
 main {
     background-color: #FDFFFF;
-    /*background-color: #efffef;*/
 
 }
 
 main .inner {
 
     min-height: 400px;
-    /*padding-top:30px;*/
-    /*padding-bottom: 30px;*/
 
 }
 
@@ -98,10 +95,6 @@ main .bg-overlay {
     overflow: hidden;
 }
 
-/*main p{*/
-/*font-size:14px;*/
-/*}*/
-
 /************************************************************/
 /*　footer　*/
 /************************************************************/
@@ -112,6 +105,46 @@ footer {
 
     min-height: 100px;
 }
+.footer-inner {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.InfooterBox {
+    margin-right: 80px;
+}
+
+.InfooterBox a {
+    color: #fff;
+}
+
+/************************************************************/
+/*　タイムライン　*/
+/************************************************************/
+
+.timelineWrap {
+    margin: 20px auto;
+    display: flex;
+    border-collapse: collapse;
+
+}
+
+.timelineBlock {
+    border: 1px solid #DFDFDF;
+    border-collapse: collapse;
+    padding: 1rem;
+    overflow-wrap: break-word;
+
+}
+
+.timelineWrap .sideArea {
+    width: 30%;
+}
+
+.timelineWrap .mainArea {
+    width: 70%;
+}
+
 
 /************************************************************/
 /*　共有　*/
@@ -180,389 +213,4 @@ h2.iconHead::before {
     background-size: contain;
     vertical-align: text-top;
 
-}
-
-.hiddenEditor {
-    display: none;
-}
-
-/************************************************************/
-/*　フォーム　*/
-/************************************************************/
-input, textarea {
-    display: inline-block;
-    background-color: #FFF;
-    border: 1px solid #DFDFDF;
-}
-
-.inputWrap {
-    display: block;
-    margin: 20px auto;
-    width: 320px;
-    text-align: left;
-    /*margin-bottom: 20px;*/
-}
-
-.inputWrap input {
-    width: 100%;
-}
-
-.errmsg {
-    color: red;
-    font-size: .75em;
-}
-
-.label-text {
-    font-size: 12px;
-}
-
-.fogot-password {
-    margin-top: 1rem;
-    text-align: left;
-    font-size: 12px;
-}
-
-/************************************************************/
-/*　タイムライン　*/
-/************************************************************/
-
-.timelineWrap {
-    margin: 20px auto;
-    display: flex;
-    border-collapse: collapse;
-
-}
-
-.timelineBlock {
-    border: 1px solid #DFDFDF;
-    border-collapse: collapse;
-    padding: 1rem;
-    overflow-wrap: break-word;
-
-}
-
-.timelineWrap .sideArea {
-    width: 30%;
-}
-
-.timelineWrap .mainArea {
-    width: 70%;
-}
-
-/************************************************************/
-/*　ユーザー　*/
-/************************************************************/
-.userBox .userIcon {
-    margin: 0 auto;
-    display: block;
-    width: 100%;
-
-    text-align: center;
-    position: relative;
-}
-
-.userIcon .avatar {
-    max-height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.userIcon .avatarEditor {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-}
-
-.avatarEditor .guide {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%, 0);
-    bottom: 0;
-
-    margin: 0 auto;
-    width: 100%;
-
-    font-weight: bold;
-    border: 2px dashed #999999;
-    background-color: rgba(245, 245, 245, 0.50);
-    vertical-align: middle;
-}
-
-.avatarEditor .guide .guide-text {
-    color: #666666;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    font-size: 16px;
-    background-color: rgba(255, 255, 255, 0.80);
-    padding: 6px 10px;
-    border: 1px solid #DFDFDF;
-    white-space: nowrap;
-}
-
-.avatarForm {
-    height: 100%;
-}
-
-.avatarInput {
-    height: 100%;
-    opacity: 0;
-}
-
-.userBox .userName {
-    margin: 0.5rem 0 0;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.userBox .userId {
-    margin-bottom: 0.5rem;
-    font-size: 13px;
-    color: #999999;
-}
-
-.userBio {
-    margin-bottom: 5px;
-}
-
-.userBox input, .userBox textarea {
-    width: 100%;
-}
-
-.preAtSign::before {
-    content: '@';
-}
-
-.userStatsWrap {
-    display: flex;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.statsHead {
-    color: #14DC98;
-    font-weight: bold;
-}
-
-.statsValue {
-    font-size: 13px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.statsBlock {
-    width: 25%;
-}
-
-/************************************************************/
-/*　ツイート入力欄　*/
-/************************************************************/
-.tweetInputWrap {
-    margin-bottom: 1rem;
-    overflow: hidden;
-}
-
-.tweetInput {
-    display: block;
-    width: 100%;
-    border-radius: 10px;
-    padding: 5px 10px;
-}
-
-.btnPostTweet {
-    display: inline-block;
-    margin: 10px 0 10px;
-    padding: .5rem 1rem;
-    width: auto;
-    font-weight: bold;
-    border-radius: 16px;
-    float: right;
-}
-
-/************************************************************/
-/*　ツイート　*/
-/************************************************************/
-
-.tweetBox {
-    display: flex;
-    margin-bottom: 2rem;
-}
-
-.iconWrap {
-    width: 50px;
-    height: 50px;
-    min-width: 50px;
-    margin-right: 20px;
-}
-
-.iconWrap img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.tweetContent {
-    position: relative;
-    padding: 1rem 1.5rem;
-    background-color: #E6FFF0;
-    border-radius: 16px;
-    min-width: 0;
-}
-
-.tweetFooter span a, .tweetFooter span a:visited {
-    color: inherit;
-}
-
-.reverse {
-    flex-direction: row-reverse;
-}
-
-.reverse .iconWrap {
-    margin-right: 0;
-    margin-left: 20px;
-}
-
-.reverse .tweetContent {
-    background-color: #FFF4E0;
-}
-
-/*.tweetContent:before {*/
-/*content: "";*/
-/*position: absolute;*/
-/*margin-top: -15px;*/
-/*top: 30px;*/
-/*!*left: -30px;*!*/
-/*!*border: 15px solid transparent;*!*/
-/*!*border-right: 15px solid #E6FFF0;*!*/
-/*}*/
-
-.tweetContent:before {
-    content: "";
-    position: absolute;
-    margin-top: -15px;
-    top: 30px;
-    left: -30px;
-    border: 15px solid transparent;
-    border-right: 15px solid #E6FFF0;
-}
-
-.reverse .tweetContent:before {
-    left: initial;
-    right: -30px;
-    border: 15px solid transparent;
-    border-left: 15px solid #FFF4E0;
-}
-
-.tweetBody {
-    padding:0.5rem 0;
-}
-.tweetEditor{
-    display: none;
-}
-.tweetEditorTextarea{
-    width:100%;
-    padding:0.5em;
-    border-radius: 10px;
-}
-.tweetEditBtn{
-    margin:0.25em 0 0 2%;
-    display: inline-block;
-    width:20%;
-    font-size:13px;
-    float: right;
-}
-.tweetFooter {
-    float: right;
-    text-align: right;
-    margin-top: .5rem;
-    color: #999999;
-    clear: both;
-}
-
-.tweetFooter .iconWrap .fas {
-    font-size: 14px;
-    margin-right: 1rem;
-    font-weight: normal;
-}
-
-.tweetFooter .iconWrap .fas::before {
-    font-weight: bold;
-    margin-right: 3px;
-}
-
-.tweetMeta{
-    font-size: 12px;
-}
-.tweetMeta a{
-    color: #669999;
-}
-.tweetMeta > span{
-    margin-right:0.25em;
-}
-
-.tweetMeta .name{
-    font-size:14px;
-    font-weight:bold;
-    color: #666666;
-}
-
-.tweetActionWrap{
-    position: relative;
-    overflow: visible;
-    user-select: none;
-}
-
-.tweetAction{
-    margin-left: 1rem;
-}
-.tweetAction .fas{
-    margin-right: .25em;
-    cursor: pointer;
-}
-.tweetAction .fas:last-child{
-    margin-right: 0;
-}
-
-.subTweetAction{
-    display: none;
-    position: absolute;
-    left:calc(100% + 0.5em);
-    top:0;
-    overflow-wrap: normal;
-    border:1px #14DC98 solid;
-    background-color: #ffffff;
-    color:#14DC98;
-    padding:0.5em;
-    z-index: 1;
-    white-space: nowrap;
-}
-
-.subTweetAction-bt:hover{
-    cursor: pointer;
-    background-color: #EFF7EF;
-}
-
-.showMoreTweet{
-    width:100%;
-    padding:0.75em 0;
-}
-/************************************************************/
-/*　フッター　*/
-/************************************************************/
-.footer-inner {
-    display: flex;
-    padding: 1rem 0;
-}
-
-.InfooterBox {
-    margin-right: 80px;
-}
-
-.InfooterBox a {
-    color: #fff;
 }
