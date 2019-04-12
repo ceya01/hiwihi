@@ -1,5 +1,5 @@
 <?php
-    require_once( dirname(__FILE__) . '/importCore.php' );
+    require_once( dirname(__FILE__) . '/../include/importCore.php' );
     require_once( dirname(__FILE__) . '/../core/db/table/UserTable.php' );
     dlog('ajax profileEdit  $_POST:',$_POST);
 //    dlog('ajax  $_FILES:',$_FILES);

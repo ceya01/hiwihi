@@ -1,16 +1,7 @@
     <?php
- //   global $limit;
-//    global $offset;
-//    global $numTweet;
-//    global $tweetList;
- //   global $isRemainTweets;
-    //$limit = getPOST('limit',10);
-    //$offset = getPOST('offset',0);
-    //$tweetList = TweetTable::getTweetList($limit,$offset);
     dlog('$tweetList',$tweetList);
-    $isRemainTweets = true;
+    $isRemainTweets = true; //まだ表示されてないツイートが残っているかどうかのフラグ
     if ($tweetList) {
-
         if(count($tweetList) <= $limit){
             $isRemainTweets = false;
         }
@@ -24,6 +15,6 @@
         ?> <p>まだツイートがありません！</p> <?php
     }
     ?>
-    <input id="isRemainTweets" type="hidden" value="<?php echo $isRemainTweets ?>">
-<!--<div id="numTweet" data-num="--><?php //echo ?><!--"></div>-->
-<!--</div>-->
+    <?php if(basename($_SERVER['PHP_SELF'])==='showMoreTweet.php'): ?>
+        <input id="isRemainTweets" type="hidden" value="<?php echo $isRemainTweets ?>">
+    <?php endif;?>

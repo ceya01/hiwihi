@@ -16,12 +16,15 @@ require_once( dirname(__FILE__).'/core/db/table/TweetTable.php' );
                     <?php include(dirname(__FILE__) . '/include/tweetInput.php'); ?>
                     <div class="tweetList">
                     <?php
-                        $limit = 10; $offset= 0; $numTweet= 0;
-                        $tweetList = TweetTable::getTweetList($limit,$offset);
+                        $limit = 10; $offset= 0; //$numTweet= 0;
+                        // 表示されてないツイートが残っているかどうか判定するために、
+                        // $limit+1として、1つ余分にツイートをDBから取得する。
+                        //  実際に表示するのは $limit の数だけ
+                        $tweetList = TweetTable::getTweetList($limit+1,$offset);
                         include(dirname(__FILE__) . '/include/tweetList.php');
                     ?>
                     </div>
-                    <?php if ($numTweet === $limit) { ?>
+                    <?php if ($isRemainTweets) { ?>
                         <div class="showMoreTweet btn-rr btnColor-bgWhite"
                              data-limit="<?php echo $limit ?>" data-offset="<?php echo $numTweet ?>" >
                             ツイートをさらに表示　∨

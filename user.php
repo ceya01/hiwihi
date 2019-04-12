@@ -34,7 +34,7 @@ require_once( dirname(__FILE__).'/core/db/table/TweetTable.php' );
                     }?>
                     <div class="tweetList">
                         <?php
-                            $limit = 10; $offset= 0; $numTweet= 0;
+                            $limit = 10; $offset= 0; //$numTweet= 0;
                             $tweetList = TweetTable::getTweetListOfUser($userID,$limit+1,$offset);
                             include(dirname(__FILE__) . '/include/tweetList.php');
                         ?>
