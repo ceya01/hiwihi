@@ -1,0 +1,23 @@
+@media screen and (max-width: 800px)  {
+    .timelineWrap {
+        display: block;
+    }
+    .sideArea{
+        width:100%;
+    }
+    .mainArea{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    .footer-inner {
+        /*display: block;*/
+    }
+    .InfooterBox {
+        margin-right: 0;
+     }
+    .InfooterBox ul {
+        margin-left: 1em;
+      }
+}

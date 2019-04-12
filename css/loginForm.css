@@ -8,10 +8,19 @@ input, textarea {
     border: 1px solid #DFDFDF;
 }
 
+.formWrap {
+    width: 320px;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6em 0;
+}
+
 .inputWrap {
     display: block;
     margin: 20px auto;
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
     text-align: left;
     /*margin-bottom: 20px;*/
 }
@@ -30,7 +39,7 @@ input, textarea {
 }
 
 .fogot-password {
-    margin-top: 1rem;
+    margin-top: 1em;
     text-align: left;
     font-size: 12px;
 }

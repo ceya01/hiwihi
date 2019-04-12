@@ -75,9 +75,7 @@ main {
 }
 
 main .inner {
-
     min-height: 400px;
-
 }
 
 .bg-hiwihiBird {
@@ -95,6 +93,17 @@ main .bg-overlay {
     overflow: hidden;
 }
 
+.introWrap {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2rem 10px;
+}
+
+.introWrap h2 {
+    margin-bottom: 0.5em;
+}
+
 /************************************************************/
 /*　footer　*/
 /************************************************************/
@@ -102,24 +111,29 @@ footer {
     /*background-color: #efefff;*/
     background-color: #14DC98;
     color: #FFFFFF;
-
     min-height: 100px;
 }
 .footer-inner {
     display: flex;
-    padding: 1rem 0;
+    flex-wrap: wrap;
+    padding: 1em 10px;
 }
-
+.footerRight{
+    display: flex;
+    flex-wrap: wrap;
+}
 .InfooterBox {
-    margin-right: 80px;
+    margin-right: 2em;
 }
-
+.InfooterBox ul {
+    padding-left: 1em;
+}
 .InfooterBox a {
     color: #fff;
 }
 
 /************************************************************/
-/*　タイムライン　*/
+/*　レイアウト　*/
 /************************************************************/
 
 .timelineWrap {
@@ -132,16 +146,16 @@ footer {
 .timelineBlock {
     border: 1px solid #DFDFDF;
     border-collapse: collapse;
-    padding: 1rem;
+    padding: 1em;
     overflow-wrap: break-word;
 
 }
 
-.timelineWrap .sideArea {
+.sideArea {
     width: 30%;
 }
 
-.timelineWrap .mainArea {
+.mainArea {
     width: 70%;
 }
 
@@ -150,24 +164,7 @@ footer {
 /*　共有　*/
 /************************************************************/
 
-.introWrap {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
-    padding: 2rem 0;
-}
 
-.introWrap h2 {
-    margin-bottom: 0.5em;
-}
-
-.formWrap {
-    width: 320px;
-    max-width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 6rem 0;
-}
 
 .subContent h2 {
     margin-bottom: 0.5em;
@@ -176,8 +173,8 @@ footer {
 .btn-rr { /* rr: rounded-rectangle */
     display: block;
     border-radius: 20px;
-    padding: 0.5rem 0;
-    margin: 1rem auto;
+    padding: 0.5em 0;
+    margin: 1em auto;
     width: 320px;
     max-width: 100%;
     text-decoration: none;

@@ -4,7 +4,7 @@
 
 .tweetBox {
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
 }
 
 .iconWrap {
@@ -23,7 +23,7 @@
 
 .tweetContent {
     position: relative;
-    padding: 1rem 1.5rem;
+    padding: 1em 1.5em;
     background-color: #E6FFF0;
     border-radius: 16px;
     min-width: 0;
@@ -74,7 +74,7 @@
 }
 
 .tweetBody {
-    padding:0.5rem 0;
+    padding:0.5em 0;
 }
 .tweetEditor{
     display: none;
@@ -94,14 +94,14 @@
 .tweetFooter {
     float: right;
     text-align: right;
-    margin-top: .5rem;
+    margin-top: .5em;
     color: #999999;
     clear: both;
 }
 
 .tweetFooter .iconWrap .fas {
     font-size: 14px;
-    margin-right: 1rem;
+    margin-right: 1em;
     font-weight: normal;
 }
 
@@ -133,7 +133,7 @@
 }
 
 .tweetAction{
-    margin-left: 1rem;
+    margin-left: 1em;
 }
 .tweetAction .fas{
     margin-right: .25em;
@@ -147,7 +147,7 @@
 /*　ツイート入力欄　*/
 /************************************************************/
 .tweetInputWrap {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     overflow: hidden;
 }
 
@@ -161,7 +161,7 @@
 .btnPostTweet {
     display: inline-block;
     margin: 10px 0 10px;
-    padding: .5rem 1rem;
+    padding: .5em 1em;
     width: auto;
     font-weight: bold;
     border-radius: 16px;
