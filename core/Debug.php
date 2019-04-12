@@ -14,7 +14,7 @@ if (IS_DEBUG && IS_LOGGING) {
     //ログを取るか
     ini_set('log_errors', 'on');
     //ログの出力ファイルを指定
-    ini_set('error_log', dirname(__FILE__).'/../php.log');
+    ini_set('error_log', dirname(__FILE__).'/../log/'.date('Y-m-d').'.log');
     //error_log(PHP_EOL);
     error_log(PHP_EOL .'◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆デバッグログ出力開始◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆' . PHP_EOL .
         $_SERVER['REQUEST_URI']. PHP_EOL);
@@ -30,9 +30,10 @@ function dlog($str = '',$print=null)
     if (empty($str)) {
         error_log('ログテキストが空です。');
     } else {
-        error_log($str);
-        if(!empty($print)){
-            error_log(print_r($print,true));
+        if(empty($print)){
+            error_log($str.' '.print_r($print,true));
+        }else{
+            error_log($str);
         }
     }
 }

@@ -28,7 +28,7 @@ class Auth
         $pdow = DBConnector::getPdow();
         $stmt = $pdow->queryPost($sql,$data);
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
-        dlog('$result: ',$result);  //$resultにはSELECTがで取得した配列が入る
+        dlog('Auth::login $result: ',$result);  //$resultにはSELECTがで取得した配列が入る
         if( !empty($result) ){
             $recPassword = $result['password'];
             if(password_verify($password,$recPassword)){

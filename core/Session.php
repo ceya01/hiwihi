@@ -22,6 +22,7 @@ class Session
     const LOGIN_DURATION_TEST = 10; //10秒
 
     public static function isLogin():bool{
+        dlog('Session.php :: isLogin');
         if(time() > self::getLoginLimit()){
             dlog('ログイン期限切れです');
             return false;

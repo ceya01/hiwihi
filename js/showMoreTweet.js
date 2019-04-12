@@ -1,3 +1,5 @@
+//ツイートをさらに表示　ボタンのjs処理
+
 $(function () {
     let $showMoreTweet = $('.showMoreTweet');
     $showMoreTweet.click(function () {
