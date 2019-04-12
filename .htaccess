@@ -1,6 +1,4 @@
-### URLの.phpとか消したいと思っていじってみたけど、俺にはまだ早すぎたようだ・・・
 
-#RewriteEngine on
 
 #RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d
@@ -8,3 +6,5 @@
 #RewriteRule ^/index.php / [L]
 
 #RewriteRule ^(.*)$ index.php [L]
+
+### URLの.phpとか消したいと思っていじってみたけど、俺にはまだ早すぎたようだ・・・
