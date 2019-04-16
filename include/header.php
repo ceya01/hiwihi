@@ -20,6 +20,7 @@
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
+    <script src="js/toggleMenubar.js"></script>
     <title>ﾋｳｨｯﾋﾋｰ</title>
 </head>
 <body>
@@ -28,9 +29,9 @@
 <header>
     <div class="inner">
         <h1>ヒウィッヒヒー</h1>
-
         <a href="index.php"><img src="img/logo.png" alt="ﾋｳｨｯﾋﾋｰ" class="hiwihi-logo"></a>
-        <ul>
+        <button class="menubar"><i class="fas fa-bars"></i></button>
+        <ul class="nav">
             <li><?php echoHeaderLink(PAGE_ABOUT, 'ﾋｳｨｯﾋﾋｰとは'); ?></li>
             <?php if (Session::isLogin()) : ?>
                 <li><?php echoHeaderLink(PAGE_TIMELINE, 'タイムライン'); ?></li>

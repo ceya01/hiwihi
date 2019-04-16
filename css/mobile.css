@@ -11,6 +11,38 @@
 }
 
 @media screen and (max-width: 600px)  {
+
+
+    header ul.nav{
+        display: none;
+        position: absolute;
+        top: 49px;
+        transform: none;
+        z-index: 1;
+    }
+    header ul.nav li {
+        background-color: #FFFFFF;
+        border: 1px solid #14DC98;
+        border-collapse: collapse;
+        border-bottom: none;
+    }
+    header ul.nav li:last-of-type{
+        border-bottom:1px solid #14DC98;
+    }
+
+    header ul.nav a {
+        display: block;
+        color:#14DC98;
+        width:100%;
+        padding:0.35em 0.75em;
+        text-align: center;
+        font-size:14px;
+    }
+    header .menubar{
+        display: block;
+    }
+
+
     .footer-inner {
         /*display: block;*/
     }
