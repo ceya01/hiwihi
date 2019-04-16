@@ -1,11 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: eceys
- * Date: 2019/03/22
- * Time: 20:48
- */
 
+const IS_DEBUG = true;      // デバッグモードかどうか
+const IS_LOGGING = true;    // ログ出力するかどうか
 
 //DB定数
 const DB_TYPE ='mysql';

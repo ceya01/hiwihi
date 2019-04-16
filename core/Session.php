@@ -2,6 +2,7 @@
 
 //セッションを使う処理で読み込む
 
+require_once( dirname(__FILE__) . "/../config.php" );
 require_once( dirname(__FILE__)."/../core/Debug.php" );
 session_save_path(dirname(__DIR__) . "/session/");
 ini_set('session.gc_maxlifetime', Session::LOGIN_DURATION_LONG);
