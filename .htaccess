@@ -1,7 +1,0 @@
-
-# 見られたくないファイルの拡張子
-<Files ~ ".(log|csv|ini|dat|tpl|yml)$">
-deny from all
-</Files>
-
-### URLの.phpとか消したいと思っていじってみたけど、俺にはまだ早すぎたようだ・・・

@@ -6,6 +6,8 @@ body {
     margin: 0 auto;
     overflow-x: hidden;
     color: #333333;
+    line-height: 150%;
+    letter-spacing: 1px;
 }
 
 header, main, footer {

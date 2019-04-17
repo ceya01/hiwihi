@@ -2,6 +2,10 @@
 /************************************************************/
 /*　フォーム　*/
 /************************************************************/
+.formWrap h2{
+        line-height: 150%;
+}
+
 input, textarea {
     display: inline-block;
     background-color: #FFF;
@@ -42,4 +46,12 @@ input, textarea {
     margin-top: 1em;
     text-align: left;
     font-size: 12px;
+}
+
+.guestList{
+    margin-top: 1rem;
+     list-style: none;
+ }
+.guestList li{
+    margin-bottom: 0.5rem;
 }

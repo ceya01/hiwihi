@@ -1,15 +1,12 @@
 <?php
 
 //セッションを使う処理で読み込む
-
 require_once( dirname(__FILE__) . "/../config.php" );
 require_once( dirname(__FILE__)."/../core/Debug.php" );
 session_save_path(dirname(__DIR__) . "/session/");
 ini_set('session.gc_maxlifetime', Session::LOGIN_DURATION_LONG);
 ini_set('session.cookie_lifetime ', Session::LOGIN_DURATION_LONG);
-//セッションを使う
 session_start();
-//現在のセッションIDを新しく生成したものと置き換える（なりすましのセキュリティ対策）
 session_regenerate_id();
 
 
@@ -51,7 +48,6 @@ class Session
     private static function setLoginTimestamp():void
     {
         $_SESSION[self::LOGIN_TIMESTAMP] = (int)(time());
-        //self::setLoginLimit(self::LOGIN_DURATION_TEST);
         self::setLoginLimit();
     }
     private static function getLoginTimestamp():int

@@ -1,4 +1,5 @@
 
+<!-- パスワードリマインダー（未実装）-->
 <!--  ヘッダー -->
 <?php
 require_once(dirname(__FILE__).'/include/redirect2timeline.php');

@@ -9,8 +9,6 @@ require_once( "core/db/table/UserTable.php" );
 $errorMsg = '';
 
 if (!empty($_POST)) {
-    //require_once( "core/Auth.php" );
-    //require_once( "core/Session.php" );
     if (Auth::login(getPOST(KEY_LOGINID),getPOST(KEY_PASSWORD))) {
         //ログインしてタイムラインページ表示
         header('Location:timeline.php');
@@ -40,6 +38,7 @@ if (!empty($_POST)) {
                 </label>
                 <input type="submit" value="ログイン" class="btn-rr bgColor-hiwihi mt3rem">
             </form>
+<!--            パスワードリマインダー（未実装）-->
 <!--            <p class="fogot-password"><a href="--><?php //echo PAGE_PASS_REMINDER ?><!--.php">パスワードを忘れた</a></p>-->
         </div>
     </div>

@@ -1,18 +1,27 @@
 <?php
     require_once("core/db/table/UserTable.php");
     require_once("core/db/table/TweetTable.php");
-    //todo: 何度も似たようなSQL叩いててよくないので要改善
     global $userID;
     if(!isset($userID)){
         $userID = (int)Session::getLoginUserID();
     }
-    $name = sanitize(UserTable::getUserNameByID($userID));
-    $charID = sanitize(UserTable::getUserCharIDByID($userID));
-    $bio = sanitize(UserTable::getUserBioByID($userID));
-    $iconUrl = sanitize(UserTable::getUserIconByID($userID));
-    $numTweet = (int)TweetTable::getNumTweetOfUser($userID);
+    $userRecord = UserTable::getUser($userID);
+    //ユーザー情報が取得できない場合は強制ログアウト
+    if(!$userRecord){
+        //todo:flushでエラー表示するといいね。
+        header('location:logout.php'); die();
+    }
+    $name = sanitize($userRecord[KEY_NAME]);
+    $charID = sanitize($userRecord[KEY_CHARID]);
+    $bio = sanitize($userRecord[KEY_BIO]);
+    $iconUrl = sanitize($userRecord[KEY_ICON]);
 
-    //
+    if(empty($iconUrl)){
+        $iconUrl = 'img/avatar_default_150x.png';
+    }else{
+        $iconUrl = 'uploads/'.$iconUrl;
+    }
+    $numTweet = (int)TweetTable::getNumTweetOfUser($userID);
 ?>
 <div class="userBox" data-userid="<?php echo $userID ?>">
     <div class="userIcon">
