@@ -18,7 +18,7 @@ class Validator
     const ERRMSG_DB = 'データーベース接続エラー';
 
     const MAXL_USERID = 20;
-    const MINL_PASSWORD = 8;
+    const MINL_PASSWORD = 6;
     const MAXL_PASSWORD = 20;
 
     private $errorMessages = [];
@@ -104,6 +104,8 @@ class Validator
             return self::ERRMSG_INVALID_EMAIL;
         }
     }
+
+    //todo 重複チェックはDB操作が必要で、現状UserTableクラスに依存しているので、別のクラスに移動するか、改良すべき
     //Email重複チェック
     /**
      * @param $str
@@ -122,7 +124,6 @@ class Validator
         } catch (Exception $exception) {
             $this->addErrorMessage(self::ERRMSG_DB,KEY_EMAIL);
         }
-
     }
 
 

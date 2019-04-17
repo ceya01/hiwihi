@@ -29,7 +29,7 @@ if (!empty($_POST)) {
         <div class="inner formWrap">
             <h2 class="color-hiwihi mb2rem">おかえり！</h2>
             <form action="" method="post" enctype="multipart/form-data" class="entry-form">
-                <label class="inputWrap"><span class="label-text">ユーザー名 または メールアドレス</span>
+                <label class="inputWrap"><span class="label-text">ユーザー名</span>
                     <input type="text" name="<?php echo KEY_LOGINID ?>" value="<?php echoPost(KEY_LOGINID); ?>">
                 </label>
                 <label class="inputWrap"><span class="label-text">パスワード</span>
@@ -38,6 +38,12 @@ if (!empty($_POST)) {
                 </label>
                 <input type="submit" value="ログイン" class="btn-rr bgColor-hiwihi mt3rem">
             </form>
+            <h3 class="mt3rem">ゲストとしてログイン</h3>
+            <ul class="guestList">
+                <li><a href="guestLogin.php?g=1">ゲストユーザー１</a></li>
+                <li><a href="guestLogin.php?g=2">ゲストユーザー２</a></li>
+                <li><a href="guestLogin.php?g=3">ゲストユーザー３</a></li>
+            </ul>
 <!--            パスワードリマインダー（未実装）-->
 <!--            <p class="fogot-password"><a href="--><?php //echo PAGE_PASS_REMINDER ?><!--.php">パスワードを忘れた</a></p>-->
         </div>

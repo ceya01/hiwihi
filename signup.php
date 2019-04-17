@@ -7,16 +7,16 @@ require_once( "util/Validator.php" );
 
 $validator = new Validator();
 if (!empty($_POST)) {
-    $validator->validEmail(getPOST(KEY_EMAIL));
+//    $validator->validEmail(getPOST(KEY_EMAIL));
     $validator->validUserID(getPOST(KEY_CHARID));
     $validator->validPasswordFormat(getPOST(KEY_PASSWORD));
 
     if ($validator->hasNoError()) {
         //エラーが無い場合  入力されたユーザー情報をDBに登録
         require_once( "core/db/table/UserTable.php" );
-        //$userTable = UserTable::getInstance();
         $id = UserTable::createUser(array(
-                KEY_EMAIL => getPOST(KEY_EMAIL),
+                'dummy@mail.address',
+ //               KEY_EMAIL => getPOST(KEY_EMAIL),
                 KEY_CHARID => getPOST(KEY_CHARID),
                 KEY_PASSWORD => getPOST(KEY_PASSWORD))
         );
@@ -36,20 +36,28 @@ if (!empty($_POST)) {
         <div class="inner formWrap">
             <h2 class="color-hiwihi mb2rem">ようこそ！</h2>
             <form action="" method="post" enctype="multipart/form-data" class="entry-form">
-                <label class="inputWrap"><span class="label-text">メールアドレス</span>
-                    <input type="text" name="<?php echo KEY_EMAIL ?>" value="<?php echoPost(KEY_EMAIL); ?>">
-                    <?php echoErrMsg($validator->getErrorMessageByKey(KEY_EMAIL)); ?>
-                </label>
+<!-- メールアドレス登録を無効化  -->
+<!--                <label class="inputWrap"><span class="label-text">メールアドレス</span>-->
+<!--                    <input type="text" name="--><?php //echo KEY_EMAIL ?><!--" value="--><?php //echoPost(KEY_EMAIL); ?><!--">-->
+<!--                    --><?php //echoErrMsg($validator->getErrorMessageByKey(KEY_EMAIL)); ?>
+<!--                </label>-->
+<!--                -->
                 <label class="inputWrap"><span class="label-text">ユーザーID</span>
                     <input type="text" name="<?php echo KEY_CHARID ?>" placeholder="半角英数字またはアンダーバー" value="<?php echoPost(KEY_CHARID); ?>">
                     <?php echoErrMsg($validator->getErrorMessageByKey(KEY_CHARID)); ?>
                 </label>
                 <label class="inputWrap"><span class="label-text">パスワード</span>
-                    <input type="password" name="<?php echo KEY_PASSWORD ?>" placeholder="半角英数記号で8文字以上" value="<?php echoPost(KEY_PASSWORD); ?>">
+                    <input type="password" name="<?php echo KEY_PASSWORD ?>" placeholder="半角英数記号で6文字以上" value="<?php echoPost(KEY_PASSWORD); ?>">
                     <?php echoErrMsg($validator->getErrorMessageByKey(KEY_PASSWORD)); ?>
                 </label>
                 <input type="submit" value="新規登録" class="btn-rr bgColor-hiwihi mt3rem">
             </form>
+            <h3 class="mt3rem">ゲストとしてログイン</h3>
+            <ul class="guestList">
+                <li><a href="guestLogin.php?g=1">ゲストユーザー１</a></li>
+                <li><a href="guestLogin.php?g=2">ゲストユーザー２</a></li>
+                <li><a href="guestLogin.php?g=3">ゲストユーザー３</a></li>
+            </ul>
         </div>
     </div>
 </main>

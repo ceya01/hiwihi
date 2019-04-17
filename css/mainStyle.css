@@ -6,8 +6,6 @@ body {
     margin: 0 auto;
     overflow-x: hidden;
     color: #333333;
-    line-height: 150%;
-    letter-spacing: 1px;
 }
 
 header, main, footer {
@@ -24,6 +22,12 @@ header, main, footer {
 
 img {
     max-width: 100%;
+}
+
+div, span,p{
+
+    line-height: 150%;
+    letter-spacing: 1px;
 }
 
 /************************************************************/
@@ -78,9 +82,6 @@ header .menubar{
     outline: none;
 }
 
-/*header .menubar :active, header .menubar:focus{*/
-    /*border: none;*/
-/*}*/
 /************************************************************/
 /*　main　*/
 /************************************************************/
