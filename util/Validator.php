@@ -113,7 +113,7 @@ class Validator
      */
     private function validEmailDup($str) :string
     {
-        require_once(dirname(__FILE__)."/../core/db/table/userTable.php");
+        require_once(dirname(__DIR__)."/../core/db/table/UserTable.php");
         try {
             if(UserTable::existEmail($str)){
                 $this->addErrorMessage(self::ERRMSG_DUP_EMAIL,KEY_EMAIL);
@@ -152,7 +152,7 @@ class Validator
 
     private function validUserIDDup($str) :string
     {
-        require_once(dirname(__FILE__)."/../core/db/table/userTable.php");
+        require_once(dirname(__FILE__)."/../core/db/table/UserTable.php");
         try {
             if(UserTable::existCharID($str)){
                 $this->addErrorMessage(self::ERRMSG_DUP_CHARID,KEY_CHARID);

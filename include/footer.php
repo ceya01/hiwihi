@@ -16,8 +16,8 @@
                     <li><a href="about.php">ﾋｳｨｯﾋﾋｰとは？</a></li>
                     <li><a href="https://github.com/ceya01/hiwihi" target="_blank">github</a></li>
                     <li><a href="https://ce-ya.net/hiwihi-postscript" target="_blank">制作後記</a></li>
-                    <li><a href="404.php">利用規約</a></li>
-                    <li><a href="404.php">なんか</a></li>
+<!--                    <li><a href="404.php">利用規約</a></li>-->
+<!--                    <li><a href="404.php">なんか</a></li>-->
                 </ul>
             </div>
         </div>

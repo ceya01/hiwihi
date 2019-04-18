@@ -21,7 +21,7 @@ if (IS_DEBUG && IS_LOGGING) {
 //ログ出力
 function dlog($str = '',$print=null)
 {
-    if (!IS_DEBUG || !IS_LOGGING) {
+    if (!IS_DEBUG && !IS_LOGGING) {
         return;
     }
     if (empty($str)) {
