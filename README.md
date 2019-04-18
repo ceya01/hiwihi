@@ -8,7 +8,8 @@ hiwihi(ﾋｳｨｯﾋﾋｰ)とは、とある駆け出しエンジニアが練
 https://ce-ya.net/apps/hiwihi
 
 ## Screenshot 
-[img]
+![トップページ](https://i.imgur.com/hhz71k0.png)
+![タイムライン](https://i.imgur.com/MUlMc6C.png)
 
 ## Description - 詳細
 php+MySQL+js+css+htmlの練習のためにTwitterの真似して作ったオモチャです。実用性はないです。
