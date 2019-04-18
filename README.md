@@ -1,15 +1,17 @@
 # hiwihi
-====
-##Overview - 概要
+====  
+
+## Overview - 概要
 hiwihi(ﾋｳｨｯﾋﾋｰ)とは、とある駆け出しエンジニアが練習のために作ったtwitterもどきのwebサービスです。
 
-###公開URL　
+### 公開URL　
 https://ce-ya.net/apps/hiwihi
 
-##Screenshot 
-[img]
+## Screenshot 
+![トップページ](https://i.imgur.com/hhz71k0.png)
+![タイムライン](https://i.imgur.com/MUlMc6C.png)
 
-##Description - 詳細
+## Description - 詳細
 php+MySQL+js+css+htmlの練習のためにTwitterの真似して作ったオモチャです。実用性はないです。
 
 githubにアップしたのもあくまで練習のためです。
@@ -17,7 +19,7 @@ githubにアップしたのもあくまで練習のためです。
 
 MAMPなどのphpmyadminで dbExport_hiwihi.sql をインポートして、config.php でDBのユーザー名やパスワードを合わせればたぶん動くと思います。
 
-##Feature - 機能
+## Feature - 機能
 * ユーザー登録機能
   * メールアドレス登録はセキュリティやらプライバシーの観点でややこしくなりそうなので無効化中
 * ログイン機能
@@ -27,7 +29,7 @@ MAMPなどのphpmyadminで dbExport_hiwihi.sql をインポートして、config
 * ユーザーページで、そのユーザーの投稿したツイートのみを表示
 * ユーザー登録しなくても、ゲストとしてログインしてツイートできます。
 
-###実装したかったけどまだ未実装の機能
+### 実装したかったけどまだ未実装の機能
  * パスワードリマインダー
  * フォロー機能
  * リプライ機能
