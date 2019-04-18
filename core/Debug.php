@@ -1,9 +1,8 @@
 <?php
 
-if (IS_DEBUG && IS_LOGGING) {
+if (IS_LOGGING) {
     error_reporting(E_ALL); //E_STRICTレベル以外のエラーを報告する
     ini_set('display_errors', 'On');  //画面にエラーを表示させるか
-    //session_start();
 
     //================================
     // ログ設定
@@ -28,9 +27,9 @@ function dlog($str = '',$print=null)
         error_log('ログテキストが空です。');
     } else {
         if(empty($print)){
-            error_log($str.' '.print_r($print,true));
-        }else{
             error_log($str);
+        }else{
+            error_log($str.' '.print_r($print,true));
         }
     }
 }

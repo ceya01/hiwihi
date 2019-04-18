@@ -23,12 +23,13 @@ class Auth
 
  //     $pdow->exist('hiwihi.user','email OR char_id',$loginID,'AND delete_flag = 0');
         try {
-            $sql = 'SELECT password,id FROM hiwihi.user WHERE (email=:loginID OR char_id=:loginID) AND delete_flag = 0';
+            $sql = 'SELECT password,id FROM user WHERE (email=:loginID OR char_id=:loginID) AND delete_flag = 0';
             $data = ['loginID' => $loginID, 'password' => $password];
 
             $pdow = DBConnector::getPdow();
             $stmt = $pdow->queryPost($sql, $data);
             $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    //        dlog('Auth::login ',[$loginID,$password,$sql,$data] );
             dlog('Auth::login $result: ', $result);  //$resultにはSELECTがで取得した配列が入る
             if (!empty($result)) {
                 $recPassword = $result['password'];

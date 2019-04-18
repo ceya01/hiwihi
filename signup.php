@@ -13,16 +13,21 @@ if (!empty($_POST)) {
 
     if ($validator->hasNoError()) {
         //エラーが無い場合  入力されたユーザー情報をDBに登録
-        require_once( "core/db/table/UserTable.php" );
-        $id = UserTable::createUser(array(
-                'dummy@mail.address',
- //               KEY_EMAIL => getPOST(KEY_EMAIL),
-                KEY_CHARID => getPOST(KEY_CHARID),
-                KEY_PASSWORD => getPOST(KEY_PASSWORD))
-        );
-        //ログインしてタイムラインページ表示
-        Session::setLoginUserID($id);
-        header('Location:timeline.php');
+        try {
+            require_once( "core/db/table/UserTable.php" );
+            $id = UserTable::createUser(array(
+                    KEY_EMAIL => 'dummy@mail.address',
+                    //               KEY_EMAIL => getPOST(KEY_EMAIL),
+                    KEY_CHARID => getPOST(KEY_CHARID),
+                    KEY_PASSWORD => getPOST(KEY_PASSWORD))
+            );
+            //ログインしてタイムラインページ表示
+            Session::setLoginUserID($id);
+            header('Location:timeline.php');
+        } catch (Exception $exception) {
+            dlog('signup.phpにてエラー:', $exception);
+        }
+
     }
 }
 ?>
