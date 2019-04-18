@@ -1,5 +1,4 @@
 
-
 $(function () {
     //プロフィール編集ボタン処理
     let $editBtn = $('.js-editProfile');
@@ -90,12 +89,7 @@ $(function () {
             }
 
             //初期化
-//            revertEditDisplay();
             init();
-            // isTextChanged = false;
-            // isImgChanged = false;
-            // isEditing = false;
-            // $cancelEditBtn.hide();
         }
 
     });
@@ -113,19 +107,10 @@ $(function () {
     });
 
     $cancelEditBtn.click(function () {
-//        revertEditDisplay();
         $avatarImg.attr('src',prevImgSrc).show();
         init();
     });
 
-    //
-    // function revertEditDisplay(){
-    //     $hiddenEditor.hide();
-    //     $hiddenEditor.prev('.editableText').show();
-    //     $editBtn.text(btInitText);
-    //     $editBtn.addClass('btnColor-bgWhite');
-    //     $editBtn.removeClass('btnColor-bghiwihi');
-    // }
 
     function init() {
         //初期化

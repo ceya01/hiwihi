@@ -1,3 +1,6 @@
+<!-- デバッグ用モジュール　
+ footerの下に、各ページへのリンク、ワンクリックユーザー切り替え、$_POST,$_GETなどのスーパーグローバル変数を表示する
+  -->
 
 <div class="debugArea inner mt2rem">Debug Tool!
     <div style="display: flex; margin-bottom: 30px;">

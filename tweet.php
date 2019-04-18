@@ -1,3 +1,5 @@
+<!--ツイート詳細ページ（未使用）-->
+
 <!--  ヘッダー -->
 <?php require_once( "include/header.php" ); ?>
 

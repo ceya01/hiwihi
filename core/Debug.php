@@ -42,9 +42,3 @@ function dump($arg)
         var_dump($arg);
     }
 }
-
-//
-//class Debug
-//{
-//
-//}

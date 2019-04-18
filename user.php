@@ -1,4 +1,7 @@
-<?php   //ログインしてない状態では、トップページに移動
+<?php
+//ユーザーペーシ
+
+    //ログインしてない状態では、トップページに移動
     require_once( dirname(__FILE__) . '/include/redirect2login.php' );
 ?>
     <!--  ヘッダー -->
@@ -39,6 +42,7 @@ require_once( dirname(__FILE__).'/core/db/table/TweetTable.php' );
                             include(dirname(__FILE__) . '/include/tweetList.php');
                         ?>
                     </div>
+<!--                    表示できるツイートがまだDBに残っているなら、「さらに表示ボタン」を表示し、クリックしたらajaxで表示-->
                     <?php if ($isRemainTweets) { ?>
                         <div class="showMoreTweet btn-rr btnColor-bgWhite"
                              data-limit="<?php echo $limit ?>" data-offset="<?php echo $numTweet ?>" >

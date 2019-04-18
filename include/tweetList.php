@@ -1,7 +1,8 @@
     <?php
+    // ツイートリストを表示するモジュール
     dlog('$tweetList',$tweetList);
     $isRemainTweets = true; //まだ表示されてないツイートが残っているかどうかのフラグ
-    if ($tweetList) {
+    if (!empty($tweetList)) {
         if(count($tweetList) <= $limit){
             $isRemainTweets = false;
         }
@@ -12,7 +13,8 @@
             if($numTweet>=$limit) break;
         }
     } else {
-        ?> <p>まだツイートがありません！</p> <?php
+        $isRemainTweets = false;
+        ?> <p>ツイートがありません！</p> <?php
     }
     ?>
     <?php if(basename($_SERVER['PHP_SELF'])==='showMoreTweet.php'): ?>

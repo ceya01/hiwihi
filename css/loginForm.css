@@ -55,3 +55,8 @@ input, textarea {
 .guestList li{
     margin-bottom: 0.5rem;
 }
+.dscGuestLogin{
+    margin-top: 1em;
+    font-size:13px;
+    color:#666;
+}

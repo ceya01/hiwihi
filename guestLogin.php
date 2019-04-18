@@ -1,4 +1,5 @@
 <?php
+//ゲストログイン処理　ID 1～3 はゲストとして登録しておく
 if( !isset($_GET['g']) ){
     header('Location:index.php');
     die();

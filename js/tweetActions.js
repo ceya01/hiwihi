@@ -1,4 +1,4 @@
-
+//ツイート編集・削除
 $(function () {
     console.log('tweetAction');
 
@@ -11,7 +11,7 @@ $(function () {
     addEvents();
 
     function addEvents(){
-        //サブアクションメニューを開く
+        //「…」クリック時に、サブアクションメニューを開く
         $(document).on('click','.js-openSub',function(){
             console.log('openSub');
             if($tweetBox){
@@ -20,7 +20,7 @@ $(function () {
             $('.subTweetAction').hide();
             $(this).next('.subTweetAction').show();
         });
-        //サブアクションメニューを閉じる
+        //「…」以外をクリック時に、サブアクションメニューを閉じる
         $(document).click(function(event){
             if(!$(event.target).closest('.js-openSub').length) {
                 //console.log('外側がクリックされました。');
@@ -30,7 +30,7 @@ $(function () {
             }
         });
 
-        //削除
+        //削除ボタン押した時の処理 ajaxでツイート削除
         $(document).on('click','.js-delete',function(){
             let $tweetBox = $(this).closest('.tweetBox');
             $tweetBox.fadeOut();
@@ -89,6 +89,7 @@ $(function () {
         });
     }
 
+    //エディタ初期化
     function initEditorState() {
         $editor.hide();
         $tweetText.show();

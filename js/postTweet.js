@@ -1,5 +1,5 @@
 
-
+//投稿ajax処理
 console.log('postTweet');
 $(function () {
     const MAX_TWEET_LENGTH = 140;

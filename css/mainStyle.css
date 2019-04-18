@@ -29,6 +29,15 @@ div, span,p{
     line-height: 150%;
     letter-spacing: 1px;
 }
+blockquote{
+    background-color: rgba(244,244,244,0.8);
+    border:1px solid #EFEFEF;
+    padding:1em;
+}
+cite{
+    display: inline-block;
+    margin-top: 0.5em;
+}
 
 /************************************************************/
 /*　header　*/

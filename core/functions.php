@@ -1,21 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: eceys
- * Date: 2019/02/09
- * Time: 14:17
- * 汎用関数
- */
-
-//ログインしていればtrue　そうでなければfalseを返す
-//
-//function isLogin()
-//{
-//    if (empty($_SESSION)) {
-//        return false;
-//    }
-//    return $_SESSION['login'];
-//}
+//汎用関数まとめ
 
 //ページが存在するかどうか確かめる
 function isPage($pageName)
@@ -48,6 +32,7 @@ function echoPost($key = ''): void
     }
 }
 
+//$_POST の中身を取得
 function getPOST($key = '',$default=null)
 {
     if (!empty($_POST[$key])) {
@@ -56,6 +41,8 @@ function getPOST($key = '',$default=null)
         return $default;
     }
 }
+
+//$_GET の中身を取得
 function getGET($key = '',$default=null)
 {
     if (!empty($_GET[$key])) {
@@ -64,6 +51,8 @@ function getGET($key = '',$default=null)
         return $default;
     }
 }
+
+//$_SERVER の中身を取得
 function getSERVER($key = '',$default=null)
 {
     if (!empty($_SERVER[$key])) {
@@ -73,21 +62,25 @@ function getSERVER($key = '',$default=null)
     }
 }
 
+//存在するなら $ary[$key] を返す。 存在しないなら $default を返す
 function getArrayKey($ary,$key,$default=null){
     return array_key_exists($key,$ary) ? $ary[$key] : $default;
 }
 
+//$msg をサニタイズして出力する
 function echoErrMsg($msg): void
 {
     if (!empty($msg)) {
         echo '<span class="errmsg">' . sanitize($msg) . '</span>';
     }
 }
+
+//サニタイズ関数
 function sanitize($str){
     return htmlspecialchars($str,ENT_QUOTES,'UTF-8');
 }
 
-
+//現在のページがユーザーページかどうか調べる
 function isUserPage(){
     return strpos(getSERVER('PHP_SELF','').getSERVER('HTTP_REFERER',''),'user.php');
 }

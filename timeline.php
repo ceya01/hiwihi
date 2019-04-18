@@ -1,4 +1,6 @@
 <?php
+//タイムラインページ
+
 require_once( dirname(__FILE__) . '/include/redirect2login.php' );
 require_once( dirname(__FILE__) . '/include/header.php' );
 require_once( dirname(__FILE__) . '/core/db/table/TweetTable.php' );

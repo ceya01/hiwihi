@@ -1,4 +1,5 @@
 <?php
+//ログイン処理
 
 require_once(dirname(__FILE__).'/include/redirect2timeline.php');
 require_once( "include/importCore.php" );
@@ -38,12 +39,7 @@ if (!empty($_POST)) {
                 </label>
                 <input type="submit" value="ログイン" class="btn-rr bgColor-hiwihi mt3rem">
             </form>
-            <h3 class="mt3rem">ゲストとしてログイン</h3>
-            <ul class="guestList">
-                <li><a href="guestLogin.php?g=1">ゲストユーザー１</a></li>
-                <li><a href="guestLogin.php?g=2">ゲストユーザー２</a></li>
-                <li><a href="guestLogin.php?g=3">ゲストユーザー３</a></li>
-            </ul>
+            <?php include 'include/guestLogin_box.php'; ?>
 <!--            パスワードリマインダー（未実装）-->
 <!--            <p class="fogot-password"><a href="--><?php //echo PAGE_PASS_REMINDER ?><!--.php">パスワードを忘れた</a></p>-->
         </div>

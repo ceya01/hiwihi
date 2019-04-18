@@ -1,6 +1,7 @@
 
 <?php
-    //var_dump($tweetRecord);
+//ツイート表示モジュール
+
     global $tweetRecord;
     //新規ツイート投稿ajaxで呼び出した場合
     if(isset($_POST['newTweet'])){
@@ -52,7 +53,7 @@
                 <?php if(IS_DEBUG){ echo 'tID:'.$tID; } ?>
             </div>
             <div class="tweetActionWrap">
-                    <!--    未実装のため非表示            -->
+                    <!--    リプライ・リツイート・ふぁぼなど　未実装のため非表示            -->
 <!--                <span class="tweetAction js-reply"><i class="fas fa-at"></i><span class="numReply">0</span></span>-->
 <!--                <span class="tweetAction js-retweet"><i class="fas fa-retweet"></i><span class="numRetweet">0</span></span>-->
 <!--                <span class="tweetAction js-favorite"><i class="fas fa-star"></i><span class="numFavorite">0</span></span>-->
