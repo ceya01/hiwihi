@@ -19,6 +19,9 @@ githubにアップしたのもあくまで練習のためです。
 
 MAMPなどのphpmyadminで dbExport_hiwihi.sql をインポートして、config.php でDBのユーザー名やパスワードを合わせればたぶん動くと思います。
 
+制作後記にもっといろいろと詳細を書いてます
+https://ce-ya.net/hiwihi-postscript/
+
 ## Feature - 機能
 * ユーザー登録機能
   * メールアドレス登録はセキュリティやらプライバシーの観点でややこしくなりそうなので無効化中
