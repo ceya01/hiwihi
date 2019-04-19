@@ -15,7 +15,8 @@ https://ce-ya.net/app/hiwihi
 php+MySQL+js+css+htmlの練習のためにTwitterの真似して作ったオモチャです。実用性はないです。
 
 githubにアップしたのもあくまで練習のためです。
-アンライセンス(CC0)で公開してるので、煮るなり焼くなり魔改造するなり好きにしてください。
+アンライセンス(CC0)で公開してます。
+煮るなり焼くなり魔改造するなりマサカリ投げつけるなり好きにしてください。
 
 MAMPなどのphpmyadminで dbExport_hiwihi.sql をインポートして、config.php でDBのユーザー名やパスワードを合わせればたぶん動くと思います。
 
