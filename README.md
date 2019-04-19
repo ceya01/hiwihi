@@ -5,7 +5,7 @@
 hiwihi(ﾋｳｨｯﾋﾋｰ)とは、とある駆け出しエンジニアが練習のために作ったtwitterもどきのwebサービスです。
 
 ### 公開URL　
-https://ce-ya.net/apps/hiwihi
+https://ce-ya.net/app/hiwihi
 
 ## Screenshot 
 ![トップページ](https://i.imgur.com/hhz71k0.png)
