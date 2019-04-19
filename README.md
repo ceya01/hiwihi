@@ -2,7 +2,7 @@
 ====  
 
 ## Overview - 概要
-hiwihi(ﾋｳｨｯﾋﾋｰ)とは、とある駆け出しエンジニアが練習のために作ったtwitterもどきのwebサービスです。
+ﾋｳｨｯﾋﾋｰ(hiwihi)とは、とある駆け出しエンジニアが練習のために作ったtwitterもどきのwebサービスです。
 
 ### 公開URL　
 https://ce-ya.net/app/hiwihi
